@@ -1,0 +1,5004 @@
+[
+{
+  "brand": "EYTYS",
+  "name": "Santos Swan",
+  "price": 2000,
+  "currency": "SEK",
+  "description": "‘Santos’ is a contemporary take on a 70's athletic shoe. Made in crisp white ultra-soft nappa leather with a rough suede toe piece, finished with serrated trims and satin relief logo embroidery. Set on a low-profile rubber sole for a grounded step.",
+  "category": "SNEAKERS",
+  "colors": [
+    "Swan"
+  ],
+  "sizes": [
+    "35",
+    "36",
+    "37",
+    "38",
+    "39",
+    "40",
+    "41",
+    "42",
+    "43",
+    "44",
+    "45",
+    "46"
+  ],
+  "mainImage": "https://eytys.com/cdn/shop/files/eytys_santos-swan-plp-pack-01.jpg",
+  "images": [
+    "https://eytys.com/cdn/shop/files/eytys_santos-swan-plp-pack-01.jpg",
+    "https://eytys.com/cdn/shop/files/eytys_santos-swan-plp-pack-02.jpg",
+    "https://eytys.com/cdn/shop/files/eytys_santos-swan-02-mobile.jpg",
+    "https://eytys.com/cdn/shop/files/eytys_santos-swan-04-mobile.jpg",
+    "https://eytys.com/cdn/shop/files/eytys_santos-swan-05-mobile.jpg",
+    "https://eytys.com/cdn/shop/files/eytys_santos-swan-d-01-mobile.jpg"
+  ],
+  "availability": "in_stock",
+  "variants": [
+    {
+      "color": "Swan",
+      "size": "35",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Swan",
+      "size": "36",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Swan",
+      "size": "37",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Swan",
+      "size": "38",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Swan",
+      "size": "39",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Swan",
+      "size": "40",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Swan",
+      "size": "41",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Swan",
+      "size": "42",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Swan",
+      "size": "43",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Swan",
+      "size": "44",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Swan",
+      "size": "45",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Swan",
+      "size": "46",
+      "availability": "out_of_stock"
+    }
+  ],
+  "productURL": "https://eytys.com/products/santos-swan",
+  "categoryPage": "https://eytys.com/collections/sneakers",
+  "scrapeTimestamp": "2025-08-12 14:09:23"
+},
+{
+  "brand": "EYTYS",
+  "name": "Zion Joyride White",
+  "price": 1100,
+  "currency": "SEK",
+  "description": "A cropped, tight, cap sleeve t-shirt made in a soft cotton jersey with sporty retro vibe. Comes with a seasonal vintage looking print on front and back inspired by the Paris Dakar rally of the 1980's. Unisex sizing; first size indicates regular women's size, second size indicates men's size. Model is female and wear a size Women's S / Men's XS.",
+  "category": "T-SHIRTS",
+  "colors": [
+    "White"
+  ],
+  "sizes": [
+    "Women's XS / Men's XXS",
+    "Women's S / Men's XS",
+    "Women's M / Men's S",
+    "Women's L / Men's M",
+    "Women's XL / Men's L",
+    "Women's XXL / Men's XL"
+  ],
+  "mainImage": "https://eytys.com/cdn/shop/files/eytys_zion_joyridewhite_0114.jpg",
+  "images": [
+    "https://eytys.com/cdn/shop/files/eytys_zion_joyridewhite_0114.jpg",
+    "https://eytys.com/cdn/shop/files/eytys_zion_joyridewhite_0118.jpg",
+    "https://eytys.com/cdn/shop/files/EYTYS-Zion_joyride_tshirt_white.jpg"
+  ],
+  "availability": "in_stock",
+  "variants": [
+    {
+      "color": "White",
+      "size": "Women's XS / Men's XXS",
+      "availability": "in_stock"
+    },
+    {
+      "color": "White",
+      "size": "Women's S / Men's XS",
+      "availability": "in_stock"
+    },
+    {
+      "color": "White",
+      "size": "Women's M / Men's S",
+      "availability": "in_stock"
+    },
+    {
+      "color": "White",
+      "size": "Women's L / Men's M",
+      "availability": "in_stock"
+    },
+    {
+      "color": "White",
+      "size": "Women's XL / Men's L",
+      "availability": "in_stock"
+    },
+    {
+      "color": "White",
+      "size": "Women's XXL / Men's XL",
+      "availability": "in_stock"
+    }
+  ],
+  "productURL": "https://eytys.com/products/zion-joyride-white",
+  "categoryPage": "https://eytys.com/collections/jersey",
+  "scrapeTimestamp": "2025-08-12 14:09:23"
+},
+{
+  "brand": "EYTYS",
+  "name": "Cyrus Sumac",
+  "price": 3400,
+  "currency": "SEK",
+  "description": "The 'Cyrus' jeans are cut to a slim fit with a high-rise waist and amplified bootcut legs. Made from a black stone washed denim over-dyed in a deep shade of burgundy for a vibrant vintage look. Comes with signature back pocket embroidery and button fly. Stella is 178 cm / 5'10\" and wears size 26/34. Elias is 190 cm / 6'3\" and wears size 30/34.",
+  "category": "JEANS",
+  "colors": [
+    "Sumac"
+  ],
+  "sizes": [
+    "24x32",
+    "24x34",
+    "25x32",
+    "25x34",
+    "26x32",
+    "26x34",
+    "27x32",
+    "27x34",
+    "28x32",
+    "28x34",
+    "29x32",
+    "29x34",
+    "30x32",
+    "30x34",
+    "31x32",
+    "31x34",
+    "32x32",
+    "32x34",
+    "33x32",
+    "33x34",
+    "34x32",
+    "34x34",
+    "36x32",
+    "36x34"
+  ],
+  "mainImage": "https://eytys.com/cdn/shop/files/eytys_cyrus-sumac-plp-pack_191fd5bc-1125-4d87-8bc7-1e628f550c81.jpg",
+  "images": [
+    "https://eytys.com/cdn/shop/files/eytys_cyrus-sumac-plp-pack_191fd5bc-1125-4d87-8bc7-1e628f550c81.jpg",
+    "https://eytys.com/cdn/shop/files/EYTYS_Cyrus_Sumac-plp-f-02.jpg",
+    "https://eytys.com/cdn/shop/files/EYTYS_Cyrus_Sumac-plp-f-03.jpg",
+    "https://eytys.com/cdn/shop/files/EYTYS_Cyrus_Sumac-plp-f-01.jpg",
+    "https://eytys.com/cdn/shop/files/preview_images/5deb317063654c9a823d2e165a23ef4b.thumbnail.0000000000_1200x.jpg",
+    "https://eytys.com/cdn/shop/files/EYTYS_Cyrus_Sumac-plp-m-02.jpg",
+    "https://eytys.com/cdn/shop/files/EYTYS_Cyrus_Sumac-plp-m-03.jpg",
+    "https://eytys.com/cdn/shop/files/EYTYS_Cyrus_Sumac-plp-m-01.jpg"
+  ],
+  "availability": "in_stock",
+  "variants": [
+    {
+      "color": "Sumac",
+      "size": "24x32",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Sumac",
+      "size": "24x34",
+      "availability": "out_of_stock"
+    },
+    {
+      "color": "Sumac",
+      "size": "25x32",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Sumac",
+      "size": "25x34",
+      "availability": "out_of_stock"
+    },
+    {
+      "color": "Sumac",
+      "size": "26x32",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Sumac",
+      "size": "26x34",
+      "availability": "out_of_stock"
+    },
+    {
+      "color": "Sumac",
+      "size": "27x32",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Sumac",
+      "size": "27x34",
+      "availability": "out_of_stock"
+    },
+    {
+      "color": "Sumac",
+      "size": "28x32",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Sumac",
+      "size": "28x34",
+      "availability": "out_of_stock"
+    },
+    {
+      "color": "Sumac",
+      "size": "29x32",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Sumac",
+      "size": "29x34",
+      "availability": "out_of_stock"
+    },
+    {
+      "color": "Sumac",
+      "size": "30x32",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Sumac",
+      "size": "30x34",
+      "availability": "out_of_stock"
+    },
+    {
+      "color": "Sumac",
+      "size": "31x32",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Sumac",
+      "size": "31x34",
+      "availability": "out_of_stock"
+    },
+    {
+      "color": "Sumac",
+      "size": "32x32",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Sumac",
+      "size": "32x34",
+      "availability": "out_of_stock"
+    },
+    {
+      "color": "Sumac",
+      "size": "33x32",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Sumac",
+      "size": "33x34",
+      "availability": "out_of_stock"
+    },
+    {
+      "color": "Sumac",
+      "size": "34x32",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Sumac",
+      "size": "34x34",
+      "availability": "out_of_stock"
+    },
+    {
+      "color": "Sumac",
+      "size": "36x32",
+      "availability": "out_of_stock"
+    },
+    {
+      "color": "Sumac",
+      "size": "36x34",
+      "availability": "out_of_stock"
+    }
+  ],
+  "productURL": "https://eytys.com/products/cyrus-sumac",
+  "categoryPage": "https://eytys.com/collections/jeans",
+  "scrapeTimestamp": "2025-08-12 14:09:23"
+},
+{
+  "brand": "EYTYS",
+  "name": "Cyrus Soil",
+  "price": 3700,
+  "currency": "SEK",
+  "description": "The 'Cyrus' jeans are cut to a slim fit with a high-rise waist and amplified bootcut legs. Made from a stone washed dark indigo denim with a heavy tint for a vibrant vintage look. Comes with signature back pocket embroidery and button fly. Stella is 178 cm / 5'10\" and wears size 26/34. Elias is 190 cm / 6'3\" and wears size 30/34.",
+  "category": "JEANS",
+  "colors": [
+    "Soil"
+  ],
+  "sizes": [
+    "24x32",
+    "24x34",
+    "25x32",
+    "25x34",
+    "26x32",
+    "26x34",
+    "27x32",
+    "27x34",
+    "28x32",
+    "28x34",
+    "29x32",
+    "29x34",
+    "30x32",
+    "30x34",
+    "31x32",
+    "31x34",
+    "32x32",
+    "32x34",
+    "33x32",
+    "33x34",
+    "34x32",
+    "34x34",
+    "36x32",
+    "36x34"
+  ],
+  "mainImage": "https://eytys.com/cdn/shop/files/eytys_cyrus-soil-plp-pack.jpg",
+  "images": [
+    "https://eytys.com/cdn/shop/files/eytys_cyrus-soil-plp-pack.jpg",
+    "https://eytys.com/cdn/shop/files/EYTYS_Cyrus_Soil-plp-f-02.jpg",
+    "https://eytys.com/cdn/shop/files/EYTYS_Cyrus_Soil-plp-f-03.jpg",
+    "https://eytys.com/cdn/shop/files/EYTYS_Cyrus_Soil-plp-f-01.jpg",
+    "https://eytys.com/cdn/shop/files/preview_images/c1e925f79f234d5c99cec2e6658d939c.thumbnail.0000000000_1200x.jpg",
+    "https://eytys.com/cdn/shop/files/EYTYS_Cyrus_Soil-plp-m-02.jpg",
+    "https://eytys.com/cdn/shop/files/EYTYS_Cyrus_Soil-plp-m-03.jpg",
+    "https://eytys.com/cdn/shop/files/EYTYS_Cyrus_Soil-plp-m-01.jpg",
+    "https://eytys.com/cdn/shop/files/preview_images/4bdcf3d9c6d5453f8376792eb73a65a1.thumbnail.0000000000_1200x.jpg"
+  ],
+  "availability": "in_stock",
+  "variants": [
+    {
+      "color": "Soil",
+      "size": "24x32",
+      "availability": "out_of_stock"
+    },
+    {
+      "color": "Soil",
+      "size": "24x34",
+      "availability": "out_of_stock"
+    },
+    {
+      "color": "Soil",
+      "size": "25x32",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Soil",
+      "size": "25x34",
+      "availability": "out_of_stock"
+    },
+    {
+      "color": "Soil",
+      "size": "26x32",
+      "availability": "out_of_stock"
+    },
+    {
+      "color": "Soil",
+      "size": "26x34",
+      "availability": "out_of_stock"
+    },
+    {
+      "color": "Soil",
+      "size": "27x32",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Soil",
+      "size": "27x34",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Soil",
+      "size": "28x32",
+      "availability": "out_of_stock"
+    },
+    {
+      "color": "Soil",
+      "size": "28x34",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Soil",
+      "size": "29x32",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Soil",
+      "size": "29x34",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Soil",
+      "size": "30x32",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Soil",
+      "size": "30x34",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Soil",
+      "size": "31x32",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Soil",
+      "size": "31x34",
+      "availability": "out_of_stock"
+    },
+    {
+      "color": "Soil",
+      "size": "32x32",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Soil",
+      "size": "32x34",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Soil",
+      "size": "33x32",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Soil",
+      "size": "33x34",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Soil",
+      "size": "34x32",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Soil",
+      "size": "34x34",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Soil",
+      "size": "36x32",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Soil",
+      "size": "36x34",
+      "availability": "out_of_stock"
+    }
+  ],
+  "productURL": "https://eytys.com/products/cyrus-soil",
+  "categoryPage": "https://eytys.com/collections/jeans",
+  "scrapeTimestamp": "2025-08-12 14:09:23"
+},
+{
+  "brand": "EYTYS",
+  "name": "Benz Sepia",
+  "price": 3400,
+  "currency": "SEK",
+  "description": "Benz is EYTYS' take on the perfect baggy denim, designed with a relaxed fit and a timeless look. Made from soft stone-washed denim with a deep brown over-dye. Comes with signature back pocket embroidery and button fly. Tailored as a classic baggy fit, you can wear them true to size on the waist or size up 1–2 waist sizes to wear them lower on the hips. Please note: this will result in a longer leg in which case a shorter length might be recommended. Josefine is 176 / 5'9\" and is wearing 26/34. Isak is 189 / 6’2” and is wearing 30/34. This wash runs long, consider going for the shorter length if you are in-between.",
+  "category": "JEANS",
+  "colors": [
+    "Sepia"
+  ],
+  "sizes": [
+    "24x32",
+    "24x34",
+    "25x32",
+    "25x34",
+    "26x32",
+    "26x34",
+    "27x32",
+    "27x34",
+    "28x32",
+    "28x34",
+    "29x32",
+    "29x34",
+    "30x32",
+    "30x34",
+    "31x32",
+    "31x34",
+    "32x32",
+    "32x34",
+    "33x32",
+    "33x34",
+    "34x32",
+    "34x34",
+    "36x32",
+    "36x34"
+  ],
+  "mainImage": "https://eytys.com/cdn/shop/files/eytys_benz-sepia-plp-pack.jpg",
+  "images": [
+    "https://eytys.com/cdn/shop/files/eytys_benz-sepia-plp-pack.jpg",
+    "https://eytys.com/cdn/shop/files/EYTYS_Benz_Sepia-plp-f-02_1.jpg",
+    "https://eytys.com/cdn/shop/files/EYTYS_Benz_Sepia-plp-f-03_1.jpg",
+    "https://eytys.com/cdn/shop/files/EYTYS_Benz_Sepia-plp-f-01_1.jpg",
+    "https://eytys.com/cdn/shop/files/eytys_benz-sepia-plp-m-02.jpg",
+    "https://eytys.com/cdn/shop/files/eytys_benz-sepia-plp-m-03.jpg",
+    "https://eytys.com/cdn/shop/files/eytys_benz-sepia-plp-m-01.jpg"
+  ],
+  "availability": "in_stock",
+  "variants": [
+    {
+      "color": "Sepia",
+      "size": "24x32",
+      "availability": "out_of_stock"
+    },
+    {
+      "color": "Sepia",
+      "size": "24x34",
+      "availability": "out_of_stock"
+    },
+    {
+      "color": "Sepia",
+      "size": "25x32",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Sepia",
+      "size": "25x34",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Sepia",
+      "size": "26x32",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Sepia",
+      "size": "26x34",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Sepia",
+      "size": "27x32",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Sepia",
+      "size": "27x34",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Sepia",
+      "size": "28x32",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Sepia",
+      "size": "28x34",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Sepia",
+      "size": "29x32",
+      "availability": "out_of_stock"
+    },
+    {
+      "color": "Sepia",
+      "size": "29x34",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Sepia",
+      "size": "30x32",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Sepia",
+      "size": "30x34",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Sepia",
+      "size": "31x32",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Sepia",
+      "size": "31x34",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Sepia",
+      "size": "32x32",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Sepia",
+      "size": "32x34",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Sepia",
+      "size": "33x32",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Sepia",
+      "size": "33x34",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Sepia",
+      "size": "34x32",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Sepia",
+      "size": "34x34",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Sepia",
+      "size": "36x32",
+      "availability": "out_of_stock"
+    },
+    {
+      "color": "Sepia",
+      "size": "36x34",
+      "availability": "out_of_stock"
+    }
+  ],
+  "productURL": "https://eytys.com/products/benz-sepia",
+  "categoryPage": "https://eytys.com/collections/jeans",
+  "scrapeTimestamp": "2025-08-12 14:09:23"
+},
+{
+  "brand": "EYTYS",
+  "name": "Benz Rust",
+  "price": 3600,
+  "currency": "SEK",
+  "description": "Benz is EYTYS' take on the perfect baggy denim, designed with a relaxed fit and a timeless look. Made from classic stone-washed indigo denim with a deep green over-dye for a vibrant vintage effect. Comes with signature back pocket embroidery and button fly. Tailored as a classic baggy fit, you can wear them true to size on the waist or size up 1–2 waist sizes for a baggy look lower on the hips. Please note: this will result in a longer leg in which case a shorter length might be recommended. Josefine is 176 / 5'9\" and is wearing 26/34. Elias is 190 / 6'3\" and is wearing 30/34. This wash runs long, consider going for the shorter length if you are in-between.",
+  "category": "JEANS",
+  "colors": [
+    "Rust"
+  ],
+  "sizes": [
+    "24x32",
+    "24x34",
+    "25x32",
+    "25x34",
+    "26x32",
+    "26x34",
+    "27x32",
+    "27x34",
+    "28x32",
+    "28x34",
+    "29x32",
+    "29x34",
+    "30x32",
+    "30x34",
+    "31x32",
+    "31x34",
+    "32x32",
+    "32x34",
+    "33x32",
+    "33x34",
+    "34x32",
+    "34x34",
+    "36x32",
+    "36x34"
+  ],
+  "mainImage": "https://eytys.com/cdn/shop/files/eytys_benz-rust-plp-pack.jpg",
+  "images": [
+    "https://eytys.com/cdn/shop/files/eytys_benz-rust-plp-pack.jpg",
+    "https://eytys.com/cdn/shop/files/EYTYS_Benz_Rust-plp-f-02.jpg",
+    "https://eytys.com/cdn/shop/files/EYTYS_Benz_Rust-plp-f-03.jpg",
+    "https://eytys.com/cdn/shop/files/EYTYS_Benz_Rust-plp-f-01.jpg",
+    "https://eytys.com/cdn/shop/files/preview_images/c6d5e714a66047dbb64787bc7dfe157c.thumbnail.0000000000_1200x.jpg",
+    "https://eytys.com/cdn/shop/files/EYTYS_Benz_Rust-plp-m-02.jpg",
+    "https://eytys.com/cdn/shop/files/EYTYS_Benz_Rust-plp-m-03.jpg",
+    "https://eytys.com/cdn/shop/files/EYTYS_Benz_Rust-plp-m-01.jpg",
+    "https://eytys.com/cdn/shop/files/preview_images/9417b7609dee403c85ad3d2eb6594a2c.thumbnail.0000000000_1200x.jpg"
+  ],
+  "availability": "in_stock",
+  "variants": [
+    {
+      "color": "Rust",
+      "size": "24x32",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Rust",
+      "size": "24x34",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Rust",
+      "size": "25x32",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Rust",
+      "size": "25x34",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Rust",
+      "size": "26x32",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Rust",
+      "size": "26x34",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Rust",
+      "size": "27x32",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Rust",
+      "size": "27x34",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Rust",
+      "size": "28x32",
+      "availability": "out_of_stock"
+    },
+    {
+      "color": "Rust",
+      "size": "28x34",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Rust",
+      "size": "29x32",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Rust",
+      "size": "29x34",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Rust",
+      "size": "30x32",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Rust",
+      "size": "30x34",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Rust",
+      "size": "31x32",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Rust",
+      "size": "31x34",
+      "availability": "out_of_stock"
+    },
+    {
+      "color": "Rust",
+      "size": "32x32",
+      "availability": "out_of_stock"
+    },
+    {
+      "color": "Rust",
+      "size": "32x34",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Rust",
+      "size": "33x32",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Rust",
+      "size": "33x34",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Rust",
+      "size": "34x32",
+      "availability": "out_of_stock"
+    },
+    {
+      "color": "Rust",
+      "size": "34x34",
+      "availability": "out_of_stock"
+    },
+    {
+      "color": "Rust",
+      "size": "36x32",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Rust",
+      "size": "36x34",
+      "availability": "out_of_stock"
+    }
+  ],
+  "productURL": "https://eytys.com/products/benz-rust",
+  "categoryPage": "https://eytys.com/collections/jeans",
+  "scrapeTimestamp": "2025-08-12 14:09:23"
+},
+{
+  "brand": "EYTYS",
+  "name": "Benz Light Stone",
+  "price": 2800,
+  "currency": "SEK",
+  "description": "Benz is EYTYS' take on the perfect baggy denim, designed with a relaxed fit and a timeless vintage look. Made from classic stone-washed indigo denim, it features signature back pocket embroidery and button fly. Tailored as a classic baggy fit, you can wear them true to size on the waist or size up 1–2 waist sizes to wear them lower on the hips. Please note: this will result in a longer leg in which case a shorter length might be recommended. Stella is 178 cm / 5'10\" and wears size 26/34. Elias is 190 cm / 6'3\" and wears size 30/34.",
+  "category": "JEANS",
+  "colors": [
+    "Stone"
+  ],
+  "sizes": [
+    "24x32",
+    "24x34",
+    "25x32",
+    "25x34",
+    "26x32",
+    "27x32",
+    "27x34",
+    "28x32",
+    "28x34",
+    "29x32",
+    "29x34",
+    "30x32",
+    "30x34",
+    "31x32",
+    "31x34",
+    "32x32",
+    "32x34",
+    "33x32",
+    "33x34",
+    "34x32",
+    "34x34"
+  ],
+  "mainImage": "https://eytys.com/cdn/shop/files/eytys_benz-light-stone-plp-pack.jpg",
+  "images": [
+    "https://eytys.com/cdn/shop/files/eytys_benz-light-stone-plp-pack.jpg",
+    "https://eytys.com/cdn/shop/files/EYTYS_Benz_Light_Stone-plp-f-02.jpg",
+    "https://eytys.com/cdn/shop/files/EYTYS_Benz_Light_Stone-plp-f-03.jpg",
+    "https://eytys.com/cdn/shop/files/EYTYS_Benz_Light_Stone-plp-f-01.jpg",
+    "https://eytys.com/cdn/shop/files/preview_images/f56275cfd49e4ec3a32147ae7ae9a165.thumbnail.0000000000_1200x.jpg",
+    "https://eytys.com/cdn/shop/files/EYTYS_Benz_Light_Stone-plp-m-02.jpg",
+    "https://eytys.com/cdn/shop/files/EYTYS_Benz_Light_Stone-plp-m-03.jpg",
+    "https://eytys.com/cdn/shop/files/EYTYS_Benz_Light_Stone-plp-m-01.jpg",
+    "https://eytys.com/cdn/shop/files/preview_images/334a2e5fa68e4201b327bc37422c4ee9.thumbnail.0000000000_1200x.jpg"
+  ],
+  "availability": "in_stock",
+  "variants": [
+    {
+      "color": "Stone",
+      "size": "24x32",
+      "availability": "out_of_stock"
+    },
+    {
+      "color": "Stone",
+      "size": "24x34",
+      "availability": "out_of_stock"
+    },
+    {
+      "color": "Stone",
+      "size": "25x32",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Stone",
+      "size": "25x34",
+      "availability": "out_of_stock"
+    },
+    {
+      "color": "Stone",
+      "size": "26x32",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Stone",
+      "size": "27x32",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Stone",
+      "size": "27x34",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Stone",
+      "size": "28x32",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Stone",
+      "size": "28x34",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Stone",
+      "size": "29x32",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Stone",
+      "size": "29x34",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Stone",
+      "size": "30x32",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Stone",
+      "size": "30x34",
+      "availability": "out_of_stock"
+    },
+    {
+      "color": "Stone",
+      "size": "31x32",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Stone",
+      "size": "31x34",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Stone",
+      "size": "32x32",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Stone",
+      "size": "32x34",
+      "availability": "out_of_stock"
+    },
+    {
+      "color": "Stone",
+      "size": "33x32",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Stone",
+      "size": "33x34",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Stone",
+      "size": "34x32",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Stone",
+      "size": "34x34",
+      "availability": "out_of_stock"
+    }
+  ],
+  "productURL": "https://eytys.com/products/benz-light-stone",
+  "categoryPage": "https://eytys.com/collections/jeans",
+  "scrapeTimestamp": "2025-08-12 14:09:23"
+},
+{
+  "brand": "EYTYS",
+  "name": "Benz Bronze",
+  "price": 3400,
+  "currency": "SEK",
+  "description": "Benz is EYTYS' take on the perfect baggy denim, designed with a relaxed fit and a timeless look. Made from classic stone-washed indigo denim with a warm bronze tinted spray finish for added vintage effect. Comes with signature back pocket embroidery and button fly. Tailored as a classic baggy fit, you can wear them true to size on the waist or size up 1–2 waist sizes to wear them lower on the hips. Please note: this will result in a longer leg in which case a shorter length might be recommended. Josefine is 176 / 5'9\" and is wearing 26/34. Elias is 190 / 6'3\" and is wearing 30/34.",
+  "category": "JEANS",
+  "colors": [
+    "Bronze"
+  ],
+  "sizes": [
+    "24x32",
+    "24x34",
+    "25x32",
+    "25x34",
+    "26x32",
+    "26x34",
+    "27x32",
+    "27x34",
+    "28x32",
+    "28x34",
+    "29x32",
+    "29x34",
+    "30x32",
+    "30x34",
+    "31x32",
+    "31x34",
+    "32x32",
+    "32x34",
+    "33x32",
+    "33x34",
+    "34x32",
+    "34x34",
+    "36x32",
+    "36x34"
+  ],
+  "mainImage": "https://eytys.com/cdn/shop/files/eytys_benz-bronze-plp-cart.jpg",
+  "images": [
+    "https://eytys.com/cdn/shop/files/eytys_benz-bronze-plp-cart.jpg",
+    "https://eytys.com/cdn/shop/files/EYTYS_Benz_Bronze-plp-f-02.jpg",
+    "https://eytys.com/cdn/shop/files/EYTYS_Benz_Bronze-plp-f-03.jpg",
+    "https://eytys.com/cdn/shop/files/EYTYS_Benz_Bronze-plp-f-01.jpg",
+    "https://eytys.com/cdn/shop/files/EYTYS_Benz_Bronze-plp-m-02tif.jpg",
+    "https://eytys.com/cdn/shop/files/EYTYS_Benz_Bronze-plp-m-03.jpg",
+    "https://eytys.com/cdn/shop/files/EYTYS_Benz_Bronze-plp-m-01.jpg"
+  ],
+  "availability": "in_stock",
+  "variants": [
+    {
+      "color": "Bronze",
+      "size": "24x32",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Bronze",
+      "size": "24x34",
+      "availability": "out_of_stock"
+    },
+    {
+      "color": "Bronze",
+      "size": "25x32",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Bronze",
+      "size": "25x34",
+      "availability": "out_of_stock"
+    },
+    {
+      "color": "Bronze",
+      "size": "26x32",
+      "availability": "out_of_stock"
+    },
+    {
+      "color": "Bronze",
+      "size": "26x34",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Bronze",
+      "size": "27x32",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Bronze",
+      "size": "27x34",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Bronze",
+      "size": "28x32",
+      "availability": "out_of_stock"
+    },
+    {
+      "color": "Bronze",
+      "size": "28x34",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Bronze",
+      "size": "29x32",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Bronze",
+      "size": "29x34",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Bronze",
+      "size": "30x32",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Bronze",
+      "size": "30x34",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Bronze",
+      "size": "31x32",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Bronze",
+      "size": "31x34",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Bronze",
+      "size": "32x32",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Bronze",
+      "size": "32x34",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Bronze",
+      "size": "33x32",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Bronze",
+      "size": "33x34",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Bronze",
+      "size": "34x32",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Bronze",
+      "size": "34x34",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Bronze",
+      "size": "36x32",
+      "availability": "out_of_stock"
+    },
+    {
+      "color": "Bronze",
+      "size": "36x34",
+      "availability": "out_of_stock"
+    }
+  ],
+  "productURL": "https://eytys.com/products/benz-bronze",
+  "categoryPage": "https://eytys.com/collections/jeans",
+  "scrapeTimestamp": "2025-08-12 14:09:23"
+},
+{
+  "brand": "EYTYS",
+  "name": "Avalon Torn Indigo",
+  "price": 3300,
+  "currency": "SEK",
+  "description": "Avalon’ is a relaxed mid-rise silhouette with a hint of flare. The distressed hems, combined with an authentic vintage-washed indigo denim, creates a strong 70's inspired look. Josefine is 176 / 5'9\" and is wearing 26/34. Elias is 190 / 6'3\" and is wearing 30/34.",
+  "category": "JEANS",
+  "colors": [
+    "Indigo"
+  ],
+  "sizes": [
+    "24x32",
+    "24x34",
+    "25x32",
+    "25x34",
+    "26x32",
+    "26x34",
+    "27x32",
+    "27x34",
+    "28x32",
+    "28x34",
+    "29x32",
+    "29x34",
+    "30x32",
+    "30x34",
+    "31x32",
+    "31x34",
+    "32x32",
+    "32x34",
+    "33x32",
+    "33x34",
+    "34x32",
+    "34x34",
+    "36x32",
+    "36x34"
+  ],
+  "mainImage": "https://eytys.com/cdn/shop/files/eytys_avalon-torn-indigo-plp-cart.jpg",
+  "images": [
+    "https://eytys.com/cdn/shop/files/eytys_avalon-torn-indigo-plp-cart.jpg",
+    "https://eytys.com/cdn/shop/files/EYTYS_Avalon_Torn_Indigo_F-SS-02.jpg",
+    "https://eytys.com/cdn/shop/files/EYTYS_Avalon_Torn_Indigo_F-SS-03.jpg",
+    "https://eytys.com/cdn/shop/files/EYTYS_Avalon_Torn_Indigo_F-SS-01.jpg",
+    "https://eytys.com/cdn/shop/files/preview_images/c026d94a8a13452dad16484b88584abc.thumbnail.0000000000_1200x.jpg",
+    "https://eytys.com/cdn/shop/files/EYTYS_Avalon_Torn_Indigo_M-02.jpg",
+    "https://eytys.com/cdn/shop/files/EYTYS_Avalon_Torn_Indigo_M-03.jpg",
+    "https://eytys.com/cdn/shop/files/EYTYS_Avalon_Torn_Indigo_M-01.jpg",
+    "https://eytys.com/cdn/shop/files/preview_images/8201639ea1504536881ef628e7a6891f.thumbnail.0000000000_1200x.jpg"
+  ],
+  "availability": "in_stock",
+  "variants": [
+    {
+      "color": "Indigo",
+      "size": "24x32",
+      "availability": "out_of_stock"
+    },
+    {
+      "color": "Indigo",
+      "size": "24x34",
+      "availability": "out_of_stock"
+    },
+    {
+      "color": "Indigo",
+      "size": "25x32",
+      "availability": "out_of_stock"
+    },
+    {
+      "color": "Indigo",
+      "size": "25x34",
+      "availability": "out_of_stock"
+    },
+    {
+      "color": "Indigo",
+      "size": "26x32",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Indigo",
+      "size": "26x34",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Indigo",
+      "size": "27x32",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Indigo",
+      "size": "27x34",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Indigo",
+      "size": "28x32",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Indigo",
+      "size": "28x34",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Indigo",
+      "size": "29x32",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Indigo",
+      "size": "29x34",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Indigo",
+      "size": "30x32",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Indigo",
+      "size": "30x34",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Indigo",
+      "size": "31x32",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Indigo",
+      "size": "31x34",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Indigo",
+      "size": "32x32",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Indigo",
+      "size": "32x34",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Indigo",
+      "size": "33x32",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Indigo",
+      "size": "33x34",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Indigo",
+      "size": "34x32",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Indigo",
+      "size": "34x34",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Indigo",
+      "size": "36x32",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Indigo",
+      "size": "36x34",
+      "availability": "out_of_stock"
+    }
+  ],
+  "productURL": "https://eytys.com/products/avalon-torn-indigo",
+  "categoryPage": "https://eytys.com/collections/jeans",
+  "scrapeTimestamp": "2025-08-12 14:09:23"
+},
+{
+  "brand": "EYTYS",
+  "name": "Echo Sulphur",
+  "price": 3700,
+  "currency": "SEK",
+  "description": "The 'Echo' jeans are cut to an ultra baggy fit with a mid-rise waist. Made from classic stone-washed black denim with a light black over-dye for an authentic vintage effect. Comes with signature back pocket embroidery and button fly. Stella is 178 cm / 5'10\" and wears size 26/34. Elias is 190 cm / 6'3\" and wears size 30/34. This wash runs long, consider going for the shorter length if you are in-between.",
+  "category": "JEANS",
+  "colors": [
+    "Sulphur"
+  ],
+  "sizes": [
+    "24x32",
+    "24x34",
+    "25x32",
+    "25x34",
+    "26x32",
+    "26x34",
+    "27x32",
+    "27x34",
+    "28x32",
+    "28x34",
+    "29x32",
+    "29x34",
+    "30x32",
+    "30x34",
+    "31x32",
+    "31x34",
+    "32x32",
+    "32x34",
+    "33x32",
+    "33x34",
+    "34x32",
+    "34x34",
+    "36x32",
+    "36x34"
+  ],
+  "mainImage": "https://eytys.com/cdn/shop/files/eytys_echo-sulphur-plp-pack-jpg_14192259-5590-4a7f-8702-6c5e133e58aa.jpg",
+  "images": [
+    "https://eytys.com/cdn/shop/files/eytys_echo-sulphur-plp-pack-jpg_14192259-5590-4a7f-8702-6c5e133e58aa.jpg",
+    "https://eytys.com/cdn/shop/files/EYTYS_Echo_Sulphur_F-02.jpg",
+    "https://eytys.com/cdn/shop/files/EYTYS_Echo_Sulphur_F-03.jpg",
+    "https://eytys.com/cdn/shop/files/EYTYS_Echo_Sulphur_F-01.jpg",
+    "https://eytys.com/cdn/shop/files/EYTYS_Echo_Sulphur_M-02.jpg",
+    "https://eytys.com/cdn/shop/files/EYTYS_Echo_Sulphur_M-03.jpg",
+    "https://eytys.com/cdn/shop/files/EYTYS_Echo_Sulphur_M-01.jpg"
+  ],
+  "availability": "in_stock",
+  "variants": [
+    {
+      "color": "Sulphur",
+      "size": "24x32",
+      "availability": "out_of_stock"
+    },
+    {
+      "color": "Sulphur",
+      "size": "24x34",
+      "availability": "out_of_stock"
+    },
+    {
+      "color": "Sulphur",
+      "size": "25x32",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Sulphur",
+      "size": "25x34",
+      "availability": "out_of_stock"
+    },
+    {
+      "color": "Sulphur",
+      "size": "26x32",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Sulphur",
+      "size": "26x34",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Sulphur",
+      "size": "27x32",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Sulphur",
+      "size": "27x34",
+      "availability": "out_of_stock"
+    },
+    {
+      "color": "Sulphur",
+      "size": "28x32",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Sulphur",
+      "size": "28x34",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Sulphur",
+      "size": "29x32",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Sulphur",
+      "size": "29x34",
+      "availability": "out_of_stock"
+    },
+    {
+      "color": "Sulphur",
+      "size": "30x32",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Sulphur",
+      "size": "30x34",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Sulphur",
+      "size": "31x32",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Sulphur",
+      "size": "31x34",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Sulphur",
+      "size": "32x32",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Sulphur",
+      "size": "32x34",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Sulphur",
+      "size": "33x32",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Sulphur",
+      "size": "33x34",
+      "availability": "out_of_stock"
+    },
+    {
+      "color": "Sulphur",
+      "size": "34x32",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Sulphur",
+      "size": "34x34",
+      "availability": "out_of_stock"
+    },
+    {
+      "color": "Sulphur",
+      "size": "36x32",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Sulphur",
+      "size": "36x34",
+      "availability": "out_of_stock"
+    }
+  ],
+  "productURL": "https://eytys.com/products/echo-sulphur",
+  "categoryPage": "https://eytys.com/collections/jeans",
+  "scrapeTimestamp": "2025-08-12 14:09:23"
+},
+{
+  "brand": "EYTYS",
+  "name": "Echo Rust",
+  "price": 4000,
+  "currency": "SEK",
+  "description": "The 'Echo' jeans are cut to an ultra baggy fit with a mid-rise waist. Made from classic stone-washed indigo denim with a deep green over-dye for a vibrant vintage effect. Comes with signature back pocket embroidery and button fly. Josefine is 176 / 5'9\" and is wearing 26/34. Elias is 190 / 6'3\" and is wearing 30/34. This wash runs long, consider going for the shorter length if you are in-between.",
+  "category": "JEANS",
+  "colors": [
+    "Rust"
+  ],
+  "sizes": [
+    "24x32",
+    "24x34",
+    "25x32",
+    "25x34",
+    "26x32",
+    "26x34",
+    "27x32",
+    "27x34",
+    "28x32",
+    "28x34",
+    "29x32",
+    "29x34",
+    "30x32",
+    "30x34",
+    "31x32",
+    "31x34",
+    "32x32",
+    "32x34",
+    "33x32",
+    "33x34",
+    "34x32",
+    "34x34",
+    "36x32"
+  ],
+  "mainImage": "https://eytys.com/cdn/shop/files/eytys_echo-rust-plp-pack.jpg",
+  "images": [
+    "https://eytys.com/cdn/shop/files/eytys_echo-rust-plp-pack.jpg",
+    "https://eytys.com/cdn/shop/files/EYTYS_Echo_Rust_F-02.jpg",
+    "https://eytys.com/cdn/shop/files/EYTYS_Echo_Rust_F-03.jpg",
+    "https://eytys.com/cdn/shop/files/EYTYS_Echo_Rust_F-01.jpg",
+    "https://eytys.com/cdn/shop/files/preview_images/98c1f41eddd9417a8ba26ac7ca664f10.thumbnail.0000000000_1200x.jpg",
+    "https://eytys.com/cdn/shop/files/EYTYS_Echo_Rust_M-02.jpg",
+    "https://eytys.com/cdn/shop/files/EYTYS_Echo_Rust_M-03.jpg",
+    "https://eytys.com/cdn/shop/files/EYTYS_Echo_Rust_M-01-desktop-l_1f7b0f5a-c291-4b91-8d66-a0d885e2d5d4.jpg",
+    "https://eytys.com/cdn/shop/files/preview_images/324f64dcb9494b8386a8d8e0b5416bd1.thumbnail.0000000000_1200x.jpg"
+  ],
+  "availability": "in_stock",
+  "variants": [
+    {
+      "color": "Rust",
+      "size": "24x32",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Rust",
+      "size": "24x34",
+      "availability": "out_of_stock"
+    },
+    {
+      "color": "Rust",
+      "size": "25x32",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Rust",
+      "size": "25x34",
+      "availability": "out_of_stock"
+    },
+    {
+      "color": "Rust",
+      "size": "26x32",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Rust",
+      "size": "26x34",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Rust",
+      "size": "27x32",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Rust",
+      "size": "27x34",
+      "availability": "out_of_stock"
+    },
+    {
+      "color": "Rust",
+      "size": "28x32",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Rust",
+      "size": "28x34",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Rust",
+      "size": "29x32",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Rust",
+      "size": "29x34",
+      "availability": "out_of_stock"
+    },
+    {
+      "color": "Rust",
+      "size": "30x32",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Rust",
+      "size": "30x34",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Rust",
+      "size": "31x32",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Rust",
+      "size": "31x34",
+      "availability": "out_of_stock"
+    },
+    {
+      "color": "Rust",
+      "size": "32x32",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Rust",
+      "size": "32x34",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Rust",
+      "size": "33x32",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Rust",
+      "size": "33x34",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Rust",
+      "size": "34x32",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Rust",
+      "size": "34x34",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Rust",
+      "size": "36x32",
+      "availability": "in_stock"
+    }
+  ],
+  "productURL": "https://eytys.com/products/echo-rust",
+  "categoryPage": "https://eytys.com/collections/jeans",
+  "scrapeTimestamp": "2025-08-12 14:09:23"
+},
+{
+  "brand": "EYTYS",
+  "name": "Echo Bronze",
+  "price": 3900,
+  "currency": "SEK",
+  "description": "The 'Echo' jeans are cut to an ultra baggy fit with a mid-rise waist. The Bronze wash is made from classic stone-washed indigo denim with a warm bronze tinted spray finish for added vintage effect. Comes with signature back pocket embroidery and button fly. Josefine is 176 / 5'9\" and is wearing 26/34. Elias is 190 / 6'3\" and is wearing 30/34. This wash runs long, consider going for the shorter length if you are in-between.",
+  "category": "JEANS",
+  "colors": [
+    "Bronze"
+  ],
+  "sizes": [
+    "24x32",
+    "24x34",
+    "25x32",
+    "25x34",
+    "26x32",
+    "26x34",
+    "27x32",
+    "27x34",
+    "28x32",
+    "28x34",
+    "29x32",
+    "29x34",
+    "30x32",
+    "30x34",
+    "31x32",
+    "31x34",
+    "32x32",
+    "32x34",
+    "33x32",
+    "33x34",
+    "34x32",
+    "34x34",
+    "36x32"
+  ],
+  "mainImage": "https://eytys.com/cdn/shop/files/eytys_echo-bronze-plp-pack.jpg",
+  "images": [
+    "https://eytys.com/cdn/shop/files/eytys_echo-bronze-plp-pack.jpg",
+    "https://eytys.com/cdn/shop/files/EYTYS_Echo_Bronze_F-02.jpg",
+    "https://eytys.com/cdn/shop/files/EYTYS_Echo_Bronze_F-03.jpg",
+    "https://eytys.com/cdn/shop/files/eytys_echo_bronze_f-01-desktop-l.jpg",
+    "https://eytys.com/cdn/shop/files/preview_images/8260707bf03e41898935a95062fe375c.thumbnail.0000000000_1200x.jpg",
+    "https://eytys.com/cdn/shop/files/EYTYS_Echo_Bronze_M-02.jpg",
+    "https://eytys.com/cdn/shop/files/EYTYS_Echo_Bronze_M-03.jpg",
+    "https://eytys.com/cdn/shop/files/EYTYS_Echo_Bronze_M-01-desktop-l.jpg",
+    "https://eytys.com/cdn/shop/files/preview_images/62a866a78abd4a2394994a4a808aec54.thumbnail.0000000000_1200x.jpg"
+  ],
+  "availability": "in_stock",
+  "variants": [
+    {
+      "color": "Bronze",
+      "size": "24x32",
+      "availability": "out_of_stock"
+    },
+    {
+      "color": "Bronze",
+      "size": "24x34",
+      "availability": "out_of_stock"
+    },
+    {
+      "color": "Bronze",
+      "size": "25x32",
+      "availability": "out_of_stock"
+    },
+    {
+      "color": "Bronze",
+      "size": "25x34",
+      "availability": "out_of_stock"
+    },
+    {
+      "color": "Bronze",
+      "size": "26x32",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Bronze",
+      "size": "26x34",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Bronze",
+      "size": "27x32",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Bronze",
+      "size": "27x34",
+      "availability": "out_of_stock"
+    },
+    {
+      "color": "Bronze",
+      "size": "28x32",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Bronze",
+      "size": "28x34",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Bronze",
+      "size": "29x32",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Bronze",
+      "size": "29x34",
+      "availability": "out_of_stock"
+    },
+    {
+      "color": "Bronze",
+      "size": "30x32",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Bronze",
+      "size": "30x34",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Bronze",
+      "size": "31x32",
+      "availability": "out_of_stock"
+    },
+    {
+      "color": "Bronze",
+      "size": "31x34",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Bronze",
+      "size": "32x32",
+      "availability": "out_of_stock"
+    },
+    {
+      "color": "Bronze",
+      "size": "32x34",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Bronze",
+      "size": "33x32",
+      "availability": "out_of_stock"
+    },
+    {
+      "color": "Bronze",
+      "size": "33x34",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Bronze",
+      "size": "34x32",
+      "availability": "out_of_stock"
+    },
+    {
+      "color": "Bronze",
+      "size": "34x34",
+      "availability": "out_of_stock"
+    },
+    {
+      "color": "Bronze",
+      "size": "36x32",
+      "availability": "in_stock"
+    }
+  ],
+  "productURL": "https://eytys.com/products/echo-bronze",
+  "categoryPage": "https://eytys.com/collections/jeans",
+  "scrapeTimestamp": "2025-08-12 14:09:23"
+},
+{
+  "brand": "EYTYS",
+  "name": "Leon Desert Orchid",
+  "price": 1300,
+  "currency": "SEK",
+  "description": "Classic fitted t-shirt with a double collar rib detail. Comes in soft and durable cotton jersey with a slightly dry hand feel. A hardworking wardrobe staple with a seasonal vintage looking print on front, back and sleeve inspired by the Paris Dakar rally of the 1980's. Unisex sizing; first size indicates regular women's size, second size indicates men's size. Model is female and wear a size Women's S / Men's XS.",
+  "category": "T-SHIRTS",
+  "colors": [
+    "Orchid"
+  ],
+  "sizes": [
+    "Women's XS / Men's XXS",
+    "Women's S / Men's XS",
+    "Women's M / Men's S",
+    "Women's L / Men's M",
+    "Women's XL / Men's L",
+    "Women's XXL / Men's XL"
+  ],
+  "mainImage": "https://eytys.com/cdn/shop/files/eytys_leon_desertorchid_0126.jpg",
+  "images": [
+    "https://eytys.com/cdn/shop/files/eytys_leon_desertorchid_0126.jpg",
+    "https://eytys.com/cdn/shop/files/eytys_leon_desertorchid_0130.jpg",
+    "https://eytys.com/cdn/shop/files/EYTYS-tshirt_leon_desertorchid.jpg"
+  ],
+  "availability": "in_stock",
+  "variants": [
+    {
+      "color": "Orchid",
+      "size": "Women's XS / Men's XXS",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Orchid",
+      "size": "Women's S / Men's XS",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Orchid",
+      "size": "Women's M / Men's S",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Orchid",
+      "size": "Women's L / Men's M",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Orchid",
+      "size": "Women's XL / Men's L",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Orchid",
+      "size": "Women's XXL / Men's XL",
+      "availability": "in_stock"
+    }
+  ],
+  "productURL": "https://eytys.com/products/leon-desert-orchid",
+  "categoryPage": "https://eytys.com/collections/jersey",
+  "scrapeTimestamp": "2025-08-12 14:09:23"
+},
+{
+  "brand": "EYTYS",
+  "name": "Leon Desert Dusk",
+  "price": 1300,
+  "currency": "SEK",
+  "description": "Classic fitted t-shirt with a double collar rib detail. Comes in soft and durable cotton jersey with a slightly dry hand feel. A hardworking wardrobe staple with a seasonal vintage looking print on front, back and sleeve inspired by the Paris Dakar rally of the 1980's. Unisex sizing; first size indicates regular women's size, second size indicates men's size. Model is female and wear a size Women's S / Men's XS.",
+  "category": "T-SHIRTS",
+  "colors": [
+    "Dusk"
+  ],
+  "sizes": [
+    "Women's XS / Men's XXS",
+    "Women's S / Men's XS",
+    "Women's M / Men's S",
+    "Women's L / Men's M",
+    "Women's XL / Men's L",
+    "Women's XXL / Men's XL"
+  ],
+  "mainImage": "https://eytys.com/cdn/shop/files/eytys_leon_desertdusk_0135.jpg",
+  "images": [
+    "https://eytys.com/cdn/shop/files/eytys_leon_desertdusk_0135.jpg",
+    "https://eytys.com/cdn/shop/files/eytys_leon_desertdusk_0142.jpg",
+    "https://eytys.com/cdn/shop/files/EYTYS-tshirt_leon_desertdusk.jpg"
+  ],
+  "availability": "in_stock",
+  "variants": [
+    {
+      "color": "Dusk",
+      "size": "Women's XS / Men's XXS",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Dusk",
+      "size": "Women's S / Men's XS",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Dusk",
+      "size": "Women's M / Men's S",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Dusk",
+      "size": "Women's L / Men's M",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Dusk",
+      "size": "Women's XL / Men's L",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Dusk",
+      "size": "Women's XXL / Men's XL",
+      "availability": "in_stock"
+    }
+  ],
+  "productURL": "https://eytys.com/products/leon-desert-dusk",
+  "categoryPage": "https://eytys.com/collections/jersey",
+  "scrapeTimestamp": "2025-08-12 14:09:23"
+},
+{
+  "brand": "EYTYS",
+  "name": "Leon White",
+  "price": 1000,
+  "currency": "SEK",
+  "description": "The 'Leon' T-Shirt is crafted from soft, durable cotton featuring a double collar detail. It offers a timeless and easy-to-wear style, complemented by the subtle EYTYS logo on the chest. Unisex sizing; first size indicates women's size, second size indicates men's size. Female model wears a size Women's S / Men's XS, men's model wear's a size Women's L / Men's M.",
+  "category": "T-SHIRTS",
+  "colors": [
+    "White"
+  ],
+  "sizes": [
+    "Women's XS / Men's XXS",
+    "Women's S / Men's XS",
+    "Women's M / Men's S",
+    "Women's L / Men's M",
+    "Women's XL / Men's L",
+    "Women's XXL / Men's XL"
+  ],
+  "mainImage": "https://eytys.com/cdn/shop/files/eytys_leon-white.jpg",
+  "images": [
+    "https://eytys.com/cdn/shop/files/eytys_leon-white.jpg",
+    "https://eytys.com/cdn/shop/files/EYTYS_Leon_White_F-01.jpg",
+    "https://eytys.com/cdn/shop/files/EYTYS_Leon_White_F-02.jpg",
+    "https://eytys.com/cdn/shop/files/EYTYS_Leon_White_M-01.jpg",
+    "https://eytys.com/cdn/shop/files/EYTYS_Leon_White_M-02.jpg"
+  ],
+  "availability": "in_stock",
+  "variants": [
+    {
+      "color": "White",
+      "size": "Women's XS / Men's XXS",
+      "availability": "in_stock"
+    },
+    {
+      "color": "White",
+      "size": "Women's S / Men's XS",
+      "availability": "in_stock"
+    },
+    {
+      "color": "White",
+      "size": "Women's M / Men's S",
+      "availability": "out_of_stock"
+    },
+    {
+      "color": "White",
+      "size": "Women's L / Men's M",
+      "availability": "in_stock"
+    },
+    {
+      "color": "White",
+      "size": "Women's XL / Men's L",
+      "availability": "in_stock"
+    },
+    {
+      "color": "White",
+      "size": "Women's XXL / Men's XL",
+      "availability": "in_stock"
+    }
+  ],
+  "productURL": "https://eytys.com/products/leon-white",
+  "categoryPage": "https://eytys.com/collections/jersey",
+  "scrapeTimestamp": "2025-08-12 14:09:23"
+},
+{
+  "brand": "EYTYS",
+  "name": "Leon Black",
+  "price": 1000,
+  "currency": "SEK",
+  "description": "The 'Leon' Black T-Shirt is crafted from soft, durable cotton with a subtly dry handfeel and featuring a double collar detail. It offers a timeless and easy-to-wear style, complemented by the subtle EYTYS logo on the chest. Unisex sizing; first size indicates women's size, second size indicates men's size. Female model wears a size Women's S / Men's XS, men's model wear's a size Women's L / Men's M.",
+  "category": "T-SHIRTS",
+  "colors": [
+    "Black"
+  ],
+  "sizes": [
+    "Women's XS / Men's XXS",
+    "Women's S / Men's XS",
+    "Women's M / Men's S",
+    "Women's L / Men's M",
+    "Women's XL / Men's L",
+    "Women's XXL / Men's XL"
+  ],
+  "mainImage": "https://eytys.com/cdn/shop/files/eytys_leon-black.jpg",
+  "images": [
+    "https://eytys.com/cdn/shop/files/eytys_leon-black.jpg",
+    "https://eytys.com/cdn/shop/files/EYTYS_Leon_Black_F-01.jpg",
+    "https://eytys.com/cdn/shop/files/EYTYS_Leon_Black_F-02.jpg",
+    "https://eytys.com/cdn/shop/files/EYTYS_Leon_Black_M-02.jpg",
+    "https://eytys.com/cdn/shop/files/EYTYS_Leon_Black_M-01.jpg"
+  ],
+  "availability": "in_stock",
+  "variants": [
+    {
+      "color": "Black",
+      "size": "Women's XS / Men's XXS",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Black",
+      "size": "Women's S / Men's XS",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Black",
+      "size": "Women's M / Men's S",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Black",
+      "size": "Women's L / Men's M",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Black",
+      "size": "Women's XL / Men's L",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Black",
+      "size": "Women's XXL / Men's XL",
+      "availability": "in_stock"
+    }
+  ],
+  "productURL": "https://eytys.com/products/leon-black",
+  "categoryPage": "https://eytys.com/collections/jersey",
+  "scrapeTimestamp": "2025-08-12 14:09:23"
+},
+{
+  "brand": "EYTYS",
+  "name": "Zoe White",
+  "price": 850,
+  "currency": "SEK",
+  "description": "Ribbed racer back tank top with a silhouette balancing between sporty and sleek. Crafted in a mid-weight jersey rib with raw edged binding details. Unisex sizing; first size indicates women's size, second size indicates men's size. Model is female and wears a size Women's S / Men's S.",
+  "category": "T-SHIRTS",
+  "colors": [
+    "White"
+  ],
+  "sizes": [
+    "Women's XS / Men's XXS",
+    "Women's S / Men's XS",
+    "Women's M / Men's S",
+    "Women's L / Men's M",
+    "Women's XL / Men's L",
+    "Women's XXL-/ Men's XL"
+  ],
+  "mainImage": "https://eytys.com/cdn/shop/files/eytys_Zoe_white_0142_a888bfc0-1b02-4647-bc88-5139439a077d.jpg",
+  "images": [
+    "https://eytys.com/cdn/shop/files/eytys_Zoe_white_0142_a888bfc0-1b02-4647-bc88-5139439a077d.jpg",
+    "https://eytys.com/cdn/shop/files/EYTYS_tanktop_zoe_white.jpg"
+  ],
+  "availability": "in_stock",
+  "variants": [
+    {
+      "color": "White",
+      "size": "Women's XS / Men's XXS",
+      "availability": "in_stock"
+    },
+    {
+      "color": "White",
+      "size": "Women's S / Men's XS",
+      "availability": "in_stock"
+    },
+    {
+      "color": "White",
+      "size": "Women's M / Men's S",
+      "availability": "in_stock"
+    },
+    {
+      "color": "White",
+      "size": "Women's L / Men's M",
+      "availability": "in_stock"
+    },
+    {
+      "color": "White",
+      "size": "Women's XL / Men's L",
+      "availability": "in_stock"
+    },
+    {
+      "color": "White",
+      "size": "Women's XXL-/ Men's XL",
+      "availability": "in_stock"
+    }
+  ],
+  "productURL": "https://eytys.com/products/zoe-white",
+  "categoryPage": "https://eytys.com/collections/jersey",
+  "scrapeTimestamp": "2025-08-12 14:09:23"
+},
+{
+  "brand": "EYTYS",
+  "name": "Zoe Black",
+  "price": 850,
+  "currency": "SEK",
+  "description": "Ribbed racer back tank top with a silhouette balancing between sporty and sleek. Crafted in a mid-weight jersey rib with raw edged binding details. Unisex sizing; first size indicates women's size, second size indicates men's size. Model is female and wears a size Women's S / Men's S.",
+  "category": "T-SHIRTS",
+  "colors": [
+    "Black"
+  ],
+  "sizes": [
+    "Women's XS / Men's XXS",
+    "Women's S / Men's XS",
+    "Women's M / Men's S",
+    "Women's L / Men's M",
+    "Women's XL / Men's L",
+    "Women's XXL / Men's XL"
+  ],
+  "mainImage": "https://eytys.com/cdn/shop/files/eytys_Zoe_black_0138_6797f219-fe39-4bc9-99c9-8c568d971518.jpg",
+  "images": [
+    "https://eytys.com/cdn/shop/files/eytys_Zoe_black_0138_6797f219-fe39-4bc9-99c9-8c568d971518.jpg",
+    "https://eytys.com/cdn/shop/files/EYTYS_zoe_tank_black_01.jpg",
+    "https://eytys.com/cdn/shop/files/EYTYS_zoe_tank_black_02.jpg"
+  ],
+  "availability": "in_stock",
+  "variants": [
+    {
+      "color": "Black",
+      "size": "Women's XS / Men's XXS",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Black",
+      "size": "Women's S / Men's XS",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Black",
+      "size": "Women's M / Men's S",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Black",
+      "size": "Women's L / Men's M",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Black",
+      "size": "Women's XL / Men's L",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Black",
+      "size": "Women's XXL / Men's XL",
+      "availability": "in_stock"
+    }
+  ],
+  "productURL": "https://eytys.com/products/zoe-black",
+  "categoryPage": "https://eytys.com/collections/jersey",
+  "scrapeTimestamp": "2025-08-12 14:09:23"
+},
+{
+  "brand": "EYTYS",
+  "name": "Santos Leather Black",
+  "price": 2000,
+  "currency": "SEK",
+  "description": "‘Santos’ is a sophisticated sneaker constructed in ultra-soft nappa leather with a rough suede toe piece, finished with serrated trims and satin relief logo embroidery. The 'Santos Leather Black' is a bold, but classic style, an ideal choice for those seeking a standout piece for everyday wear. Set on a flexible gum rubber sole for a court-sweeping step.",
+  "category": "SNEAKERS",
+  "colors": [
+    "Black"
+  ],
+  "sizes": [
+    "35",
+    "36",
+    "37",
+    "38",
+    "39",
+    "40",
+    "41",
+    "42",
+    "43",
+    "44",
+    "45",
+    "46"
+  ],
+  "mainImage": "https://eytys.com/cdn/shop/files/eytys_santos-leather-black-plp-pack-01.jpg",
+  "images": [
+    "https://eytys.com/cdn/shop/files/eytys_santos-leather-black-plp-pack-01.jpg",
+    "https://eytys.com/cdn/shop/files/eytys_santos-leather-black-plp-pack-02.jpg",
+    "https://eytys.com/cdn/shop/files/eytys_santos-leather-black-02-mobile.jpg",
+    "https://eytys.com/cdn/shop/files/eytys_santos-leather-black-04-mobile.jpg",
+    "https://eytys.com/cdn/shop/files/eytys_santos-leather-black-05-mobile.jpg",
+    "https://eytys.com/cdn/shop/files/eytys_santos-leather-black-d-01-mobile.jpg"
+  ],
+  "availability": "in_stock",
+  "variants": [
+    {
+      "color": "Black",
+      "size": "35",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Black",
+      "size": "36",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Black",
+      "size": "37",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Black",
+      "size": "38",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Black",
+      "size": "39",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Black",
+      "size": "40",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Black",
+      "size": "41",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Black",
+      "size": "42",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Black",
+      "size": "43",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Black",
+      "size": "44",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Black",
+      "size": "45",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Black",
+      "size": "46",
+      "availability": "in_stock"
+    }
+  ],
+  "productURL": "https://eytys.com/products/santos-leather-black",
+  "categoryPage": "https://eytys.com/collections/sneakers",
+  "scrapeTimestamp": "2025-08-12 14:09:23"
+},
+{
+  "brand": "EYTYS",
+  "name": "Santos Aegis White",
+  "price": 2000,
+  "currency": "SEK",
+  "description": "‘Santos’ is a sophisticated sneaker constructed in ultra-soft vegan leather, finished with serrated trims and satin relief logo embroidery. Set on a flexible rubber sole for a court-sweeping step.",
+  "category": "SNEAKERS",
+  "colors": [
+    "White"
+  ],
+  "sizes": [
+    "35",
+    "36",
+    "37",
+    "38",
+    "39",
+    "40",
+    "41",
+    "42",
+    "43",
+    "44",
+    "45",
+    "46"
+  ],
+  "mainImage": "https://eytys.com/cdn/shop/files/eytys_santos-whiteaegis-profile-plp-pack.jpg",
+  "images": [
+    "https://eytys.com/cdn/shop/files/eytys_santos-whiteaegis-profile-plp-pack.jpg",
+    "https://eytys.com/cdn/shop/files/eytys_santos-whiteaegis-profile-plp-pack-02.jpg",
+    "https://eytys.com/cdn/shop/files/eytys_santos-whiteaegis-top-mobile.jpg",
+    "https://eytys.com/cdn/shop/files/eytys_santos-whiteaegis-soles-mobile.jpg",
+    "https://eytys.com/cdn/shop/files/eytys_santos-whiteaegis-back-mobile.jpg",
+    "https://eytys.com/cdn/shop/files/eytys_santos-whiteaegis-dynamic-mobile.jpg"
+  ],
+  "availability": "in_stock",
+  "variants": [
+    {
+      "color": "White",
+      "size": "35",
+      "availability": "in_stock"
+    },
+    {
+      "color": "White",
+      "size": "36",
+      "availability": "in_stock"
+    },
+    {
+      "color": "White",
+      "size": "37",
+      "availability": "in_stock"
+    },
+    {
+      "color": "White",
+      "size": "38",
+      "availability": "in_stock"
+    },
+    {
+      "color": "White",
+      "size": "39",
+      "availability": "in_stock"
+    },
+    {
+      "color": "White",
+      "size": "40",
+      "availability": "in_stock"
+    },
+    {
+      "color": "White",
+      "size": "41",
+      "availability": "in_stock"
+    },
+    {
+      "color": "White",
+      "size": "42",
+      "availability": "in_stock"
+    },
+    {
+      "color": "White",
+      "size": "43",
+      "availability": "in_stock"
+    },
+    {
+      "color": "White",
+      "size": "44",
+      "availability": "in_stock"
+    },
+    {
+      "color": "White",
+      "size": "45",
+      "availability": "in_stock"
+    },
+    {
+      "color": "White",
+      "size": "46",
+      "availability": "in_stock"
+    }
+  ],
+  "productURL": "https://eytys.com/products/santos-aegis-white",
+  "categoryPage": "https://eytys.com/collections/sneakers",
+  "scrapeTimestamp": "2025-08-12 14:09:23"
+},
+{
+  "brand": "EYTYS",
+  "name": "Odessa Leather White",
+  "price": 2200,
+  "currency": "SEK",
+  "description": "The ’Odessa’ low-top is a brutalist interpretation of ’50s athletic shoes. Made in rich white leather with a flexible rubber sole, this is the essential versatile lace-up style.",
+  "category": "SNEAKERS",
+  "colors": [
+    "White"
+  ],
+  "sizes": [
+    "35",
+    "36",
+    "37",
+    "38",
+    "39",
+    "40",
+    "41",
+    "42",
+    "43",
+    "44",
+    "45",
+    "46"
+  ],
+  "mainImage": "https://eytys.com/cdn/shop/files/eytys_odessa-leather-white-plp-pack-01.jpg",
+  "images": [
+    "https://eytys.com/cdn/shop/files/eytys_odessa-leather-white-plp-pack-01.jpg",
+    "https://eytys.com/cdn/shop/files/eytys_odessa-leather-white-plp-pack-02.jpg",
+    "https://eytys.com/cdn/shop/files/eytys_odessa-leather-white-d-01-mobile.jpg",
+    "https://eytys.com/cdn/shop/files/eytys_odessa-leather-white-05-mobile.jpg",
+    "https://eytys.com/cdn/shop/files/eytys_odessa-leather-white-04-mobile.jpg",
+    "https://eytys.com/cdn/shop/files/eytys_odessa-leather-white-02-mobile.jpg"
+  ],
+  "availability": "in_stock",
+  "variants": [
+    {
+      "color": "White",
+      "size": "35",
+      "availability": "out_of_stock"
+    },
+    {
+      "color": "White",
+      "size": "36",
+      "availability": "out_of_stock"
+    },
+    {
+      "color": "White",
+      "size": "37",
+      "availability": "out_of_stock"
+    },
+    {
+      "color": "White",
+      "size": "38",
+      "availability": "out_of_stock"
+    },
+    {
+      "color": "White",
+      "size": "39",
+      "availability": "in_stock"
+    },
+    {
+      "color": "White",
+      "size": "40",
+      "availability": "in_stock"
+    },
+    {
+      "color": "White",
+      "size": "41",
+      "availability": "in_stock"
+    },
+    {
+      "color": "White",
+      "size": "42",
+      "availability": "out_of_stock"
+    },
+    {
+      "color": "White",
+      "size": "43",
+      "availability": "out_of_stock"
+    },
+    {
+      "color": "White",
+      "size": "44",
+      "availability": "out_of_stock"
+    },
+    {
+      "color": "White",
+      "size": "45",
+      "availability": "out_of_stock"
+    },
+    {
+      "color": "White",
+      "size": "46",
+      "availability": "out_of_stock"
+    }
+  ],
+  "productURL": "https://eytys.com/products/odessa-leather-white",
+  "categoryPage": "https://eytys.com/collections/sneakers",
+  "scrapeTimestamp": "2025-08-12 14:09:23"
+},
+{
+  "brand": "EYTYS",
+  "name": "Odessa Canvas Black",
+  "price": 2000,
+  "currency": "SEK",
+  "description": "The ’Odessa’ low-top is a brutalist interpretation of ’50s athletic shoes. Comes in black canvas with contrast stitching and a flexible rubber sole. A vegan-friendly, easy going lace-up style.",
+  "category": "SNEAKERS",
+  "colors": [
+    "Black"
+  ],
+  "sizes": [
+    "35",
+    "36",
+    "37",
+    "38",
+    "39",
+    "40",
+    "41",
+    "42",
+    "43",
+    "44",
+    "45",
+    "46"
+  ],
+  "mainImage": "https://eytys.com/cdn/shop/files/eytys_odessa-canvas-black-plp-pack-01.jpg",
+  "images": [
+    "https://eytys.com/cdn/shop/files/eytys_odessa-canvas-black-plp-pack-01.jpg",
+    "https://eytys.com/cdn/shop/files/eytys_odessa-canvas-black-plp-pack-02.jpg",
+    "https://eytys.com/cdn/shop/files/eytys_odessa-canvas-black-02-mobile.jpg",
+    "https://eytys.com/cdn/shop/files/eytys_odessa-canvas-black-04-mobile.jpg",
+    "https://eytys.com/cdn/shop/files/eytys_odessa-canvas-black-05-mobile.jpg",
+    "https://eytys.com/cdn/shop/files/eytys_odessa-canvas-black-d-01-mobile.jpg"
+  ],
+  "availability": "in_stock",
+  "variants": [
+    {
+      "color": "Black",
+      "size": "35",
+      "availability": "out_of_stock"
+    },
+    {
+      "color": "Black",
+      "size": "36",
+      "availability": "out_of_stock"
+    },
+    {
+      "color": "Black",
+      "size": "37",
+      "availability": "out_of_stock"
+    },
+    {
+      "color": "Black",
+      "size": "38",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Black",
+      "size": "39",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Black",
+      "size": "40",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Black",
+      "size": "41",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Black",
+      "size": "42",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Black",
+      "size": "43",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Black",
+      "size": "44",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Black",
+      "size": "45",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Black",
+      "size": "46",
+      "availability": "out_of_stock"
+    }
+  ],
+  "productURL": "https://eytys.com/products/odessa-canvas-black",
+  "categoryPage": "https://eytys.com/collections/sneakers",
+  "scrapeTimestamp": "2025-08-12 14:09:23"
+},
+{
+  "brand": "EYTYS",
+  "name": "Mother II Waxy Suede Ochre",
+  "price": 2400,
+  "currency": "SEK",
+  "description": "The ‘Mother II’ Waxy Suede Ochre is an evolved iteration of our classic sneaker, the ‘Mother’. The plimsoll silhouette is enhanced by sharp-cornered rubber soles. Crafted from waxy Ochre suede and detailed with a satin tongue label and piping on the pull-tab. Complete with a canvas insole with arch support.",
+  "category": "SNEAKERS",
+  "colors": [
+    "Ochre"
+  ],
+  "sizes": [
+    "35",
+    "36",
+    "37",
+    "38",
+    "39",
+    "40",
+    "41",
+    "42",
+    "43",
+    "44",
+    "45",
+    "46"
+  ],
+  "mainImage": "https://eytys.com/cdn/shop/files/eytys_motherii-ochrewaxysuede-profile-plp-pack.jpg",
+  "images": [
+    "https://eytys.com/cdn/shop/files/eytys_motherii-ochrewaxysuede-profile-plp-pack.jpg",
+    "https://eytys.com/cdn/shop/files/eytys_motherii-ochrewaxysuede-profile-plp-pack-02.jpg",
+    "https://eytys.com/cdn/shop/files/eytys_motherii-ochrewaxysuede-back-mobile.jpg",
+    "https://eytys.com/cdn/shop/files/eytys_motherii-ochrewaxysuede-dynamic-mobile.jpg",
+    "https://eytys.com/cdn/shop/files/eytys_motherii-ochrewaxysuede-top-mobile.jpg",
+    "https://eytys.com/cdn/shop/files/eytys_motherii-ochrewaxysuede-soles-mobile.jpg"
+  ],
+  "availability": "in_stock",
+  "variants": [
+    {
+      "color": "Ochre",
+      "size": "35",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Ochre",
+      "size": "36",
+      "availability": "out_of_stock"
+    },
+    {
+      "color": "Ochre",
+      "size": "37",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Ochre",
+      "size": "38",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Ochre",
+      "size": "39",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Ochre",
+      "size": "40",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Ochre",
+      "size": "41",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Ochre",
+      "size": "42",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Ochre",
+      "size": "43",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Ochre",
+      "size": "44",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Ochre",
+      "size": "45",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Ochre",
+      "size": "46",
+      "availability": "in_stock"
+    }
+  ],
+  "productURL": "https://eytys.com/products/mother-ii-waxy-suede-ochre",
+  "categoryPage": "https://eytys.com/collections/sneakers",
+  "scrapeTimestamp": "2025-08-12 14:09:23"
+},
+{
+  "brand": "EYTYS",
+  "name": "Mother II’ Waxy Suede Mahogany",
+  "price": 2400,
+  "currency": "SEK",
+  "description": "The ‘Mother II’ Waxy Suede Mahogany is an evolved iteration of our classic sneaker, the ‘Mother’. The plimsoll silhouette is enhanced by sharp-cornered rubber soles. Crafted from waxy Mahogany suede and detailed with a satin tongue label and piping on the pull-tab. Complete with a canvas insole with arch support.",
+  "category": "SNEAKERS",
+  "colors": [
+    "Mahogany"
+  ],
+  "sizes": [
+    "35",
+    "36",
+    "37",
+    "38",
+    "39",
+    "40",
+    "41",
+    "42",
+    "43",
+    "44",
+    "45",
+    "46"
+  ],
+  "mainImage": "https://eytys.com/cdn/shop/files/eytys_motherii-mahoganywaxysuede-profile-plp-pack.jpg",
+  "images": [
+    "https://eytys.com/cdn/shop/files/eytys_motherii-mahoganywaxysuede-profile-plp-pack.jpg",
+    "https://eytys.com/cdn/shop/files/eytys_motherii-mahoganywaxysuede-profile-plp-pack-02.jpg",
+    "https://eytys.com/cdn/shop/files/eytys_motherii-mahoganywaxysuede-back-mobile.jpg",
+    "https://eytys.com/cdn/shop/files/eytys_motherii-mahoganywaxysuede-dynamic-mobile.jpg",
+    "https://eytys.com/cdn/shop/files/eytys_motherii-mahoganywaxysuede-soles-mobile.jpg",
+    "https://eytys.com/cdn/shop/files/eytys_motherii-mahoganywaxysuede-top-mobile.jpg"
+  ],
+  "availability": "in_stock",
+  "variants": [
+    {
+      "color": "Mahogany",
+      "size": "35",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Mahogany",
+      "size": "36",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Mahogany",
+      "size": "37",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Mahogany",
+      "size": "38",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Mahogany",
+      "size": "39",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Mahogany",
+      "size": "40",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Mahogany",
+      "size": "41",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Mahogany",
+      "size": "42",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Mahogany",
+      "size": "43",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Mahogany",
+      "size": "44",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Mahogany",
+      "size": "45",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Mahogany",
+      "size": "46",
+      "availability": "in_stock"
+    }
+  ],
+  "productURL": "https://eytys.com/products/mother-ii-waxy-suede-mahogany",
+  "categoryPage": "https://eytys.com/collections/sneakers",
+  "scrapeTimestamp": "2025-08-12 14:09:23"
+},
+{
+  "brand": "EYTYS",
+  "name": "Eros Suede Olimpico",
+  "price": 2000,
+  "currency": "SEK",
+  "description": "The 'Eros' Suede Olimpico are deconstructed '70s racing flats with a thin, ultralight design. These round-toe runners offer a secure and flexible feel. Crafted from nylon and suede, they feature a serrated tread pattern for effective traction and include a breathable insole with arch support. We recommend sizing up if you are in-between sizes.",
+  "category": "SNEAKERS",
+  "colors": [
+    "Olimpico"
+  ],
+  "sizes": [
+    "35",
+    "36",
+    "37",
+    "38",
+    "39",
+    "40",
+    "41",
+    "42",
+    "43",
+    "44",
+    "45",
+    "46"
+  ],
+  "mainImage": "https://eytys.com/cdn/shop/files/eytys_eros-suede-olimpico-plp-pack-01.jpg",
+  "images": [
+    "https://eytys.com/cdn/shop/files/eytys_eros-suede-olimpico-plp-pack-01.jpg",
+    "https://eytys.com/cdn/shop/files/eytys_eros-suede-olimpico-plp-pack-02.jpg",
+    "https://eytys.com/cdn/shop/files/eytys_eros-suede-olimpico-02-mobile.jpg",
+    "https://eytys.com/cdn/shop/files/eytys_eros-suede-olimpico-04-mobile.jpg",
+    "https://eytys.com/cdn/shop/files/eytys_eros-suede-olimpico-05-mobile.jpg",
+    "https://eytys.com/cdn/shop/files/eytys_eros-suede-olimpico-d-01-mobile.jpg"
+  ],
+  "availability": "in_stock",
+  "variants": [
+    {
+      "color": "Olimpico",
+      "size": "35",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Olimpico",
+      "size": "36",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Olimpico",
+      "size": "37",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Olimpico",
+      "size": "38",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Olimpico",
+      "size": "39",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Olimpico",
+      "size": "40",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Olimpico",
+      "size": "41",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Olimpico",
+      "size": "42",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Olimpico",
+      "size": "43",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Olimpico",
+      "size": "44",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Olimpico",
+      "size": "45",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Olimpico",
+      "size": "46",
+      "availability": "in_stock"
+    }
+  ],
+  "productURL": "https://eytys.com/products/eros-suede-olimpico",
+  "categoryPage": "https://eytys.com/collections/sneakers",
+  "scrapeTimestamp": "2025-08-12 14:09:23"
+},
+{
+  "brand": "EYTYS",
+  "name": "Eros Suede Golden Brown",
+  "price": 2000,
+  "currency": "SEK",
+  "description": "The 'Eros' Suede Golden Brown are deconstructed '70s racing flats on a lightweight cushioned sole. These round-toe runners, crafted from nylon and suede offer all-day comfort and a flexible yet supportive ride. They come with a breathable liner and the rubber bottomsole features a serrated tread pattern for effective traction. We recommend sizing up if you are in-between sizes.",
+  "category": "SNEAKERS",
+  "colors": [
+    "Brown"
+  ],
+  "sizes": [
+    "35",
+    "36",
+    "37",
+    "38",
+    "39",
+    "40",
+    "41",
+    "42",
+    "43",
+    "44",
+    "45",
+    "46"
+  ],
+  "mainImage": "https://eytys.com/cdn/shop/files/eytys_eros-goldenbrownsuede-profile-plp-pack.jpg",
+  "images": [
+    "https://eytys.com/cdn/shop/files/eytys_eros-goldenbrownsuede-profile-plp-pack.jpg",
+    "https://eytys.com/cdn/shop/files/eytys_eros-goldenbrownsuede-profile-plp-pack-02.jpg",
+    "https://eytys.com/cdn/shop/files/eytys_eros-goldenbrownsuede-back-mobile.jpg",
+    "https://eytys.com/cdn/shop/files/eytys_eros-goldenbrownsuede-dynamic-mobile.jpg",
+    "https://eytys.com/cdn/shop/files/eytys_eros-goldenbrownsuede-soles-mobile.jpg",
+    "https://eytys.com/cdn/shop/files/eytys_eros-goldenbrownsuede-top-mobile.jpg"
+  ],
+  "availability": "in_stock",
+  "variants": [
+    {
+      "color": "Brown",
+      "size": "35",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Brown",
+      "size": "36",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Brown",
+      "size": "37",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Brown",
+      "size": "38",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Brown",
+      "size": "39",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Brown",
+      "size": "40",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Brown",
+      "size": "41",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Brown",
+      "size": "42",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Brown",
+      "size": "43",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Brown",
+      "size": "44",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Brown",
+      "size": "45",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Brown",
+      "size": "46",
+      "availability": "in_stock"
+    }
+  ],
+  "productURL": "https://eytys.com/products/eros-suede-golden-brown",
+  "categoryPage": "https://eytys.com/collections/sneakers",
+  "scrapeTimestamp": "2025-08-12 14:09:23"
+},
+{
+  "brand": "EYTYS",
+  "name": "Eros Suede Blueberry Cocoa",
+  "price": 2000,
+  "currency": "SEK",
+  "description": "The 'Eros' Suede Blueberry Cocoa are deconstructed '70s racing flats on a lightweight cushioned sole. These round-toe runners, crafted from nylon and suede offer all-day comfort and a flexible yet supportive ride. They come with a breathable liner and the rubber bottomsole features a serrated tread pattern for effective traction. We recommend sizing up if you are in-between sizes.",
+  "category": "SNEAKERS",
+  "colors": [
+    "Cocoa"
+  ],
+  "sizes": [
+    "35",
+    "36",
+    "37",
+    "38",
+    "39",
+    "40",
+    "41",
+    "42",
+    "43",
+    "44",
+    "45",
+    "46"
+  ],
+  "mainImage": "https://eytys.com/cdn/shop/files/eytys_eros-blueberrycocoasuede-profile-plp-pack.jpg",
+  "images": [
+    "https://eytys.com/cdn/shop/files/eytys_eros-blueberrycocoasuede-profile-plp-pack.jpg",
+    "https://eytys.com/cdn/shop/files/eytys_eros-blueberrycocoasuede-profile-plp-pack-02.jpg",
+    "https://eytys.com/cdn/shop/files/eytys_eros-blueberrycocoasuede-back-desktop-p.jpg",
+    "https://eytys.com/cdn/shop/files/eytys_eros-blueberrycocoasuede-dynamic-mobile.jpg",
+    "https://eytys.com/cdn/shop/files/eytys_eros-blueberrycocoasuede-soles-mobile.jpg",
+    "https://eytys.com/cdn/shop/files/eytys_eros-blueberrycocoasuede-top-mobile.jpg"
+  ],
+  "availability": "in_stock",
+  "variants": [
+    {
+      "color": "Cocoa",
+      "size": "35",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Cocoa",
+      "size": "36",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Cocoa",
+      "size": "37",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Cocoa",
+      "size": "38",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Cocoa",
+      "size": "39",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Cocoa",
+      "size": "40",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Cocoa",
+      "size": "41",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Cocoa",
+      "size": "42",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Cocoa",
+      "size": "43",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Cocoa",
+      "size": "44",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Cocoa",
+      "size": "45",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Cocoa",
+      "size": "46",
+      "availability": "in_stock"
+    }
+  ],
+  "productURL": "https://eytys.com/products/eros-suede-blueberry-cocoa",
+  "categoryPage": "https://eytys.com/collections/sneakers",
+  "scrapeTimestamp": "2025-08-12 14:09:23"
+},
+{
+  "brand": "EYTYS",
+  "name": "Eros Suede Black",
+  "price": 2000,
+  "currency": "SEK",
+  "description": "The 'Eros' Suede Black are deconstructed '70s racing flats with a thin, ultralight design. These round-toe runners offer a secure and flexible feel. Crafted from nylon and suede, they feature a serrated tread pattern for effective traction and include a breathable insole with arch support. We recommend sizing up if you are in-between sizes.",
+  "category": "SNEAKERS",
+  "colors": [
+    "Black"
+  ],
+  "sizes": [
+    "35",
+    "36",
+    "37",
+    "38",
+    "39",
+    "40",
+    "41",
+    "42",
+    "43",
+    "44",
+    "45",
+    "46"
+  ],
+  "mainImage": "https://eytys.com/cdn/shop/files/eytys_eros-suede-black-plp-pack-01.jpg",
+  "images": [
+    "https://eytys.com/cdn/shop/files/eytys_eros-suede-black-plp-pack-01.jpg",
+    "https://eytys.com/cdn/shop/files/eytys_eros-suede-black-plp-pack-02.jpg",
+    "https://eytys.com/cdn/shop/files/eytys_eros-suede-black-02-mobile.jpg",
+    "https://eytys.com/cdn/shop/files/eytys_eros-suede-black-04-mobile.jpg",
+    "https://eytys.com/cdn/shop/files/eytys_eros-suede-black-05-mobile.jpg",
+    "https://eytys.com/cdn/shop/files/eytys_eros-suede-black-d-01-mobile.jpg",
+    "https://eytys.com/cdn/shop/files/EYTY_ErosBlack.jpg"
+  ],
+  "availability": "in_stock",
+  "variants": [
+    {
+      "color": "Black",
+      "size": "35",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Black",
+      "size": "36",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Black",
+      "size": "37",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Black",
+      "size": "38",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Black",
+      "size": "39",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Black",
+      "size": "40",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Black",
+      "size": "41",
+      "availability": "out_of_stock"
+    },
+    {
+      "color": "Black",
+      "size": "42",
+      "availability": "out_of_stock"
+    },
+    {
+      "color": "Black",
+      "size": "43",
+      "availability": "out_of_stock"
+    },
+    {
+      "color": "Black",
+      "size": "44",
+      "availability": "out_of_stock"
+    },
+    {
+      "color": "Black",
+      "size": "45",
+      "availability": "out_of_stock"
+    },
+    {
+      "color": "Black",
+      "size": "46",
+      "availability": "in_stock"
+    }
+  ],
+  "productURL": "https://eytys.com/products/eros-suede-black",
+  "categoryPage": "https://eytys.com/collections/sneakers",
+  "scrapeTimestamp": "2025-08-12 14:09:23"
+},
+{
+  "brand": "EYTYS",
+  "name": "Eros Suede Alloy",
+  "price": 2000,
+  "currency": "SEK",
+  "description": "The 'Eros' Suede Alloy are deconstructed '70s racing flats on a lightweight cushioned sole. These round-toe runners, crafted from nylon and suede offer all-day comfort and a flexible yet supportive ride. They come with a breathable liner and the rubber bottomsole features a serrated tread pattern for effective traction. We recommend sizing up if you are in-between sizes.",
+  "category": "SNEAKERS",
+  "colors": [
+    "Alloy"
+  ],
+  "sizes": [
+    "35",
+    "36",
+    "37",
+    "38",
+    "39",
+    "40",
+    "41",
+    "42",
+    "43",
+    "44",
+    "45",
+    "46"
+  ],
+  "mainImage": "https://eytys.com/cdn/shop/files/eytys_eros-alloysuede-profile-plp-pack.jpg",
+  "images": [
+    "https://eytys.com/cdn/shop/files/eytys_eros-alloysuede-profile-plp-pack.jpg",
+    "https://eytys.com/cdn/shop/files/eytys_eros-alloysuede-34-mobile.jpg",
+    "https://eytys.com/cdn/shop/files/eytys_eros-alloysuede-back-mobile.jpg",
+    "https://eytys.com/cdn/shop/files/eytys_eros-alloysuede-dynamic-mobile.jpg",
+    "https://eytys.com/cdn/shop/files/eytys_eros-alloysuede-soles-mobile.jpg",
+    "https://eytys.com/cdn/shop/files/eytys_eros-alloysuede-top-mobile.jpg"
+  ],
+  "availability": "in_stock",
+  "variants": [
+    {
+      "color": "Alloy",
+      "size": "35",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Alloy",
+      "size": "36",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Alloy",
+      "size": "37",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Alloy",
+      "size": "38",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Alloy",
+      "size": "39",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Alloy",
+      "size": "40",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Alloy",
+      "size": "41",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Alloy",
+      "size": "42",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Alloy",
+      "size": "43",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Alloy",
+      "size": "44",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Alloy",
+      "size": "45",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Alloy",
+      "size": "46",
+      "availability": "in_stock"
+    }
+  ],
+  "productURL": "https://eytys.com/products/eros-suede-alloy",
+  "categoryPage": "https://eytys.com/collections/sneakers",
+  "scrapeTimestamp": "2025-08-12 14:09:23"
+},
+{
+  "brand": "EYTYS",
+  "name": "Doja Tumbled White",
+  "price": 2200,
+  "currency": "SEK",
+  "description": "A minimalist style made in tumbled white leather. The dressy ’Doja’ sneaker is a low-top silhouette with a voluminous toe and concealed laces on a stylized rubber sole. We recommend sizing up if you are in-between sizes.",
+  "category": "SNEAKERS",
+  "colors": [
+    "White"
+  ],
+  "sizes": [
+    "35",
+    "36",
+    "37",
+    "38",
+    "39",
+    "40",
+    "41",
+    "42",
+    "43",
+    "44",
+    "45",
+    "46"
+  ],
+  "mainImage": "https://eytys.com/cdn/shop/files/eytys_doja-tumbled-white-plp-pack-01.jpg",
+  "images": [
+    "https://eytys.com/cdn/shop/files/eytys_doja-tumbled-white-plp-pack-01.jpg",
+    "https://eytys.com/cdn/shop/files/eytys_doja-tumbled-white-plp-pack-02.jpg",
+    "https://eytys.com/cdn/shop/files/eytys_doja-tumbled-white-02-mobile.jpg",
+    "https://eytys.com/cdn/shop/files/eytys_doja-tumbled-white-04-mobile.jpg",
+    "https://eytys.com/cdn/shop/files/eytys_doja-tumbled-white-05-mobile.jpg",
+    "https://eytys.com/cdn/shop/files/eytys_doja-tumbled-white-d-01-mobile.jpg"
+  ],
+  "availability": "in_stock",
+  "variants": [
+    {
+      "color": "White",
+      "size": "35",
+      "availability": "in_stock"
+    },
+    {
+      "color": "White",
+      "size": "36",
+      "availability": "in_stock"
+    },
+    {
+      "color": "White",
+      "size": "37",
+      "availability": "in_stock"
+    },
+    {
+      "color": "White",
+      "size": "38",
+      "availability": "in_stock"
+    },
+    {
+      "color": "White",
+      "size": "39",
+      "availability": "in_stock"
+    },
+    {
+      "color": "White",
+      "size": "40",
+      "availability": "in_stock"
+    },
+    {
+      "color": "White",
+      "size": "41",
+      "availability": "in_stock"
+    },
+    {
+      "color": "White",
+      "size": "42",
+      "availability": "in_stock"
+    },
+    {
+      "color": "White",
+      "size": "43",
+      "availability": "in_stock"
+    },
+    {
+      "color": "White",
+      "size": "44",
+      "availability": "in_stock"
+    },
+    {
+      "color": "White",
+      "size": "45",
+      "availability": "in_stock"
+    },
+    {
+      "color": "White",
+      "size": "46",
+      "availability": "out_of_stock"
+    }
+  ],
+  "productURL": "https://eytys.com/products/doja-tumbled-white",
+  "categoryPage": "https://eytys.com/collections/sneakers",
+  "scrapeTimestamp": "2025-08-12 14:09:23"
+},
+{
+  "brand": "EYTYS",
+  "name": "Doja S-O Suede black",
+  "price": 2200,
+  "currency": "SEK",
+  "description": "The slip-on iteration of our dressy ’Doja’ sneaker is recognized by its even more stripped down design. A minimalist style with a concealed elastic closure made in silky suede on a stylized rubber sole. We recommend sizing up if you are in-between sizes.",
+  "category": "SNEAKERS",
+  "colors": [
+    "black"
+  ],
+  "sizes": [
+    "35",
+    "36",
+    "37",
+    "38",
+    "39",
+    "40",
+    "41",
+    "42",
+    "43",
+    "44",
+    "45",
+    "46"
+  ],
+  "mainImage": "https://eytys.com/cdn/shop/files/eytys_doja-so-suede-black-plp-pack-01.jpg",
+  "images": [
+    "https://eytys.com/cdn/shop/files/eytys_doja-so-suede-black-plp-pack-01.jpg",
+    "https://eytys.com/cdn/shop/files/eytys_doja-so-suede-black-plp-pack-02.jpg",
+    "https://eytys.com/cdn/shop/files/eytys_doja-so-suede-black-04-mobile.jpg",
+    "https://eytys.com/cdn/shop/files/eytys_doja-so-suede-black-02-mobile.jpg",
+    "https://eytys.com/cdn/shop/files/eytys_doja-so-suede-black-05-mobile.jpg",
+    "https://eytys.com/cdn/shop/files/eytys_doja-so-suede-black-d-01-mobile.jpg"
+  ],
+  "availability": "in_stock",
+  "variants": [
+    {
+      "color": "black",
+      "size": "35",
+      "availability": "out_of_stock"
+    },
+    {
+      "color": "black",
+      "size": "36",
+      "availability": "out_of_stock"
+    },
+    {
+      "color": "black",
+      "size": "37",
+      "availability": "in_stock"
+    },
+    {
+      "color": "black",
+      "size": "38",
+      "availability": "in_stock"
+    },
+    {
+      "color": "black",
+      "size": "39",
+      "availability": "in_stock"
+    },
+    {
+      "color": "black",
+      "size": "40",
+      "availability": "in_stock"
+    },
+    {
+      "color": "black",
+      "size": "41",
+      "availability": "in_stock"
+    },
+    {
+      "color": "black",
+      "size": "42",
+      "availability": "in_stock"
+    },
+    {
+      "color": "black",
+      "size": "43",
+      "availability": "in_stock"
+    },
+    {
+      "color": "black",
+      "size": "44",
+      "availability": "in_stock"
+    },
+    {
+      "color": "black",
+      "size": "45",
+      "availability": "in_stock"
+    },
+    {
+      "color": "black",
+      "size": "46",
+      "availability": "in_stock"
+    }
+  ],
+  "productURL": "https://eytys.com/products/doja-s-o-suede-black",
+  "categoryPage": "https://eytys.com/collections/sneakers",
+  "scrapeTimestamp": "2025-08-12 14:09:23"
+},
+{
+  "brand": "EYTYS",
+  "name": "Doja S-O Suede cement",
+  "price": 2200,
+  "currency": "SEK",
+  "description": "The slip-on iteration of our dressy ’Doja’ sneaker is recognized by its even more stripped down design. A minimalist style with a concealed elastic closure made in silky suede on a stylized rubber sole. We recommend sizing up if you are in-between sizes.",
+  "category": "SNEAKERS",
+  "colors": [
+    "cement"
+  ],
+  "sizes": [
+    "35",
+    "36",
+    "37",
+    "38",
+    "39",
+    "40",
+    "41",
+    "42",
+    "43",
+    "44",
+    "45",
+    "46"
+  ],
+  "mainImage": "https://eytys.com/cdn/shop/files/eytys_doja_suede_cement_plp.jpg",
+  "images": [
+    "https://eytys.com/cdn/shop/files/eytys_doja_suede_cement_plp.jpg",
+    "https://eytys.com/cdn/shop/files/eytys_doja-s-o-suede-cement-plp-02.jpg",
+    "https://eytys.com/cdn/shop/files/eytys_doja-s-o-suede-cement-02-mobile.jpg",
+    "https://eytys.com/cdn/shop/files/eytys_doja-s-o-suede-cement-04-mobile.jpg",
+    "https://eytys.com/cdn/shop/files/eytys_doja-s-o-suede-cement-05-mobile.jpg",
+    "https://eytys.com/cdn/shop/files/eytys_doja-s-o-suede-cement-d-01.jpg"
+  ],
+  "availability": "in_stock",
+  "variants": [
+    {
+      "color": "cement",
+      "size": "35",
+      "availability": "in_stock"
+    },
+    {
+      "color": "cement",
+      "size": "36",
+      "availability": "in_stock"
+    },
+    {
+      "color": "cement",
+      "size": "37",
+      "availability": "in_stock"
+    },
+    {
+      "color": "cement",
+      "size": "38",
+      "availability": "in_stock"
+    },
+    {
+      "color": "cement",
+      "size": "39",
+      "availability": "in_stock"
+    },
+    {
+      "color": "cement",
+      "size": "40",
+      "availability": "in_stock"
+    },
+    {
+      "color": "cement",
+      "size": "41",
+      "availability": "in_stock"
+    },
+    {
+      "color": "cement",
+      "size": "42",
+      "availability": "in_stock"
+    },
+    {
+      "color": "cement",
+      "size": "43",
+      "availability": "out_of_stock"
+    },
+    {
+      "color": "cement",
+      "size": "44",
+      "availability": "out_of_stock"
+    },
+    {
+      "color": "cement",
+      "size": "45",
+      "availability": "in_stock"
+    },
+    {
+      "color": "cement",
+      "size": "46",
+      "availability": "in_stock"
+    }
+  ],
+  "productURL": "https://eytys.com/products/doja-s-o-suede-cement",
+  "categoryPage": "https://eytys.com/collections/sneakers",
+  "scrapeTimestamp": "2025-08-12 14:09:23"
+},
+{
+  "brand": "EYTYS",
+  "name": "Doja Leather Black",
+  "price": 2200,
+  "currency": "SEK",
+  "description": "A minimalist style made in shiny black leather. The dressy ’Doja’ sneaker is a low-top silhouette with a voluminous toe and concealed laces on a stylized rubber sole. We recommend sizing up if you are in-between sizes.",
+  "category": "SNEAKERS",
+  "colors": [
+    "Black"
+  ],
+  "sizes": [
+    "35",
+    "36",
+    "37",
+    "38",
+    "39",
+    "40",
+    "41",
+    "42",
+    "43",
+    "44",
+    "45",
+    "46"
+  ],
+  "mainImage": "https://eytys.com/cdn/shop/files/eytys_doja-leather-black-plp-pack-01.jpg",
+  "images": [
+    "https://eytys.com/cdn/shop/files/eytys_doja-leather-black-plp-pack-01.jpg",
+    "https://eytys.com/cdn/shop/files/eytys_doja-leather-black-plp-pack-02.jpg",
+    "https://eytys.com/cdn/shop/files/eytys_doja-leather-black-04-mobile.jpg",
+    "https://eytys.com/cdn/shop/files/eytys_doja-leather-black-02-mobile.jpg",
+    "https://eytys.com/cdn/shop/files/eytys_doja-leather-black-05-mobile.jpg",
+    "https://eytys.com/cdn/shop/files/eytys_doja-leather-black-d-01-mobile.jpg"
+  ],
+  "availability": "in_stock",
+  "variants": [
+    {
+      "color": "Black",
+      "size": "35",
+      "availability": "out_of_stock"
+    },
+    {
+      "color": "Black",
+      "size": "36",
+      "availability": "out_of_stock"
+    },
+    {
+      "color": "Black",
+      "size": "37",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Black",
+      "size": "38",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Black",
+      "size": "39",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Black",
+      "size": "40",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Black",
+      "size": "41",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Black",
+      "size": "42",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Black",
+      "size": "43",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Black",
+      "size": "44",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Black",
+      "size": "45",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Black",
+      "size": "46",
+      "availability": "in_stock"
+    }
+  ],
+  "productURL": "https://eytys.com/products/doja-leather-black",
+  "categoryPage": "https://eytys.com/collections/sneakers",
+  "scrapeTimestamp": "2025-08-12 14:09:23"
+},
+{
+  "brand": "EYTYS",
+  "name": "Angel Leather Black",
+  "price": 3000,
+  "currency": "SEK",
+  "description": "A signature EYTYS style, ’Angel’ is our refined interpretation of ’90s trail shoes, a contemporary evergreen outlined by elevated proportions. Made in shiny black leather with a tonal outsole.",
+  "category": "SNEAKERS",
+  "colors": [
+    "Black"
+  ],
+  "sizes": [
+    "35",
+    "36",
+    "37",
+    "38",
+    "39",
+    "40",
+    "41",
+    "42",
+    "43",
+    "44",
+    "45",
+    "46"
+  ],
+  "mainImage": "https://eytys.com/cdn/shop/files/eytys_angel-leather-black-plp-pack-01.jpg",
+  "images": [
+    "https://eytys.com/cdn/shop/files/eytys_angel-leather-black-plp-pack-01.jpg",
+    "https://eytys.com/cdn/shop/files/eytys_angel-leather-black-plp-pack-02.jpg",
+    "https://eytys.com/cdn/shop/files/eytys_angel-leather-black-02-mobile.jpg",
+    "https://eytys.com/cdn/shop/files/eytys_angel-leather-black-04-mobile.jpg",
+    "https://eytys.com/cdn/shop/files/eytys_angel-leather-black-05-mobile.jpg",
+    "https://eytys.com/cdn/shop/files/eytys_angel-leather-black-d-01-mobile.jpg"
+  ],
+  "availability": "in_stock",
+  "variants": [
+    {
+      "color": "Black",
+      "size": "35",
+      "availability": "out_of_stock"
+    },
+    {
+      "color": "Black",
+      "size": "36",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Black",
+      "size": "37",
+      "availability": "out_of_stock"
+    },
+    {
+      "color": "Black",
+      "size": "38",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Black",
+      "size": "39",
+      "availability": "out_of_stock"
+    },
+    {
+      "color": "Black",
+      "size": "40",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Black",
+      "size": "41",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Black",
+      "size": "42",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Black",
+      "size": "43",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Black",
+      "size": "44",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Black",
+      "size": "45",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Black",
+      "size": "46",
+      "availability": "in_stock"
+    }
+  ],
+  "productURL": "https://eytys.com/products/angel-leather-black",
+  "categoryPage": "https://eytys.com/collections/sneakers",
+  "scrapeTimestamp": "2025-08-12 14:09:23"
+},
+{
+  "brand": "EYTYS",
+  "name": "Trophy Leather Amazon",
+  "price": 2400,
+  "currency": "SEK",
+  "description": "The 'Trophy' is EYTYS interpretation of the classic court sneaker. Drawing inspiration from the clean lines of early '80s basketball shoes, this low profile silhouette features a wide toe box for enhanced comfort. Crafted from White leather with a Green plush textile collar trim and soft padding.",
+  "category": "SNEAKERS",
+  "colors": [
+    "Amazon"
+  ],
+  "sizes": [
+    "35",
+    "36",
+    "37",
+    "38",
+    "39",
+    "40",
+    "41",
+    "42",
+    "43",
+    "44",
+    "45",
+    "46"
+  ],
+  "mainImage": "https://eytys.com/cdn/shop/files/eytys_trophy-amazonleather-profile-plp-pack.jpg",
+  "images": [
+    "https://eytys.com/cdn/shop/files/eytys_trophy-amazonleather-profile-plp-pack.jpg",
+    "https://eytys.com/cdn/shop/files/eytys_trophy-amazonleather-34-plp-pack.jpg",
+    "https://eytys.com/cdn/shop/files/eytys_trophy-amazonleather-back-mobile.jpg",
+    "https://eytys.com/cdn/shop/files/eytys_trophy-amazonleather-soles-mobile.jpg",
+    "https://eytys.com/cdn/shop/files/eytys_trophy-amazonleather-top-mobile.jpg",
+    "https://eytys.com/cdn/shop/files/eytys_trophy-amazonleather-dynamic-mobile.jpg"
+  ],
+  "availability": "in_stock",
+  "variants": [
+    {
+      "color": "Amazon",
+      "size": "35",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Amazon",
+      "size": "36",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Amazon",
+      "size": "37",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Amazon",
+      "size": "38",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Amazon",
+      "size": "39",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Amazon",
+      "size": "40",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Amazon",
+      "size": "41",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Amazon",
+      "size": "42",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Amazon",
+      "size": "43",
+      "availability": "out_of_stock"
+    },
+    {
+      "color": "Amazon",
+      "size": "44",
+      "availability": "out_of_stock"
+    },
+    {
+      "color": "Amazon",
+      "size": "45",
+      "availability": "out_of_stock"
+    },
+    {
+      "color": "Amazon",
+      "size": "46",
+      "availability": "out_of_stock"
+    }
+  ],
+  "productURL": "https://eytys.com/products/trophy-leather-amazon",
+  "categoryPage": "https://eytys.com/collections/sneakers",
+  "scrapeTimestamp": "2025-08-12 14:09:23"
+},
+{
+  "brand": "EYTYS",
+  "name": "Trophy Leather White",
+  "price": 2400,
+  "currency": "SEK",
+  "description": "The 'Trophy' is EYTYS interpretation of the classic court sneaker. Drawing inspiration from the clean lines of early '80s basketball shoes, this low profile silhouette features a wide toe box for enhanced comfort. Crafted from White leather with a Green plush textile collar trim and soft padding.",
+  "category": "SNEAKERS",
+  "colors": [
+    "White"
+  ],
+  "sizes": [
+    "35",
+    "36",
+    "37",
+    "38",
+    "39",
+    "40",
+    "41",
+    "42",
+    "43",
+    "44",
+    "45",
+    "46"
+  ],
+  "mainImage": "https://eytys.com/cdn/shop/files/eytys_trophy-whiteleather-profile-plp-pack.jpg",
+  "images": [
+    "https://eytys.com/cdn/shop/files/eytys_trophy-whiteleather-profile-plp-pack.jpg",
+    "https://eytys.com/cdn/shop/files/eytys_trophy-whiteleather-34-plp-pack.jpg",
+    "https://eytys.com/cdn/shop/files/eytys_trophy-whiteleather-back-mobile.jpg",
+    "https://eytys.com/cdn/shop/files/eytys_trophy-whiteleather-dynamic-mobile.jpg",
+    "https://eytys.com/cdn/shop/files/eytys_trophy-whiteleather-soles-mobile.jpg",
+    "https://eytys.com/cdn/shop/files/eytys_trophy-whiteleather-top-mobile.jpg"
+  ],
+  "availability": "in_stock",
+  "variants": [
+    {
+      "color": "White",
+      "size": "35",
+      "availability": "in_stock"
+    },
+    {
+      "color": "White",
+      "size": "36",
+      "availability": "in_stock"
+    },
+    {
+      "color": "White",
+      "size": "37",
+      "availability": "in_stock"
+    },
+    {
+      "color": "White",
+      "size": "38",
+      "availability": "in_stock"
+    },
+    {
+      "color": "White",
+      "size": "39",
+      "availability": "in_stock"
+    },
+    {
+      "color": "White",
+      "size": "40",
+      "availability": "in_stock"
+    },
+    {
+      "color": "White",
+      "size": "41",
+      "availability": "in_stock"
+    },
+    {
+      "color": "White",
+      "size": "42",
+      "availability": "in_stock"
+    },
+    {
+      "color": "White",
+      "size": "43",
+      "availability": "out_of_stock"
+    },
+    {
+      "color": "White",
+      "size": "44",
+      "availability": "in_stock"
+    },
+    {
+      "color": "White",
+      "size": "45",
+      "availability": "out_of_stock"
+    },
+    {
+      "color": "White",
+      "size": "46",
+      "availability": "out_of_stock"
+    }
+  ],
+  "productURL": "https://eytys.com/products/trophy-leather-white",
+  "categoryPage": "https://eytys.com/collections/sneakers",
+  "scrapeTimestamp": "2025-08-12 14:09:23"
+},
+{
+  "brand": "EYTYS",
+  "name": "Trophy Leather Olimpico",
+  "price": 2400,
+  "currency": "SEK",
+  "description": "The 'Trophy' is EYTYS interpretation of the classic court sneaker. Drawing inspiration from the clean lines of early '80s basketball shoes, this low profile silhouette features a wide toe box for enhanced comfort. Crafted from White leather with a Red plush textile collar trim and soft padding.",
+  "category": "SNEAKERS",
+  "colors": [
+    "Olimpico"
+  ],
+  "sizes": [
+    "35",
+    "36",
+    "37",
+    "38",
+    "39",
+    "40",
+    "41",
+    "42",
+    "43",
+    "44",
+    "45",
+    "46"
+  ],
+  "mainImage": "https://eytys.com/cdn/shop/files/eytys_trophy-olimpicoleather-profile-plp-pack.jpg",
+  "images": [
+    "https://eytys.com/cdn/shop/files/eytys_trophy-olimpicoleather-profile-plp-pack.jpg",
+    "https://eytys.com/cdn/shop/files/eytys_trophy-olimpicoleather-34-plp-pack.jpg",
+    "https://eytys.com/cdn/shop/files/eytys_trophy-olimpicoleather-back-mobile.jpg",
+    "https://eytys.com/cdn/shop/files/eytys_trophy-olimpicoleather-soles-mobile.jpg",
+    "https://eytys.com/cdn/shop/files/eytys_trophy-olimpicoleather-top-mobile.jpg",
+    "https://eytys.com/cdn/shop/files/eytys_trophy-olimpicoleather-dynamic-mobile.jpg"
+  ],
+  "availability": "in_stock",
+  "variants": [
+    {
+      "color": "Olimpico",
+      "size": "35",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Olimpico",
+      "size": "36",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Olimpico",
+      "size": "37",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Olimpico",
+      "size": "38",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Olimpico",
+      "size": "39",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Olimpico",
+      "size": "40",
+      "availability": "out_of_stock"
+    },
+    {
+      "color": "Olimpico",
+      "size": "41",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Olimpico",
+      "size": "42",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Olimpico",
+      "size": "43",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Olimpico",
+      "size": "44",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Olimpico",
+      "size": "45",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Olimpico",
+      "size": "46",
+      "availability": "in_stock"
+    }
+  ],
+  "productURL": "https://eytys.com/products/trophy-leather-olimpico",
+  "categoryPage": "https://eytys.com/collections/sneakers",
+  "scrapeTimestamp": "2025-08-12 14:09:23"
+},
+{
+  "brand": "EYTYS",
+  "name": "Rari Leather Black",
+  "price": 4600,
+  "currency": "SEK",
+  "description": "The 'Rari' boot, crafted from soft Black leather, features a sleek silhouette with a sharp toe, set on a blocky leather-veneered heel.",
+  "category": "BOOTS",
+  "colors": [
+    "Black"
+  ],
+  "sizes": [
+    "35",
+    "36",
+    "37",
+    "38",
+    "39",
+    "40",
+    "41",
+    "42",
+    "43",
+    "44"
+  ],
+  "mainImage": "https://eytys.com/cdn/shop/files/eytys_rari-blackleather-profile-plp-pack.jpg",
+  "images": [
+    "https://eytys.com/cdn/shop/files/eytys_rari-blackleather-profile-plp-pack.jpg",
+    "https://eytys.com/cdn/shop/files/eytys_rari-blackleather-34-plp-pack.jpg",
+    "https://eytys.com/cdn/shop/files/eytys_rari-blackleather-back-mobile.jpg",
+    "https://eytys.com/cdn/shop/files/eytys_rari-blackleather-soles-mobile.jpg",
+    "https://eytys.com/cdn/shop/files/eytys_rari-blackleather-top-mobile.jpg",
+    "https://eytys.com/cdn/shop/files/eytys_rari-blackleather-dynamic-mobile.jpg"
+  ],
+  "availability": "in_stock",
+  "variants": [
+    {
+      "color": "Black",
+      "size": "35",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Black",
+      "size": "36",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Black",
+      "size": "37",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Black",
+      "size": "38",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Black",
+      "size": "39",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Black",
+      "size": "40",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Black",
+      "size": "41",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Black",
+      "size": "42",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Black",
+      "size": "43",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Black",
+      "size": "44",
+      "availability": "out_of_stock"
+    }
+  ],
+  "productURL": "https://eytys.com/products/rari-leather-black",
+  "categoryPage": "https://eytys.com/collections/boots",
+  "scrapeTimestamp": "2025-08-12 14:09:23"
+},
+{
+  "brand": "EYTYS",
+  "name": "Ortega II Leather Amber",
+  "price": 4200,
+  "currency": "SEK",
+  "description": "The ’Ortega II’ ankle boot is made in brown brush-off leather with elasticated sides and a squared-off biker toe. An updated version of a minimalistic yet substantial EYTYS classic set on a handcrafted crepe rubber sole.",
+  "category": "BOOTS",
+  "colors": [
+    "Amber"
+  ],
+  "sizes": [
+    "35",
+    "36",
+    "37",
+    "38",
+    "39",
+    "40",
+    "41",
+    "42",
+    "43",
+    "44",
+    "45",
+    "46"
+  ],
+  "mainImage": "https://eytys.com/cdn/shop/files/eytys_ortega-ii-leather-amber-plp-pack-01.jpg",
+  "images": [
+    "https://eytys.com/cdn/shop/files/eytys_ortega-ii-leather-amber-plp-pack-01.jpg",
+    "https://eytys.com/cdn/shop/files/eytys_ortega-ii-leather-amber-plp-pack-02.jpg",
+    "https://eytys.com/cdn/shop/files/eytys_ortega-ii-leather-amber-02-mobile.jpg",
+    "https://eytys.com/cdn/shop/files/eytys_ortega-ii-leather-amber-04-mobile.jpg",
+    "https://eytys.com/cdn/shop/files/eytys_ortega-ii-leather-amber-05-mobile.jpg",
+    "https://eytys.com/cdn/shop/files/eytys_ortega-ii-leather-amber-d-01-mobile.jpg"
+  ],
+  "availability": "in_stock",
+  "variants": [
+    {
+      "color": "Amber",
+      "size": "35",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Amber",
+      "size": "36",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Amber",
+      "size": "37",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Amber",
+      "size": "38",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Amber",
+      "size": "39",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Amber",
+      "size": "40",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Amber",
+      "size": "41",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Amber",
+      "size": "42",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Amber",
+      "size": "43",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Amber",
+      "size": "44",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Amber",
+      "size": "45",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Amber",
+      "size": "46",
+      "availability": "out_of_stock"
+    }
+  ],
+  "productURL": "https://eytys.com/products/ortega-ii-leather-amber",
+  "categoryPage": "https://eytys.com/collections/boots",
+  "scrapeTimestamp": "2025-08-12 14:09:23"
+},
+{
+  "brand": "EYTYS",
+  "name": "Savoy Leather Black",
+  "price": 4300,
+  "currency": "SEK",
+  "description": "‘Savoy’ is a derby lace-up shoe in shiny black leather, distinguished by its rounded ample toe and wide leather welt. A polished go-to for parading both day and night, resting on a rubber sole with a chiseled tread.",
+  "category": "DRESS SHOES",
+  "colors": [
+    "Black"
+  ],
+  "sizes": [
+    "35",
+    "36",
+    "37",
+    "38",
+    "39",
+    "40",
+    "41",
+    "42",
+    "43",
+    "44",
+    "45",
+    "46"
+  ],
+  "mainImage": "https://eytys.com/cdn/shop/files/eytys_savoy-leather-black-plp-pack-01.jpg",
+  "images": [
+    "https://eytys.com/cdn/shop/files/eytys_savoy-leather-black-plp-pack-01.jpg",
+    "https://eytys.com/cdn/shop/files/eytys_savoy-leather-black-plp-pack-02.jpg",
+    "https://eytys.com/cdn/shop/files/eytys_savoy-leather-black-02-mobile.jpg",
+    "https://eytys.com/cdn/shop/files/eytys_savoy-leather-black-04-mobile.jpg",
+    "https://eytys.com/cdn/shop/files/eytys_savoy-leather-black-05-mobile.jpg",
+    "https://eytys.com/cdn/shop/files/eytys_savoy-leather-black-d-01-mobile.jpg"
+  ],
+  "availability": "in_stock",
+  "variants": [
+    {
+      "color": "Black",
+      "size": "35",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Black",
+      "size": "36",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Black",
+      "size": "37",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Black",
+      "size": "38",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Black",
+      "size": "39",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Black",
+      "size": "40",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Black",
+      "size": "41",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Black",
+      "size": "42",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Black",
+      "size": "43",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Black",
+      "size": "44",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Black",
+      "size": "45",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Black",
+      "size": "46",
+      "availability": "in_stock"
+    }
+  ],
+  "productURL": "https://eytys.com/products/savoy-leather-black",
+  "categoryPage": "https://eytys.com/collections/dress-shoes",
+  "scrapeTimestamp": "2025-08-12 14:09:23"
+},
+{
+  "brand": "EYTYS",
+  "name": "Savoy Leather Amber",
+  "price": 4300,
+  "currency": "SEK",
+  "description": "‘Savoy’ is a derby lace-up shoe in brown brush-off leather, distinguished by its rounded ample toe and wide leather welt. A polished go-to for parading both day and night, resting on a rubber sole with a chiseled tread.",
+  "category": "DRESS SHOES",
+  "colors": [
+    "Amber"
+  ],
+  "sizes": [
+    "35",
+    "36",
+    "37",
+    "38",
+    "39",
+    "40",
+    "41",
+    "42",
+    "43",
+    "44",
+    "45",
+    "46"
+  ],
+  "mainImage": "https://eytys.com/cdn/shop/files/eytys_savoy-leather-amber-plp-pack-01.jpg",
+  "images": [
+    "https://eytys.com/cdn/shop/files/eytys_savoy-leather-amber-plp-pack-01.jpg",
+    "https://eytys.com/cdn/shop/files/eytys_savoy-leather-amber-plp-pack-02.jpg",
+    "https://eytys.com/cdn/shop/files/eytys_savoy-leather-amber-02-mobile.jpg",
+    "https://eytys.com/cdn/shop/files/eytys_savoy-leather-amber-04-mobile.jpg",
+    "https://eytys.com/cdn/shop/files/eytys_savoy-leather-amber-05-mobile.jpg",
+    "https://eytys.com/cdn/shop/files/eytys_savoy-leather-amber-d-01-mobile.jpg"
+  ],
+  "availability": "in_stock",
+  "variants": [
+    {
+      "color": "Amber",
+      "size": "35",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Amber",
+      "size": "36",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Amber",
+      "size": "37",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Amber",
+      "size": "38",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Amber",
+      "size": "39",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Amber",
+      "size": "40",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Amber",
+      "size": "41",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Amber",
+      "size": "42",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Amber",
+      "size": "43",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Amber",
+      "size": "44",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Amber",
+      "size": "45",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Amber",
+      "size": "46",
+      "availability": "in_stock"
+    }
+  ],
+  "productURL": "https://eytys.com/products/savoy-leather-amber",
+  "categoryPage": "https://eytys.com/collections/dress-shoes",
+  "scrapeTimestamp": "2025-08-12 14:09:23"
+},
+{
+  "brand": "EYTYS",
+  "name": "Savoy CT Leather Oxblood",
+  "price": 4300,
+  "currency": "SEK",
+  "description": "The 'Savoy CT' in Oxblood leather is a sleek update to the classic 'Savoy' silhouette, featuring a toe cap, hexagonal metal eyelets, and contrast stitching. Set on a chiseled rubber sole with a ribbed and double-stitched welt. Finished with ticked laces.",
+  "category": "DRESS SHOES",
+  "colors": [
+    "Oxblood"
+  ],
+  "sizes": [
+    "35",
+    "36",
+    "37",
+    "38",
+    "39",
+    "40",
+    "41",
+    "42",
+    "43",
+    "44",
+    "45",
+    "46"
+  ],
+  "mainImage": "https://eytys.com/cdn/shop/files/eytys_savoy-ctoxbloodleather-profile-plp-pack.jpg",
+  "images": [
+    "https://eytys.com/cdn/shop/files/eytys_savoy-ctoxbloodleather-profile-plp-pack.jpg",
+    "https://eytys.com/cdn/shop/files/eytys_savoy-ctoxbloodleather-front-plp-pack.jpg",
+    "https://eytys.com/cdn/shop/files/eytys_savoy-ctoxbloodleather-back-mobile.jpg",
+    "https://eytys.com/cdn/shop/files/eytys_savoy-ctoxbloodleather-soles-mobile.jpg",
+    "https://eytys.com/cdn/shop/files/eytys_savoy-ctoxbloodleather-top-mobile.jpg",
+    "https://eytys.com/cdn/shop/files/eytys_savoy-ctoxbloodleather-dynamic-mobile.jpg"
+  ],
+  "availability": "in_stock",
+  "variants": [
+    {
+      "color": "Oxblood",
+      "size": "35",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Oxblood",
+      "size": "36",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Oxblood",
+      "size": "37",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Oxblood",
+      "size": "38",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Oxblood",
+      "size": "39",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Oxblood",
+      "size": "40",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Oxblood",
+      "size": "41",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Oxblood",
+      "size": "42",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Oxblood",
+      "size": "43",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Oxblood",
+      "size": "44",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Oxblood",
+      "size": "45",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Oxblood",
+      "size": "46",
+      "availability": "in_stock"
+    }
+  ],
+  "productURL": "https://eytys.com/products/savoy-ct-leather-oxblood",
+  "categoryPage": "https://eytys.com/collections/dress-shoes",
+  "scrapeTimestamp": "2025-08-12 14:09:23"
+},
+{
+  "brand": "EYTYS",
+  "name": "Savoy CT Leather Black",
+  "price": 4300,
+  "currency": "SEK",
+  "description": "The 'Savoy CT' in Black leather is a sleek update to the classic 'Savoy' silhouette, featuring a toe cap, hexagonal metal eyelets, and contrast stitching. Set on a chiseled rubber sole with a ribbed and double-stitched welt. Finished with ticked laces.",
+  "category": "DRESS SHOES",
+  "colors": [
+    "Black"
+  ],
+  "sizes": [
+    "35",
+    "36",
+    "37",
+    "38",
+    "39",
+    "40",
+    "41",
+    "42",
+    "43",
+    "44",
+    "45",
+    "46"
+  ],
+  "mainImage": "https://eytys.com/cdn/shop/files/eytys_savoy-ctblackleather-profile-plp-pack.jpg",
+  "images": [
+    "https://eytys.com/cdn/shop/files/eytys_savoy-ctblackleather-profile-plp-pack.jpg",
+    "https://eytys.com/cdn/shop/files/eytys_savoy-ctblackleather-34-plp-pack.jpg",
+    "https://eytys.com/cdn/shop/files/eytys_savoy-ctblackleather-back-mobile.jpg",
+    "https://eytys.com/cdn/shop/files/eytys_savoy-ctblackleather-soles-mobile.jpg",
+    "https://eytys.com/cdn/shop/files/eytys_savoy-ctblackleather-top-mobile.jpg",
+    "https://eytys.com/cdn/shop/files/eytys_savoy-ctblackleather-dynamic-mobile.jpg"
+  ],
+  "availability": "in_stock",
+  "variants": [
+    {
+      "color": "Black",
+      "size": "35",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Black",
+      "size": "36",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Black",
+      "size": "37",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Black",
+      "size": "38",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Black",
+      "size": "39",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Black",
+      "size": "40",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Black",
+      "size": "41",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Black",
+      "size": "42",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Black",
+      "size": "43",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Black",
+      "size": "44",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Black",
+      "size": "45",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Black",
+      "size": "46",
+      "availability": "in_stock"
+    }
+  ],
+  "productURL": "https://eytys.com/products/savoy-ct-leather-black",
+  "categoryPage": "https://eytys.com/collections/dress-shoes",
+  "scrapeTimestamp": "2025-08-12 14:09:23"
+},
+{
+  "brand": "EYTYS",
+  "name": "Ortega II Leather Black",
+  "price": 4200,
+  "currency": "SEK",
+  "description": "The ’Ortega II’ ankle boot is made in shiny black leather with elasticated sides and a squared-off biker toe. An updated version of a minimalistic yet substantial EYTYS classic set on a handcrafted crepe rubber sole.",
+  "category": "BOOTS",
+  "colors": [
+    "Black"
+  ],
+  "sizes": [
+    "35",
+    "36",
+    "37",
+    "38",
+    "39",
+    "40",
+    "41",
+    "42",
+    "43",
+    "44",
+    "45",
+    "46"
+  ],
+  "mainImage": "https://eytys.com/cdn/shop/files/eytys_ortega-ii-black-plp-pack-01.jpg",
+  "images": [
+    "https://eytys.com/cdn/shop/files/eytys_ortega-ii-black-plp-pack-01.jpg",
+    "https://eytys.com/cdn/shop/files/eytys_ortega-ii-black-plp-pack-02.jpg",
+    "https://eytys.com/cdn/shop/files/eytys_ortega-ii-black-02-mobile.jpg",
+    "https://eytys.com/cdn/shop/files/eytys_ortega-ii-black-04-mobile.jpg",
+    "https://eytys.com/cdn/shop/files/eytys_ortega-ii-black-05-mobile.jpg",
+    "https://eytys.com/cdn/shop/files/eytys_ortega-ii-black-d-01-mobile.jpg"
+  ],
+  "availability": "in_stock",
+  "variants": [
+    {
+      "color": "Black",
+      "size": "35",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Black",
+      "size": "36",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Black",
+      "size": "37",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Black",
+      "size": "38",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Black",
+      "size": "39",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Black",
+      "size": "40",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Black",
+      "size": "41",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Black",
+      "size": "42",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Black",
+      "size": "43",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Black",
+      "size": "44",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Black",
+      "size": "45",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Black",
+      "size": "46",
+      "availability": "in_stock"
+    }
+  ],
+  "productURL": "https://eytys.com/products/ortega-ii-leather-black",
+  "categoryPage": "https://eytys.com/collections/boots",
+  "scrapeTimestamp": "2025-08-12 14:09:23"
+},
+{
+  "brand": "EYTYS",
+  "name": "Rari Leather Stone",
+  "price": 4600,
+  "currency": "SEK",
+  "description": "The 'Rari' boot, crafted from soft leather, features a sleek silhouette with a sharp toe, set on a blocky leather-veneered heel.",
+  "category": "BOOTS",
+  "colors": [
+    "Stone"
+  ],
+  "sizes": [
+    "35",
+    "36",
+    "37",
+    "38",
+    "39",
+    "40",
+    "41",
+    "42",
+    "43"
+  ],
+  "mainImage": "https://eytys.com/cdn/shop/files/eytys_rari-stoneleather-profile-plp-pack.jpg",
+  "images": [
+    "https://eytys.com/cdn/shop/files/eytys_rari-stoneleather-profile-plp-pack.jpg",
+    "https://eytys.com/cdn/shop/files/eytys_rari-stoneleather-34-plp-pack.jpg",
+    "https://eytys.com/cdn/shop/files/eytys_rari-stoneleather-back-mobile.jpg",
+    "https://eytys.com/cdn/shop/files/eytys_rari-stoneleather-top-mobile.jpg",
+    "https://eytys.com/cdn/shop/files/eytys_rari-stoneleather-soles-mobile.jpg",
+    "https://eytys.com/cdn/shop/files/eytys_rari-stoneleather-dynamic-mobile.jpg"
+  ],
+  "availability": "in_stock",
+  "variants": [
+    {
+      "color": "Stone",
+      "size": "35",
+      "availability": "out_of_stock"
+    },
+    {
+      "color": "Stone",
+      "size": "36",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Stone",
+      "size": "37",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Stone",
+      "size": "38",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Stone",
+      "size": "39",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Stone",
+      "size": "40",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Stone",
+      "size": "41",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Stone",
+      "size": "42",
+      "availability": "out_of_stock"
+    },
+    {
+      "color": "Stone",
+      "size": "43",
+      "availability": "out_of_stock"
+    }
+  ],
+  "productURL": "https://eytys.com/products/rari-leather-stone",
+  "categoryPage": "https://eytys.com/collections/boots",
+  "scrapeTimestamp": "2025-08-12 14:09:23"
+},
+{
+  "brand": "EYTYS",
+  "name": "Rari Leather Vtg Cream",
+  "price": 4600,
+  "currency": "SEK",
+  "description": "The 'Rari' boot, crafted from soft vintage-looking Cream leather, features a sleek silhouette with a sharp toe and subtle sanded finish, set on a blocky leather-veneered heel.",
+  "category": "BOOTS",
+  "colors": [
+    "Cream"
+  ],
+  "sizes": [
+    "35",
+    "36",
+    "37",
+    "38",
+    "39",
+    "40",
+    "41",
+    "42",
+    "43",
+    "44"
+  ],
+  "mainImage": "https://eytys.com/cdn/shop/files/eytys_rari-vtgcreamleather-profile-plp-pack.jpg",
+  "images": [
+    "https://eytys.com/cdn/shop/files/eytys_rari-vtgcreamleather-profile-plp-pack.jpg",
+    "https://eytys.com/cdn/shop/files/eytys_rari-vtgcreamleather-34-plp-pack.jpg",
+    "https://eytys.com/cdn/shop/files/eytys_rari-vtgcreamleather-back-mobile.jpg",
+    "https://eytys.com/cdn/shop/files/eytys_rari-vtgcreamleather-top-mobile.jpg",
+    "https://eytys.com/cdn/shop/files/eytys_rari-vtgcreamleather-soles-mobile.jpg",
+    "https://eytys.com/cdn/shop/files/eytys_rari-vtgcreamleather-dynamic-mobile.jpg"
+  ],
+  "availability": "in_stock",
+  "variants": [
+    {
+      "color": "Cream",
+      "size": "35",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Cream",
+      "size": "36",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Cream",
+      "size": "37",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Cream",
+      "size": "38",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Cream",
+      "size": "39",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Cream",
+      "size": "40",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Cream",
+      "size": "41",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Cream",
+      "size": "42",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Cream",
+      "size": "43",
+      "availability": "in_stock"
+    },
+    {
+      "color": "Cream",
+      "size": "44",
+      "availability": "out_of_stock"
+    }
+  ],
+  "productURL": "https://eytys.com/products/rari-leather-vtg-cream",
+  "categoryPage": "https://eytys.com/collections/boots",
+  "scrapeTimestamp": "2025-08-12 14:09:23"
+}
+]

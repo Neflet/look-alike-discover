@@ -1,0 +1,12 @@
+.venv/
+downloaded_images/
+node_modules/
+*.log
+.env
+.env.local
+fashion_siglip_model/
+fashion_siglip_model_new/
+fashion_ai_server/faiss_indexes/
+*.safetensors
+*.pt
+*.index

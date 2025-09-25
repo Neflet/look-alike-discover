@@ -1,0 +1,2338 @@
+[
+{
+  "brand": "Otto Linger",
+  "name": "Mesh Pants",
+  "description": "Signature style. Printed logo waistband. Printed graphic on recycled mesh. Semi-sheer. Extra-long leg. Moderate stretch. Handwash cold.",
+  "price": 208,
+  "currency": "EUR",
+  "category": "Bottoms",
+  "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L",
+    "XL"
+  ],
+  "color": [],
+  "variants": [
+    {
+      "size": "XS",
+      "color": "",
+      "availability": "in_stock"
+    },
+    {
+      "size": "S",
+      "color": "",
+      "availability": "out_of_stock"
+    },
+    {
+      "size": "M",
+      "color": "",
+      "availability": "out_of_stock"
+    },
+    {
+      "size": "L",
+      "color": "",
+      "availability": "in_stock"
+    },
+    {
+      "size": "XL",
+      "color": "",
+      "availability": "out_of_stock"
+    }
+  ],
+  "availability": "in_stock",
+  "gender": "UNISEX",
+  "mainImage": "https://cdn.shopify.com/s/files/1/1220/9360/files/mesh_pants_1.png?v=1744044063",
+  "productURL": "https://ottolinger.com/shop/products/mesh-pants-surf-plaid-ss25",
+  "images": [
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/OTTOLINGER_LOGO-TIGHT_3200x_crop_center.png?v=1719306950",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/mesh_pants_1_3200x_crop_center.png?v=1744044063",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/mesh_pants_2_3200x_crop_center.png?v=1744044063",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/Screenshot2025-08-04at15.37.55_3200x_crop_center.png?v=1754314685",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/Screenshot2025-08-04at15.38.47_3200x_crop_center.png?v=1754314737",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/jersey_skirt_1_3200x_crop_center.png?v=1744043194",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/jersey_skirt_2_3200x_crop_center.png?v=1744043194",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/jersey_skirt_3_3200x_crop_center.png?v=1744043179",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/signature_jeans_1_3200x_crop_center.png?v=1744042080",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/signature_jeans_2_3200x_crop_center.png?v=1744042081",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/signature_jeans_3_3200x_crop_center.png?v=1744042080",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/signature_jeans_4_3200x_crop_center.png?v=1744042081",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/updated-malemodel1_f117989c-ac36-430b-8e2c-4edfff422931_3200x_crop_center.png?v=1743095130",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/linensweats_1_3200x_crop_center.png?v=1744045022",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/linensweats_2_3200x_crop_center.png?v=1744045022",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/linensweats_3_3200x_crop_center.png?v=1744045021",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/linensweats_4_3200x_crop_center.png?v=1744045022"
+  ],
+  "categoryPage": "https://ottolinger.com/shop",
+  "scrapeTimestamp": "2025-08-11 16:25:06"
+},
+{
+  "brand": "Otto Linger",
+  "name": "Deconstructed Linen Longsleeve",
+  "description": "Oversized fit. Strap detail. Raw-edge. Extra long arms. Logo printed across back. Handwash cold.",
+  "price": 275,
+  "currency": "EUR",
+  "category": "Tops",
+  "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L",
+    "XL"
+  ],
+  "color": [],
+  "variants": [
+    {
+      "size": "XS",
+      "color": "",
+      "availability": "in_stock"
+    },
+    {
+      "size": "S",
+      "color": "",
+      "availability": "out_of_stock"
+    },
+    {
+      "size": "M",
+      "color": "",
+      "availability": "in_stock"
+    },
+    {
+      "size": "L",
+      "color": "",
+      "availability": "in_stock"
+    },
+    {
+      "size": "XL",
+      "color": "",
+      "availability": "in_stock"
+    }
+  ],
+  "availability": "in_stock",
+  "gender": "UNISEX",
+  "mainImage": "https://cdn.shopify.com/s/files/1/1220/9360/files/ECOM24MARCH3222_1.jpg?v=1746804015",
+  "productURL": "https://ottolinger.com/shop/products/deconstructed-linen-longsleeve-2",
+  "images": [
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/OTTOLINGER_LOGO-TIGHT_3200x_crop_center.png?v=1719306950",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/knotted_top_1_3200x_crop_center.png?v=1744043625",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/knotted_top_4_3200x_crop_center.png?v=1744043625",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/knotted_top_2_3200x_crop_center.png?v=1744043626",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/knotted_top_3_3200x_crop_center.png?v=1744043626",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/knotted_top_5_3200x_crop_center.png?v=1744043626",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/t-shirt_1_3200x_crop_center.png?v=1744044606",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/t-shirt_2_3200x_crop_center.png?v=1744044606",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/t-shirt_3_3200x_crop_center.png?v=1744044605",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/t-shirt_4_3200x_crop_center.png?v=1744044605",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/t-shirt_5_3200x_crop_center.png?v=1744044605",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/updated-malemodel1_f117989c-ac36-430b-8e2c-4edfff422931_3200x_crop_center.png?v=1743095130",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/linensweats_1_3200x_crop_center.png?v=1744045022",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/linensweats_2_3200x_crop_center.png?v=1744045022",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/linensweats_3_3200x_crop_center.png?v=1744045021",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/linensweats_4_3200x_crop_center.png?v=1744045022"
+  ],
+  "categoryPage": "https://ottolinger.com/shop",
+  "scrapeTimestamp": "2025-08-11 16:25:09"
+},
+{
+  "brand": "Otto Linger",
+  "name": "Strappy Signature Wrap Jeans",
+  "description": "Strappy Signature Wrap Jeans. Baggy fit. Hidden side closure.",
+  "price": 473,
+  "currency": "EUR",
+  "category": "Bottoms",
+  "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL"
+  ],
+  "color": [],
+  "variants": [
+    {
+      "size": "XS",
+      "color": "",
+      "availability": "out_of_stock"
+    },
+    {
+      "size": "S",
+      "color": "",
+      "availability": "out_of_stock"
+    },
+    {
+      "size": "M",
+      "color": "",
+      "availability": "in_stock"
+    },
+    {
+      "size": "L",
+      "color": "",
+      "availability": "in_stock"
+    },
+    {
+      "size": "XL",
+      "color": "",
+      "availability": "out_of_stock"
+    },
+    {
+      "size": "XXL",
+      "color": "",
+      "availability": "out_of_stock"
+    }
+  ],
+  "availability": "in_stock",
+  "gender": "UNISEX",
+  "mainImage": "https://cdn.shopify.com/s/files/1/1220/9360/files/ECOM24MARCH3537.jpg?v=1740999102",
+  "productURL": "https://ottolinger.com/shop/products/strappy-signature-wrap-jeans-copy",
+  "images": [
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/OTTOLINGER_LOGO-TIGHT_3200x_crop_center.png?v=1719306950",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/Screenshot2025-08-04at15.37.55_3200x_crop_center.png?v=1754314685",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/Screenshot2025-08-04at15.38.47_3200x_crop_center.png?v=1754314737",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/jersey_skirt_1_3200x_crop_center.png?v=1744043194",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/jersey_skirt_2_3200x_crop_center.png?v=1744043194",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/jersey_skirt_3_3200x_crop_center.png?v=1744043179",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/signature_jeans_1_3200x_crop_center.png?v=1744042080",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/signature_jeans_2_3200x_crop_center.png?v=1744042081",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/signature_jeans_3_3200x_crop_center.png?v=1744042080",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/signature_jeans_4_3200x_crop_center.png?v=1744042081",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/open_back_jeans_1_3200x_crop_center.png?v=1744041325",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/open_back_jeans_2_3200x_crop_center.png?v=1744041325",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/open_back_jeans_3_3200x_crop_center.png?v=1744041325",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/open_back_jeans_4_3200x_crop_center.png?v=1744041295",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/open_back_jeans_5_3200x_crop_center.png?v=1744041296",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/open_back_jeans_6_3200x_crop_center.png?v=1744041299",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/open_back_jeans_7_3200x_crop_center.png?v=1744041298",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/open_back_jeans_8_3200x_crop_center.png?v=1744041300",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/knotted_top_1_3200x_crop_center.png?v=1744043625",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/knotted_top_4_3200x_crop_center.png?v=1744043625",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/knotted_top_2_3200x_crop_center.png?v=1744043626",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/knotted_top_3_3200x_crop_center.png?v=1744043626",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/knotted_top_5_3200x_crop_center.png?v=1744043626",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/suit_skirt_1_d4b0ea44-30f0-4f77-a35e-17bb56ab48e9_3200x_crop_center.png?v=1744026563",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/suit_skirt_2_3200x_crop_center.png?v=1744026563",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/suit_skirt_3_3200x_crop_center.png?v=1744026563",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/suit_skirt_4_3200x_crop_center.png?v=1744026563"
+  ],
+  "categoryPage": "https://ottolinger.com/shop",
+  "scrapeTimestamp": "2025-08-11 16:25:11"
+},
+{
+  "brand": "Otto Linger",
+  "name": "Grafik Longsleeve",
+  "description": "Grafik Long Sleeve in White is made from 100% cotton following a loose silhouette with logo graphics at the front and back.",
+  "price": 189,
+  "currency": "EUR",
+  "category": "Tops",
+  "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "color": [],
+  "variants": [
+    {
+      "size": "XS",
+      "color": "",
+      "availability": "in_stock"
+    },
+    {
+      "size": "S",
+      "color": "",
+      "availability": "in_stock"
+    },
+    {
+      "size": "M",
+      "color": "",
+      "availability": "in_stock"
+    },
+    {
+      "size": "L",
+      "color": "",
+      "availability": "in_stock"
+    },
+    {
+      "size": "XL",
+      "color": "",
+      "availability": "in_stock"
+    },
+    {
+      "size": "2XL",
+      "color": "",
+      "availability": "in_stock"
+    }
+  ],
+  "availability": "in_stock",
+  "gender": "UNISEX",
+  "mainImage": "https://cdn.shopify.com/s/files/1/1220/9360/files/ECOM24MARCH3510_a86b95f4-1317-410c-9274-e3922e588410.jpg?v=1749129883",
+  "productURL": "https://ottolinger.com/shop/products/grafik-longsleeve-1",
+  "images": [
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/OTTOLINGER_LOGO-TIGHT_3200x_crop_center.png?v=1719306950",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/knotted_top_1_3200x_crop_center.png?v=1744043625",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/knotted_top_4_3200x_crop_center.png?v=1744043625",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/knotted_top_2_3200x_crop_center.png?v=1744043626",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/knotted_top_3_3200x_crop_center.png?v=1744043626",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/knotted_top_5_3200x_crop_center.png?v=1744043626",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/t-shirt_1_3200x_crop_center.png?v=1744044606",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/t-shirt_2_3200x_crop_center.png?v=1744044606",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/t-shirt_3_3200x_crop_center.png?v=1744044605",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/t-shirt_4_3200x_crop_center.png?v=1744044605",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/t-shirt_5_3200x_crop_center.png?v=1744044605",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/mesh_pants_1_3200x_crop_center.png?v=1744044063",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/mesh_pants_2_3200x_crop_center.png?v=1744044063"
+  ],
+  "categoryPage": "https://ottolinger.com/shop",
+  "scrapeTimestamp": "2025-08-11 16:25:12"
+},
+{
+  "brand": "Otto Linger",
+  "name": "Logo Longsleeve",
+  "description": "Oversized fit. Strap detail on arm. Logo at front. Extra long arms. Handwash cold.",
+  "price": 208,
+  "currency": "EUR",
+  "category": "Tops",
+  "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L",
+    "XL"
+  ],
+  "color": [],
+  "variants": [
+    {
+      "size": "XS",
+      "color": "",
+      "availability": "in_stock"
+    },
+    {
+      "size": "S",
+      "color": "",
+      "availability": "in_stock"
+    },
+    {
+      "size": "M",
+      "color": "",
+      "availability": "out_of_stock"
+    },
+    {
+      "size": "L",
+      "color": "",
+      "availability": "in_stock"
+    },
+    {
+      "size": "XL",
+      "color": "",
+      "availability": "out_of_stock"
+    }
+  ],
+  "availability": "in_stock",
+  "gender": "UNISEX",
+  "mainImage": "https://cdn.shopify.com/s/files/1/1220/9360/files/ECOM24MARCH3040_9172bf90-14dd-4e74-8440-464110657a61.jpg?v=1746803872",
+  "productURL": "https://ottolinger.com/shop/products/logo-longsleeve",
+  "images": [
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/OTTOLINGER_LOGO-TIGHT_3200x_crop_center.png?v=1719306950",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/knotted_top_1_3200x_crop_center.png?v=1744043625",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/knotted_top_4_3200x_crop_center.png?v=1744043625",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/knotted_top_2_3200x_crop_center.png?v=1744043626",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/knotted_top_3_3200x_crop_center.png?v=1744043626",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/knotted_top_5_3200x_crop_center.png?v=1744043626",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/t-shirt_1_3200x_crop_center.png?v=1744044606",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/t-shirt_2_3200x_crop_center.png?v=1744044606",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/t-shirt_3_3200x_crop_center.png?v=1744044605",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/t-shirt_4_3200x_crop_center.png?v=1744044605",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/t-shirt_5_3200x_crop_center.png?v=1744044605",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/mesh_pants_1_3200x_crop_center.png?v=1744044063",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/mesh_pants_2_3200x_crop_center.png?v=1744044063",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/updated-malemodel1_f117989c-ac36-430b-8e2c-4edfff422931_3200x_crop_center.png?v=1743095130"
+  ],
+  "categoryPage": "https://ottolinger.com/shop",
+  "scrapeTimestamp": "2025-08-11 16:25:14"
+},
+{
+  "brand": "Otto Linger",
+  "name": "Deconstructed Oversized T-Shirt",
+  "description": "Oversized fit. Logo on the front. Deconstructed styling on left arm.",
+  "price": 175,
+  "currency": "EUR",
+  "category": "Tops",
+  "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L",
+    "XL"
+  ],
+  "color": [],
+  "variants": [
+    {
+      "size": "XS",
+      "color": "",
+      "availability": "out_of_stock"
+    },
+    {
+      "size": "S",
+      "color": "",
+      "availability": "out_of_stock"
+    },
+    {
+      "size": "M",
+      "color": "",
+      "availability": "out_of_stock"
+    },
+    {
+      "size": "L",
+      "color": "",
+      "availability": "out_of_stock"
+    },
+    {
+      "size": "XL",
+      "color": "",
+      "availability": "out_of_stock"
+    }
+  ],
+  "availability": "out_of_stock",
+  "gender": "UNISEX",
+  "mainImage": "https://cdn.shopify.com/s/files/1/1220/9360/files/ECOM24MARCH3266.jpg?v=1746803959",
+  "productURL": "https://ottolinger.com/shop/products/deconstructed-oversized-t-shirt",
+  "images": [
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/OTTOLINGER_LOGO-TIGHT_3200x_crop_center.png?v=1719306950",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/knotted_top_1_3200x_crop_center.png?v=1744043625",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/knotted_top_4_3200x_crop_center.png?v=1744043625",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/knotted_top_2_3200x_crop_center.png?v=1744043626",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/knotted_top_3_3200x_crop_center.png?v=1744043626",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/knotted_top_5_3200x_crop_center.png?v=1744043626",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/t-shirt_1_3200x_crop_center.png?v=1744044606",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/t-shirt_2_3200x_crop_center.png?v=1744044606",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/t-shirt_3_3200x_crop_center.png?v=1744044605",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/t-shirt_4_3200x_crop_center.png?v=1744044605",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/t-shirt_5_3200x_crop_center.png?v=1744044605"
+  ],
+  "categoryPage": "https://ottolinger.com/shop",
+  "scrapeTimestamp": "2025-08-11 16:25:16"
+},
+{
+  "brand": "Otto Linger",
+  "name": "Deconstructed Longsleeve Maxi Dress",
+  "description": "Tight fitted maxi dress. Asymmetrical construction. Strap and wrap detail. Extra long arms. Leg split. Extra-long length. Handwash cold.",
+  "price": 454,
+  "currency": "EUR",
+  "category": "Dresses",
+  "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L",
+    "XL"
+  ],
+  "color": [],
+  "variants": [
+    {
+      "size": "XS",
+      "color": "",
+      "availability": "out_of_stock"
+    },
+    {
+      "size": "S",
+      "color": "",
+      "availability": "in_stock"
+    },
+    {
+      "size": "M",
+      "color": "",
+      "availability": "out_of_stock"
+    },
+    {
+      "size": "L",
+      "color": "",
+      "availability": "out_of_stock"
+    },
+    {
+      "size": "XL",
+      "color": "",
+      "availability": "out_of_stock"
+    }
+  ],
+  "availability": "in_stock",
+  "gender": "UNISEX",
+  "mainImage": "https://cdn.shopify.com/s/files/1/1220/9360/files/ECOM24MARCH3648.jpg?v=1744366782",
+  "productURL": "https://ottolinger.com/shop/products/deconstructed-longsleeve-maxi-ss25",
+  "images": [
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/OTTOLINGER_LOGO-TIGHT_3200x_crop_center.png?v=1719306950",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/scuba_dress_2_3200x_crop_center.png?v=1744043852",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/scuba_dress_1_3200x_crop_center.png?v=1744043852",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/scuba_dress_3_3200x_crop_center.png?v=1744043839",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/Sleeveless_Shirt_Dress_side01_3200x_crop_center.png?v=1751636711",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/Sleeveless_Shirt_Dress_Zoomed_in_3200x_crop_center.png?v=1751636784",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/Sleeveless_Shirt_Dress_front_03_3200x_crop_center.png?v=1751636796",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/knotted_top_1_3200x_crop_center.png?v=1744043625",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/knotted_top_4_3200x_crop_center.png?v=1744043625",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/knotted_top_2_3200x_crop_center.png?v=1744043626",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/knotted_top_3_3200x_crop_center.png?v=1744043626",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/knotted_top_5_3200x_crop_center.png?v=1744043626"
+  ],
+  "categoryPage": "https://ottolinger.com/shop",
+  "scrapeTimestamp": "2025-08-11 16:25:19"
+},
+{
+  "brand": "Otto Linger",
+  "name": "Rib Skirt",
+  "description": "Tight fitted midi skirt. Rib fabric. Deconstructed strap details. Asymmetric hem. Moderate stretch.",
+  "price": 265,
+  "currency": "EUR",
+  "category": "Bottoms",
+  "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L",
+    "XL"
+  ],
+  "color": [],
+  "variants": [
+    {
+      "size": "XS",
+      "color": "",
+      "availability": "in_stock"
+    },
+    {
+      "size": "S",
+      "color": "",
+      "availability": "in_stock"
+    },
+    {
+      "size": "M",
+      "color": "",
+      "availability": "in_stock"
+    },
+    {
+      "size": "L",
+      "color": "",
+      "availability": "in_stock"
+    },
+    {
+      "size": "XL",
+      "color": "",
+      "availability": "in_stock"
+    }
+  ],
+  "availability": "in_stock",
+  "gender": "UNISEX",
+  "mainImage": "https://cdn.shopify.com/s/files/1/1220/9360/files/ECOM24MARCH1893.jpg?v=1733233034",
+  "productURL": "https://ottolinger.com/shop/products/rib-skirt-grey-re25",
+  "images": [
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/OTTOLINGER_LOGO-TIGHT_3200x_crop_center.png?v=1719306950",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/Screenshot2025-08-04at15.37.55_3200x_crop_center.png?v=1754314685",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/Screenshot2025-08-04at15.38.47_3200x_crop_center.png?v=1754314737",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/jersey_skirt_1_3200x_crop_center.png?v=1744043194",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/jersey_skirt_2_3200x_crop_center.png?v=1744043194",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/jersey_skirt_3_3200x_crop_center.png?v=1744043179",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/signature_jeans_1_3200x_crop_center.png?v=1744042080",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/signature_jeans_2_3200x_crop_center.png?v=1744042081",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/signature_jeans_3_3200x_crop_center.png?v=1744042080",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/signature_jeans_4_3200x_crop_center.png?v=1744042081"
+  ],
+  "categoryPage": "https://ottolinger.com/shop",
+  "scrapeTimestamp": "2025-08-11 16:25:20"
+},
+{
+  "brand": "Otto Linger",
+  "name": "Mesh Tank Top",
+  "description": "Signature style. Printed logo on the hem. Cut out loop at chest. Printed graphic on recycled mesh. Semi-sheer. Clean finish. Moderate stretch. Handwash cold.",
+  "price": 135,
+  "currency": "EUR",
+  "category": "Tops",
+  "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L",
+    "XL"
+  ],
+  "color": [],
+  "variants": [
+    {
+      "size": "XS",
+      "color": "",
+      "availability": "in_stock"
+    },
+    {
+      "size": "S",
+      "color": "",
+      "availability": "out_of_stock"
+    },
+    {
+      "size": "M",
+      "color": "",
+      "availability": "in_stock"
+    },
+    {
+      "size": "L",
+      "color": "",
+      "availability": "in_stock"
+    },
+    {
+      "size": "XL",
+      "color": "",
+      "availability": "out_of_stock"
+    }
+  ],
+  "availability": "in_stock",
+  "gender": "UNISEX",
+  "mainImage": "https://cdn.shopify.com/s/files/1/1220/9360/files/ECOM24MARCH27191.jpg?v=1733232632",
+  "productURL": "https://ottolinger.com/shop/products/mesh-tank-top-cat-re25",
+  "images": [
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/OTTOLINGER_LOGO-TIGHT_3200x_crop_center.png?v=1719306950",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/knotted_top_1_3200x_crop_center.png?v=1744043625",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/knotted_top_4_3200x_crop_center.png?v=1744043625",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/knotted_top_2_3200x_crop_center.png?v=1744043626",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/knotted_top_3_3200x_crop_center.png?v=1744043626",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/knotted_top_5_3200x_crop_center.png?v=1744043626",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/t-shirt_1_3200x_crop_center.png?v=1744044606",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/t-shirt_2_3200x_crop_center.png?v=1744044606",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/t-shirt_3_3200x_crop_center.png?v=1744044605",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/t-shirt_4_3200x_crop_center.png?v=1744044605",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/t-shirt_5_3200x_crop_center.png?v=1744044605",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/mesh_pants_1_3200x_crop_center.png?v=1744044063",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/mesh_pants_2_3200x_crop_center.png?v=1744044063"
+  ],
+  "categoryPage": "https://ottolinger.com/shop",
+  "scrapeTimestamp": "2025-08-11 16:25:22"
+},
+{
+  "brand": "Otto Linger",
+  "name": "Tank Dress Maxi",
+  "description": "Tight fitted maxi dress. Rib fabric. Strap details tied around body. Button closure at chest. Cut-out detail on the shoulder. Moderate stretch.",
+  "price": 256,
+  "currency": "EUR",
+  "category": "Dresses",
+  "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L",
+    "XL"
+  ],
+  "color": [],
+  "variants": [
+    {
+      "size": "XS",
+      "color": "",
+      "availability": "in_stock"
+    },
+    {
+      "size": "S",
+      "color": "",
+      "availability": "in_stock"
+    },
+    {
+      "size": "M",
+      "color": "",
+      "availability": "in_stock"
+    },
+    {
+      "size": "L",
+      "color": "",
+      "availability": "in_stock"
+    },
+    {
+      "size": "XL",
+      "color": "",
+      "availability": "out_of_stock"
+    }
+  ],
+  "availability": "in_stock",
+  "gender": "UNISEX",
+  "mainImage": "https://cdn.shopify.com/s/files/1/1220/9360/files/ECOM24MARCH1623.jpg?v=1733232741",
+  "productURL": "https://ottolinger.com/shop/products/tank-dress-maxi-grey-re25",
+  "images": [
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/OTTOLINGER_LOGO-TIGHT_3200x_crop_center.png?v=1719306950",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/scuba_dress_2_3200x_crop_center.png?v=1744043852",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/scuba_dress_1_3200x_crop_center.png?v=1744043852",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/scuba_dress_3_3200x_crop_center.png?v=1744043839",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/Sleeveless_Shirt_Dress_side01_3200x_crop_center.png?v=1751636711",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/Sleeveless_Shirt_Dress_Zoomed_in_3200x_crop_center.png?v=1751636784",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/Sleeveless_Shirt_Dress_front_03_3200x_crop_center.png?v=1751636796"
+  ],
+  "categoryPage": "https://ottolinger.com/shop",
+  "scrapeTimestamp": "2025-08-11 16:25:23"
+},
+{
+  "brand": "Otto Linger",
+  "name": "Mesh Pants",
+  "description": "Signature style. Printed logo waistband. Printed graphic on recycled mesh. Semi-sheer. Extra-long leg. Moderate stretch. Handwash cold.",
+  "price": 227,
+  "currency": "EUR",
+  "category": "Bottoms",
+  "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L",
+    "XL"
+  ],
+  "color": [],
+  "variants": [
+    {
+      "size": "XS",
+      "color": "",
+      "availability": "in_stock"
+    },
+    {
+      "size": "S",
+      "color": "",
+      "availability": "in_stock"
+    },
+    {
+      "size": "M",
+      "color": "",
+      "availability": "in_stock"
+    },
+    {
+      "size": "L",
+      "color": "",
+      "availability": "in_stock"
+    },
+    {
+      "size": "XL",
+      "color": "",
+      "availability": "out_of_stock"
+    }
+  ],
+  "availability": "in_stock",
+  "gender": "UNISEX",
+  "mainImage": "https://cdn.shopify.com/s/files/1/1220/9360/files/ECOM24MARCH1504_c247cb4d-09cb-409b-a8e2-17a3db194327.jpg?v=1733233828",
+  "productURL": "https://ottolinger.com/shop/products/mesh-pants-cat-re25",
+  "images": [
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/OTTOLINGER_LOGO-TIGHT_3200x_crop_center.png?v=1719306950",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/Screenshot2025-08-04at15.37.55_3200x_crop_center.png?v=1754314685",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/Screenshot2025-08-04at15.38.47_3200x_crop_center.png?v=1754314737",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/jersey_skirt_1_3200x_crop_center.png?v=1744043194",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/jersey_skirt_2_3200x_crop_center.png?v=1744043194",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/jersey_skirt_3_3200x_crop_center.png?v=1744043179",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/signature_jeans_1_3200x_crop_center.png?v=1744042080",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/signature_jeans_2_3200x_crop_center.png?v=1744042081",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/signature_jeans_3_3200x_crop_center.png?v=1744042080",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/signature_jeans_4_3200x_crop_center.png?v=1744042081",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/mesh_pants_1_3200x_crop_center.png?v=1744044063",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/mesh_pants_2_3200x_crop_center.png?v=1744044063",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/updated-malemodel1_f117989c-ac36-430b-8e2c-4edfff422931_3200x_crop_center.png?v=1743095130",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/linensweats_1_3200x_crop_center.png?v=1744045022",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/linensweats_2_3200x_crop_center.png?v=1744045022",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/linensweats_3_3200x_crop_center.png?v=1744045021",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/linensweats_4_3200x_crop_center.png?v=1744045022"
+  ],
+  "categoryPage": "https://ottolinger.com/shop",
+  "scrapeTimestamp": "2025-08-11 16:25:25"
+},
+{
+  "brand": "Otto Linger",
+  "name": "Deconstructed Longsleeve Mini Dress",
+  "description": "Tight fitted jersey mini dress. Deconstructed construction with strap details. Distressed logo on the front. Cut-out detail on the shoulder. Moderate stretch.",
+  "price": 386,
+  "currency": "EUR",
+  "category": "Dresses",
+  "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L",
+    "XL"
+  ],
+  "color": [],
+  "variants": [
+    {
+      "size": "XS",
+      "color": "",
+      "availability": "out_of_stock"
+    },
+    {
+      "size": "S",
+      "color": "",
+      "availability": "in_stock"
+    },
+    {
+      "size": "M",
+      "color": "",
+      "availability": "in_stock"
+    },
+    {
+      "size": "L",
+      "color": "",
+      "availability": "in_stock"
+    },
+    {
+      "size": "XL",
+      "color": "",
+      "availability": "out_of_stock"
+    }
+  ],
+  "availability": "in_stock",
+  "gender": "UNISEX",
+  "mainImage": "https://cdn.shopify.com/s/files/1/1220/9360/files/ECOM24MARCH0966_8ace6892-09f3-4bac-aa7b-8813ded38a0f.jpg?v=1742124893",
+  "productURL": "https://ottolinger.com/shop/products/deconstructed-longsleeve-mini-dress-re25",
+  "images": [
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/OTTOLINGER_LOGO-TIGHT_3200x_crop_center.png?v=1719306950",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/scuba_dress_2_3200x_crop_center.png?v=1744043852",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/scuba_dress_1_3200x_crop_center.png?v=1744043852",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/scuba_dress_3_3200x_crop_center.png?v=1744043839",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/Sleeveless_Shirt_Dress_side01_3200x_crop_center.png?v=1751636711",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/Sleeveless_Shirt_Dress_Zoomed_in_3200x_crop_center.png?v=1751636784",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/Sleeveless_Shirt_Dress_front_03_3200x_crop_center.png?v=1751636796",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/jersey_skirt_1_3200x_crop_center.png?v=1744043194",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/jersey_skirt_2_3200x_crop_center.png?v=1744043194",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/jersey_skirt_3_3200x_crop_center.png?v=1744043179"
+  ],
+  "categoryPage": "https://ottolinger.com/shop",
+  "scrapeTimestamp": "2025-08-11 16:25:27"
+},
+{
+  "brand": "Otto Linger",
+  "name": "Baggy Cargo Pants",
+  "description": "Double fold, \"open\" waist styling. Contrast material change. 6-pocket styling. Adjustable waistband with strap. Oversized fit. Wide, extra-long leg. Zip-closure.",
+  "price": 486,
+  "currency": "EUR",
+  "category": "Bottoms",
+  "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L",
+    "XL"
+  ],
+  "color": [],
+  "variants": [
+    {
+      "size": "XS",
+      "color": "",
+      "availability": "out_of_stock"
+    },
+    {
+      "size": "S",
+      "color": "",
+      "availability": "in_stock"
+    },
+    {
+      "size": "M",
+      "color": "",
+      "availability": "out_of_stock"
+    },
+    {
+      "size": "L",
+      "color": "",
+      "availability": "in_stock"
+    },
+    {
+      "size": "XL",
+      "color": "",
+      "availability": "in_stock"
+    }
+  ],
+  "availability": "in_stock",
+  "gender": "UNISEX",
+  "mainImage": "https://cdn.shopify.com/s/files/1/1220/9360/files/ECOM24MARCH2818.jpg?v=1733233222",
+  "productURL": "https://ottolinger.com/shop/products/baggy-cargo-pants-re25",
+  "images": [
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/OTTOLINGER_LOGO-TIGHT_3200x_crop_center.png?v=1719306950",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/Screenshot2025-08-04at15.37.55_3200x_crop_center.png?v=1754314685",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/Screenshot2025-08-04at15.38.47_3200x_crop_center.png?v=1754314737",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/jersey_skirt_1_3200x_crop_center.png?v=1744043194",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/jersey_skirt_2_3200x_crop_center.png?v=1744043194",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/jersey_skirt_3_3200x_crop_center.png?v=1744043179",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/signature_jeans_1_3200x_crop_center.png?v=1744042080",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/signature_jeans_2_3200x_crop_center.png?v=1744042081",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/signature_jeans_3_3200x_crop_center.png?v=1744042080",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/signature_jeans_4_3200x_crop_center.png?v=1744042081",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/baggy_cargo_pants_1_3200x_crop_center.png?v=1744038825",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/baggy_cargo_pants_2_3200x_crop_center.png?v=1744038826",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/baggy_cargo_pants_3_3200x_crop_center.png?v=1744038825",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/baggy_cargo_pants_4_3200x_crop_center.png?v=1744038825",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/linensweats_1_3200x_crop_center.png?v=1744045022",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/linensweats_2_3200x_crop_center.png?v=1744045022",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/linensweats_3_3200x_crop_center.png?v=1744045021",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/linensweats_4_3200x_crop_center.png?v=1744045022",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/updated-malemodel1_f117989c-ac36-430b-8e2c-4edfff422931_3200x_crop_center.png?v=1743095130"
+  ],
+  "categoryPage": "https://ottolinger.com/shop",
+  "scrapeTimestamp": "2025-08-11 16:25:29"
+},
+{
+  "brand": "Otto Linger",
+  "name": "Double Closure Rib Cardigan",
+  "description": "Tight fitted cardigan. Rib fabric. Strap details. Deconstructed hem. Cropped length. Moderate stretch.",
+  "price": 275,
+  "currency": "EUR",
+  "category": "Tops",
+  "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L",
+    "XL"
+  ],
+  "color": [],
+  "variants": [
+    {
+      "size": "XS",
+      "color": "",
+      "availability": "in_stock"
+    },
+    {
+      "size": "S",
+      "color": "",
+      "availability": "out_of_stock"
+    },
+    {
+      "size": "M",
+      "color": "",
+      "availability": "out_of_stock"
+    },
+    {
+      "size": "L",
+      "color": "",
+      "availability": "in_stock"
+    },
+    {
+      "size": "XL",
+      "color": "",
+      "availability": "in_stock"
+    }
+  ],
+  "availability": "in_stock",
+  "gender": "UNISEX",
+  "mainImage": "https://cdn.shopify.com/s/files/1/1220/9360/files/ECOM24MARCH1792_3ce3c3a6-c71c-4090-946c-19cd7be4bde4.jpg?v=1733234197",
+  "productURL": "https://ottolinger.com/shop/products/double-closure-rib-cardigan-grey-re25",
+  "images": [
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/OTTOLINGER_LOGO-TIGHT_3200x_crop_center.png?v=1719306950",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/knotted_top_1_3200x_crop_center.png?v=1744043625",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/knotted_top_4_3200x_crop_center.png?v=1744043625",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/knotted_top_2_3200x_crop_center.png?v=1744043626",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/knotted_top_3_3200x_crop_center.png?v=1744043626",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/knotted_top_5_3200x_crop_center.png?v=1744043626",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/t-shirt_1_3200x_crop_center.png?v=1744044606",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/t-shirt_2_3200x_crop_center.png?v=1744044606",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/t-shirt_3_3200x_crop_center.png?v=1744044605",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/t-shirt_4_3200x_crop_center.png?v=1744044605",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/t-shirt_5_3200x_crop_center.png?v=1744044605"
+  ],
+  "categoryPage": "https://ottolinger.com/shop",
+  "scrapeTimestamp": "2025-08-11 16:25:31"
+},
+{
+  "brand": "Otto Linger",
+  "name": "Mesh T-Shirt",
+  "description": "Signature style. Printed logo on the collar, cuffs and hem. Printed graphic on recycled mesh. Strap details. Semi-sheer. Clean finish. Moderate stretch. Handwash cold.",
+  "price": 186,
+  "currency": "EUR",
+  "category": "Tops",
+  "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L",
+    "XL"
+  ],
+  "color": [],
+  "variants": [
+    {
+      "size": "XS",
+      "color": "",
+      "availability": "in_stock"
+    },
+    {
+      "size": "S",
+      "color": "",
+      "availability": "out_of_stock"
+    },
+    {
+      "size": "M",
+      "color": "",
+      "availability": "in_stock"
+    },
+    {
+      "size": "L",
+      "color": "",
+      "availability": "in_stock"
+    },
+    {
+      "size": "XL",
+      "color": "",
+      "availability": "out_of_stock"
+    }
+  ],
+  "availability": "in_stock",
+  "gender": "UNISEX",
+  "mainImage": "https://cdn.shopify.com/s/files/1/1220/9360/files/ECOM24MARCH2563.jpg?v=1733232465",
+  "productURL": "https://ottolinger.com/shop/products/mesh-t-shirt-cat-re25",
+  "images": [
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/OTTOLINGER_LOGO-TIGHT_3200x_crop_center.png?v=1719306950",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/knotted_top_1_3200x_crop_center.png?v=1744043625",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/knotted_top_4_3200x_crop_center.png?v=1744043625",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/knotted_top_2_3200x_crop_center.png?v=1744043626",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/knotted_top_3_3200x_crop_center.png?v=1744043626",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/knotted_top_5_3200x_crop_center.png?v=1744043626",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/t-shirt_1_3200x_crop_center.png?v=1744044606",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/t-shirt_2_3200x_crop_center.png?v=1744044606",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/t-shirt_3_3200x_crop_center.png?v=1744044605",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/t-shirt_4_3200x_crop_center.png?v=1744044605",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/t-shirt_5_3200x_crop_center.png?v=1744044605",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/mesh_pants_1_3200x_crop_center.png?v=1744044063",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/mesh_pants_2_3200x_crop_center.png?v=1744044063"
+  ],
+  "categoryPage": "https://ottolinger.com/shop",
+  "scrapeTimestamp": "2025-08-11 16:25:33"
+},
+{
+  "brand": "Otto Linger",
+  "name": "Mesh Maxi Dress",
+  "description": "Signature style. Printed graphic on recycled mesh. Cowl neck. Semi-sheer. Raw-edge. Extra-long. Moderate stretch. Handwash cold.",
+  "price": 339,
+  "currency": "EUR",
+  "category": "Dresses",
+  "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L",
+    "XL"
+  ],
+  "color": [],
+  "variants": [
+    {
+      "size": "XS",
+      "color": "",
+      "availability": "out_of_stock"
+    },
+    {
+      "size": "S",
+      "color": "",
+      "availability": "in_stock"
+    },
+    {
+      "size": "M",
+      "color": "",
+      "availability": "in_stock"
+    },
+    {
+      "size": "L",
+      "color": "",
+      "availability": "in_stock"
+    },
+    {
+      "size": "XL",
+      "color": "",
+      "availability": "out_of_stock"
+    }
+  ],
+  "availability": "in_stock",
+  "gender": "UNISEX",
+  "mainImage": "https://cdn.shopify.com/s/files/1/1220/9360/files/ECOM24MARCH1420.jpg?v=1733232561",
+  "productURL": "https://ottolinger.com/shop/products/mesh-maxi-dress-cat-re25",
+  "images": [
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/OTTOLINGER_LOGO-TIGHT_3200x_crop_center.png?v=1719306950",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/scuba_dress_2_3200x_crop_center.png?v=1744043852",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/scuba_dress_1_3200x_crop_center.png?v=1744043852",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/scuba_dress_3_3200x_crop_center.png?v=1744043839",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/Sleeveless_Shirt_Dress_side01_3200x_crop_center.png?v=1751636711",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/Sleeveless_Shirt_Dress_Zoomed_in_3200x_crop_center.png?v=1751636784",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/Sleeveless_Shirt_Dress_front_03_3200x_crop_center.png?v=1751636796",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/mesh_pants_1_3200x_crop_center.png?v=1744044063",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/mesh_pants_2_3200x_crop_center.png?v=1744044063"
+  ],
+  "categoryPage": "https://ottolinger.com/shop",
+  "scrapeTimestamp": "2025-08-11 16:25:35"
+},
+{
+  "brand": "Otto Linger",
+  "name": "Tank Dress Mini",
+  "description": "Tight fitted mini dress. Rib fabric. Strap details tied around body. Button closure at chest. Cut-out detail on the shoulder. Moderate stretch.",
+  "price": 218,
+  "currency": "EUR",
+  "category": "Dresses",
+  "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L",
+    "XL"
+  ],
+  "color": [],
+  "variants": [
+    {
+      "size": "XS",
+      "color": "",
+      "availability": "out_of_stock"
+    },
+    {
+      "size": "S",
+      "color": "",
+      "availability": "in_stock"
+    },
+    {
+      "size": "M",
+      "color": "",
+      "availability": "in_stock"
+    },
+    {
+      "size": "L",
+      "color": "",
+      "availability": "in_stock"
+    },
+    {
+      "size": "XL",
+      "color": "",
+      "availability": "in_stock"
+    }
+  ],
+  "availability": "in_stock",
+  "gender": "UNISEX",
+  "mainImage": "https://cdn.shopify.com/s/files/1/1220/9360/files/ECOM24MARCH1720_29d555d2-6502-4715-b9fd-17bdff7bb146.jpg?v=1733234236",
+  "productURL": "https://ottolinger.com/shop/products/tank-dress-mini-grey-re25",
+  "images": [
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/OTTOLINGER_LOGO-TIGHT_3200x_crop_center.png?v=1719306950",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/scuba_dress_2_3200x_crop_center.png?v=1744043852",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/scuba_dress_1_3200x_crop_center.png?v=1744043852",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/scuba_dress_3_3200x_crop_center.png?v=1744043839",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/Sleeveless_Shirt_Dress_side01_3200x_crop_center.png?v=1751636711",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/Sleeveless_Shirt_Dress_Zoomed_in_3200x_crop_center.png?v=1751636784",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/Sleeveless_Shirt_Dress_front_03_3200x_crop_center.png?v=1751636796",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/jersey_skirt_1_3200x_crop_center.png?v=1744043194",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/jersey_skirt_2_3200x_crop_center.png?v=1744043194",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/jersey_skirt_3_3200x_crop_center.png?v=1744043179"
+  ],
+  "categoryPage": "https://ottolinger.com/shop",
+  "scrapeTimestamp": "2025-08-11 16:25:37"
+},
+{
+  "brand": "Otto Linger",
+  "name": "Charmed Dress",
+  "description": "Gold shimmer fabric. Charm detail on strap at chest. Maxi length. Slim fit. Moderate stretch. Handwash cold.",
+  "price": 397,
+  "currency": "EUR",
+  "category": "Dresses",
+  "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L",
+    "XL"
+  ],
+  "color": [],
+  "variants": [
+    {
+      "size": "XS",
+      "color": "",
+      "availability": "out_of_stock"
+    },
+    {
+      "size": "S",
+      "color": "",
+      "availability": "in_stock"
+    },
+    {
+      "size": "M",
+      "color": "",
+      "availability": "in_stock"
+    },
+    {
+      "size": "L",
+      "color": "",
+      "availability": "in_stock"
+    },
+    {
+      "size": "XL",
+      "color": "",
+      "availability": "out_of_stock"
+    }
+  ],
+  "availability": "in_stock",
+  "gender": "UNISEX",
+  "mainImage": "https://cdn.shopify.com/s/files/1/1220/9360/files/ECOM24MARCH2175.jpg?v=1733233099",
+  "productURL": "https://ottolinger.com/shop/products/charmed-dress-re25",
+  "images": [
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/OTTOLINGER_LOGO-TIGHT_3200x_crop_center.png?v=1719306950",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/scuba_dress_2_3200x_crop_center.png?v=1744043852",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/scuba_dress_1_3200x_crop_center.png?v=1744043852",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/scuba_dress_3_3200x_crop_center.png?v=1744043839",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/Sleeveless_Shirt_Dress_side01_3200x_crop_center.png?v=1751636711",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/Sleeveless_Shirt_Dress_Zoomed_in_3200x_crop_center.png?v=1751636784",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/Sleeveless_Shirt_Dress_front_03_3200x_crop_center.png?v=1751636796"
+  ],
+  "categoryPage": "https://ottolinger.com/shop",
+  "scrapeTimestamp": "2025-08-11 16:25:39"
+},
+{
+  "brand": "Otto Linger",
+  "name": "Off-Shoulder Blazer",
+  "description": "Asymmetrical, deconstructed structure. Raw-edge detail. Single-button closure. Padded shoulder. Dry clean only.",
+  "price": 738,
+  "currency": "EUR",
+  "category": "Outer",
+  "sizes": [
+    "34",
+    "36",
+    "38",
+    "40",
+    "42",
+    "44"
+  ],
+  "color": [],
+  "variants": [
+    {
+      "size": "34",
+      "color": "",
+      "availability": "out_of_stock"
+    },
+    {
+      "size": "36",
+      "color": "",
+      "availability": "out_of_stock"
+    },
+    {
+      "size": "38",
+      "color": "",
+      "availability": "out_of_stock"
+    },
+    {
+      "size": "40",
+      "color": "",
+      "availability": "out_of_stock"
+    },
+    {
+      "size": "42",
+      "color": "",
+      "availability": "out_of_stock"
+    },
+    {
+      "size": "44",
+      "color": "",
+      "availability": "out_of_stock"
+    }
+  ],
+  "availability": "out_of_stock",
+  "gender": "UNISEX",
+  "mainImage": "https://cdn.shopify.com/s/files/1/1220/9360/files/linesheet1672.jpg?v=1740999724",
+  "productURL": "https://ottolinger.com/shop/products/off-shoulder-blazer-re25",
+  "images": [
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/OTTOLINGER_LOGO-TIGHT_3200x_crop_center.png?v=1719306950",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/open_blazer_1_3200x_crop_center.png?v=1744039384",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/open_blazer_2_3200x_crop_center.png?v=1744039384",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/open_blazer_3_3200x_crop_center.png?v=1744039384",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/linensweats_1_3200x_crop_center.png?v=1744045022",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/linensweats_2_3200x_crop_center.png?v=1744045022",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/linensweats_3_3200x_crop_center.png?v=1744045021",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/linensweats_4_3200x_crop_center.png?v=1744045022"
+  ],
+  "categoryPage": "https://ottolinger.com/shop",
+  "scrapeTimestamp": "2025-08-11 16:25:40"
+},
+{
+  "brand": "Otto Linger",
+  "name": "Drape Pencil Skirt",
+  "description": "Drape pencil suit skirt, asymmetric zip closure, high waist, split side. Dry clean only.",
+  "price": 378,
+  "currency": "EUR",
+  "category": "Bottoms",
+  "sizes": [
+    "34",
+    "36",
+    "38",
+    "40",
+    "42",
+    "44"
+  ],
+  "color": [],
+  "variants": [
+    {
+      "size": "34",
+      "color": "",
+      "availability": "out_of_stock"
+    },
+    {
+      "size": "36",
+      "color": "",
+      "availability": "out_of_stock"
+    },
+    {
+      "size": "38",
+      "color": "",
+      "availability": "in_stock"
+    },
+    {
+      "size": "40",
+      "color": "",
+      "availability": "in_stock"
+    },
+    {
+      "size": "42",
+      "color": "",
+      "availability": "out_of_stock"
+    },
+    {
+      "size": "44",
+      "color": "",
+      "availability": "out_of_stock"
+    }
+  ],
+  "availability": "in_stock",
+  "gender": "UNISEX",
+  "mainImage": "https://cdn.shopify.com/s/files/1/1220/9360/files/linesheet1682.jpg?v=1740999779",
+  "productURL": "https://ottolinger.com/shop/products/drape-pencil-skirt-re25",
+  "images": [
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/OTTOLINGER_LOGO-TIGHT_3200x_crop_center.png?v=1719306950",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/Screenshot2025-08-04at15.37.55_3200x_crop_center.png?v=1754314685",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/Screenshot2025-08-04at15.38.47_3200x_crop_center.png?v=1754314737",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/jersey_skirt_1_3200x_crop_center.png?v=1744043194",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/jersey_skirt_2_3200x_crop_center.png?v=1744043194",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/jersey_skirt_3_3200x_crop_center.png?v=1744043179",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/signature_jeans_1_3200x_crop_center.png?v=1744042080",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/signature_jeans_2_3200x_crop_center.png?v=1744042081",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/signature_jeans_3_3200x_crop_center.png?v=1744042080",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/signature_jeans_4_3200x_crop_center.png?v=1744042081",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/suit_skirt_1_d4b0ea44-30f0-4f77-a35e-17bb56ab48e9_3200x_crop_center.png?v=1744026563",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/suit_skirt_2_3200x_crop_center.png?v=1744026563",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/suit_skirt_3_3200x_crop_center.png?v=1744026563",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/suit_skirt_4_3200x_crop_center.png?v=1744026563"
+  ],
+  "categoryPage": "https://ottolinger.com/shop",
+  "scrapeTimestamp": "2025-08-11 16:25:42"
+},
+{
+  "brand": "Otto Linger",
+  "name": "Boxershorts",
+  "description": "White boxer-style shorts. Boxy fit. Elastic Waist.",
+  "price": 161,
+  "currency": "EUR",
+  "category": "Bottoms",
+  "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L",
+    "XL"
+  ],
+  "color": [],
+  "variants": [
+    {
+      "size": "XS",
+      "color": "",
+      "availability": "out_of_stock"
+    },
+    {
+      "size": "S",
+      "color": "",
+      "availability": "in_stock"
+    },
+    {
+      "size": "M",
+      "color": "",
+      "availability": "in_stock"
+    },
+    {
+      "size": "L",
+      "color": "",
+      "availability": "in_stock"
+    },
+    {
+      "size": "XL",
+      "color": "",
+      "availability": "out_of_stock"
+    }
+  ],
+  "availability": "in_stock",
+  "gender": "UNISEX",
+  "mainImage": "https://cdn.shopify.com/s/files/1/1220/9360/files/ECOM24MARCH2336.jpg?v=1734702796",
+  "productURL": "https://ottolinger.com/shop/products/boxershorts-re25",
+  "images": [
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/OTTOLINGER_LOGO-TIGHT_3200x_crop_center.png?v=1719306950",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/Screenshot2025-08-04at15.37.55_3200x_crop_center.png?v=1754314685",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/Screenshot2025-08-04at15.38.47_3200x_crop_center.png?v=1754314737",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/jersey_skirt_1_3200x_crop_center.png?v=1744043194",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/jersey_skirt_2_3200x_crop_center.png?v=1744043194",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/jersey_skirt_3_3200x_crop_center.png?v=1744043179",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/signature_jeans_1_3200x_crop_center.png?v=1744042080",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/signature_jeans_2_3200x_crop_center.png?v=1744042081",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/signature_jeans_3_3200x_crop_center.png?v=1744042080",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/signature_jeans_4_3200x_crop_center.png?v=1744042081",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/mesh_pants_1_3200x_crop_center.png?v=1744044063",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/mesh_pants_2_3200x_crop_center.png?v=1744044063",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/linensweats_1_3200x_crop_center.png?v=1744045022",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/linensweats_2_3200x_crop_center.png?v=1744045022",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/linensweats_3_3200x_crop_center.png?v=1744045021",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/linensweats_4_3200x_crop_center.png?v=1744045022"
+  ],
+  "categoryPage": "https://ottolinger.com/shop",
+  "scrapeTimestamp": "2025-08-11 16:25:44"
+},
+{
+  "brand": "Otto Linger",
+  "name": "Logo Longsleeve",
+  "description": "Oversized fit. Strap detail on arm. Logo at front. Extra long arms. Handwash cold.",
+  "price": 208,
+  "currency": "EUR",
+  "category": "Tops",
+  "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L",
+    "XL"
+  ],
+  "color": [],
+  "variants": [
+    {
+      "size": "XS",
+      "color": "",
+      "availability": "out_of_stock"
+    },
+    {
+      "size": "S",
+      "color": "",
+      "availability": "in_stock"
+    },
+    {
+      "size": "M",
+      "color": "",
+      "availability": "out_of_stock"
+    },
+    {
+      "size": "L",
+      "color": "",
+      "availability": "in_stock"
+    },
+    {
+      "size": "XL",
+      "color": "",
+      "availability": "out_of_stock"
+    }
+  ],
+  "availability": "in_stock",
+  "gender": "UNISEX",
+  "mainImage": "https://cdn.shopify.com/s/files/1/1220/9360/files/ECOM24MARCH2453_45aaeba5-532e-4772-9a32-001192e30135.jpg?v=1734702633",
+  "productURL": "https://ottolinger.com/shop/products/logo-longsleeve-re25",
+  "images": [
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/OTTOLINGER_LOGO-TIGHT_3200x_crop_center.png?v=1719306950",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/knotted_top_1_3200x_crop_center.png?v=1744043625",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/knotted_top_4_3200x_crop_center.png?v=1744043625",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/knotted_top_2_3200x_crop_center.png?v=1744043626",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/knotted_top_3_3200x_crop_center.png?v=1744043626",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/knotted_top_5_3200x_crop_center.png?v=1744043626",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/t-shirt_1_3200x_crop_center.png?v=1744044606",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/t-shirt_2_3200x_crop_center.png?v=1744044606",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/t-shirt_3_3200x_crop_center.png?v=1744044605",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/t-shirt_4_3200x_crop_center.png?v=1744044605",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/t-shirt_5_3200x_crop_center.png?v=1744044605",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/mesh_pants_1_3200x_crop_center.png?v=1744044063",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/mesh_pants_2_3200x_crop_center.png?v=1744044063",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/linensweats_1_3200x_crop_center.png?v=1744045022",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/linensweats_2_3200x_crop_center.png?v=1744045022",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/linensweats_3_3200x_crop_center.png?v=1744045021",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/linensweats_4_3200x_crop_center.png?v=1744045022"
+  ],
+  "categoryPage": "https://ottolinger.com/shop",
+  "scrapeTimestamp": "2025-08-11 16:25:46"
+},
+{
+  "brand": "Otto Linger",
+  "name": "Deconstructed T-Shirt",
+  "description": "High crewneck. Short sleeve. Deconstructed styling. Cat print on the front. Stretch fabrication. Cropped fit.",
+  "price": 180,
+  "currency": "EUR",
+  "category": "Tops",
+  "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L",
+    "XL"
+  ],
+  "color": [],
+  "variants": [
+    {
+      "size": "XS",
+      "color": "",
+      "availability": "out_of_stock"
+    },
+    {
+      "size": "S",
+      "color": "",
+      "availability": "in_stock"
+    },
+    {
+      "size": "M",
+      "color": "",
+      "availability": "in_stock"
+    },
+    {
+      "size": "L",
+      "color": "",
+      "availability": "in_stock"
+    },
+    {
+      "size": "XL",
+      "color": "",
+      "availability": "in_stock"
+    }
+  ],
+  "availability": "in_stock",
+  "gender": "UNISEX",
+  "mainImage": "https://cdn.shopify.com/s/files/1/1220/9360/files/ECOM24MARCH2009.jpg?v=1734702481",
+  "productURL": "https://ottolinger.com/shop/products/deconstructed-t-shirt-re25",
+  "images": [
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/OTTOLINGER_LOGO-TIGHT_3200x_crop_center.png?v=1719306950",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/knotted_top_1_3200x_crop_center.png?v=1744043625",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/knotted_top_4_3200x_crop_center.png?v=1744043625",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/knotted_top_2_3200x_crop_center.png?v=1744043626",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/knotted_top_3_3200x_crop_center.png?v=1744043626",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/knotted_top_5_3200x_crop_center.png?v=1744043626",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/t-shirt_1_3200x_crop_center.png?v=1744044606",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/t-shirt_2_3200x_crop_center.png?v=1744044606",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/t-shirt_3_3200x_crop_center.png?v=1744044605",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/t-shirt_4_3200x_crop_center.png?v=1744044605",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/t-shirt_5_3200x_crop_center.png?v=1744044605"
+  ],
+  "categoryPage": "https://ottolinger.com/shop",
+  "scrapeTimestamp": "2025-08-11 16:25:47"
+},
+{
+  "brand": "Otto Linger",
+  "name": "Deconstructed Polo T-Shirt",
+  "description": "Fitted shirt with polo collar. Logo on back.",
+  "price": 237,
+  "currency": "EUR",
+  "category": "Tops",
+  "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L",
+    "XL"
+  ],
+  "color": [],
+  "variants": [
+    {
+      "size": "XS",
+      "color": "",
+      "availability": "in_stock"
+    },
+    {
+      "size": "S",
+      "color": "",
+      "availability": "in_stock"
+    },
+    {
+      "size": "M",
+      "color": "",
+      "availability": "in_stock"
+    },
+    {
+      "size": "L",
+      "color": "",
+      "availability": "in_stock"
+    },
+    {
+      "size": "XL",
+      "color": "",
+      "availability": "in_stock"
+    }
+  ],
+  "availability": "in_stock",
+  "gender": "UNISEX",
+  "mainImage": "https://cdn.shopify.com/s/files/1/1220/9360/files/linesheet1693_674121ea-09ec-4ad7-b974-94dfc4578632.jpg?v=1741000014",
+  "productURL": "https://ottolinger.com/shop/products/deconstructed-polo-t-shirt-re25",
+  "images": [
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/OTTOLINGER_LOGO-TIGHT_3200x_crop_center.png?v=1719306950",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/knotted_top_1_3200x_crop_center.png?v=1744043625",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/knotted_top_4_3200x_crop_center.png?v=1744043625",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/knotted_top_2_3200x_crop_center.png?v=1744043626",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/knotted_top_3_3200x_crop_center.png?v=1744043626",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/knotted_top_5_3200x_crop_center.png?v=1744043626",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/t-shirt_1_3200x_crop_center.png?v=1744044606",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/t-shirt_2_3200x_crop_center.png?v=1744044606",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/t-shirt_3_3200x_crop_center.png?v=1744044605",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/t-shirt_4_3200x_crop_center.png?v=1744044605",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/t-shirt_5_3200x_crop_center.png?v=1744044605"
+  ],
+  "categoryPage": "https://ottolinger.com/shop",
+  "scrapeTimestamp": "2025-08-11 16:25:49"
+},
+{
+  "brand": "Otto Linger",
+  "name": "Fitted T-Shirt with Puff Paint",
+  "description": "Cropped fit. Crew neck. Puff print logo.",
+  "price": 148,
+  "currency": "EUR",
+  "category": "Tops",
+  "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L",
+    "XL"
+  ],
+  "color": [],
+  "variants": [
+    {
+      "size": "XS",
+      "color": "",
+      "availability": "in_stock"
+    },
+    {
+      "size": "S",
+      "color": "",
+      "availability": "in_stock"
+    },
+    {
+      "size": "M",
+      "color": "",
+      "availability": "in_stock"
+    },
+    {
+      "size": "L",
+      "color": "",
+      "availability": "in_stock"
+    },
+    {
+      "size": "XL",
+      "color": "",
+      "availability": "in_stock"
+    }
+  ],
+  "availability": "in_stock",
+  "gender": "UNISEX",
+  "mainImage": "https://cdn.shopify.com/s/files/1/1220/9360/files/linesheet1700.jpg?v=1741000545",
+  "productURL": "https://ottolinger.com/shop/products/fitted-t-shirt-puff-paint-re25",
+  "images": [
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/OTTOLINGER_LOGO-TIGHT_3200x_crop_center.png?v=1719306950",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/knotted_top_1_3200x_crop_center.png?v=1744043625",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/knotted_top_4_3200x_crop_center.png?v=1744043625",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/knotted_top_2_3200x_crop_center.png?v=1744043626",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/knotted_top_3_3200x_crop_center.png?v=1744043626",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/knotted_top_5_3200x_crop_center.png?v=1744043626",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/t-shirt_1_3200x_crop_center.png?v=1744044606",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/t-shirt_2_3200x_crop_center.png?v=1744044606",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/t-shirt_3_3200x_crop_center.png?v=1744044605",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/t-shirt_4_3200x_crop_center.png?v=1744044605",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/t-shirt_5_3200x_crop_center.png?v=1744044605"
+  ],
+  "categoryPage": "https://ottolinger.com/shop",
+  "scrapeTimestamp": "2025-08-11 16:25:51"
+},
+{
+  "brand": "Otto Linger",
+  "name": "Deconstructed Longsleeve Maxi Dress",
+  "description": "Tight fitted maxi dress. Asymmetrical construction. Strap and wrap detail. Extra long arms. Leg split. Extra-long length. Handwash cold.",
+  "price": 505,
+  "currency": "EUR",
+  "category": "Dresses",
+  "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L",
+    "XL"
+  ],
+  "color": [],
+  "variants": [
+    {
+      "size": "XS",
+      "color": "",
+      "availability": "out_of_stock"
+    },
+    {
+      "size": "S",
+      "color": "",
+      "availability": "in_stock"
+    },
+    {
+      "size": "M",
+      "color": "",
+      "availability": "in_stock"
+    },
+    {
+      "size": "L",
+      "color": "",
+      "availability": "out_of_stock"
+    },
+    {
+      "size": "XL",
+      "color": "",
+      "availability": "in_stock"
+    }
+  ],
+  "availability": "in_stock",
+  "gender": "UNISEX",
+  "mainImage": "https://cdn.shopify.com/s/files/1/1220/9360/files/ECOM24MARCH0858.jpg?v=1734702419",
+  "productURL": "https://ottolinger.com/shop/products/deconstructed-longsleeve-maxi-dress-re25",
+  "images": [
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/OTTOLINGER_LOGO-TIGHT_3200x_crop_center.png?v=1719306950",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/scuba_dress_2_3200x_crop_center.png?v=1744043852",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/scuba_dress_1_3200x_crop_center.png?v=1744043852",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/scuba_dress_3_3200x_crop_center.png?v=1744043839",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/Sleeveless_Shirt_Dress_side01_3200x_crop_center.png?v=1751636711",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/Sleeveless_Shirt_Dress_Zoomed_in_3200x_crop_center.png?v=1751636784",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/Sleeveless_Shirt_Dress_front_03_3200x_crop_center.png?v=1751636796"
+  ],
+  "categoryPage": "https://ottolinger.com/shop",
+  "scrapeTimestamp": "2025-08-11 16:25:54"
+},
+{
+  "brand": "Otto Linger",
+  "name": "Deconstructed Linen Top",
+  "description": "Cropped fit. Strap details. Raw-edge. Handwash cold.",
+  "price": 265,
+  "currency": "EUR",
+  "category": "Tops",
+  "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L",
+    "XL"
+  ],
+  "color": [],
+  "variants": [
+    {
+      "size": "XS",
+      "color": "",
+      "availability": "in_stock"
+    },
+    {
+      "size": "S",
+      "color": "",
+      "availability": "in_stock"
+    },
+    {
+      "size": "M",
+      "color": "",
+      "availability": "in_stock"
+    },
+    {
+      "size": "L",
+      "color": "",
+      "availability": "in_stock"
+    },
+    {
+      "size": "XL",
+      "color": "",
+      "availability": "in_stock"
+    }
+  ],
+  "availability": "in_stock",
+  "gender": "UNISEX",
+  "mainImage": "https://cdn.shopify.com/s/files/1/1220/9360/files/ECOM24MARCH2050.jpg?v=1734701698",
+  "productURL": "https://ottolinger.com/shop/products/deconstructed-linen-top-re25",
+  "images": [
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/OTTOLINGER_LOGO-TIGHT_3200x_crop_center.png?v=1719306950",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/knotted_top_1_3200x_crop_center.png?v=1744043625",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/knotted_top_4_3200x_crop_center.png?v=1744043625",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/knotted_top_2_3200x_crop_center.png?v=1744043626",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/knotted_top_3_3200x_crop_center.png?v=1744043626",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/knotted_top_5_3200x_crop_center.png?v=1744043626",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/t-shirt_1_3200x_crop_center.png?v=1744044606",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/t-shirt_2_3200x_crop_center.png?v=1744044606",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/t-shirt_3_3200x_crop_center.png?v=1744044605",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/t-shirt_4_3200x_crop_center.png?v=1744044605",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/t-shirt_5_3200x_crop_center.png?v=1744044605",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/linensweats_1_3200x_crop_center.png?v=1744045022",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/linensweats_2_3200x_crop_center.png?v=1744045022",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/linensweats_3_3200x_crop_center.png?v=1744045021",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/linensweats_4_3200x_crop_center.png?v=1744045022",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/updated-malemodel1_f117989c-ac36-430b-8e2c-4edfff422931_3200x_crop_center.png?v=1743095130"
+  ],
+  "categoryPage": "https://ottolinger.com/shop",
+  "scrapeTimestamp": "2025-08-11 16:25:54"
+},
+{
+  "brand": "Otto Linger",
+  "name": "Deconstructed Linen Longsleeve",
+  "description": "Oversized fit. Strap detail. Raw-edge. Extra long arms. Logo printed across back. Handwash cold.",
+  "price": 275,
+  "currency": "EUR",
+  "category": "Tops",
+  "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L",
+    "XL"
+  ],
+  "color": [],
+  "variants": [
+    {
+      "size": "XS",
+      "color": "",
+      "availability": "in_stock"
+    },
+    {
+      "size": "S",
+      "color": "",
+      "availability": "out_of_stock"
+    },
+    {
+      "size": "M",
+      "color": "",
+      "availability": "in_stock"
+    },
+    {
+      "size": "L",
+      "color": "",
+      "availability": "in_stock"
+    },
+    {
+      "size": "XL",
+      "color": "",
+      "availability": "in_stock"
+    }
+  ],
+  "availability": "in_stock",
+  "gender": "UNISEX",
+  "mainImage": "https://cdn.shopify.com/s/files/1/1220/9360/files/ECOM24MARCH0835_c070955c-9c24-46b5-b125-61f040c465df.jpg?v=1742125310",
+  "productURL": "https://ottolinger.com/shop/products/deconstructed-linen-longsleeve-re25",
+  "images": [
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/OTTOLINGER_LOGO-TIGHT_3200x_crop_center.png?v=1719306950",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/knotted_top_1_3200x_crop_center.png?v=1744043625",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/knotted_top_4_3200x_crop_center.png?v=1744043625",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/knotted_top_2_3200x_crop_center.png?v=1744043626",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/knotted_top_3_3200x_crop_center.png?v=1744043626",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/knotted_top_5_3200x_crop_center.png?v=1744043626",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/t-shirt_1_3200x_crop_center.png?v=1744044606",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/t-shirt_2_3200x_crop_center.png?v=1744044606",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/t-shirt_3_3200x_crop_center.png?v=1744044605",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/t-shirt_4_3200x_crop_center.png?v=1744044605",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/t-shirt_5_3200x_crop_center.png?v=1744044605",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/linensweats_1_3200x_crop_center.png?v=1744045022",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/linensweats_2_3200x_crop_center.png?v=1744045022",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/linensweats_3_3200x_crop_center.png?v=1744045021",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/linensweats_4_3200x_crop_center.png?v=1744045022",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/updated-malemodel1_f117989c-ac36-430b-8e2c-4edfff422931_3200x_crop_center.png?v=1743095130"
+  ],
+  "categoryPage": "https://ottolinger.com/shop",
+  "scrapeTimestamp": "2025-08-11 16:25:57"
+},
+{
+  "brand": "Otto Linger",
+  "name": "Rib T-Shirt",
+  "description": "High crewneck. Short sleeve. Deconstructed styling. Logo print on the front. Cropped fit.",
+  "price": 265,
+  "currency": "EUR",
+  "category": "Tops",
+  "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L",
+    "XL"
+  ],
+  "color": [],
+  "variants": [
+    {
+      "size": "XS",
+      "color": "",
+      "availability": "in_stock"
+    },
+    {
+      "size": "S",
+      "color": "",
+      "availability": "in_stock"
+    },
+    {
+      "size": "M",
+      "color": "",
+      "availability": "in_stock"
+    },
+    {
+      "size": "L",
+      "color": "",
+      "availability": "in_stock"
+    },
+    {
+      "size": "XL",
+      "color": "",
+      "availability": "in_stock"
+    }
+  ],
+  "availability": "in_stock",
+  "gender": "UNISEX",
+  "mainImage": "https://cdn.shopify.com/s/files/1/1220/9360/files/ECOM24MARCH2938_29a16ae0-ea26-4fcd-a296-eab0dca69cb8.jpg?v=1742125557",
+  "productURL": "https://ottolinger.com/shop/products/rib-t-shirt-re25",
+  "images": [
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/OTTOLINGER_LOGO-TIGHT_3200x_crop_center.png?v=1719306950",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/knotted_top_1_3200x_crop_center.png?v=1744043625",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/knotted_top_4_3200x_crop_center.png?v=1744043625",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/knotted_top_2_3200x_crop_center.png?v=1744043626",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/knotted_top_3_3200x_crop_center.png?v=1744043626",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/knotted_top_5_3200x_crop_center.png?v=1744043626",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/t-shirt_1_3200x_crop_center.png?v=1744044606",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/t-shirt_2_3200x_crop_center.png?v=1744044606",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/t-shirt_3_3200x_crop_center.png?v=1744044605",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/t-shirt_4_3200x_crop_center.png?v=1744044605",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/t-shirt_5_3200x_crop_center.png?v=1744044605"
+  ],
+  "categoryPage": "https://ottolinger.com/shop",
+  "scrapeTimestamp": "2025-08-11 16:25:58"
+},
+{
+  "brand": "Otto Linger",
+  "name": "Dirndl Tank Top",
+  "description": "Cut-out tank top. Square neckline with Ottolinger logo. Tight fit.",
+  "price": 126,
+  "currency": "EUR",
+  "category": "Tops",
+  "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L",
+    "XL"
+  ],
+  "color": [],
+  "variants": [
+    {
+      "size": "XS",
+      "color": "",
+      "availability": "in_stock"
+    },
+    {
+      "size": "S",
+      "color": "",
+      "availability": "in_stock"
+    },
+    {
+      "size": "M",
+      "color": "",
+      "availability": "in_stock"
+    },
+    {
+      "size": "L",
+      "color": "",
+      "availability": "in_stock"
+    },
+    {
+      "size": "XL",
+      "color": "",
+      "availability": "out_of_stock"
+    }
+  ],
+  "availability": "in_stock",
+  "gender": "UNISEX",
+  "mainImage": "https://cdn.shopify.com/s/files/1/1220/9360/files/ECOM24MARCH0717_91d9d409-b323-4acd-a983-5b5a700fb212.jpg?v=1742125112",
+  "productURL": "https://ottolinger.com/shop/products/dirndl-tank-top-re25",
+  "images": [
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/OTTOLINGER_LOGO-TIGHT_3200x_crop_center.png?v=1719306950",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/knotted_top_1_3200x_crop_center.png?v=1744043625",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/knotted_top_4_3200x_crop_center.png?v=1744043625",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/knotted_top_2_3200x_crop_center.png?v=1744043626",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/knotted_top_3_3200x_crop_center.png?v=1744043626",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/knotted_top_5_3200x_crop_center.png?v=1744043626",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/t-shirt_1_3200x_crop_center.png?v=1744044606",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/t-shirt_2_3200x_crop_center.png?v=1744044606",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/t-shirt_3_3200x_crop_center.png?v=1744044605",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/t-shirt_4_3200x_crop_center.png?v=1744044605",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/t-shirt_5_3200x_crop_center.png?v=1744044605",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/Sleeveless_Shirt_Dress_side01_3200x_crop_center.png?v=1751636711",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/Sleeveless_Shirt_Dress_Zoomed_in_3200x_crop_center.png?v=1751636784",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/Sleeveless_Shirt_Dress_front_03_3200x_crop_center.png?v=1751636796"
+  ],
+  "categoryPage": "https://ottolinger.com/shop",
+  "scrapeTimestamp": "2025-08-11 16:26:00"
+},
+{
+  "brand": "Otto Linger",
+  "name": "Deconstructed Rib T-Shirt",
+  "description": "High crewneck. Short sleeve. Logo print on the front and the back. Fits small. Order one size up from your usual size.",
+  "price": 150,
+  "currency": "EUR",
+  "category": "Tops",
+  "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L",
+    "XL"
+  ],
+  "color": [],
+  "variants": [
+    {
+      "size": "XS",
+      "color": "",
+      "availability": "in_stock"
+    },
+    {
+      "size": "S",
+      "color": "",
+      "availability": "in_stock"
+    },
+    {
+      "size": "M",
+      "color": "",
+      "availability": "out_of_stock"
+    },
+    {
+      "size": "L",
+      "color": "",
+      "availability": "in_stock"
+    },
+    {
+      "size": "XL",
+      "color": "",
+      "availability": "in_stock"
+    }
+  ],
+  "availability": "in_stock",
+  "gender": "UNISEX",
+  "mainImage": "https://cdn.shopify.com/s/files/1/1220/9360/files/ECOM24MARCH2308.jpg?v=1749570440",
+  "productURL": "https://ottolinger.com/shop/products/deconstructed-rib-t-shirt",
+  "images": [
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/OTTOLINGER_LOGO-TIGHT_3200x_crop_center.png?v=1719306950",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/knotted_top_1_3200x_crop_center.png?v=1744043625",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/knotted_top_4_3200x_crop_center.png?v=1744043625",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/knotted_top_2_3200x_crop_center.png?v=1744043626",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/knotted_top_3_3200x_crop_center.png?v=1744043626",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/knotted_top_5_3200x_crop_center.png?v=1744043626",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/t-shirt_1_3200x_crop_center.png?v=1744044606",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/t-shirt_2_3200x_crop_center.png?v=1744044606",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/t-shirt_3_3200x_crop_center.png?v=1744044605",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/t-shirt_4_3200x_crop_center.png?v=1744044605",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/t-shirt_5_3200x_crop_center.png?v=1744044605"
+  ],
+  "categoryPage": "https://ottolinger.com/shop",
+  "scrapeTimestamp": "2025-08-11 16:26:03"
+},
+{
+  "brand": "Otto Linger",
+  "name": "Grafik Longsleeve",
+  "description": "Grafik Long Sleeve in White is made from 100% cotton following a loose silhouette with logo graphics at the front and back.",
+  "price": 189,
+  "currency": "EUR",
+  "category": "Tops",
+  "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL"
+  ],
+  "color": [],
+  "variants": [
+    {
+      "size": "XS",
+      "color": "",
+      "availability": "in_stock"
+    },
+    {
+      "size": "S",
+      "color": "",
+      "availability": "in_stock"
+    },
+    {
+      "size": "M",
+      "color": "",
+      "availability": "in_stock"
+    },
+    {
+      "size": "L",
+      "color": "",
+      "availability": "in_stock"
+    },
+    {
+      "size": "XL",
+      "color": "",
+      "availability": "in_stock"
+    },
+    {
+      "size": "2XL",
+      "color": "",
+      "availability": "in_stock"
+    }
+  ],
+  "availability": "in_stock",
+  "gender": "UNISEX",
+  "mainImage": "https://cdn.shopify.com/s/files/1/1220/9360/files/ECOM24MARCH0361.jpg?v=1749128400",
+  "productURL": "https://ottolinger.com/shop/products/grafik-longsleeve",
+  "images": [
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/OTTOLINGER_LOGO-TIGHT_3200x_crop_center.png?v=1719306950",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/knotted_top_1_3200x_crop_center.png?v=1744043625",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/knotted_top_4_3200x_crop_center.png?v=1744043625",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/knotted_top_2_3200x_crop_center.png?v=1744043626",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/knotted_top_3_3200x_crop_center.png?v=1744043626",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/knotted_top_5_3200x_crop_center.png?v=1744043626",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/t-shirt_1_3200x_crop_center.png?v=1744044606",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/t-shirt_2_3200x_crop_center.png?v=1744044606",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/t-shirt_3_3200x_crop_center.png?v=1744044605",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/t-shirt_4_3200x_crop_center.png?v=1744044605",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/t-shirt_5_3200x_crop_center.png?v=1744044605",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/mesh_pants_1_3200x_crop_center.png?v=1744044063",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/mesh_pants_2_3200x_crop_center.png?v=1744044063"
+  ],
+  "categoryPage": "https://ottolinger.com/shop",
+  "scrapeTimestamp": "2025-08-11 16:26:04"
+},
+{
+  "brand": "Otto Linger",
+  "name": "Cut-Out Dress",
+  "description": "Tight fitted jersey mini dress. Deconstructed construction with strap sleeve details. Distressed logo on the front. Moderate stretch.",
+  "price": 237,
+  "currency": "EUR",
+  "category": "Dresses",
+  "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L",
+    "XL"
+  ],
+  "color": [],
+  "variants": [
+    {
+      "size": "XS",
+      "color": "",
+      "availability": "in_stock"
+    },
+    {
+      "size": "S",
+      "color": "",
+      "availability": "in_stock"
+    },
+    {
+      "size": "M",
+      "color": "",
+      "availability": "in_stock"
+    },
+    {
+      "size": "L",
+      "color": "",
+      "availability": "in_stock"
+    },
+    {
+      "size": "XL",
+      "color": "",
+      "availability": "in_stock"
+    }
+  ],
+  "availability": "in_stock",
+  "gender": "UNISEX",
+  "mainImage": "https://cdn.shopify.com/s/files/1/1220/9360/files/ECOM24MARCH3889.jpg?v=1742999456",
+  "productURL": "https://ottolinger.com/shop/products/cut-out-dress-dark-brown-ss25",
+  "images": [
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/OTTOLINGER_LOGO-TIGHT_3200x_crop_center.png?v=1719306950",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/scuba_dress_2_3200x_crop_center.png?v=1744043852",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/scuba_dress_1_3200x_crop_center.png?v=1744043852",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/scuba_dress_3_3200x_crop_center.png?v=1744043839",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/Sleeveless_Shirt_Dress_side01_3200x_crop_center.png?v=1751636711",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/Sleeveless_Shirt_Dress_Zoomed_in_3200x_crop_center.png?v=1751636784",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/Sleeveless_Shirt_Dress_front_03_3200x_crop_center.png?v=1751636796",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/jersey_skirt_1_3200x_crop_center.png?v=1744043194",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/jersey_skirt_2_3200x_crop_center.png?v=1744043194",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/jersey_skirt_3_3200x_crop_center.png?v=1744043179",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/knotted_top_1_3200x_crop_center.png?v=1744043625",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/knotted_top_4_3200x_crop_center.png?v=1744043625",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/knotted_top_2_3200x_crop_center.png?v=1744043626",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/knotted_top_3_3200x_crop_center.png?v=1744043626",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/knotted_top_5_3200x_crop_center.png?v=1744043626"
+  ],
+  "categoryPage": "https://ottolinger.com/shop",
+  "scrapeTimestamp": "2025-08-11 16:26:06"
+},
+{
+  "brand": "Otto Linger",
+  "name": "Cut-Out Dress",
+  "description": "Tight fitted jersey mini dress. Deconstructed construction with strap sleeve details. Distressed logo on the front. Moderate stretch.",
+  "price": 218,
+  "currency": "EUR",
+  "category": "Dresses",
+  "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L",
+    "XL"
+  ],
+  "color": [],
+  "variants": [
+    {
+      "size": "XS",
+      "color": "",
+      "availability": "in_stock"
+    },
+    {
+      "size": "S",
+      "color": "",
+      "availability": "in_stock"
+    },
+    {
+      "size": "M",
+      "color": "",
+      "availability": "in_stock"
+    },
+    {
+      "size": "L",
+      "color": "",
+      "availability": "in_stock"
+    },
+    {
+      "size": "XL",
+      "color": "",
+      "availability": "in_stock"
+    }
+  ],
+  "availability": "in_stock",
+  "gender": "UNISEX",
+  "mainImage": "https://cdn.shopify.com/s/files/1/1220/9360/files/Sleeveless_Shirt_Dress_side01.png?v=1751636711",
+  "productURL": "https://ottolinger.com/shop/products/cut-out-dress-red-ss25",
+  "images": [
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/OTTOLINGER_LOGO-TIGHT_3200x_crop_center.png?v=1719306950",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/Sleeveless_Shirt_Dress_side01_3200x_crop_center.png?v=1751636711",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/Sleeveless_Shirt_Dress_Zoomed_in_3200x_crop_center.png?v=1751636784",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/Sleeveless_Shirt_Dress_front_03_3200x_crop_center.png?v=1751636796",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/scuba_dress_2_3200x_crop_center.png?v=1744043852",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/scuba_dress_1_3200x_crop_center.png?v=1744043852",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/scuba_dress_3_3200x_crop_center.png?v=1744043839",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/jersey_skirt_1_3200x_crop_center.png?v=1744043194",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/jersey_skirt_2_3200x_crop_center.png?v=1744043194",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/jersey_skirt_3_3200x_crop_center.png?v=1744043179",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/knotted_top_1_3200x_crop_center.png?v=1744043625",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/knotted_top_4_3200x_crop_center.png?v=1744043625",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/knotted_top_2_3200x_crop_center.png?v=1744043626",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/knotted_top_3_3200x_crop_center.png?v=1744043626",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/knotted_top_5_3200x_crop_center.png?v=1744043626"
+  ],
+  "categoryPage": "https://ottolinger.com/shop",
+  "scrapeTimestamp": "2025-08-11 16:26:08"
+},
+{
+  "brand": "Otto Linger",
+  "name": "Deconstructed Oversized T-Shirt",
+  "description": "Oversized fit. Logo on the front. Deconstructed styling on left arm.",
+  "price": 175,
+  "currency": "EUR",
+  "category": "Tops",
+  "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L",
+    "XL"
+  ],
+  "color": [],
+  "variants": [
+    {
+      "size": "XS",
+      "color": "",
+      "availability": "out_of_stock"
+    },
+    {
+      "size": "S",
+      "color": "",
+      "availability": "out_of_stock"
+    },
+    {
+      "size": "M",
+      "color": "",
+      "availability": "out_of_stock"
+    },
+    {
+      "size": "L",
+      "color": "",
+      "availability": "out_of_stock"
+    },
+    {
+      "size": "XL",
+      "color": "",
+      "availability": "out_of_stock"
+    }
+  ],
+  "availability": "out_of_stock",
+  "gender": "UNISEX",
+  "mainImage": "https://cdn.shopify.com/s/files/1/1220/9360/files/t-shirt_1.png?v=1744044606",
+  "productURL": "https://ottolinger.com/shop/products/deconstructed-oversized-t-shirt-re35",
+  "images": [
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/OTTOLINGER_LOGO-TIGHT_3200x_crop_center.png?v=1719306950",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/t-shirt_1_3200x_crop_center.png?v=1744044606",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/t-shirt_2_3200x_crop_center.png?v=1744044606",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/t-shirt_3_3200x_crop_center.png?v=1744044605",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/t-shirt_4_3200x_crop_center.png?v=1744044605",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/t-shirt_5_3200x_crop_center.png?v=1744044605",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/knotted_top_1_3200x_crop_center.png?v=1744043625",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/knotted_top_4_3200x_crop_center.png?v=1744043625",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/knotted_top_2_3200x_crop_center.png?v=1744043626",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/knotted_top_3_3200x_crop_center.png?v=1744043626",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/knotted_top_5_3200x_crop_center.png?v=1744043626"
+  ],
+  "categoryPage": "https://ottolinger.com/shop",
+  "scrapeTimestamp": "2025-08-11 16:26:10"
+},
+{
+  "brand": "Otto Linger",
+  "name": "Linen Sweat Pants",
+  "description": "Oversized fit. Deconstructed construction with extra long legs. Elastic waistband. Pockets on both sides. Handwash cold.",
+  "price": 360,
+  "currency": "EUR",
+  "category": "Bottoms",
+  "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L",
+    "XL"
+  ],
+  "color": [],
+  "variants": [
+    {
+      "size": "XS",
+      "color": "",
+      "availability": "out_of_stock"
+    },
+    {
+      "size": "S",
+      "color": "",
+      "availability": "in_stock"
+    },
+    {
+      "size": "M",
+      "color": "",
+      "availability": "in_stock"
+    },
+    {
+      "size": "L",
+      "color": "",
+      "availability": "in_stock"
+    },
+    {
+      "size": "XL",
+      "color": "",
+      "availability": "in_stock"
+    }
+  ],
+  "availability": "in_stock",
+  "gender": "UNISEX",
+  "mainImage": "https://cdn.shopify.com/s/files/1/1220/9360/files/linensweats_1.png?v=1744045022",
+  "productURL": "https://ottolinger.com/shop/products/linen-sweat-pants-re25",
+  "images": [
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/OTTOLINGER_LOGO-TIGHT_3200x_crop_center.png?v=1719306950",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/linensweats_1_3200x_crop_center.png?v=1744045022",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/linensweats_2_3200x_crop_center.png?v=1744045022",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/linensweats_3_3200x_crop_center.png?v=1744045021",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/linensweats_4_3200x_crop_center.png?v=1744045022",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/Screenshot2025-08-04at15.37.55_3200x_crop_center.png?v=1754314685",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/Screenshot2025-08-04at15.38.47_3200x_crop_center.png?v=1754314737",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/jersey_skirt_1_3200x_crop_center.png?v=1744043194",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/jersey_skirt_2_3200x_crop_center.png?v=1744043194",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/jersey_skirt_3_3200x_crop_center.png?v=1744043179",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/signature_jeans_1_3200x_crop_center.png?v=1744042080",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/signature_jeans_2_3200x_crop_center.png?v=1744042081",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/signature_jeans_3_3200x_crop_center.png?v=1744042080",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/signature_jeans_4_3200x_crop_center.png?v=1744042081",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/updated-malemodel1_f117989c-ac36-430b-8e2c-4edfff422931_3200x_crop_center.png?v=1743095130",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/mesh_pants_1_3200x_crop_center.png?v=1744044063",
+    "https://cdn.shopify.com/s/files/1/1220/9360/files/mesh_pants_2_3200x_crop_center.png?v=1744044063"
+  ],
+  "categoryPage": "https://ottolinger.com/shop",
+  "scrapeTimestamp": "2025-08-11 16:26:12"
+}
+]

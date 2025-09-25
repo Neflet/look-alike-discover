@@ -1,0 +1,10 @@
+project_id = "veikyjfcycgpkpwdbksa"
+
+[functions.embed-image]
+verify_jwt = false
+
+[functions.search-products]
+verify_jwt = false
+
+[functions.retrain-model]
+verify_jwt = false

@@ -1,0 +1,5578 @@
+[
+{
+  "brand": "MOWALOLA",
+  "name": "M Boxer Briefs",
+  "price": 63,
+  "currency": "USD",
+  "description": "MOWALOLA boxer briefs. Elasticised branded logo waistband. 100% Cotton All Sales Final - For Hygiene Purposes this Cannot be Returned These boxers are fitted.",
+  "category": "OTHER",
+  "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L",
+    "XL"
+  ],
+  "mainImage": "https://www.mowalola.com/cdn/shop/files/Screenshot_2025-04-30_at_15.41.20.png",
+  "images": [
+    "https://www.mowalola.com/cdn/shop/files/Screenshot_2025-04-30_at_15.41.20.png",
+    "https://www.mowalola.com/cdn/shop/files/hgfdsa.png",
+    "https://www.mowalola.com/cdn/shop/files/redandblacback.jpg"
+  ],
+  "availability": "in_stock",
+  "variants": [
+    {
+      "color": "",
+      "size": "XS",
+      "availability": "out_of_stock"
+    },
+    {
+      "color": "",
+      "size": "S",
+      "availability": "in_stock"
+    },
+    {
+      "color": "",
+      "size": "M",
+      "availability": "out_of_stock"
+    },
+    {
+      "color": "",
+      "size": "L",
+      "availability": "in_stock"
+    },
+    {
+      "color": "",
+      "size": "XL",
+      "availability": "in_stock"
+    }
+  ],
+  "productURL": "https://www.mowalola.com/products/m-boxer-briefs",
+  "categoryPage": "https://www.mowalola.com/collections/other",
+  "scrapeTimestamp": "2025-08-12 22:52:35"
+},
+{
+  "brand": "MOWALOLA",
+  "name": "Gotham City Tee",
+  "price": 97,
+  "currency": "USD",
+  "description": "Model is 5'10 and wearing size XS. 100% Cotton This tee is cropped and fitted.",
+  "category": "SALE",
+  "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L",
+    "XL"
+  ],
+  "mainImage": "https://www.mowalola.com/cdn/shop/files/Screenshot2025-04-15at13.11.44.png",
+  "images": [
+    "https://www.mowalola.com/cdn/shop/files/Screenshot2025-04-15at13.11.44.png",
+    "https://www.mowalola.com/cdn/shop/files/BATMAN_B_BABY_TEE_ILLUMINATING.jpg"
+  ],
+  "availability": "in_stock",
+  "variants": [
+    {
+      "color": "",
+      "size": "XS",
+      "availability": "in_stock"
+    },
+    {
+      "color": "",
+      "size": "S",
+      "availability": "in_stock"
+    },
+    {
+      "color": "",
+      "size": "M",
+      "availability": "in_stock"
+    },
+    {
+      "color": "",
+      "size": "L",
+      "availability": "in_stock"
+    },
+    {
+      "color": "",
+      "size": "XL",
+      "availability": "out_of_stock"
+    }
+  ],
+  "productURL": "https://www.mowalola.com/products/ss-batman-m-baby-tee",
+  "categoryPage": "https://www.mowalola.com/collections/sale?page=2&phcursor=eyJhbGciOiJIUzI1NiJ9.eyJzayI6InBvc2l0aW9uIiwic3YiOjcyLCJkIjoiZiIsInVpZCI6MzQ5Mzk2MTY3ODg2NDUsImwiOjE2LCJvIjowLCJyIjoiQ0RQIiwidiI6MSwicCI6Mn0.DtCS_M7bQa9s_aQQOYsH-auW3PgCECAr8yFfO0xhMqg",
+  "scrapeTimestamp": "2025-08-12 22:52:35"
+},
+{
+  "brand": "MOWALOLA",
+  "name": "Mind Game Trucker",
+  "price": 56,
+  "currency": "USD",
+  "description": "Washed denim cap. One size fits all. 100% Cotton, embroidered M logo detail in silver thread. This is a fitted baseball cap with a trucker bill.",
+  "category": "SALE",
+  "sizes": [],
+  "mainImage": "https://www.mowalola.com/cdn/shop/files/Screenshot2025-04-30at15.36.27.png",
+  "images": [
+    "https://www.mowalola.com/cdn/shop/files/Screenshot2025-04-30at15.36.27.png",
+    "https://www.mowalola.com/cdn/shop/files/Mowa_hat_front_black.jpg",
+    "https://www.mowalola.com/cdn/shop/files/Mowa_hat_side_black.jpg",
+    "https://www.mowalola.com/cdn/shop/files/Mowa_hat_back_black.jpg"
+  ],
+  "availability": "in_stock",
+  "variants": [
+    {
+      "color": "",
+      "size": "",
+      "availability": "in_stock"
+    }
+  ],
+  "productURL": "https://www.mowalola.com/products/copy-of-m-distressed-denim-trucker-hat",
+  "categoryPage": "https://www.mowalola.com/collections/sale?page=2&phcursor=eyJhbGciOiJIUzI1NiJ9.eyJzayI6InBvc2l0aW9uIiwic3YiOjcyLCJkIjoiZiIsInVpZCI6MzQ5Mzk2MTY3ODg2NDUsImwiOjE2LCJvIjowLCJyIjoiQ0RQIiwidiI6MSwicCI6Mn0.DtCS_M7bQa9s_aQQOYsH-auW3PgCECAr8yFfO0xhMqg",
+  "scrapeTimestamp": "2025-08-12 22:52:35"
+},
+{
+  "brand": "MOWALOLA",
+  "name": "EBONY TOP BLACK",
+  "price": 42,
+  "currency": "USD",
+  "description": "Printed cotton stretch top. Fitted.",
+  "category": "NEW ARRIVALS",
+  "sizes": [
+    "S",
+    "M",
+    "L"
+  ],
+  "mainImage": "https://www.mowalola.com/cdn/shop/files/Screenshot2025-04-30at14.57.54.png",
+  "images": [
+    "https://www.mowalola.com/cdn/shop/files/Screenshot2025-04-30at14.57.54.png",
+    "https://www.mowalola.com/cdn/shop/files/50_b7793213-f81d-4c0c-934d-790c767f28c3.jpg"
+  ],
+  "availability": "out_of_stock",
+  "variants": [
+    {
+      "color": "",
+      "size": "S",
+      "availability": "out_of_stock"
+    },
+    {
+      "color": "",
+      "size": "M",
+      "availability": "out_of_stock"
+    },
+    {
+      "color": "",
+      "size": "L",
+      "availability": "out_of_stock"
+    }
+  ],
+  "productURL": "https://www.mowalola.com/products/ebony-3-4th-black-top",
+  "categoryPage": "https://www.mowalola.com/collections/new-arrivals?page=3&phcursor=eyJhbGciOiJIUzI1NiJ9.eyJzayI6InBvc2l0aW9uIiwic3YiOjQzLCJkIjoiZiIsInVpZCI6MzQ3NjE4NDE1NDEyODUsImwiOjE2LCJvIjowLCJyIjoiQ0RQIiwidiI6MSwicCI6M30._fhCjrADQwqGnxxcA5BtPcVP6C33CECtd-nutoCftss",
+  "scrapeTimestamp": "2025-08-12 22:52:35"
+},
+{
+  "brand": "MOWALOLA",
+  "name": "UNIT VEST",
+  "price": 111,
+  "currency": "USD",
+  "description": "Black ribbed vest, Mowa branded elastic straps detail. Model is 5”11’ and is wearing a size S.",
+  "category": "NEW ARRIVALS",
+  "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L",
+    "XL"
+  ],
+  "mainImage": "https://www.mowalola.com/cdn/shop/files/Screenshot2025-04-14at15.54.28.png",
+  "images": [
+    "https://www.mowalola.com/cdn/shop/files/Screenshot2025-04-14at15.54.28.png",
+    "https://www.mowalola.com/cdn/shop/files/faaf074fe3d72e4abc9fe633b7137eba.jpg",
+    "https://www.mowalola.com/cdn/shop/files/Unit_Vest_02.jpg"
+  ],
+  "availability": "in_stock",
+  "variants": [
+    {
+      "color": "",
+      "size": "XS",
+      "availability": "out_of_stock"
+    },
+    {
+      "color": "",
+      "size": "S",
+      "availability": "out_of_stock"
+    },
+    {
+      "color": "",
+      "size": "M",
+      "availability": "in_stock"
+    },
+    {
+      "color": "",
+      "size": "L",
+      "availability": "in_stock"
+    },
+    {
+      "color": "",
+      "size": "XL",
+      "availability": "in_stock"
+    }
+  ],
+  "productURL": "https://www.mowalola.com/products/runner-vest",
+  "categoryPage": "https://www.mowalola.com/collections/new-arrivals?page=3&phcursor=eyJhbGciOiJIUzI1NiJ9.eyJzayI6InBvc2l0aW9uIiwic3YiOjQzLCJkIjoiZiIsInVpZCI6MzQ3NjE4NDE1NDEyODUsImwiOjE2LCJvIjowLCJyIjoiQ0RQIiwidiI6MSwicCI6M30._fhCjrADQwqGnxxcA5BtPcVP6C33CECtd-nutoCftss",
+  "scrapeTimestamp": "2025-08-12 22:52:35"
+},
+{
+  "brand": "MOWALOLA",
+  "name": "ATL MENS SHIRT",
+  "price": 276,
+  "currency": "USD",
+  "description": "Embroidered cotton sports shirt.",
+  "category": "NEW ARRIVALS",
+  "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L",
+    "XL"
+  ],
+  "mainImage": "https://www.mowalola.com/cdn/shop/files/Screenshot2025-04-14at15.49.04.png",
+  "images": [
+    "https://www.mowalola.com/cdn/shop/files/Screenshot2025-04-14at15.49.04.png",
+    "https://www.mowalola.com/cdn/shop/files/Olympic_crop_Polo_Black_3679f582-e0a3-4773-8991-9dd0aed1fb74.jpg",
+    "https://www.mowalola.com/cdn/shop/files/MGP_small_polo_black.png"
+  ],
+  "availability": "out_of_stock",
+  "variants": [
+    {
+      "color": "",
+      "size": "XS",
+      "availability": "out_of_stock"
+    },
+    {
+      "color": "",
+      "size": "S",
+      "availability": "out_of_stock"
+    },
+    {
+      "color": "",
+      "size": "M",
+      "availability": "out_of_stock"
+    },
+    {
+      "color": "",
+      "size": "L",
+      "availability": "out_of_stock"
+    },
+    {
+      "color": "",
+      "size": "XL",
+      "availability": "out_of_stock"
+    }
+  ],
+  "productURL": "https://www.mowalola.com/products/atl-polo-mens",
+  "categoryPage": "https://www.mowalola.com/collections/new-arrivals?page=4&phcursor=eyJhbGciOiJIUzI1NiJ9.eyJzayI6InBvc2l0aW9uIiwic3YiOjY3LCJkIjoiZiIsInVpZCI6MzQ1MjY0MTUyNTc3NjUsImwiOjE2LCJvIjowLCJyIjoiQ0RQIiwidiI6MSwicCI6NH0.SDiOo61nPiNf6ZJn-AbsTD1BHT4QH1zlpibof03kGxs",
+  "scrapeTimestamp": "2025-08-12 22:52:35"
+},
+{
+  "brand": "MOWALOLA",
+  "name": "ATL WOMENS SHIRT",
+  "price": 276,
+  "currency": "USD",
+  "description": "Embroidered cotton sports shirt. Model is 5”9’ and is wearing a size XS.",
+  "category": "NEW ARRIVALS",
+  "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L",
+    "XL"
+  ],
+  "mainImage": "https://www.mowalola.com/cdn/shop/files/Screenshot2025-04-14at18.40.43.png",
+  "images": [
+    "https://www.mowalola.com/cdn/shop/files/Screenshot2025-04-14at18.40.43.png",
+    "https://www.mowalola.com/cdn/shop/files/39.jpg",
+    "https://www.mowalola.com/cdn/shop/files/send_black.jpg"
+  ],
+  "availability": "in_stock",
+  "variants": [
+    {
+      "color": "",
+      "size": "XS",
+      "availability": "out_of_stock"
+    },
+    {
+      "color": "",
+      "size": "S",
+      "availability": "out_of_stock"
+    },
+    {
+      "color": "",
+      "size": "M",
+      "availability": "in_stock"
+    },
+    {
+      "color": "",
+      "size": "L",
+      "availability": "in_stock"
+    },
+    {
+      "color": "",
+      "size": "XL",
+      "availability": "in_stock"
+    }
+  ],
+  "productURL": "https://www.mowalola.com/products/atl-polo-womens",
+  "categoryPage": "https://www.mowalola.com/collections/new-arrivals?page=4&phcursor=eyJhbGciOiJIUzI1NiJ9.eyJzayI6InBvc2l0aW9uIiwic3YiOjY3LCJkIjoiZiIsInVpZCI6MzQ1MjY0MTUyNTc3NjUsImwiOjE2LCJvIjowLCJyIjoiQ0RQIiwidiI6MSwicCI6NH0.SDiOo61nPiNf6ZJn-AbsTD1BHT4QH1zlpibof03kGxs",
+  "scrapeTimestamp": "2025-08-12 22:52:35"
+},
+{
+  "brand": "MOWALOLA",
+  "name": "ATL JOGGERS",
+  "price": 414,
+  "currency": "USD",
+  "description": "Embroidered cotton sweatpants. First model is 5”11’ and is wearing a size M. Second model 6”1’ and is wearing a size S.",
+  "category": "NEW ARRIVALS",
+  "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L",
+    "XL"
+  ],
+  "mainImage": "https://www.mowalola.com/cdn/shop/files/Screenshot_2025-04-03_at_12.08.57.png",
+  "images": [
+    "https://www.mowalola.com/cdn/shop/files/Screenshot_2025-04-03_at_12.08.57.png",
+    "https://www.mowalola.com/cdn/shop/files/Olympic_joggers_black_5bc97767-2865-4dab-bd43-1d1130303fd4.jpg"
+  ],
+  "availability": "out_of_stock",
+  "variants": [
+    {
+      "color": "",
+      "size": "XS",
+      "availability": "out_of_stock"
+    },
+    {
+      "color": "",
+      "size": "S",
+      "availability": "out_of_stock"
+    },
+    {
+      "color": "",
+      "size": "M",
+      "availability": "out_of_stock"
+    },
+    {
+      "color": "",
+      "size": "L",
+      "availability": "out_of_stock"
+    },
+    {
+      "color": "",
+      "size": "XL",
+      "availability": "out_of_stock"
+    }
+  ],
+  "productURL": "https://www.mowalola.com/products/olympic-sweatpants",
+  "categoryPage": "https://www.mowalola.com/collections/new-arrivals?page=4&phcursor=eyJhbGciOiJIUzI1NiJ9.eyJzayI6InBvc2l0aW9uIiwic3YiOjY3LCJkIjoiZiIsInVpZCI6MzQ1MjY0MTUyNTc3NjUsImwiOjE2LCJvIjowLCJyIjoiQ0RQIiwidiI6MSwicCI6NH0.SDiOo61nPiNf6ZJn-AbsTD1BHT4QH1zlpibof03kGxs",
+  "scrapeTimestamp": "2025-08-12 22:52:35"
+},
+{
+  "brand": "MOWALOLA",
+  "name": "EBONY TOP RED",
+  "price": 42,
+  "currency": "USD",
+  "description": "Printed 100% super fine cotton stretch top. Fitted. The front features a distressed white ebony graphic, while the back showcases a bold ebony white print. Size 1 fits XS-S-M, Size 2 fits S-M-L, Size 3 fits M-L,XL",
+  "category": "NEW ARRIVALS",
+  "sizes": [
+    "S",
+    "M",
+    "L"
+  ],
+  "mainImage": "https://www.mowalola.com/cdn/shop/files/Screenshot2025-04-30at16.19.15.png",
+  "images": [
+    "https://www.mowalola.com/cdn/shop/files/Screenshot2025-04-30at16.19.15.png",
+    "https://www.mowalola.com/cdn/shop/files/49.jpg"
+  ],
+  "availability": "out_of_stock",
+  "variants": [
+    {
+      "color": "",
+      "size": "S",
+      "availability": "out_of_stock"
+    },
+    {
+      "color": "",
+      "size": "M",
+      "availability": "out_of_stock"
+    },
+    {
+      "color": "",
+      "size": "L",
+      "availability": "out_of_stock"
+    }
+  ],
+  "productURL": "https://www.mowalola.com/products/ebony-3-4th-top",
+  "categoryPage": "https://www.mowalola.com/collections/new-arrivals?page=4&phcursor=eyJhbGciOiJIUzI1NiJ9.eyJzayI6InBvc2l0aW9uIiwic3YiOjY3LCJkIjoiZiIsInVpZCI6MzQ1MjY0MTUyNTc3NjUsImwiOjE2LCJvIjowLCJyIjoiQ0RQIiwidiI6MSwicCI6NH0.SDiOo61nPiNf6ZJn-AbsTD1BHT4QH1zlpibof03kGxs",
+  "scrapeTimestamp": "2025-08-12 22:52:35"
+},
+{
+  "brand": "MOWALOLA",
+  "name": "EBONY TOP BLUE",
+  "price": 42,
+  "currency": "USD",
+  "description": "Printed 100% super fine cotton stretch top. Fitted. The front features a distressed white ebony graphic, while the back showcases a bold ebony white print. Size 1 fits XS-S-M, Size 2 fits S-M-L, Size 3 fits M-L,XL",
+  "category": "NEW ARRIVALS",
+  "sizes": [
+    "S",
+    "M",
+    "L"
+  ],
+  "mainImage": "https://www.mowalola.com/cdn/shop/files/2.1-7.jpg",
+  "images": [
+    "https://www.mowalola.com/cdn/shop/files/2.1-7.jpg",
+    "https://www.mowalola.com/cdn/shop/files/48.jpg"
+  ],
+  "availability": "out_of_stock",
+  "variants": [
+    {
+      "color": "",
+      "size": "S",
+      "availability": "out_of_stock"
+    },
+    {
+      "color": "",
+      "size": "M",
+      "availability": "out_of_stock"
+    },
+    {
+      "color": "",
+      "size": "L",
+      "availability": "out_of_stock"
+    }
+  ],
+  "productURL": "https://www.mowalola.com/products/ebony-3-4th-blue-top",
+  "categoryPage": "https://www.mowalola.com/collections/new-arrivals?page=4&phcursor=eyJhbGciOiJIUzI1NiJ9.eyJzayI6InBvc2l0aW9uIiwic3YiOjY3LCJkIjoiZiIsInVpZCI6MzQ1MjY0MTUyNTc3NjUsImwiOjE2LCJvIjowLCJyIjoiQ0RQIiwidiI6MSwicCI6NH0.SDiOo61nPiNf6ZJn-AbsTD1BHT4QH1zlpibof03kGxs",
+  "scrapeTimestamp": "2025-08-12 22:52:35"
+},
+{
+  "brand": "MOWALOLA",
+  "name": "MOWA CLASSICS TEE RED",
+  "price": 104,
+  "currency": "USD",
+  "description": "Cotton printed tee. Second model is 5’11” and is wearing a size S.",
+  "category": "NEW ARRIVALS",
+  "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L",
+    "XL"
+  ],
+  "mainImage": "https://www.mowalola.com/cdn/shop/files/Screenshot2025-05-06at17.17.13.png",
+  "images": [
+    "https://www.mowalola.com/cdn/shop/files/Screenshot2025-05-06at17.17.13.png",
+    "https://www.mowalola.com/cdn/shop/files/47.jpg"
+  ],
+  "availability": "in_stock",
+  "variants": [
+    {
+      "color": "",
+      "size": "XS",
+      "availability": "out_of_stock"
+    },
+    {
+      "color": "",
+      "size": "S",
+      "availability": "out_of_stock"
+    },
+    {
+      "color": "",
+      "size": "M",
+      "availability": "in_stock"
+    },
+    {
+      "color": "",
+      "size": "L",
+      "availability": "in_stock"
+    },
+    {
+      "color": "",
+      "size": "XL",
+      "availability": "out_of_stock"
+    }
+  ],
+  "productURL": "https://www.mowalola.com/products/mowa-tee-red",
+  "categoryPage": "https://www.mowalola.com/collections/new-arrivals?page=3&phcursor=eyJhbGciOiJIUzI1NiJ9.eyJzayI6InBvc2l0aW9uIiwic3YiOjQzLCJkIjoiZiIsInVpZCI6MzQ3NjE4NDE1NDEyODUsImwiOjE2LCJvIjowLCJyIjoiQ0RQIiwidiI6MSwicCI6M30._fhCjrADQwqGnxxcA5BtPcVP6C33CECtd-nutoCftss",
+  "scrapeTimestamp": "2025-08-12 22:52:35"
+},
+{
+  "brand": "MOWALOLA",
+  "name": "LDN WOMENS SHIRT",
+  "price": 276,
+  "currency": "USD",
+  "description": "Embroidered cotton sports shirt.",
+  "category": "NEW ARRIVALS",
+  "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L",
+    "XL"
+  ],
+  "mainImage": "https://www.mowalola.com/cdn/shop/files/Screenshot2025-04-14at15.27.48.png",
+  "images": [
+    "https://www.mowalola.com/cdn/shop/files/Screenshot2025-04-14at15.27.48.png",
+    "https://www.mowalola.com/cdn/shop/files/1_819c94d1-01bf-4a36-805e-d3bb80f9feaa.jpg",
+    "https://www.mowalola.com/cdn/shop/files/send_blue.jpg"
+  ],
+  "availability": "in_stock",
+  "variants": [
+    {
+      "color": "",
+      "size": "XS",
+      "availability": "in_stock"
+    },
+    {
+      "color": "",
+      "size": "S",
+      "availability": "in_stock"
+    },
+    {
+      "color": "",
+      "size": "M",
+      "availability": "in_stock"
+    },
+    {
+      "color": "",
+      "size": "L",
+      "availability": "in_stock"
+    },
+    {
+      "color": "",
+      "size": "XL",
+      "availability": "in_stock"
+    }
+  ],
+  "productURL": "https://www.mowalola.com/products/ldn-slim-polo",
+  "categoryPage": "https://www.mowalola.com/collections/new-arrivals?page=3&phcursor=eyJhbGciOiJIUzI1NiJ9.eyJzayI6InBvc2l0aW9uIiwic3YiOjQzLCJkIjoiZiIsInVpZCI6MzQ3NjE4NDE1NDEyODUsImwiOjE2LCJvIjowLCJyIjoiQ0RQIiwidiI6MSwicCI6M30._fhCjrADQwqGnxxcA5BtPcVP6C33CECtd-nutoCftss",
+  "scrapeTimestamp": "2025-08-12 22:52:35"
+},
+{
+  "brand": "MOWALOLA",
+  "name": "LDN MENS SHIRT",
+  "price": 276,
+  "currency": "USD",
+  "description": "Embroidered cotton sports shirt. Model is 6”1’ and is wearing a size S.",
+  "category": "NEW ARRIVALS",
+  "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L",
+    "XL"
+  ],
+  "mainImage": "https://www.mowalola.com/cdn/shop/files/Screenshot2025-04-28at15.54.11.png",
+  "images": [
+    "https://www.mowalola.com/cdn/shop/files/Screenshot2025-04-28at15.54.11.png",
+    "https://www.mowalola.com/cdn/shop/files/Olympic_crop_Polo_Blue_Large_b61b697b-28d2-4d65-84e1-f26a6697f485.jpg",
+    "https://www.mowalola.com/cdn/shop/files/MGP_small_polo_blue.jpg"
+  ],
+  "availability": "in_stock",
+  "variants": [
+    {
+      "color": "",
+      "size": "XS",
+      "availability": "in_stock"
+    },
+    {
+      "color": "",
+      "size": "S",
+      "availability": "in_stock"
+    },
+    {
+      "color": "",
+      "size": "M",
+      "availability": "out_of_stock"
+    },
+    {
+      "color": "",
+      "size": "L",
+      "availability": "out_of_stock"
+    },
+    {
+      "color": "",
+      "size": "XL",
+      "availability": "in_stock"
+    }
+  ],
+  "productURL": "https://www.mowalola.com/products/ldn-relaxed-polo",
+  "categoryPage": "https://www.mowalola.com/collections/new-arrivals?page=3&phcursor=eyJhbGciOiJIUzI1NiJ9.eyJzayI6InBvc2l0aW9uIiwic3YiOjQzLCJkIjoiZiIsInVpZCI6MzQ3NjE4NDE1NDEyODUsImwiOjE2LCJvIjowLCJyIjoiQ0RQIiwidiI6MSwicCI6M30._fhCjrADQwqGnxxcA5BtPcVP6C33CECtd-nutoCftss",
+  "scrapeTimestamp": "2025-08-12 22:52:35"
+},
+{
+  "brand": "MOWALOLA",
+  "name": "LDN JOGGERS",
+  "price": 414,
+  "currency": "USD",
+  "description": "Embroidered cotton sweatpants. Model 6”1’ and is and is wearing a size M.",
+  "category": "NEW ARRIVALS",
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL"
+  ],
+  "mainImage": "https://www.mowalola.com/cdn/shop/files/Screenshot_2025-04-28_at_15.51.34.png",
+  "images": [
+    "https://www.mowalola.com/cdn/shop/files/Screenshot_2025-04-28_at_15.51.34.png",
+    "https://www.mowalola.com/cdn/shop/files/ATL_Joggers_01.jpg",
+    "https://www.mowalola.com/cdn/shop/files/ATL_Joggers_02.jpg"
+  ],
+  "availability": "in_stock",
+  "variants": [
+    {
+      "color": "",
+      "size": "S",
+      "availability": "out_of_stock"
+    },
+    {
+      "color": "",
+      "size": "M",
+      "availability": "out_of_stock"
+    },
+    {
+      "color": "",
+      "size": "L",
+      "availability": "out_of_stock"
+    },
+    {
+      "color": "",
+      "size": "XL",
+      "availability": "in_stock"
+    }
+  ],
+  "productURL": "https://www.mowalola.com/products/ldn-joggers",
+  "categoryPage": "https://www.mowalola.com/collections/new-arrivals?page=3&phcursor=eyJhbGciOiJIUzI1NiJ9.eyJzayI6InBvc2l0aW9uIiwic3YiOjQzLCJkIjoiZiIsInVpZCI6MzQ3NjE4NDE1NDEyODUsImwiOjE2LCJvIjowLCJyIjoiQ0RQIiwidiI6MSwicCI6M30._fhCjrADQwqGnxxcA5BtPcVP6C33CECtd-nutoCftss",
+  "scrapeTimestamp": "2025-08-12 22:52:35"
+},
+{
+  "brand": "MOWALOLA",
+  "name": "MOTO STUDDED DRESS BLACK",
+  "price": 697,
+  "currency": "USD",
+  "description": "Strapless studded mini denim dress. Built-in boning for shaping and structure.",
+  "category": "NEW ARRIVALS",
+  "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L"
+  ],
+  "mainImage": "https://www.mowalola.com/cdn/shop/files/Screenshot2025-04-14at15.14.22.png",
+  "images": [
+    "https://www.mowalola.com/cdn/shop/files/Screenshot2025-04-14at15.14.22.png",
+    "https://www.mowalola.com/cdn/shop/files/D-1copy14Large.jpg",
+    "https://www.mowalola.com/cdn/shop/files/D-2copy14Large.jpg"
+  ],
+  "availability": "in_stock",
+  "variants": [
+    {
+      "color": "",
+      "size": "XS",
+      "availability": "in_stock"
+    },
+    {
+      "color": "",
+      "size": "S",
+      "availability": "in_stock"
+    },
+    {
+      "color": "",
+      "size": "M",
+      "availability": "in_stock"
+    },
+    {
+      "color": "",
+      "size": "L",
+      "availability": "in_stock"
+    }
+  ],
+  "productURL": "https://www.mowalola.com/products/moto-studded-dress-black",
+  "categoryPage": "https://www.mowalola.com/collections/new-arrivals?page=3&phcursor=eyJhbGciOiJIUzI1NiJ9.eyJzayI6InBvc2l0aW9uIiwic3YiOjQzLCJkIjoiZiIsInVpZCI6MzQ3NjE4NDE1NDEyODUsImwiOjE2LCJvIjowLCJyIjoiQ0RQIiwidiI6MSwicCI6M30._fhCjrADQwqGnxxcA5BtPcVP6C33CECtd-nutoCftss",
+  "scrapeTimestamp": "2025-08-12 22:52:35"
+},
+{
+  "brand": "MOWALOLA",
+  "name": "POLO DRESS BLUE",
+  "price": 342,
+  "currency": "USD",
+  "description": "Tartan printed mini dress.",
+  "category": "NEW ARRIVALS",
+  "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L"
+  ],
+  "mainImage": "https://www.mowalola.com/cdn/shop/files/Screenshot2025-04-14at15.36.49.png",
+  "images": [
+    "https://www.mowalola.com/cdn/shop/files/Screenshot2025-04-14at15.36.49.png",
+    "https://www.mowalola.com/cdn/shop/files/D-1copyLarge.jpg",
+    "https://www.mowalola.com/cdn/shop/files/D-2copyLarge.jpg"
+  ],
+  "availability": "in_stock",
+  "variants": [
+    {
+      "color": "",
+      "size": "XS",
+      "availability": "in_stock"
+    },
+    {
+      "color": "",
+      "size": "S",
+      "availability": "in_stock"
+    },
+    {
+      "color": "",
+      "size": "M",
+      "availability": "in_stock"
+    },
+    {
+      "color": "",
+      "size": "L",
+      "availability": "in_stock"
+    }
+  ],
+  "productURL": "https://www.mowalola.com/products/polo-dress-blue",
+  "categoryPage": "https://www.mowalola.com/collections/new-arrivals?page=3&phcursor=eyJhbGciOiJIUzI1NiJ9.eyJzayI6InBvc2l0aW9uIiwic3YiOjQzLCJkIjoiZiIsInVpZCI6MzQ3NjE4NDE1NDEyODUsImwiOjE2LCJvIjowLCJyIjoiQ0RQIiwidiI6MSwicCI6M30._fhCjrADQwqGnxxcA5BtPcVP6C33CECtd-nutoCftss",
+  "scrapeTimestamp": "2025-08-12 22:52:35"
+},
+{
+  "brand": "MOWALOLA",
+  "name": "POLO DRESS BROWN",
+  "price": 342,
+  "currency": "USD",
+  "description": "Tartan printed mini dress. Stretchy and breathable fabric.",
+  "category": "NEW ARRIVALS",
+  "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L"
+  ],
+  "mainImage": "https://www.mowalola.com/cdn/shop/files/LOOK_19_226.jpg",
+  "images": [
+    "https://www.mowalola.com/cdn/shop/files/LOOK_19_226.jpg",
+    "https://www.mowalola.com/cdn/shop/files/Screenshot_2024-12-20_at_15.14.21.png",
+    "https://www.mowalola.com/cdn/shop/files/D-2Large.jpg"
+  ],
+  "availability": "in_stock",
+  "variants": [
+    {
+      "color": "",
+      "size": "XS",
+      "availability": "out_of_stock"
+    },
+    {
+      "color": "",
+      "size": "S",
+      "availability": "out_of_stock"
+    },
+    {
+      "color": "",
+      "size": "M",
+      "availability": "in_stock"
+    },
+    {
+      "color": "",
+      "size": "L",
+      "availability": "in_stock"
+    }
+  ],
+  "productURL": "https://www.mowalola.com/products/polo-dress-brown",
+  "categoryPage": "https://www.mowalola.com/collections/new-arrivals?page=3&phcursor=eyJhbGciOiJIUzI1NiJ9.eyJzayI6InBvc2l0aW9uIiwic3YiOjQzLCJkIjoiZiIsInVpZCI6MzQ3NjE4NDE1NDEyODUsImwiOjE2LCJvIjowLCJyIjoiQ0RQIiwidiI6MSwicCI6M30._fhCjrADQwqGnxxcA5BtPcVP6C33CECtd-nutoCftss",
+  "scrapeTimestamp": "2025-08-12 22:52:35"
+},
+{
+  "brand": "MOWALOLA",
+  "name": "NIGHT BRA BROWN",
+  "price": 193,
+  "currency": "USD",
+  "description": "Tartan printed bra top. Adjustable strap detail.",
+  "category": "NEW ARRIVALS",
+  "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L"
+  ],
+  "mainImage": "https://www.mowalola.com/cdn/shop/files/Screenshot2025-04-14at18.24.21.png",
+  "images": [
+    "https://www.mowalola.com/cdn/shop/files/Screenshot2025-04-14at18.24.21.png",
+    "https://www.mowalola.com/cdn/shop/files/D-1copy9Large.jpg",
+    "https://www.mowalola.com/cdn/shop/files/D-2copy9Large.jpg"
+  ],
+  "availability": "in_stock",
+  "variants": [
+    {
+      "color": "",
+      "size": "XS",
+      "availability": "in_stock"
+    },
+    {
+      "color": "",
+      "size": "S",
+      "availability": "out_of_stock"
+    },
+    {
+      "color": "",
+      "size": "M",
+      "availability": "out_of_stock"
+    },
+    {
+      "color": "",
+      "size": "L",
+      "availability": "out_of_stock"
+    }
+  ],
+  "productURL": "https://www.mowalola.com/products/night-bra-brown",
+  "categoryPage": "https://www.mowalola.com/collections/new-arrivals?page=3&phcursor=eyJhbGciOiJIUzI1NiJ9.eyJzayI6InBvc2l0aW9uIiwic3YiOjQzLCJkIjoiZiIsInVpZCI6MzQ3NjE4NDE1NDEyODUsImwiOjE2LCJvIjowLCJyIjoiQ0RQIiwidiI6MSwicCI6M30._fhCjrADQwqGnxxcA5BtPcVP6C33CECtd-nutoCftss",
+  "scrapeTimestamp": "2025-08-12 22:52:35"
+},
+{
+  "brand": "MOWALOLA",
+  "name": "NIGHT BRA BLUE",
+  "price": 193,
+  "currency": "USD",
+  "description": "Tartan printed bra top. Adjustable strap detail.",
+  "category": "NEW ARRIVALS",
+  "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L"
+  ],
+  "mainImage": "https://www.mowalola.com/cdn/shop/files/Screenshot2025-04-14at18.06.32.png",
+  "images": [
+    "https://www.mowalola.com/cdn/shop/files/Screenshot2025-04-14at18.06.32.png",
+    "https://www.mowalola.com/cdn/shop/files/D-1copy17Large.jpg",
+    "https://www.mowalola.com/cdn/shop/files/D-2copy17Large.jpg"
+  ],
+  "availability": "in_stock",
+  "variants": [
+    {
+      "color": "",
+      "size": "XS",
+      "availability": "in_stock"
+    },
+    {
+      "color": "",
+      "size": "S",
+      "availability": "out_of_stock"
+    },
+    {
+      "color": "",
+      "size": "M",
+      "availability": "in_stock"
+    },
+    {
+      "color": "",
+      "size": "L",
+      "availability": "in_stock"
+    }
+  ],
+  "productURL": "https://www.mowalola.com/products/night-bra-blue",
+  "categoryPage": "https://www.mowalola.com/collections/new-arrivals?page=3&phcursor=eyJhbGciOiJIUzI1NiJ9.eyJzayI6InBvc2l0aW9uIiwic3YiOjQzLCJkIjoiZiIsInVpZCI6MzQ3NjE4NDE1NDEyODUsImwiOjE2LCJvIjowLCJyIjoiQ0RQIiwidiI6MSwicCI6M30._fhCjrADQwqGnxxcA5BtPcVP6C33CECtd-nutoCftss",
+  "scrapeTimestamp": "2025-08-12 22:52:35"
+},
+{
+  "brand": "MOWALOLA",
+  "name": "STAR VEST BLACK",
+  "price": 202,
+  "currency": "USD",
+  "description": "Mesh vest with flock print detail.",
+  "category": "NEW ARRIVALS",
+  "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L"
+  ],
+  "mainImage": "https://www.mowalola.com/cdn/shop/files/Screenshot2025-04-15at11.35.18.png",
+  "images": [
+    "https://www.mowalola.com/cdn/shop/files/Screenshot2025-04-15at11.35.18.png",
+    "https://www.mowalola.com/cdn/shop/files/D-1copy10Large.jpg",
+    "https://www.mowalola.com/cdn/shop/files/D-2copy10Large.jpg"
+  ],
+  "availability": "in_stock",
+  "variants": [
+    {
+      "color": "",
+      "size": "XS",
+      "availability": "out_of_stock"
+    },
+    {
+      "color": "",
+      "size": "S",
+      "availability": "out_of_stock"
+    },
+    {
+      "color": "",
+      "size": "M",
+      "availability": "in_stock"
+    },
+    {
+      "color": "",
+      "size": "L",
+      "availability": "out_of_stock"
+    }
+  ],
+  "productURL": "https://www.mowalola.com/products/night-bra-blue-1",
+  "categoryPage": "https://www.mowalola.com/collections/new-arrivals?page=3&phcursor=eyJhbGciOiJIUzI1NiJ9.eyJzayI6InBvc2l0aW9uIiwic3YiOjQzLCJkIjoiZiIsInVpZCI6MzQ3NjE4NDE1NDEyODUsImwiOjE2LCJvIjowLCJyIjoiQ0RQIiwidiI6MSwicCI6M30._fhCjrADQwqGnxxcA5BtPcVP6C33CECtd-nutoCftss",
+  "scrapeTimestamp": "2025-08-12 22:52:35"
+},
+{
+  "brand": "MOWALOLA",
+  "name": "STAR VEST RED",
+  "price": 202,
+  "currency": "USD",
+  "description": "Mesh vest with flock print detail.",
+  "category": "NEW ARRIVALS",
+  "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L"
+  ],
+  "mainImage": "https://www.mowalola.com/cdn/shop/files/Screenshot2025-04-14at18.42.01.png",
+  "images": [
+    "https://www.mowalola.com/cdn/shop/files/Screenshot2025-04-14at18.42.01.png",
+    "https://www.mowalola.com/cdn/shop/files/D-1copy11Large.jpg",
+    "https://www.mowalola.com/cdn/shop/files/D-2copy11Large.jpg"
+  ],
+  "availability": "in_stock",
+  "variants": [
+    {
+      "color": "",
+      "size": "XS",
+      "availability": "out_of_stock"
+    },
+    {
+      "color": "",
+      "size": "S",
+      "availability": "out_of_stock"
+    },
+    {
+      "color": "",
+      "size": "M",
+      "availability": "in_stock"
+    },
+    {
+      "color": "",
+      "size": "L",
+      "availability": "out_of_stock"
+    }
+  ],
+  "productURL": "https://www.mowalola.com/products/star-vest-black",
+  "categoryPage": "https://www.mowalola.com/collections/new-arrivals?page=3&phcursor=eyJhbGciOiJIUzI1NiJ9.eyJzayI6InBvc2l0aW9uIiwic3YiOjQzLCJkIjoiZiIsInVpZCI6MzQ3NjE4NDE1NDEyODUsImwiOjE2LCJvIjowLCJyIjoiQ0RQIiwidiI6MSwicCI6M30._fhCjrADQwqGnxxcA5BtPcVP6C33CECtd-nutoCftss",
+  "scrapeTimestamp": "2025-08-12 22:52:35"
+},
+{
+  "brand": "MOWALOLA",
+  "name": "MOTO SKIRT BLUE",
+  "price": 335,
+  "currency": "USD",
+  "description": "Denim mini skirt. Embroidered back detail.",
+  "category": "NEW ARRIVALS",
+  "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L"
+  ],
+  "mainImage": "https://www.mowalola.com/cdn/shop/files/D-1copy3Large.jpg",
+  "images": [
+    "https://www.mowalola.com/cdn/shop/files/D-1copy3Large.jpg",
+    "https://www.mowalola.com/cdn/shop/files/D-2copy3Large.jpg",
+    "https://www.mowalola.com/cdn/shop/files/9_Large_f57b06ac-0e39-4df6-a8d5-e9645d657711.jpg"
+  ],
+  "availability": "in_stock",
+  "variants": [
+    {
+      "color": "",
+      "size": "XS",
+      "availability": "out_of_stock"
+    },
+    {
+      "color": "",
+      "size": "S",
+      "availability": "out_of_stock"
+    },
+    {
+      "color": "",
+      "size": "M",
+      "availability": "in_stock"
+    },
+    {
+      "color": "",
+      "size": "L",
+      "availability": "in_stock"
+    }
+  ],
+  "productURL": "https://www.mowalola.com/products/moto-skirt-blue",
+  "categoryPage": "https://www.mowalola.com/collections/new-arrivals?page=3&phcursor=eyJhbGciOiJIUzI1NiJ9.eyJzayI6InBvc2l0aW9uIiwic3YiOjQzLCJkIjoiZiIsInVpZCI6MzQ3NjE4NDE1NDEyODUsImwiOjE2LCJvIjowLCJyIjoiQ0RQIiwidiI6MSwicCI6M30._fhCjrADQwqGnxxcA5BtPcVP6C33CECtd-nutoCftss",
+  "scrapeTimestamp": "2025-08-12 22:52:35"
+},
+{
+  "brand": "MOWALOLA",
+  "name": "Classic Maroon Dress",
+  "price": 145,
+  "currency": "USD",
+  "description": "Stretchy, mini and classic M logo dress. This dress is fitted. Model is 5'10\"and is wearing a size S.",
+  "category": "SALE",
+  "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L",
+    "XL"
+  ],
+  "mainImage": "https://www.mowalola.com/cdn/shop/files/Screenshot2025-04-30at16.39.13.png",
+  "images": [
+    "https://www.mowalola.com/cdn/shop/files/Screenshot2025-04-30at16.39.13.png",
+    "https://www.mowalola.com/cdn/shop/files/redwalkmanlogodress_01.jpg",
+    "https://www.mowalola.com/cdn/shop/files/redwalkmanlogodress_02.jpg"
+  ],
+  "availability": "in_stock",
+  "variants": [
+    {
+      "color": "",
+      "size": "XS",
+      "availability": "out_of_stock"
+    },
+    {
+      "color": "",
+      "size": "S",
+      "availability": "in_stock"
+    },
+    {
+      "color": "",
+      "size": "M",
+      "availability": "in_stock"
+    },
+    {
+      "color": "",
+      "size": "L",
+      "availability": "out_of_stock"
+    },
+    {
+      "color": "",
+      "size": "XL",
+      "availability": "out_of_stock"
+    }
+  ],
+  "productURL": "https://www.mowalola.com/products/classic-dress",
+  "categoryPage": "https://www.mowalola.com/collections/sale?page=2&phcursor=eyJhbGciOiJIUzI1NiJ9.eyJzayI6InBvc2l0aW9uIiwic3YiOjcyLCJkIjoiZiIsInVpZCI6MzQ5Mzk2MTY3ODg2NDUsImwiOjE2LCJvIjowLCJyIjoiQ0RQIiwidiI6MSwicCI6Mn0.DtCS_M7bQa9s_aQQOYsH-auW3PgCECAr8yFfO0xhMqg",
+  "scrapeTimestamp": "2025-08-12 22:52:35"
+},
+{
+  "brand": "MOWALOLA",
+  "name": "MOTO STUDDED SKIRT BLACK",
+  "price": 522,
+  "currency": "USD",
+  "description": "Denim mini skirt. Gunmetal studs. Embroidered back detail.",
+  "category": "NEW ARRIVALS",
+  "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L"
+  ],
+  "mainImage": "https://www.mowalola.com/cdn/shop/files/Screenshot2025-04-30at16.35.43.png",
+  "images": [
+    "https://www.mowalola.com/cdn/shop/files/Screenshot2025-04-30at16.35.43.png",
+    "https://www.mowalola.com/cdn/shop/files/D-1copy15Large.jpg",
+    "https://www.mowalola.com/cdn/shop/files/D-2copy15Large.jpg"
+  ],
+  "availability": "in_stock",
+  "variants": [
+    {
+      "color": "",
+      "size": "XS",
+      "availability": "in_stock"
+    },
+    {
+      "color": "",
+      "size": "S",
+      "availability": "out_of_stock"
+    },
+    {
+      "color": "",
+      "size": "M",
+      "availability": "in_stock"
+    },
+    {
+      "color": "",
+      "size": "L",
+      "availability": "in_stock"
+    }
+  ],
+  "productURL": "https://www.mowalola.com/products/moto-studded-skirt-black",
+  "categoryPage": "https://www.mowalola.com/collections/new-arrivals?page=2&phcursor=eyJhbGciOiJIUzI1NiJ9.eyJzayI6InBvc2l0aW9uIiwic3YiOjE3LCJkIjoiZiIsInVpZCI6MzUxMDQ4MzIzMjM3NDksImwiOjE2LCJvIjowLCJyIjoiQ0RQIiwidiI6MSwicCI6Mn0.0gio4uu5SPoCoEbVjPBOe3TBSoVg0hiSeteDrnEgVgA",
+  "scrapeTimestamp": "2025-08-12 22:52:35"
+},
+{
+  "brand": "MOWALOLA",
+  "name": "SKINNY JEANS BLUE",
+  "price": 410,
+  "currency": "USD",
+  "description": "Cotton low-rise jeans. Elastic waistband detail.",
+  "category": "NEW ARRIVALS",
+  "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L"
+  ],
+  "mainImage": "https://www.mowalola.com/cdn/shop/files/Screenshot2025-04-14at12.04.58.png",
+  "images": [
+    "https://www.mowalola.com/cdn/shop/files/Screenshot2025-04-14at12.04.58.png",
+    "https://www.mowalola.com/cdn/shop/files/D-1copy8Large.jpg",
+    "https://www.mowalola.com/cdn/shop/files/D-2copy8Large.jpg"
+  ],
+  "availability": "in_stock",
+  "variants": [
+    {
+      "color": "",
+      "size": "XS",
+      "availability": "in_stock"
+    },
+    {
+      "color": "",
+      "size": "S",
+      "availability": "in_stock"
+    },
+    {
+      "color": "",
+      "size": "M",
+      "availability": "in_stock"
+    },
+    {
+      "color": "",
+      "size": "L",
+      "availability": "in_stock"
+    }
+  ],
+  "productURL": "https://www.mowalola.com/products/skinny-bbl-jeans",
+  "categoryPage": "https://www.mowalola.com/collections/new-arrivals?page=2&phcursor=eyJhbGciOiJIUzI1NiJ9.eyJzayI6InBvc2l0aW9uIiwic3YiOjE3LCJkIjoiZiIsInVpZCI6MzUxMDQ4MzIzMjM3NDksImwiOjE2LCJvIjowLCJyIjoiQ0RQIiwidiI6MSwicCI6Mn0.0gio4uu5SPoCoEbVjPBOe3TBSoVg0hiSeteDrnEgVgA",
+  "scrapeTimestamp": "2025-08-12 22:52:35"
+},
+{
+  "brand": "MOWALOLA",
+  "name": "SKINNY JEANS BLACK",
+  "price": 410,
+  "currency": "USD",
+  "description": "Cotton low-rise jeans. Elastic waistband detail.",
+  "category": "NEW ARRIVALS",
+  "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L"
+  ],
+  "mainImage": "https://www.mowalola.com/cdn/shop/files/Screenshot_2025-04-14_at_15.00.11.png",
+  "images": [
+    "https://www.mowalola.com/cdn/shop/files/Screenshot_2025-04-14_at_15.00.11.png",
+    "https://www.mowalola.com/cdn/shop/files/D-1copy18.jpg",
+    "https://www.mowalola.com/cdn/shop/files/D-2copy18_921269e1-b9a8-4fc3-a0fa-bf5a5559a789.jpg"
+  ],
+  "availability": "in_stock",
+  "variants": [
+    {
+      "color": "",
+      "size": "XS",
+      "availability": "in_stock"
+    },
+    {
+      "color": "",
+      "size": "S",
+      "availability": "in_stock"
+    },
+    {
+      "color": "",
+      "size": "M",
+      "availability": "in_stock"
+    },
+    {
+      "color": "",
+      "size": "L",
+      "availability": "out_of_stock"
+    }
+  ],
+  "productURL": "https://www.mowalola.com/products/skinny-bbl-jeans-black",
+  "categoryPage": "https://www.mowalola.com/collections/new-arrivals?page=2&phcursor=eyJhbGciOiJIUzI1NiJ9.eyJzayI6InBvc2l0aW9uIiwic3YiOjE3LCJkIjoiZiIsInVpZCI6MzUxMDQ4MzIzMjM3NDksImwiOjE2LCJvIjowLCJyIjoiQ0RQIiwidiI6MSwicCI6Mn0.0gio4uu5SPoCoEbVjPBOe3TBSoVg0hiSeteDrnEgVgA",
+  "scrapeTimestamp": "2025-08-12 22:52:35"
+},
+{
+  "brand": "MOWALOLA",
+  "name": "STRAIGHT-LEG BLACK JEANS",
+  "price": 439,
+  "currency": "USD",
+  "description": "100 % Cotton Embroidered back detail.",
+  "category": "NEW ARRIVALS",
+  "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L"
+  ],
+  "mainImage": "https://www.mowalola.com/cdn/shop/files/LOOK_20_239.jpg",
+  "images": [
+    "https://www.mowalola.com/cdn/shop/files/LOOK_20_239.jpg",
+    "https://www.mowalola.com/cdn/shop/files/D-1copy6.jpg",
+    "https://www.mowalola.com/cdn/shop/files/LOOK_20_247.jpg",
+    "https://www.mowalola.com/cdn/shop/files/D-2copy6.jpg"
+  ],
+  "availability": "in_stock",
+  "variants": [
+    {
+      "color": "",
+      "size": "XS",
+      "availability": "in_stock"
+    },
+    {
+      "color": "",
+      "size": "S",
+      "availability": "in_stock"
+    },
+    {
+      "color": "",
+      "size": "M",
+      "availability": "in_stock"
+    },
+    {
+      "color": "",
+      "size": "L",
+      "availability": "out_of_stock"
+    }
+  ],
+  "productURL": "https://www.mowalola.com/products/straight-leg-black-jeans",
+  "categoryPage": "https://www.mowalola.com/collections/new-arrivals?page=2&phcursor=eyJhbGciOiJIUzI1NiJ9.eyJzayI6InBvc2l0aW9uIiwic3YiOjE3LCJkIjoiZiIsInVpZCI6MzUxMDQ4MzIzMjM3NDksImwiOjE2LCJvIjowLCJyIjoiQ0RQIiwidiI6MSwicCI6Mn0.0gio4uu5SPoCoEbVjPBOe3TBSoVg0hiSeteDrnEgVgA",
+  "scrapeTimestamp": "2025-08-12 22:52:35"
+},
+{
+  "brand": "MOWALOLA",
+  "name": "TARTAN MINI SKIRT BLUE",
+  "price": 257,
+  "currency": "USD",
+  "description": "Stretchy fitted mini skirt. Tartan print.",
+  "category": "NEW ARRIVALS",
+  "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L"
+  ],
+  "mainImage": "https://www.mowalola.com/cdn/shop/files/Screenshot2025-04-15at14.27.03.png",
+  "images": [
+    "https://www.mowalola.com/cdn/shop/files/Screenshot2025-04-15at14.27.03.png",
+    "https://www.mowalola.com/cdn/shop/files/D-1copy19Large_95d1eb7e-0d63-43c8-98a4-1a796ca78147.jpg",
+    "https://www.mowalola.com/cdn/shop/files/D-2copy19Large_58b8f6c0-d580-4c19-a014-24d5ddcb2d03.jpg"
+  ],
+  "availability": "in_stock",
+  "variants": [
+    {
+      "color": "",
+      "size": "XS",
+      "availability": "in_stock"
+    },
+    {
+      "color": "",
+      "size": "S",
+      "availability": "out_of_stock"
+    },
+    {
+      "color": "",
+      "size": "M",
+      "availability": "in_stock"
+    },
+    {
+      "color": "",
+      "size": "L",
+      "availability": "out_of_stock"
+    }
+  ],
+  "productURL": "https://www.mowalola.com/products/tartan-mini-skirt",
+  "categoryPage": "https://www.mowalola.com/collections/new-arrivals?page=2&phcursor=eyJhbGciOiJIUzI1NiJ9.eyJzayI6InBvc2l0aW9uIiwic3YiOjE3LCJkIjoiZiIsInVpZCI6MzUxMDQ4MzIzMjM3NDksImwiOjE2LCJvIjowLCJyIjoiQ0RQIiwidiI6MSwicCI6Mn0.0gio4uu5SPoCoEbVjPBOe3TBSoVg0hiSeteDrnEgVgA",
+  "scrapeTimestamp": "2025-08-12 22:52:35"
+},
+{
+  "brand": "MOWALOLA",
+  "name": "SLIM MOTO STUDDED JACKET",
+  "price": 855,
+  "currency": "USD",
+  "description": "Denim fitted studded jacket. Built-in boning and zip-up detail.",
+  "category": "NEW ARRIVALS",
+  "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L"
+  ],
+  "mainImage": "https://www.mowalola.com/cdn/shop/files/Screenshot2025-04-14at15.38.06.png",
+  "images": [
+    "https://www.mowalola.com/cdn/shop/files/Screenshot2025-04-14at15.38.06.png",
+    "https://www.mowalola.com/cdn/shop/files/D-1copy13Large.jpg",
+    "https://www.mowalola.com/cdn/shop/files/D-2copy13Large.jpg"
+  ],
+  "availability": "in_stock",
+  "variants": [
+    {
+      "color": "",
+      "size": "XS",
+      "availability": "in_stock"
+    },
+    {
+      "color": "",
+      "size": "S",
+      "availability": "in_stock"
+    },
+    {
+      "color": "",
+      "size": "M",
+      "availability": "in_stock"
+    },
+    {
+      "color": "",
+      "size": "L",
+      "availability": "in_stock"
+    }
+  ],
+  "productURL": "https://www.mowalola.com/products/slim-moto-studded-jacket",
+  "categoryPage": "https://www.mowalola.com/collections/new-arrivals?page=2&phcursor=eyJhbGciOiJIUzI1NiJ9.eyJzayI6InBvc2l0aW9uIiwic3YiOjE3LCJkIjoiZiIsInVpZCI6MzUxMDQ4MzIzMjM3NDksImwiOjE2LCJvIjowLCJyIjoiQ0RQIiwidiI6MSwicCI6Mn0.0gio4uu5SPoCoEbVjPBOe3TBSoVg0hiSeteDrnEgVgA",
+  "scrapeTimestamp": "2025-08-12 22:52:35"
+},
+{
+  "brand": "MOWALOLA",
+  "name": "SLIM MOTO BLUE PONY JACKET",
+  "price": 640,
+  "currency": "USD",
+  "description": "Denim fitted zip-up jacket. Built- in boning and back print detail.",
+  "category": "NEW ARRIVALS",
+  "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L"
+  ],
+  "mainImage": "https://www.mowalola.com/cdn/shop/files/Screenshot2025-04-30at17.20.06.png",
+  "images": [
+    "https://www.mowalola.com/cdn/shop/files/Screenshot2025-04-30at17.20.06.png",
+    "https://www.mowalola.com/cdn/shop/files/D-2copy23Large.jpg",
+    "https://www.mowalola.com/cdn/shop/files/D-1copy23Large.jpg"
+  ],
+  "availability": "in_stock",
+  "variants": [
+    {
+      "color": "",
+      "size": "XS",
+      "availability": "out_of_stock"
+    },
+    {
+      "color": "",
+      "size": "S",
+      "availability": "out_of_stock"
+    },
+    {
+      "color": "",
+      "size": "M",
+      "availability": "out_of_stock"
+    },
+    {
+      "color": "",
+      "size": "L",
+      "availability": "in_stock"
+    }
+  ],
+  "productURL": "https://www.mowalola.com/products/slim-moto-pony-jacket",
+  "categoryPage": "https://www.mowalola.com/collections/new-arrivals?page=2&phcursor=eyJhbGciOiJIUzI1NiJ9.eyJzayI6InBvc2l0aW9uIiwic3YiOjE3LCJkIjoiZiIsInVpZCI6MzUxMDQ4MzIzMjM3NDksImwiOjE2LCJvIjowLCJyIjoiQ0RQIiwidiI6MSwicCI6Mn0.0gio4uu5SPoCoEbVjPBOe3TBSoVg0hiSeteDrnEgVgA",
+  "scrapeTimestamp": "2025-08-12 22:52:35"
+},
+{
+  "brand": "MOWALOLA",
+  "name": "TARTAN CAPRI PANTS",
+  "price": 228,
+  "currency": "USD",
+  "description": "Fitted leggings. Tartan all-over print.",
+  "category": "NEW ARRIVALS",
+  "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L"
+  ],
+  "mainImage": "https://www.mowalola.com/cdn/shop/files/Screenshot2025-04-15at11.53.21.png",
+  "images": [
+    "https://www.mowalola.com/cdn/shop/files/Screenshot2025-04-15at11.53.21.png",
+    "https://www.mowalola.com/cdn/shop/files/D-2copy16.jpg",
+    "https://www.mowalola.com/cdn/shop/files/D-1copy16.jpg"
+  ],
+  "availability": "in_stock",
+  "variants": [
+    {
+      "color": "",
+      "size": "XS",
+      "availability": "in_stock"
+    },
+    {
+      "color": "",
+      "size": "S",
+      "availability": "in_stock"
+    },
+    {
+      "color": "",
+      "size": "M",
+      "availability": "in_stock"
+    },
+    {
+      "color": "",
+      "size": "L",
+      "availability": "in_stock"
+    }
+  ],
+  "productURL": "https://www.mowalola.com/products/tartan-capri-pants",
+  "categoryPage": "https://www.mowalola.com/collections/new-arrivals?page=2&phcursor=eyJhbGciOiJIUzI1NiJ9.eyJzayI6InBvc2l0aW9uIiwic3YiOjE3LCJkIjoiZiIsInVpZCI6MzUxMDQ4MzIzMjM3NDksImwiOjE2LCJvIjowLCJyIjoiQ0RQIiwidiI6MSwicCI6Mn0.0gio4uu5SPoCoEbVjPBOe3TBSoVg0hiSeteDrnEgVgA",
+  "scrapeTimestamp": "2025-08-12 22:52:35"
+},
+{
+  "brand": "MOWALOLA",
+  "name": "MOTO BLAZER DRESS RED",
+  "price": 596,
+  "currency": "USD",
+  "description": "Washed denim blazer with hook closure detail. Leather 60 belt, metal buckle.",
+  "category": "NEW ARRIVALS",
+  "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L"
+  ],
+  "mainImage": "https://www.mowalola.com/cdn/shop/files/Screenshot2025-04-30at17.31.51.png",
+  "images": [
+    "https://www.mowalola.com/cdn/shop/files/Screenshot2025-04-30at17.31.51.png",
+    "https://www.mowalola.com/cdn/shop/files/6L4WJ5870000C08_l_5_jpg_Large_0868cd3e-d7b7-4f60-bbf8-2510e4be519c.jpg",
+    "https://www.mowalola.com/cdn/shop/files/Red_blazer_dress_with_gold_belt_02.jpg"
+  ],
+  "availability": "in_stock",
+  "variants": [
+    {
+      "color": "",
+      "size": "XS",
+      "availability": "in_stock"
+    },
+    {
+      "color": "",
+      "size": "S",
+      "availability": "out_of_stock"
+    },
+    {
+      "color": "",
+      "size": "M",
+      "availability": "out_of_stock"
+    },
+    {
+      "color": "",
+      "size": "L",
+      "availability": "out_of_stock"
+    }
+  ],
+  "productURL": "https://www.mowalola.com/products/moto-blazer-dress-red",
+  "categoryPage": "https://www.mowalola.com/collections/new-arrivals?page=2&phcursor=eyJhbGciOiJIUzI1NiJ9.eyJzayI6InBvc2l0aW9uIiwic3YiOjE3LCJkIjoiZiIsInVpZCI6MzUxMDQ4MzIzMjM3NDksImwiOjE2LCJvIjowLCJyIjoiQ0RQIiwidiI6MSwicCI6Mn0.0gio4uu5SPoCoEbVjPBOe3TBSoVg0hiSeteDrnEgVgA",
+  "scrapeTimestamp": "2025-08-12 22:52:35"
+},
+{
+  "brand": "MOWALOLA",
+  "name": "MOTO BLAZER DRESS BLACK",
+  "price": 596,
+  "currency": "USD",
+  "description": "Washed denim blazer with hook closure detail. Leather 60 belt, metal buckle.",
+  "category": "NEW ARRIVALS",
+  "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L"
+  ],
+  "mainImage": "https://www.mowalola.com/cdn/shop/files/6L4WJ5870000G11_l_5_Large_8a349c54-ca6f-43e3-8ba0-79f2e920878e.jpg",
+  "images": [
+    "https://www.mowalola.com/cdn/shop/files/6L4WJ5870000G11_l_5_Large_8a349c54-ca6f-43e3-8ba0-79f2e920878e.jpg",
+    "https://www.mowalola.com/cdn/shop/files/LOOK_8_111.jpg",
+    "https://www.mowalola.com/cdn/shop/files/LOOK_11_148.jpg",
+    "https://www.mowalola.com/cdn/shop/files/LOOK_11_152.jpg",
+    "https://www.mowalola.com/cdn/shop/files/LOOK_8_116.jpg",
+    "https://www.mowalola.com/cdn/shop/files/Blue_blazer_dress_with_silver_belt_02.jpg"
+  ],
+  "availability": "in_stock",
+  "variants": [
+    {
+      "color": "",
+      "size": "XS",
+      "availability": "in_stock"
+    },
+    {
+      "color": "",
+      "size": "S",
+      "availability": "in_stock"
+    },
+    {
+      "color": "",
+      "size": "M",
+      "availability": "in_stock"
+    },
+    {
+      "color": "",
+      "size": "L",
+      "availability": "out_of_stock"
+    }
+  ],
+  "productURL": "https://www.mowalola.com/products/moto-blazer-dress-black",
+  "categoryPage": "https://www.mowalola.com/collections/new-arrivals?page=2&phcursor=eyJhbGciOiJIUzI1NiJ9.eyJzayI6InBvc2l0aW9uIiwic3YiOjE3LCJkIjoiZiIsInVpZCI6MzUxMDQ4MzIzMjM3NDksImwiOjE2LCJvIjowLCJyIjoiQ0RQIiwidiI6MSwicCI6Mn0.0gio4uu5SPoCoEbVjPBOe3TBSoVg0hiSeteDrnEgVgA",
+  "scrapeTimestamp": "2025-08-12 22:52:35"
+},
+{
+  "brand": "MOWALOLA",
+  "name": "DOBERMAN JERSEY BLACK",
+  "price": 373,
+  "currency": "USD",
+  "description": "Boxy fit, short sleeve, raglan polo shirt. Made from a premium stretch sports jersey and stretch rib at the V neck and collar. Featuring the custom doberman motif on the front and exclusive MW print on the back.",
+  "category": "NEW ARRIVALS",
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL"
+  ],
+  "mainImage": "https://www.mowalola.com/cdn/shop/files/MOWA_KSUBI_MARCH_L18_2296.jpg",
+  "images": [
+    "https://www.mowalola.com/cdn/shop/files/MOWA_KSUBI_MARCH_L18_2296.jpg",
+    "https://www.mowalola.com/cdn/shop/files/DOBERMAN_MOWA_JERSEY_BLACK_F.jpg",
+    "https://www.mowalola.com/cdn/shop/files/DOBERMAN_MOWA_JERSEY_BLACK_F_2.jpg"
+  ],
+  "availability": "in_stock",
+  "variants": [
+    {
+      "color": "",
+      "size": "S",
+      "availability": "in_stock"
+    },
+    {
+      "color": "",
+      "size": "M",
+      "availability": "out_of_stock"
+    },
+    {
+      "color": "",
+      "size": "L",
+      "availability": "in_stock"
+    },
+    {
+      "color": "",
+      "size": "XL",
+      "availability": "in_stock"
+    },
+    {
+      "color": "",
+      "size": "XXL",
+      "availability": "in_stock"
+    }
+  ],
+  "productURL": "https://www.mowalola.com/products/doberman-mowa-jersey-black",
+  "categoryPage": "https://www.mowalola.com/collections/new-arrivals?page=2&phcursor=eyJhbGciOiJIUzI1NiJ9.eyJzayI6InBvc2l0aW9uIiwic3YiOjE3LCJkIjoiZiIsInVpZCI6MzUxMDQ4MzIzMjM3NDksImwiOjE2LCJvIjowLCJyIjoiQ0RQIiwidiI6MSwicCI6Mn0.0gio4uu5SPoCoEbVjPBOe3TBSoVg0hiSeteDrnEgVgA",
+  "scrapeTimestamp": "2025-08-12 22:52:35"
+},
+{
+  "brand": "MOWALOLA",
+  "name": "MK BABY SS TEE CHEETAH SLASHED",
+  "price": 207,
+  "currency": "USD",
+  "description": "Fitted tee with crew neck, cap sleeves and cropped length. Made from a premium cotton-elastane blend jersey with exclusive cheetah print. It features an exclusive front MK artwork and slashed decon detailing on the back. It will feature the collaboration swing tag.",
+  "category": "NEW ARRIVALS",
+  "sizes": [
+    "XXS",
+    "XS",
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL"
+  ],
+  "mainImage": "https://www.mowalola.com/cdn/shop/files/Screenshot2025-04-15at14.08.31.png",
+  "images": [
+    "https://www.mowalola.com/cdn/shop/files/Screenshot2025-04-15at14.08.31.png",
+    "https://www.mowalola.com/cdn/shop/files/MK_BABY_SS_TEE_CHEETAH_SLASHED_F.jpg",
+    "https://www.mowalola.com/cdn/shop/files/MK_BABY_SS_TEE_CHEETAH_SLASHED_F_1.jpg"
+  ],
+  "availability": "in_stock",
+  "variants": [
+    {
+      "color": "",
+      "size": "XXS",
+      "availability": "out_of_stock"
+    },
+    {
+      "color": "",
+      "size": "XS",
+      "availability": "in_stock"
+    },
+    {
+      "color": "",
+      "size": "S",
+      "availability": "in_stock"
+    },
+    {
+      "color": "",
+      "size": "M",
+      "availability": "in_stock"
+    },
+    {
+      "color": "",
+      "size": "L",
+      "availability": "in_stock"
+    },
+    {
+      "color": "",
+      "size": "XL",
+      "availability": "out_of_stock"
+    },
+    {
+      "color": "",
+      "size": "XXL",
+      "availability": "out_of_stock"
+    }
+  ],
+  "productURL": "https://www.mowalola.com/products/mk-baby-ss-tee-cheetah-slashed",
+  "categoryPage": "https://www.mowalola.com/collections/new-arrivals?page=2&phcursor=eyJhbGciOiJIUzI1NiJ9.eyJzayI6InBvc2l0aW9uIiwic3YiOjE3LCJkIjoiZiIsInVpZCI6MzUxMDQ4MzIzMjM3NDksImwiOjE2LCJvIjowLCJyIjoiQ0RQIiwidiI6MSwicCI6Mn0.0gio4uu5SPoCoEbVjPBOe3TBSoVg0hiSeteDrnEgVgA",
+  "scrapeTimestamp": "2025-08-12 22:52:35"
+},
+{
+  "brand": "MOWALOLA",
+  "name": "CROPPED JACKET CHEETAH",
+  "price": 552,
+  "currency": "USD",
+  "description": "A super-cropped slim denim jacket made from a premium comfort stretch denim with exclusive cheetah print. Featuring front zip opening with branded pullers angle yoke seams and anglepatch pocketing. The lower sleeve is fully removable for a 3/4 length finish. Also featuring the exclusive red leather embossed patch at the back RHS hem and a special collaboration swingtag.",
+  "category": "NEW ARRIVALS",
+  "sizes": [
+    "XXS",
+    "XS",
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL"
+  ],
+  "mainImage": "https://www.mowalola.com/cdn/shop/files/MOWA_KSUBI_MARCH_L4_0685.jpg",
+  "images": [
+    "https://www.mowalola.com/cdn/shop/files/MOWA_KSUBI_MARCH_L4_0685.jpg",
+    "https://www.mowalola.com/cdn/shop/files/MOWA_CROP_JACKET_CHEETAH.jpg",
+    "https://www.mowalola.com/cdn/shop/files/MOWA_CROP_JACKET_CHEETAH_F1.jpg"
+  ],
+  "availability": "in_stock",
+  "variants": [
+    {
+      "color": "",
+      "size": "XXS",
+      "availability": "out_of_stock"
+    },
+    {
+      "color": "",
+      "size": "XS",
+      "availability": "in_stock"
+    },
+    {
+      "color": "",
+      "size": "S",
+      "availability": "in_stock"
+    },
+    {
+      "color": "",
+      "size": "M",
+      "availability": "in_stock"
+    },
+    {
+      "color": "",
+      "size": "L",
+      "availability": "in_stock"
+    },
+    {
+      "color": "",
+      "size": "XL",
+      "availability": "out_of_stock"
+    },
+    {
+      "color": "",
+      "size": "XXL",
+      "availability": "out_of_stock"
+    }
+  ],
+  "productURL": "https://www.mowalola.com/products/mowa-cropped-jacket-cheetah",
+  "categoryPage": "https://www.mowalola.com/collections/new-arrivals?page=2&phcursor=eyJhbGciOiJIUzI1NiJ9.eyJzayI6InBvc2l0aW9uIiwic3YiOjE3LCJkIjoiZiIsInVpZCI6MzUxMDQ4MzIzMjM3NDksImwiOjE2LCJvIjowLCJyIjoiQ0RQIiwidiI6MSwicCI6Mn0.0gio4uu5SPoCoEbVjPBOe3TBSoVg0hiSeteDrnEgVgA",
+  "scrapeTimestamp": "2025-08-12 22:52:35"
+},
+{
+  "brand": "MOWALOLA",
+  "name": "HOT SHORT CHEETAH",
+  "price": 373,
+  "currency": "USD",
+  "description": "Low-rise, cheeky cut hot short with overhanging back pocket detailing. Made from a premium rigid denim with exclusive cheetah print. Featuring Ksubi T-box and 3x4 branding. Includes an exclusive red leather embossed patch at CB waistband and a unique collaboration swing tag.",
+  "category": "NEW ARRIVALS",
+  "sizes": [
+    "28",
+    "29",
+    "30",
+    "31",
+    "32"
+  ],
+  "mainImage": "https://www.mowalola.com/cdn/shop/files/MOWA_KSUBI_MARCH_L26_2992.jpg",
+  "images": [
+    "https://www.mowalola.com/cdn/shop/files/MOWA_KSUBI_MARCH_L26_2992.jpg",
+    "https://www.mowalola.com/cdn/shop/files/MOWA_HOT_SHORT_CHEETAH_F.jpg",
+    "https://www.mowalola.com/cdn/shop/files/MOWA_HOT_SHORT_CHEETAH_F_1.jpg"
+  ],
+  "availability": "in_stock",
+  "variants": [
+    {
+      "color": "",
+      "size": "28",
+      "availability": "out_of_stock"
+    },
+    {
+      "color": "",
+      "size": "29",
+      "availability": "in_stock"
+    },
+    {
+      "color": "",
+      "size": "30",
+      "availability": "in_stock"
+    },
+    {
+      "color": "",
+      "size": "31",
+      "availability": "in_stock"
+    },
+    {
+      "color": "",
+      "size": "32",
+      "availability": "in_stock"
+    }
+  ],
+  "productURL": "https://www.mowalola.com/products/mowa-hot-short-cheetah",
+  "categoryPage": "https://www.mowalola.com/collections/new-arrivals?page=2&phcursor=eyJhbGciOiJIUzI1NiJ9.eyJzayI6InBvc2l0aW9uIiwic3YiOjE3LCJkIjoiZiIsInVpZCI6MzUxMDQ4MzIzMjM3NDksImwiOjE2LCJvIjowLCJyIjoiQ0RQIiwidiI6MSwicCI6Mn0.0gio4uu5SPoCoEbVjPBOe3TBSoVg0hiSeteDrnEgVgA",
+  "scrapeTimestamp": "2025-08-12 22:52:35"
+},
+{
+  "brand": "MOWALOLA",
+  "name": "CHEETAH JEAN BLACK",
+  "price": 483,
+  "currency": "USD",
+  "description": "Mid-rise relaxed straight-fit jeans with a regular leg opening. Slightly shorter rise for a sharper fit. Crafted from premium rigid black denim with a custom cheetah print placed on the legs and enzyme wash. Detailed with signature t-box and 4x4 embroidery. Features exclusive Mowalola doberman pocket tag, a red leather embossed patch at the CB waistband and a special collaboration swing tag.",
+  "category": "NEW ARRIVALS",
+  "sizes": [
+    "28",
+    "29",
+    "30",
+    "31",
+    "32"
+  ],
+  "mainImage": "https://www.mowalola.com/cdn/shop/files/MOWA_KSUBI_MARCH_L10_1274.jpg",
+  "images": [
+    "https://www.mowalola.com/cdn/shop/files/MOWA_KSUBI_MARCH_L10_1274.jpg",
+    "https://www.mowalola.com/cdn/shop/files/MOWA_JEAN_BLACK_CHEETAH_F.jpg",
+    "https://www.mowalola.com/cdn/shop/files/MOWA_JEAN_BLACK_CHEETAH_F_2.jpg"
+  ],
+  "availability": "in_stock",
+  "variants": [
+    {
+      "color": "",
+      "size": "28",
+      "availability": "in_stock"
+    },
+    {
+      "color": "",
+      "size": "29",
+      "availability": "in_stock"
+    },
+    {
+      "color": "",
+      "size": "30",
+      "availability": "in_stock"
+    },
+    {
+      "color": "",
+      "size": "31",
+      "availability": "in_stock"
+    },
+    {
+      "color": "",
+      "size": "32",
+      "availability": "in_stock"
+    }
+  ],
+  "productURL": "https://www.mowalola.com/products/mowa-jean-black-cheetah",
+  "categoryPage": "https://www.mowalola.com/collections/new-arrivals?page=2&phcursor=eyJhbGciOiJIUzI1NiJ9.eyJzayI6InBvc2l0aW9uIiwic3YiOjE3LCJkIjoiZiIsInVpZCI6MzUxMDQ4MzIzMjM3NDksImwiOjE2LCJvIjowLCJyIjoiQ0RQIiwidiI6MSwicCI6Mn0.0gio4uu5SPoCoEbVjPBOe3TBSoVg0hiSeteDrnEgVgA",
+  "scrapeTimestamp": "2025-08-12 22:52:35"
+},
+{
+  "brand": "MOWALOLA",
+  "name": "ANTI K JEANS CHEETAH",
+  "price": 552,
+  "currency": "USD",
+  "description": "Mid-rise relaxed straight-fit jeans with a regular leg opening. The Mowalola collaboration brings a slightly shorter rise for a sharper fit. Crafted from premium rigid denim with a custom cheetah print and enzyme wash. Detailed with signature t-box and 4x4 embroidery as well as Ksubi-branded hardware. Features exclusive Mowalola doberman pocket tag, a red leather embossed patch at the CB waistband, and a special collaboration swingtag.",
+  "category": "NEW ARRIVALS",
+  "sizes": [
+    "28",
+    "29",
+    "30",
+    "32",
+    "34"
+  ],
+  "mainImage": "https://www.mowalola.com/cdn/shop/files/MOWA_KSUBI_MARCH_L17_2235.jpg",
+  "images": [
+    "https://www.mowalola.com/cdn/shop/files/MOWA_KSUBI_MARCH_L17_2235.jpg",
+    "https://www.mowalola.com/cdn/shop/files/MOWA_ANTI_K_CHEETAH_F.jpg",
+    "https://www.mowalola.com/cdn/shop/files/MOWA_ANTI_K_CHEETAH_F_1.jpg"
+  ],
+  "availability": "in_stock",
+  "variants": [
+    {
+      "color": "",
+      "size": "28",
+      "availability": "out_of_stock"
+    },
+    {
+      "color": "",
+      "size": "29",
+      "availability": "in_stock"
+    },
+    {
+      "color": "",
+      "size": "30",
+      "availability": "in_stock"
+    },
+    {
+      "color": "",
+      "size": "32",
+      "availability": "in_stock"
+    },
+    {
+      "color": "",
+      "size": "34",
+      "availability": "in_stock"
+    }
+  ],
+  "productURL": "https://www.mowalola.com/products/mowa-anti-k-cheetah",
+  "categoryPage": "https://www.mowalola.com/collections/new-arrivals?page=2&phcursor=eyJhbGciOiJIUzI1NiJ9.eyJzayI6InBvc2l0aW9uIiwic3YiOjE3LCJkIjoiZiIsInVpZCI6MzUxMDQ4MzIzMjM3NDksImwiOjE2LCJvIjowLCJyIjoiQ0RQIiwidiI6MSwicCI6Mn0.0gio4uu5SPoCoEbVjPBOe3TBSoVg0hiSeteDrnEgVgA",
+  "scrapeTimestamp": "2025-08-12 22:52:35"
+},
+{
+  "brand": "MOWALOLA",
+  "name": "MOWALOLA CAP",
+  "price": 111,
+  "currency": "USD",
+  "description": "Printed cap with buckle details Product ships in 7 days.",
+  "category": "OTHER",
+  "sizes": [
+    "OS"
+  ],
+  "mainImage": "https://www.mowalola.com/cdn/shop/files/Screenshot2025-04-30at15.39.35.png",
+  "images": [
+    "https://www.mowalola.com/cdn/shop/files/Screenshot2025-04-30at15.39.35.png",
+    "https://www.mowalola.com/cdn/shop/files/MOWALOLA_CAP_01_f46e84ef-47df-4d13-a010-f9745876f232.jpg",
+    "https://www.mowalola.com/cdn/shop/files/MOWALOLA_CAP_02.jpg"
+  ],
+  "availability": "out_of_stock",
+  "variants": [
+    {
+      "color": "",
+      "size": "OS",
+      "availability": "out_of_stock"
+    }
+  ],
+  "productURL": "https://www.mowalola.com/products/mowalola-cap",
+  "categoryPage": "https://www.mowalola.com/collections/other",
+  "scrapeTimestamp": "2025-08-12 22:52:35"
+},
+{
+  "brand": "MOWALOLA",
+  "name": "GREY CAMO UNDERWEAR",
+  "price": 76,
+  "currency": "USD",
+  "description": "Camo printed lycra boxer. Model is 6’3” and is wearing a size M.",
+  "category": "OTHER",
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL"
+  ],
+  "mainImage": "https://www.mowalola.com/cdn/shop/files/Screenshot2025-04-30at16.13.23.png",
+  "images": [
+    "https://www.mowalola.com/cdn/shop/files/Screenshot2025-04-30at16.13.23.png",
+    "https://www.mowalola.com/cdn/shop/files/CAMOFLAGEBOXER_01.jpg",
+    "https://www.mowalola.com/cdn/shop/files/CAMOFLAGE_BOXER_02_25b8f98b-f075-4f9e-8ae4-c3364376b7e4.jpg"
+  ],
+  "availability": "in_stock",
+  "variants": [
+    {
+      "color": "",
+      "size": "S",
+      "availability": "out_of_stock"
+    },
+    {
+      "color": "",
+      "size": "M",
+      "availability": "in_stock"
+    },
+    {
+      "color": "",
+      "size": "L",
+      "availability": "in_stock"
+    },
+    {
+      "color": "",
+      "size": "XL",
+      "availability": "in_stock"
+    }
+  ],
+  "productURL": "https://www.mowalola.com/products/mowalola-camo-boxer",
+  "categoryPage": "https://www.mowalola.com/collections/other",
+  "scrapeTimestamp": "2025-08-12 22:52:35"
+},
+{
+  "brand": "MOWALOLA",
+  "name": "RED CAMO UNDERWEAR",
+  "price": 76,
+  "currency": "USD",
+  "description": "Camo printed lycra boxers Branded elastic waistband",
+  "category": "OTHER",
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL"
+  ],
+  "mainImage": "https://www.mowalola.com/cdn/shop/files/Screenshot2025-04-30at15.51.45.png",
+  "images": [
+    "https://www.mowalola.com/cdn/shop/files/Screenshot2025-04-30at15.51.45.png",
+    "https://www.mowalola.com/cdn/shop/files/Red_Camo_Underwear_01.jpg",
+    "https://www.mowalola.com/cdn/shop/files/Red_Camo_Underwear_02.jpg"
+  ],
+  "availability": "in_stock",
+  "variants": [
+    {
+      "color": "",
+      "size": "S",
+      "availability": "in_stock"
+    },
+    {
+      "color": "",
+      "size": "M",
+      "availability": "in_stock"
+    },
+    {
+      "color": "",
+      "size": "L",
+      "availability": "out_of_stock"
+    },
+    {
+      "color": "",
+      "size": "XL",
+      "availability": "in_stock"
+    }
+  ],
+  "productURL": "https://www.mowalola.com/products/mowalola-red-camo-boxer",
+  "categoryPage": "https://www.mowalola.com/collections/other",
+  "scrapeTimestamp": "2025-08-12 22:52:35"
+},
+{
+  "brand": "MOWALOLA",
+  "name": "MOWA CLASSICS UNDERWEAR BURGUNDY",
+  "price": 76,
+  "currency": "USD",
+  "description": "Cotton boxers with branded elastic waistband.",
+  "category": "OTHER",
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL"
+  ],
+  "mainImage": "https://www.mowalola.com/cdn/shop/files/Screenshot2025-04-30at15.49.47.png",
+  "images": [
+    "https://www.mowalola.com/cdn/shop/files/Screenshot2025-04-30at15.49.47.png",
+    "https://www.mowalola.com/cdn/shop/files/Mowa_Classics_Underwear_Burgundy_01.jpg",
+    "https://www.mowalola.com/cdn/shop/files/Mowa_Classics_Underwear_Burgundy_02.jpg"
+  ],
+  "availability": "in_stock",
+  "variants": [
+    {
+      "color": "",
+      "size": "S",
+      "availability": "in_stock"
+    },
+    {
+      "color": "",
+      "size": "M",
+      "availability": "in_stock"
+    },
+    {
+      "color": "",
+      "size": "L",
+      "availability": "in_stock"
+    },
+    {
+      "color": "",
+      "size": "XL",
+      "availability": "in_stock"
+    }
+  ],
+  "productURL": "https://www.mowalola.com/products/mowalola-plain-boxer-black",
+  "categoryPage": "https://www.mowalola.com/collections/other",
+  "scrapeTimestamp": "2025-08-12 22:52:35"
+},
+{
+  "brand": "MOWALOLA",
+  "name": "MOWA CLASSICS UNDERWEAR BLACK",
+  "price": 76,
+  "currency": "USD",
+  "description": "Cotton boxers with branded elastic waistband.",
+  "category": "OTHER",
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL"
+  ],
+  "mainImage": "https://www.mowalola.com/cdn/shop/files/Screenshot2025-05-06at17.22.37.png",
+  "images": [
+    "https://www.mowalola.com/cdn/shop/files/Screenshot2025-05-06at17.22.37.png",
+    "https://www.mowalola.com/cdn/shop/files/Mowa_Classics_Underwear_Black_01.jpg",
+    "https://www.mowalola.com/cdn/shop/files/Mowa_Classics_Underwear_Black_02.jpg",
+    "https://www.mowalola.com/cdn/shop/files/Screenshot2025-05-06at17.19.01.png"
+  ],
+  "availability": "in_stock",
+  "variants": [
+    {
+      "color": "",
+      "size": "S",
+      "availability": "out_of_stock"
+    },
+    {
+      "color": "",
+      "size": "M",
+      "availability": "in_stock"
+    },
+    {
+      "color": "",
+      "size": "L",
+      "availability": "in_stock"
+    },
+    {
+      "color": "",
+      "size": "XL",
+      "availability": "in_stock"
+    }
+  ],
+  "productURL": "https://www.mowalola.com/products/mowalola-plain-boxer-black-1",
+  "categoryPage": "https://www.mowalola.com/collections/other",
+  "scrapeTimestamp": "2025-08-12 22:52:35"
+},
+{
+  "brand": "MOWALOLA",
+  "name": "Turtle Neck M Cardigan",
+  "price": 290,
+  "currency": "USD",
+  "description": "M logo zip-up, ribbed cardigan. Turtleneck detail for extra comfort and warmth. Male model is 6'4 and wearing a size S. This cardigan is fitted. True to size.",
+  "category": "SALE",
+  "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L",
+    "XL"
+  ],
+  "mainImage": "https://www.mowalola.com/cdn/shop/files/Screenshot2025-04-15at12.39.57.png",
+  "images": [
+    "https://www.mowalola.com/cdn/shop/files/Screenshot2025-04-15at12.39.57.png",
+    "https://www.mowalola.com/cdn/shop/files/Yellowturtleneckjumper_01.jpg",
+    "https://www.mowalola.com/cdn/shop/files/Yellowturtleneckjumper_02.jpg"
+  ],
+  "availability": "in_stock",
+  "variants": [
+    {
+      "color": "",
+      "size": "XS",
+      "availability": "in_stock"
+    },
+    {
+      "color": "",
+      "size": "S",
+      "availability": "in_stock"
+    },
+    {
+      "color": "",
+      "size": "M",
+      "availability": "in_stock"
+    },
+    {
+      "color": "",
+      "size": "L",
+      "availability": "in_stock"
+    },
+    {
+      "color": "",
+      "size": "XL",
+      "availability": "in_stock"
+    }
+  ],
+  "productURL": "https://www.mowalola.com/products/turtle-neck-m-cardigan",
+  "categoryPage": "https://www.mowalola.com/collections/sale",
+  "scrapeTimestamp": "2025-08-12 22:52:35"
+},
+{
+  "brand": "MOWALOLA",
+  "name": "Insert Disc Dress",
+  "price": 221,
+  "currency": "USD",
+  "description": "Insert disc here cotton dress as seen on the runway. Please Note: Mesh In-lay, in place of cutout This dress is fitted and full length.",
+  "category": "SALE",
+  "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L",
+    "XL"
+  ],
+  "mainImage": "https://www.mowalola.com/cdn/shop/files/Black_insertdisk_dress_01.jpg",
+  "images": [
+    "https://www.mowalola.com/cdn/shop/files/Black_insertdisk_dress_01.jpg",
+    "https://www.mowalola.com/cdn/shop/files/Black_insertdisk_dress_02.jpg"
+  ],
+  "availability": "in_stock",
+  "variants": [
+    {
+      "color": "",
+      "size": "XS",
+      "availability": "in_stock"
+    },
+    {
+      "color": "",
+      "size": "S",
+      "availability": "in_stock"
+    },
+    {
+      "color": "",
+      "size": "M",
+      "availability": "in_stock"
+    },
+    {
+      "color": "",
+      "size": "L",
+      "availability": "out_of_stock"
+    },
+    {
+      "color": "",
+      "size": "XL",
+      "availability": "out_of_stock"
+    }
+  ],
+  "productURL": "https://www.mowalola.com/products/insert-disc-dress",
+  "categoryPage": "https://www.mowalola.com/collections/sale",
+  "scrapeTimestamp": "2025-08-12 22:52:35"
+},
+{
+  "brand": "MOWALOLA",
+  "name": "M Seal Mini Denim",
+  "price": 242,
+  "currency": "USD",
+  "description": "M logo denim mini, featuring an embossed print from our SS23 collection. Model is 5'10 and wearing size XS. 100% cotton. This skirt is fitted.",
+  "category": "SALE",
+  "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L",
+    "XL"
+  ],
+  "mainImage": "https://www.mowalola.com/cdn/shop/files/Screenshot2025-04-14at15.51.00.png",
+  "images": [
+    "https://www.mowalola.com/cdn/shop/files/Screenshot2025-04-14at15.51.00.png",
+    "https://www.mowalola.com/cdn/shop/files/EMBOSSED_DENIM_MINISKIRT.jpg"
+  ],
+  "availability": "in_stock",
+  "variants": [
+    {
+      "color": "",
+      "size": "XS",
+      "availability": "in_stock"
+    },
+    {
+      "color": "",
+      "size": "S",
+      "availability": "out_of_stock"
+    },
+    {
+      "color": "",
+      "size": "M",
+      "availability": "in_stock"
+    },
+    {
+      "color": "",
+      "size": "L",
+      "availability": "out_of_stock"
+    },
+    {
+      "color": "",
+      "size": "XL",
+      "availability": "out_of_stock"
+    }
+  ],
+  "productURL": "https://www.mowalola.com/products/embossed-denim-mini-skirt",
+  "categoryPage": "https://www.mowalola.com/collections/sale",
+  "scrapeTimestamp": "2025-08-12 22:52:35"
+},
+{
+  "brand": "MOWALOLA",
+  "name": "Stone Denim Pants",
+  "price": 414,
+  "currency": "USD",
+  "description": "Model is 5'10 and wearing size 26. 100% Cotton Denim This denim is low-waist with slight baggy fit. True to size.",
+  "category": "SALE",
+  "sizes": [
+    "24",
+    "26",
+    "28",
+    "30",
+    "31",
+    "32",
+    "36"
+  ],
+  "mainImage": "https://www.mowalola.com/cdn/shop/files/Screenshot_2025-04-03_at_12.14.01.png",
+  "images": [
+    "https://www.mowalola.com/cdn/shop/files/Screenshot_2025-04-03_at_12.14.01.png",
+    "https://www.mowalola.com/cdn/shop/files/denimlasertrompel_oieilpan_01.jpg",
+    "https://www.mowalola.com/cdn/shop/files/denimlasertrompel_oieilpan_02.jpg"
+  ],
+  "availability": "in_stock",
+  "variants": [
+    {
+      "color": "",
+      "size": "24",
+      "availability": "in_stock"
+    },
+    {
+      "color": "",
+      "size": "26",
+      "availability": "in_stock"
+    },
+    {
+      "color": "",
+      "size": "28",
+      "availability": "in_stock"
+    },
+    {
+      "color": "",
+      "size": "30",
+      "availability": "out_of_stock"
+    },
+    {
+      "color": "",
+      "size": "31",
+      "availability": "out_of_stock"
+    },
+    {
+      "color": "",
+      "size": "32",
+      "availability": "in_stock"
+    },
+    {
+      "color": "",
+      "size": "36",
+      "availability": "in_stock"
+    }
+  ],
+  "productURL": "https://www.mowalola.com/products/denim-laser-trompe-pants",
+  "categoryPage": "https://www.mowalola.com/collections/sale",
+  "scrapeTimestamp": "2025-08-12 22:52:35"
+},
+{
+  "brand": "MOWALOLA",
+  "name": "Stone Skirt",
+  "price": 242,
+  "currency": "USD",
+  "description": "Model is 5'10 and wearing size S Black faux leather 100% Vegan Leather This skirt is fitted. True to size.",
+  "category": "SALE",
+  "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L",
+    "XL"
+  ],
+  "mainImage": "https://www.mowalola.com/cdn/shop/files/MOWALOLA_DARKWEB582.jpg",
+  "images": [
+    "https://www.mowalola.com/cdn/shop/files/MOWALOLA_DARKWEB582.jpg",
+    "https://www.mowalola.com/cdn/shop/files/MOWALOLA_DARKWEB595.jpg",
+    "https://www.mowalola.com/cdn/shop/files/Veganleatherblackskirt_01.jpg",
+    "https://www.mowalola.com/cdn/shop/files/Veganleatherblackskirt_02.jpg"
+  ],
+  "availability": "in_stock",
+  "variants": [
+    {
+      "color": "",
+      "size": "XS",
+      "availability": "out_of_stock"
+    },
+    {
+      "color": "",
+      "size": "S",
+      "availability": "in_stock"
+    },
+    {
+      "color": "",
+      "size": "M",
+      "availability": "in_stock"
+    },
+    {
+      "color": "",
+      "size": "L",
+      "availability": "out_of_stock"
+    },
+    {
+      "color": "",
+      "size": "XL",
+      "availability": "out_of_stock"
+    }
+  ],
+  "productURL": "https://www.mowalola.com/products/mini-faux-leather-printed-skirt-dark-web-personal-order",
+  "categoryPage": "https://www.mowalola.com/collections/sale",
+  "scrapeTimestamp": "2025-08-12 22:52:35"
+},
+{
+  "brand": "MOWALOLA",
+  "name": "Stone Pants",
+  "price": 483,
+  "currency": "USD",
+  "description": "Model is 5'10 and wearing size 26 Black faux leather trousers, featuring our airbrushed iconic print from our SS23 runway. These pleather pants are low-waisted and fitted. True to size.",
+  "category": "SALE",
+  "sizes": [
+    "24",
+    "26",
+    "28",
+    "30",
+    "31",
+    "32",
+    "34",
+    "36"
+  ],
+  "mainImage": "https://www.mowalola.com/cdn/shop/files/Stone_Pants_Resized_2.png",
+  "images": [
+    "https://www.mowalola.com/cdn/shop/files/Stone_Pants_Resized_2.png",
+    "https://www.mowalola.com/cdn/shop/files/MOWALOLA_DARKWEB20_e4df895d-85ff-472e-bbb8-3b35f02660ca.jpg",
+    "https://www.mowalola.com/cdn/shop/files/MOWALOLA_DARKWEB33_cd3110db-fdac-4ea5-974f-630fd9805a3a.jpg"
+  ],
+  "availability": "in_stock",
+  "variants": [
+    {
+      "color": "",
+      "size": "24",
+      "availability": "in_stock"
+    },
+    {
+      "color": "",
+      "size": "26",
+      "availability": "out_of_stock"
+    },
+    {
+      "color": "",
+      "size": "28",
+      "availability": "in_stock"
+    },
+    {
+      "color": "",
+      "size": "30",
+      "availability": "in_stock"
+    },
+    {
+      "color": "",
+      "size": "31",
+      "availability": "out_of_stock"
+    },
+    {
+      "color": "",
+      "size": "32",
+      "availability": "out_of_stock"
+    },
+    {
+      "color": "",
+      "size": "34",
+      "availability": "out_of_stock"
+    },
+    {
+      "color": "",
+      "size": "36",
+      "availability": "out_of_stock"
+    }
+  ],
+  "productURL": "https://www.mowalola.com/products/hot-pants-faux-leather",
+  "categoryPage": "https://www.mowalola.com/collections/sale",
+  "scrapeTimestamp": "2025-08-12 22:52:35"
+},
+{
+  "brand": "MOWALOLA",
+  "name": "M Seal Mini",
+  "price": 242,
+  "currency": "USD",
+  "description": "M logo mini, featuring an embossed print from our SS23 collection. Model is 5'10 and wearing size S. 100% Vegan Leather This skirt is fitted.",
+  "category": "SALE",
+  "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L",
+    "XL"
+  ],
+  "mainImage": "https://www.mowalola.com/cdn/shop/files/Screenshot_2025-04-03_at_12.15.27.png",
+  "images": [
+    "https://www.mowalola.com/cdn/shop/files/Screenshot_2025-04-03_at_12.15.27.png",
+    "https://www.mowalola.com/cdn/shop/files/EMBOSSED_MINISKIRT_BLACK.jpg"
+  ],
+  "availability": "in_stock",
+  "variants": [
+    {
+      "color": "",
+      "size": "XS",
+      "availability": "in_stock"
+    },
+    {
+      "color": "",
+      "size": "S",
+      "availability": "out_of_stock"
+    },
+    {
+      "color": "",
+      "size": "M",
+      "availability": "out_of_stock"
+    },
+    {
+      "color": "",
+      "size": "L",
+      "availability": "in_stock"
+    },
+    {
+      "color": "",
+      "size": "XL",
+      "availability": "out_of_stock"
+    }
+  ],
+  "productURL": "https://www.mowalola.com/products/faux-leather-embossed-mini-skirt",
+  "categoryPage": "https://www.mowalola.com/collections/sale",
+  "scrapeTimestamp": "2025-08-12 22:52:35"
+},
+{
+  "brand": "MOWALOLA",
+  "name": "Denim Mini Skirt",
+  "price": 262,
+  "currency": "USD",
+  "description": "Deep blue denim Mini Skirt. Side panel details for an enhanced silhouette shaping. Back pockets and belt loops details. 100% Cotton Denim",
+  "category": "SALE",
+  "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L",
+    "XL"
+  ],
+  "mainImage": "https://www.mowalola.com/cdn/shop/files/Screenshot2025-04-15at13.02.14.png",
+  "images": [
+    "https://www.mowalola.com/cdn/shop/files/Screenshot2025-04-15at13.02.14.png",
+    "https://www.mowalola.com/cdn/shop/files/denimminiskirt_01.jpg",
+    "https://www.mowalola.com/cdn/shop/files/denimminiskirt_02.jpg"
+  ],
+  "availability": "in_stock",
+  "variants": [
+    {
+      "color": "",
+      "size": "XS",
+      "availability": "in_stock"
+    },
+    {
+      "color": "",
+      "size": "S",
+      "availability": "in_stock"
+    },
+    {
+      "color": "",
+      "size": "M",
+      "availability": "in_stock"
+    },
+    {
+      "color": "",
+      "size": "L",
+      "availability": "in_stock"
+    },
+    {
+      "color": "",
+      "size": "XL",
+      "availability": "in_stock"
+    }
+  ],
+  "productURL": "https://www.mowalola.com/products/denim-mini-skirt",
+  "categoryPage": "https://www.mowalola.com/collections/sale",
+  "scrapeTimestamp": "2025-08-12 22:52:35"
+},
+{
+  "brand": "MOWALOLA",
+  "name": "Make a Wish Hoodie",
+  "price": 207,
+  "currency": "USD",
+  "description": "Model is 6'4 and wearing size XL. 100% Cotton This hoodie fit is slightly oversized.",
+  "category": "SALE",
+  "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L",
+    "XL"
+  ],
+  "mainImage": "https://www.mowalola.com/cdn/shop/files/Screenshot2025-04-14at12.26.59.png",
+  "images": [
+    "https://www.mowalola.com/cdn/shop/files/Screenshot2025-04-14at12.26.59.png",
+    "https://www.mowalola.com/cdn/shop/files/OVERSIZE_UNICORN_HOODIE.jpg"
+  ],
+  "availability": "in_stock",
+  "variants": [
+    {
+      "color": "",
+      "size": "XS",
+      "availability": "in_stock"
+    },
+    {
+      "color": "",
+      "size": "S",
+      "availability": "in_stock"
+    },
+    {
+      "color": "",
+      "size": "M",
+      "availability": "out_of_stock"
+    },
+    {
+      "color": "",
+      "size": "L",
+      "availability": "out_of_stock"
+    },
+    {
+      "color": "",
+      "size": "XL",
+      "availability": "out_of_stock"
+    }
+  ],
+  "productURL": "https://www.mowalola.com/products/oversize-unicorn-hoodie",
+  "categoryPage": "https://www.mowalola.com/collections/sale",
+  "scrapeTimestamp": "2025-08-12 22:52:35"
+},
+{
+  "brand": "MOWALOLA",
+  "name": "Spiral Mini Dress",
+  "price": 276,
+  "currency": "USD",
+  "description": "Cut-outs spiral dress. Model is 5'10 and wearing size S 100% Cotton This dress is fitted. True to size.",
+  "category": "SALE",
+  "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L",
+    "XL"
+  ],
+  "mainImage": "https://www.mowalola.com/cdn/shop/files/Screenshot2025-04-14at15.16.08.png",
+  "images": [
+    "https://www.mowalola.com/cdn/shop/files/Screenshot2025-04-14at15.16.08.png",
+    "https://www.mowalola.com/cdn/shop/files/BLACKCUTOUTDRESS_FRONT.jpg",
+    "https://www.mowalola.com/cdn/shop/files/BLACKCUTOUTDRESS_BACK.jpg"
+  ],
+  "availability": "in_stock",
+  "variants": [
+    {
+      "color": "",
+      "size": "XS",
+      "availability": "in_stock"
+    },
+    {
+      "color": "",
+      "size": "S",
+      "availability": "in_stock"
+    },
+    {
+      "color": "",
+      "size": "M",
+      "availability": "out_of_stock"
+    },
+    {
+      "color": "",
+      "size": "L",
+      "availability": "in_stock"
+    },
+    {
+      "color": "",
+      "size": "XL",
+      "availability": "in_stock"
+    }
+  ],
+  "productURL": "https://www.mowalola.com/products/seude-spiral-jersey-dark-web-personal-order",
+  "categoryPage": "https://www.mowalola.com/collections/sale",
+  "scrapeTimestamp": "2025-08-12 22:52:35"
+},
+{
+  "brand": "MOWALOLA",
+  "name": "City Vest",
+  "price": 242,
+  "currency": "USD",
+  "description": "Zip-up nylon vest, silver metallic zipper pockets. 100% Nylon This vest is cropped and fitted.",
+  "category": "SALE",
+  "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L",
+    "XL"
+  ],
+  "mainImage": "https://www.mowalola.com/cdn/shop/files/nylonvest_01.jpg",
+  "images": [
+    "https://www.mowalola.com/cdn/shop/files/nylonvest_01.jpg",
+    "https://www.mowalola.com/cdn/shop/files/nylonvest_02.jpg"
+  ],
+  "availability": "in_stock",
+  "variants": [
+    {
+      "color": "",
+      "size": "XS",
+      "availability": "out_of_stock"
+    },
+    {
+      "color": "",
+      "size": "S",
+      "availability": "in_stock"
+    },
+    {
+      "color": "",
+      "size": "M",
+      "availability": "in_stock"
+    },
+    {
+      "color": "",
+      "size": "L",
+      "availability": "out_of_stock"
+    },
+    {
+      "color": "",
+      "size": "XL",
+      "availability": "out_of_stock"
+    }
+  ],
+  "productURL": "https://www.mowalola.com/products/nylon-vest-dark-web-personal-order",
+  "categoryPage": "https://www.mowalola.com/collections/sale",
+  "scrapeTimestamp": "2025-08-12 22:52:35"
+},
+{
+  "brand": "MOWALOLA",
+  "name": "Finger Jacket",
+  "price": 483,
+  "currency": "USD",
+  "description": "Finger jacket featuring zipper opening details on both front and back panels. Finger cut outs for thumbs, middle and ring fingers. Statement piece. 100% Nylon This jacket is fitted.",
+  "category": "SALE",
+  "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L",
+    "XL"
+  ],
+  "mainImage": "https://www.mowalola.com/cdn/shop/files/fingernylonjacket_01.jpg",
+  "images": [
+    "https://www.mowalola.com/cdn/shop/files/fingernylonjacket_01.jpg",
+    "https://www.mowalola.com/cdn/shop/files/fingernylonjacket_02.jpg"
+  ],
+  "availability": "in_stock",
+  "variants": [
+    {
+      "color": "",
+      "size": "XS",
+      "availability": "out_of_stock"
+    },
+    {
+      "color": "",
+      "size": "S",
+      "availability": "in_stock"
+    },
+    {
+      "color": "",
+      "size": "M",
+      "availability": "in_stock"
+    },
+    {
+      "color": "",
+      "size": "L",
+      "availability": "in_stock"
+    },
+    {
+      "color": "",
+      "size": "XL",
+      "availability": "in_stock"
+    }
+  ],
+  "productURL": "https://www.mowalola.com/products/finger-jacket",
+  "categoryPage": "https://www.mowalola.com/collections/sale",
+  "scrapeTimestamp": "2025-08-12 22:52:35"
+},
+{
+  "brand": "MOWALOLA",
+  "name": "MY CITY Dress Shirt",
+  "price": 414,
+  "currency": "USD",
+  "description": "Male model is 5'11 and is wearing size M. Female model is 5'10 and is wearing size S. 100% Cotton This shirt is slightly oversized it. True to size.",
+  "category": "SALE",
+  "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L",
+    "XL"
+  ],
+  "mainImage": "https://www.mowalola.com/cdn/shop/files/LOOK_5_71.jpg",
+  "images": [
+    "https://www.mowalola.com/cdn/shop/files/LOOK_5_71.jpg",
+    "https://www.mowalola.com/cdn/shop/files/minidressshirtnyls_01.jpg",
+    "https://www.mowalola.com/cdn/shop/files/LOOK_5_74.jpg",
+    "https://www.mowalola.com/cdn/shop/files/MOWALOLA_DARKWEB684_d9c39292-75f0-4936-b7ec-1a5cd85dd4bb.jpg",
+    "https://www.mowalola.com/cdn/shop/files/MOWALOLA_DARKWEB690_8432e75a-a472-4e66-ad0a-48d25e9b4676.jpg",
+    "https://www.mowalola.com/cdn/shop/files/minidressshirtnyls_02.jpg"
+  ],
+  "availability": "in_stock",
+  "variants": [
+    {
+      "color": "",
+      "size": "XS",
+      "availability": "in_stock"
+    },
+    {
+      "color": "",
+      "size": "S",
+      "availability": "in_stock"
+    },
+    {
+      "color": "",
+      "size": "M",
+      "availability": "out_of_stock"
+    },
+    {
+      "color": "",
+      "size": "L",
+      "availability": "out_of_stock"
+    },
+    {
+      "color": "",
+      "size": "XL",
+      "availability": "out_of_stock"
+    }
+  ],
+  "productURL": "https://www.mowalola.com/products/my-city-dress-shirt",
+  "categoryPage": "https://www.mowalola.com/collections/sale",
+  "scrapeTimestamp": "2025-08-12 22:52:35"
+},
+{
+  "brand": "MOWALOLA",
+  "name": "Club Spider Tee",
+  "price": 193,
+  "currency": "USD",
+  "description": "Model is 6'4 and is wearing a size XL. 100% Cotton This tee is slim fitted.",
+  "category": "SALE",
+  "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL"
+  ],
+  "mainImage": "https://www.mowalola.com/cdn/shop/files/Screenshot2025-04-15at12.48.37.png",
+  "images": [
+    "https://www.mowalola.com/cdn/shop/files/Screenshot2025-04-15at12.48.37.png",
+    "https://www.mowalola.com/cdn/shop/files/tshirtssmidweight84_01.jpg",
+    "https://www.mowalola.com/cdn/shop/files/tshirtssmidweight84_02.jpg"
+  ],
+  "availability": "in_stock",
+  "variants": [
+    {
+      "color": "",
+      "size": "XS",
+      "availability": "out_of_stock"
+    },
+    {
+      "color": "",
+      "size": "S",
+      "availability": "out_of_stock"
+    },
+    {
+      "color": "",
+      "size": "M",
+      "availability": "out_of_stock"
+    },
+    {
+      "color": "",
+      "size": "L",
+      "availability": "out_of_stock"
+    },
+    {
+      "color": "",
+      "size": "XL",
+      "availability": "out_of_stock"
+    },
+    {
+      "color": "",
+      "size": "XXL",
+      "availability": "in_stock"
+    }
+  ],
+  "productURL": "https://www.mowalola.com/products/t-shirt-ss-mid-weight-84",
+  "categoryPage": "https://www.mowalola.com/collections/sale",
+  "scrapeTimestamp": "2025-08-12 22:52:35"
+},
+{
+  "brand": "MOWALOLA",
+  "name": "Lagos Football Tee",
+  "price": 242,
+  "currency": "USD",
+  "description": "Model is 5'9\" and wearing size M. High tech material, airy and stretchy. Soft to the touch. This tee is loose fit.",
+  "category": "SALE",
+  "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL"
+  ],
+  "mainImage": "https://www.mowalola.com/cdn/shop/files/Screenshot2025-04-14at16.47.36.png",
+  "images": [
+    "https://www.mowalola.com/cdn/shop/files/Screenshot2025-04-14at16.47.36.png",
+    "https://www.mowalola.com/cdn/shop/files/LSFOOTBALLSHIRT_FRONT.jpg",
+    "https://www.mowalola.com/cdn/shop/files/LSFOOTBALLSHIRT_BACK.jpg"
+  ],
+  "availability": "in_stock",
+  "variants": [
+    {
+      "color": "",
+      "size": "XS",
+      "availability": "in_stock"
+    },
+    {
+      "color": "",
+      "size": "S",
+      "availability": "in_stock"
+    },
+    {
+      "color": "",
+      "size": "M",
+      "availability": "in_stock"
+    },
+    {
+      "color": "",
+      "size": "L",
+      "availability": "out_of_stock"
+    },
+    {
+      "color": "",
+      "size": "XL",
+      "availability": "in_stock"
+    },
+    {
+      "color": "",
+      "size": "XXL",
+      "availability": "out_of_stock"
+    }
+  ],
+  "productURL": "https://www.mowalola.com/products/t-shirt-ls-football",
+  "categoryPage": "https://www.mowalola.com/collections/sale",
+  "scrapeTimestamp": "2025-08-12 22:52:35"
+},
+{
+  "brand": "MOWALOLA",
+  "name": "419 Tee",
+  "price": 97,
+  "currency": "USD",
+  "description": "100% COTTON TEE. This tee is cropped and fitted. True to size. Model is 5'10 and wearing size S",
+  "category": "SALE",
+  "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L",
+    "XL"
+  ],
+  "mainImage": "https://www.mowalola.com/cdn/shop/files/Screenshot2025-04-15at13.08.56.png",
+  "images": [
+    "https://www.mowalola.com/cdn/shop/files/Screenshot2025-04-15at13.08.56.png",
+    "https://www.mowalola.com/cdn/shop/files/babytshirtTHEIF_01.jpg",
+    "https://www.mowalola.com/cdn/shop/files/babytshirtTHEIF_02.jpg"
+  ],
+  "availability": "in_stock",
+  "variants": [
+    {
+      "color": "",
+      "size": "XS",
+      "availability": "out_of_stock"
+    },
+    {
+      "color": "",
+      "size": "S",
+      "availability": "in_stock"
+    },
+    {
+      "color": "",
+      "size": "M",
+      "availability": "out_of_stock"
+    },
+    {
+      "color": "",
+      "size": "L",
+      "availability": "in_stock"
+    },
+    {
+      "color": "",
+      "size": "XL",
+      "availability": "in_stock"
+    }
+  ],
+  "productURL": "https://www.mowalola.com/products/419-t-shirt",
+  "categoryPage": "https://www.mowalola.com/collections/sale",
+  "scrapeTimestamp": "2025-08-12 22:52:35"
+},
+{
+  "brand": "MOWALOLA",
+  "name": "TRASHED BOMBER CHEETAH",
+  "price": 952,
+  "currency": "USD",
+  "description": "Oversized fit bomber jacket with distressed rib detailing and CF zipper opening with branded puller. Made from a premium denim with exclusive cheetah print. The jacket is lightly wadded. Featuring front MK branding hit on CF and back jacket & sleeves with shredded, laddered distressing and printed backing under the distressing.",
+  "category": "NEW ARRIVALS",
+  "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL"
+  ],
+  "mainImage": "https://www.mowalola.com/cdn/shop/files/MOWA_KSUBI_MARCH_L23_2759.jpg",
+  "images": [
+    "https://www.mowalola.com/cdn/shop/files/MOWA_KSUBI_MARCH_L23_2759.jpg",
+    "https://www.mowalola.com/cdn/shop/files/MOWA_BOMBER_CHEETAH_TRASHED_F.jpg",
+    "https://www.mowalola.com/cdn/shop/files/MOWA_BOMBER_CHEETAH_TRASHED_F_2.jpg"
+  ],
+  "availability": "in_stock",
+  "variants": [
+    {
+      "color": "",
+      "size": "XS",
+      "availability": "out_of_stock"
+    },
+    {
+      "color": "",
+      "size": "S",
+      "availability": "in_stock"
+    },
+    {
+      "color": "",
+      "size": "M",
+      "availability": "in_stock"
+    },
+    {
+      "color": "",
+      "size": "L",
+      "availability": "in_stock"
+    },
+    {
+      "color": "",
+      "size": "XL",
+      "availability": "in_stock"
+    },
+    {
+      "color": "",
+      "size": "XXL",
+      "availability": "out_of_stock"
+    }
+  ],
+  "productURL": "https://www.mowalola.com/products/mowa-bomber-cheetah-trashed",
+  "categoryPage": "https://www.mowalola.com/collections/new-arrivals",
+  "scrapeTimestamp": "2025-08-12 22:52:35"
+},
+{
+  "brand": "MOWALOLA",
+  "name": "LATEX TEE EBONY RED",
+  "price": 607,
+  "currency": "USD",
+  "description": "This item is Made to Order. Made-to-order items should be placed in a separate order to avoid delays in shipping ready-to-ship products. Latex second-skin top with laser cut EBONY detail. Full length zip on the back for easier access. Tight fit. Please allow 6-8 weeks for your order to be specially hand-crafted and shipped. Avoid if allergic to latex. Items will come powdered inside out and for easier access and ready to be worn. A silicone based lubricant can be used to give a shiny look.",
+  "category": "NEW ARRIVALS",
+  "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L"
+  ],
+  "mainImage": "https://www.mowalola.com/cdn/shop/files/Screenshot2025-04-30at17.29.31.png",
+  "images": [
+    "https://www.mowalola.com/cdn/shop/files/Screenshot2025-04-30at17.29.31.png",
+    "https://www.mowalola.com/cdn/shop/files/EBONY_RED__FRONT_01_RESHOOT.jpg",
+    "https://www.mowalola.com/cdn/shop/files/45.jpg"
+  ],
+  "availability": "in_stock",
+  "variants": [
+    {
+      "color": "",
+      "size": "XS",
+      "availability": "in_stock"
+    },
+    {
+      "color": "",
+      "size": "S",
+      "availability": "in_stock"
+    },
+    {
+      "color": "",
+      "size": "M",
+      "availability": "in_stock"
+    },
+    {
+      "color": "",
+      "size": "L",
+      "availability": "in_stock"
+    }
+  ],
+  "productURL": "https://www.mowalola.com/products/latex-tee-ebony-red",
+  "categoryPage": "https://www.mowalola.com/collections/new-arrivals",
+  "scrapeTimestamp": "2025-08-12 22:52:35"
+},
+{
+  "brand": "MOWALOLA",
+  "name": "LATEX TEE EBONY BLACK",
+  "price": 607,
+  "currency": "USD",
+  "description": "This item is Made to Order. Made-to-order items should be placed in a separate order to avoid delays in shipping ready-to-ship products. Latex second-skin top with laser cut EBONY detail. Full length zip on the back for easier access. Tight fit. Please allow 6-8 weeks for your order to be specially hand-crafted and shipped. Avoid if allergic to latex. Items will come powdered inside out and for easier access and ready to be worn. A silicone based lubricant can be used to give a shiny look.",
+  "category": "NEW ARRIVALS",
+  "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L"
+  ],
+  "mainImage": "https://www.mowalola.com/cdn/shop/files/Screenshot2025-04-30at16.27.59.png",
+  "images": [
+    "https://www.mowalola.com/cdn/shop/files/Screenshot2025-04-30at16.27.59.png",
+    "https://www.mowalola.com/cdn/shop/files/EBONY_BLACK__FRONT_01_RESHOOT_c239a1fe-7f99-476f-b843-f9bde5ea5552.jpg",
+    "https://www.mowalola.com/cdn/shop/files/44.jpg"
+  ],
+  "availability": "in_stock",
+  "variants": [
+    {
+      "color": "",
+      "size": "XS",
+      "availability": "in_stock"
+    },
+    {
+      "color": "",
+      "size": "S",
+      "availability": "in_stock"
+    },
+    {
+      "color": "",
+      "size": "M",
+      "availability": "in_stock"
+    },
+    {
+      "color": "",
+      "size": "L",
+      "availability": "in_stock"
+    }
+  ],
+  "productURL": "https://www.mowalola.com/products/latex-tee-ebony-red-copy",
+  "categoryPage": "https://www.mowalola.com/collections/new-arrivals",
+  "scrapeTimestamp": "2025-08-12 22:52:35"
+},
+{
+  "brand": "MOWALOLA",
+  "name": "LATEX MINI EBONY BLACK",
+  "price": 524,
+  "currency": "USD",
+  "description": "This item is Made to Order. Made-to-order items should be placed in a separate order to avoid delays in shipping ready-to-ship products. Latex second-skin mini skirt with laser cut EBONY detail. Full length, open-ended zip on the side for easier access. Tight fit. Please allow 6-8 weeks for your order to be specially hand-crafted and shipped. Avoid if allergic to latex. Items will come powdered inside out and for easier access and ready to be worn. A silicone based lubricant can be used to give a shiny look.",
+  "category": "NEW ARRIVALS",
+  "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L"
+  ],
+  "mainImage": "https://www.mowalola.com/cdn/shop/files/Screenshot2025-04-30at14.47.48.png",
+  "images": [
+    "https://www.mowalola.com/cdn/shop/files/Screenshot2025-04-30at14.47.48.png",
+    "https://www.mowalola.com/cdn/shop/files/BLACKEBONYLATEX_01.jpg",
+    "https://www.mowalola.com/cdn/shop/files/BLACKEBONYLATEX_02.jpg"
+  ],
+  "availability": "in_stock",
+  "variants": [
+    {
+      "color": "",
+      "size": "XS",
+      "availability": "in_stock"
+    },
+    {
+      "color": "",
+      "size": "S",
+      "availability": "in_stock"
+    },
+    {
+      "color": "",
+      "size": "M",
+      "availability": "in_stock"
+    },
+    {
+      "color": "",
+      "size": "L",
+      "availability": "in_stock"
+    }
+  ],
+  "productURL": "https://www.mowalola.com/products/latex-tee-ebony-black-copy",
+  "categoryPage": "https://www.mowalola.com/collections/new-arrivals",
+  "scrapeTimestamp": "2025-08-12 22:52:35"
+},
+{
+  "brand": "MOWALOLA",
+  "name": "LATEX MINI EBONY RED",
+  "price": 524,
+  "currency": "USD",
+  "description": "This item is Made to Order. Made-to-order items should be placed in a separate order to avoid delays in shipping ready-to-ship products. Latex second-skin mini skirt with laser cut EBONY detail. Full length, open-ended zip on the side for easier access. Tight fit. Please allow 6-8 weeks for your order to be specially hand-crafted and shipped. Avoid if allergic to latex. Items will come powdered inside out and for easier access and ready to be worn. A silicone based lubricant can be used to give a shiny look.",
+  "category": "NEW ARRIVALS",
+  "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L"
+  ],
+  "mainImage": "https://www.mowalola.com/cdn/shop/files/Screenshot2025-04-30at14.49.53.png",
+  "images": [
+    "https://www.mowalola.com/cdn/shop/files/Screenshot2025-04-30at14.49.53.png",
+    "https://www.mowalola.com/cdn/shop/files/REDEBONYLATEX_01.jpg",
+    "https://www.mowalola.com/cdn/shop/files/RED_EBONY_LATEX_02.jpg"
+  ],
+  "availability": "in_stock",
+  "variants": [
+    {
+      "color": "",
+      "size": "XS",
+      "availability": "in_stock"
+    },
+    {
+      "color": "",
+      "size": "S",
+      "availability": "in_stock"
+    },
+    {
+      "color": "",
+      "size": "M",
+      "availability": "in_stock"
+    },
+    {
+      "color": "",
+      "size": "L",
+      "availability": "in_stock"
+    }
+  ],
+  "productURL": "https://www.mowalola.com/products/latex-mini-ebony-black-copy",
+  "categoryPage": "https://www.mowalola.com/collections/new-arrivals",
+  "scrapeTimestamp": "2025-08-12 22:52:35"
+},
+{
+  "brand": "MOWALOLA",
+  "name": "DOUBLE SWEAT TEE GREY",
+  "price": 166,
+  "currency": "USD",
+  "description": "Loose fit 100% cotton tee with our double Tyson logo print detail. Model is 6'3\" and is wearing a size a M.",
+  "category": "NEW ARRIVALS",
+  "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL"
+  ],
+  "mainImage": "https://www.mowalola.com/cdn/shop/files/Screenshot2025-05-01at13.42.07.png",
+  "images": [
+    "https://www.mowalola.com/cdn/shop/files/Screenshot2025-05-01at13.42.07.png",
+    "https://www.mowalola.com/cdn/shop/files/SWEATTEEGREY_01.jpg"
+  ],
+  "availability": "in_stock",
+  "variants": [
+    {
+      "color": "",
+      "size": "XS",
+      "availability": "in_stock"
+    },
+    {
+      "color": "",
+      "size": "S",
+      "availability": "in_stock"
+    },
+    {
+      "color": "",
+      "size": "M",
+      "availability": "out_of_stock"
+    },
+    {
+      "color": "",
+      "size": "L",
+      "availability": "out_of_stock"
+    },
+    {
+      "color": "",
+      "size": "XL",
+      "availability": "out_of_stock"
+    },
+    {
+      "color": "",
+      "size": "XXL",
+      "availability": "in_stock"
+    }
+  ],
+  "productURL": "https://www.mowalola.com/products/double-sweat-tee-grey",
+  "categoryPage": "https://www.mowalola.com/collections/new-arrivals",
+  "scrapeTimestamp": "2025-08-12 22:52:35"
+},
+{
+  "brand": "MOWALOLA",
+  "name": "TYSON CHROME DECK",
+  "price": 206,
+  "currency": "USD",
+  "description": "Mowalola and THE SKATEROOM present a bold series of five collectible skate decks, released in strictly limited quantities. Silver foil, silkscreen printing Exclusive Mowalola x THE SKATEROOM stickers included with the first orders 8,25” (the deck measures approx. 31 x 8.25 in (80 x 21 cm)) Crafted from 7-ply Grade A Canadian maple wood Includes one Easyfix wall mount per deck Accompanied by a Certificate of Authenticity issued by THE SKATEROOM",
+  "category": "NEW ARRIVALS",
+  "sizes": [],
+  "mainImage": "https://www.mowalola.com/cdn/shop/files/mowalola_jc_packshot.png",
+  "images": [
+    "https://www.mowalola.com/cdn/shop/files/mowalola_jc_packshot.png",
+    "https://www.mowalola.com/cdn/shop/files/mowalola_jc_packshot_top-print.png"
+  ],
+  "availability": "in_stock",
+  "variants": [
+    {
+      "color": "",
+      "size": "",
+      "availability": "in_stock"
+    }
+  ],
+  "productURL": "https://www.mowalola.com/products/j-c",
+  "categoryPage": "https://www.mowalola.com/collections/new-arrivals",
+  "scrapeTimestamp": "2025-08-12 22:52:35"
+},
+{
+  "brand": "MOWALOLA",
+  "name": "MOTO DECK",
+  "price": 206,
+  "currency": "USD",
+  "description": "Mowalola and THE SKATEROOM present a bold series of five collectible skate decks, released in strictly limited quantities. Full dip skate deck, silkscreen printing Exclusive Mowalola x THE SKATEROOM stickers included with the first orders 8,25” (the deck measures approx. 31 x 8.25 in (80 x 21 cm)) Crafted from 7-ply Grade A Canadian maple wood Includes one Easyfix wall mount per deck Accompanied by a Certificate of Authenticity issued by THE SKATEROOM",
+  "category": "NEW ARRIVALS",
+  "sizes": [],
+  "mainImage": "https://www.mowalola.com/cdn/shop/files/mowalola_moto_packshot.png",
+  "images": [
+    "https://www.mowalola.com/cdn/shop/files/mowalola_moto_packshot.png",
+    "https://www.mowalola.com/cdn/shop/files/mowalola_moto_packshot_top-print.png"
+  ],
+  "availability": "in_stock",
+  "variants": [
+    {
+      "color": "",
+      "size": "",
+      "availability": "in_stock"
+    }
+  ],
+  "productURL": "https://www.mowalola.com/products/moto",
+  "categoryPage": "https://www.mowalola.com/collections/new-arrivals",
+  "scrapeTimestamp": "2025-08-12 22:52:35"
+},
+{
+  "brand": "MOWALOLA",
+  "name": "LEOPARD DECK",
+  "price": 206,
+  "currency": "USD",
+  "description": "Mowalola and THE SKATEROOM present a bold series of five collectible skate decks, released in strictly limited quantities. Exclusive Mowalola x THE SKATEROOM stickers included with the first orders 8” (the deck measures approx. 31 x 8 in (80 x 20 cm)) High end digital printing Crafted from 7-ply Grade A Canadian maple wood Includes one Easyfix wall mount per deck Accompanied by a Certificate of Authenticity issued by THE SKATEROOM",
+  "category": "NEW ARRIVALS",
+  "sizes": [],
+  "mainImage": "https://www.mowalola.com/cdn/shop/files/mowalola_cheetah_packshot.png",
+  "images": [
+    "https://www.mowalola.com/cdn/shop/files/mowalola_cheetah_packshot.png",
+    "https://www.mowalola.com/cdn/shop/files/mowalola_wood_packshot_top-print.png"
+  ],
+  "availability": "in_stock",
+  "variants": [
+    {
+      "color": "",
+      "size": "",
+      "availability": "in_stock"
+    }
+  ],
+  "productURL": "https://www.mowalola.com/products/cheetah",
+  "categoryPage": "https://www.mowalola.com/collections/new-arrivals",
+  "scrapeTimestamp": "2025-08-12 22:52:35"
+},
+{
+  "brand": "MOWALOLA",
+  "name": "RED OMEN DECK",
+  "price": 206,
+  "currency": "USD",
+  "description": "Mowalola and THE SKATEROOM present a bold series of five collectible skate decks, released in strictly limited quantities. Full dip skate deck, silkscreen printing Exclusive Mowalola x THE SKATEROOM stickers included with the first orders 8,25” (the deck measures approx. 31 x 8.25 in (80 x 21 cm)) Crafted from 7-ply Grade A Canadian maple wood Includes one Easyfix wall mount per deck Accompanied by a Certificate of Authenticity issued by THE SKATEROOM",
+  "category": "NEW ARRIVALS",
+  "sizes": [],
+  "mainImage": "https://www.mowalola.com/cdn/shop/files/mowalola_red_packshot.png",
+  "images": [
+    "https://www.mowalola.com/cdn/shop/files/mowalola_red_packshot.png",
+    "https://www.mowalola.com/cdn/shop/files/mowalola_red_packshot_top-print.png"
+  ],
+  "availability": "in_stock",
+  "variants": [
+    {
+      "color": "",
+      "size": "",
+      "availability": "in_stock"
+    }
+  ],
+  "productURL": "https://www.mowalola.com/products/red-1",
+  "categoryPage": "https://www.mowalola.com/collections/new-arrivals",
+  "scrapeTimestamp": "2025-08-12 22:52:35"
+},
+{
+  "brand": "MOWALOLA",
+  "name": "GRAFFITI DECK",
+  "price": 206,
+  "currency": "USD",
+  "description": "Mowalola and THE SKATEROOM present a bold series of five collectible skate decks, released in strictly limited quantities. Exclusive Mowalola x THE SKATEROOM stickers included with the first orders 8” (the deck measures approx. 31 x 8 in (80 x 20 cm)) High-end digital printing Crafted from 7-ply Grade A Canadian maple wood Includes one Easyfix wall mount per deck Accompanied by a Certificate of Authenticity issued by THE SKATEROOM",
+  "category": "NEW ARRIVALS",
+  "sizes": [],
+  "mainImage": "https://www.mowalola.com/cdn/shop/files/mowalola_graffiti-v2_packshot.png",
+  "images": [
+    "https://www.mowalola.com/cdn/shop/files/mowalola_graffiti-v2_packshot.png",
+    "https://www.mowalola.com/cdn/shop/files/mowalola_wood_packshot_top-print.png"
+  ],
+  "availability": "in_stock",
+  "variants": [
+    {
+      "color": "",
+      "size": "",
+      "availability": "in_stock"
+    }
+  ],
+  "productURL": "https://www.mowalola.com/products/graffiti",
+  "categoryPage": "https://www.mowalola.com/collections/new-arrivals",
+  "scrapeTimestamp": "2025-08-12 22:52:35"
+},
+{
+  "brand": "MOWALOLA",
+  "name": "CHEETAH CAP",
+  "price": 111,
+  "currency": "USD",
+  "description": "Red Mowalola cursive embroidered logo across. Distressed cheetah graphic. 100% cotton. Mowa adjustable strap on the back for a perfect fit.",
+  "category": "NEW ARRIVALS",
+  "sizes": [],
+  "mainImage": "https://www.mowalola.com/cdn/shop/files/KSUBI_CAP_01.jpg",
+  "images": [
+    "https://www.mowalola.com/cdn/shop/files/KSUBI_CAP_01.jpg",
+    "https://www.mowalola.com/cdn/shop/files/Screenshot2025-07-18at12.34.12.png",
+    "https://www.mowalola.com/cdn/shop/files/KSUBI_CAP_02.jpg",
+    "https://www.mowalola.com/cdn/shop/files/Screenshot2025-07-18at12.33.47.png"
+  ],
+  "availability": "in_stock",
+  "variants": [
+    {
+      "color": "",
+      "size": "",
+      "availability": "in_stock"
+    }
+  ],
+  "productURL": "https://www.mowalola.com/products/cheetah-cap",
+  "categoryPage": "https://www.mowalola.com/collections/new-arrivals",
+  "scrapeTimestamp": "2025-08-12 22:52:35"
+},
+{
+  "brand": "MOWALOLA",
+  "name": "HORSE DRESS PINK",
+  "price": 265,
+  "currency": "USD",
+  "description": "Model is 5'8\" and is wearing a size S. Made from high-quality fabric woven using advanced knitting techniques, this piece features a soft touch, smooth and even texture, and vibrant color. Its special fiber structure ensures elasticity and a skin-friendly feel, providing enhanced comfort while maintaining a structured drape. The stylish large round-neck design is accented with a logo woven label, highlighting a relaxed and unique personality. With detachable long sleeves, it easily transitions between two versatile wearing styles. Airbrushed horse print Detachable sleeves Two-way design",
+  "category": "NEW ARRIVALS",
+  "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L"
+  ],
+  "mainImage": "https://www.mowalola.com/cdn/shop/files/250801_Mowalola_Lookbook6698-Edit-2.jpg",
+  "images": [
+    "https://www.mowalola.com/cdn/shop/files/250801_Mowalola_Lookbook6698-Edit-2.jpg",
+    "https://www.mowalola.com/cdn/shop/files/250801_Mowalola_Lookbook6717-Edit.jpg",
+    "https://www.mowalola.com/cdn/shop/files/250801_Mowalola_Lookbook6748-Edit-3.jpg",
+    "https://www.mowalola.com/cdn/shop/files/6L4SJ5650000A28_l_3.webp",
+    "https://www.mowalola.com/cdn/shop/files/6L4SJ5650000A28_l_4.webp"
+  ],
+  "availability": "in_stock",
+  "variants": [
+    {
+      "color": "",
+      "size": "XS",
+      "availability": "in_stock"
+    },
+    {
+      "color": "",
+      "size": "S",
+      "availability": "in_stock"
+    },
+    {
+      "color": "",
+      "size": "M",
+      "availability": "in_stock"
+    },
+    {
+      "color": "",
+      "size": "L",
+      "availability": "in_stock"
+    }
+  ],
+  "productURL": "https://www.mowalola.com/products/horse-dress-pink",
+  "categoryPage": "https://www.mowalola.com/collections/new-arrivals",
+  "scrapeTimestamp": "2025-08-12 22:52:35"
+},
+{
+  "brand": "MOWALOLA",
+  "name": "CROPPED PUFFER BLACK",
+  "price": 808,
+  "currency": "USD",
+  "description": "Model is 6'0\" and is wearing a size S. Selected stretch denim fabric features a rugged texture and a tightly woven, structured feel. Through multiple washing processes such as enzyme washing, snowflake effects, and stain wiping, the fabric showcases rich and varied colors, offering a unique and trendy aesthetic for every piece. This design embodies the textured and intricate charm of vintage denim. Both the fur trim and hood are detachable, catering to versatile and ever-changing fashion inspirations. The ribbed waistline and hem create a flattering silhouette, while asymmetrical rectangular pockets add a touch of individuality. The ruched sleeve design enhances the layered look, exuding bold and edgy vibes. Detachable fur-lined hood Vintage distressed effect Cotton-padded lining design",
+  "category": "NEW ARRIVALS",
+  "sizes": [
+    "XS",
+    "S",
+    "M"
+  ],
+  "mainImage": "https://www.mowalola.com/cdn/shop/files/250801_Mowalola_Lookbook8238-Edit-2-3.jpg",
+  "images": [
+    "https://www.mowalola.com/cdn/shop/files/250801_Mowalola_Lookbook8238-Edit-2-3.jpg",
+    "https://www.mowalola.com/cdn/shop/files/6L4WJ5630000G24_l_1.jpg",
+    "https://www.mowalola.com/cdn/shop/files/250801_Mowalola_Lookbook8263-Edit-2.jpg"
+  ],
+  "availability": "in_stock",
+  "variants": [
+    {
+      "color": "",
+      "size": "XS",
+      "availability": "out_of_stock"
+    },
+    {
+      "color": "",
+      "size": "S",
+      "availability": "in_stock"
+    },
+    {
+      "color": "",
+      "size": "M",
+      "availability": "out_of_stock"
+    }
+  ],
+  "productURL": "https://www.mowalola.com/products/cropped-puffer-black",
+  "categoryPage": "https://www.mowalola.com/collections/new-arrivals",
+  "scrapeTimestamp": "2025-08-12 22:52:35"
+},
+{
+  "brand": "MOWALOLA",
+  "name": "CROPPED PUFFER BROWN TARTAN",
+  "price": 845,
+  "currency": "USD",
+  "description": "Model is 5'6\" and is wearing a size S. Crafted from premium stretch denim fabric with a rugged texture and a tightly structured finish, this piece undergoes multiple washing and processing techniques to create a rich and dynamic color palette. Each item offers a unique and trendy visual experience, perfectly showcasing the textured charm and depth of vintage denim. The detachable fur trim and hood provide versatile styling options, catering to diverse fashion inspirations. Ribbed waistline and hem details create a flattering silhouette, while irregular rectangular pockets add a touch of individuality. The ruched sleeve design enhances the layering effect, delivering a bold and edgy style. Retro plaid print Detachable fur-lined hood Cotton-padded lining design",
+  "category": "NEW ARRIVALS",
+  "sizes": [
+    "XS",
+    "S"
+  ],
+  "mainImage": "https://www.mowalola.com/cdn/shop/files/250801_Mowalola_Lookbook7705-Edit-5.jpg",
+  "images": [
+    "https://www.mowalola.com/cdn/shop/files/250801_Mowalola_Lookbook7705-Edit-5.jpg",
+    "https://www.mowalola.com/cdn/shop/files/6L4WJ5630001H48_l_5.jpg",
+    "https://www.mowalola.com/cdn/shop/files/250801_Mowalola_Lookbook7750-Edit-2-2.jpg"
+  ],
+  "availability": "in_stock",
+  "variants": [
+    {
+      "color": "",
+      "size": "XS",
+      "availability": "in_stock"
+    },
+    {
+      "color": "",
+      "size": "S",
+      "availability": "in_stock"
+    }
+  ],
+  "productURL": "https://www.mowalola.com/products/cropped-puffer-brown-tartan",
+  "categoryPage": "https://www.mowalola.com/collections/new-arrivals",
+  "scrapeTimestamp": "2025-08-12 22:52:35"
+},
+{
+  "brand": "MOWALOLA",
+  "name": "Graffiti Bomber",
+  "price": 690,
+  "currency": "USD",
+  "description": "Ships in 1-3 weeks. Our classic most loved bomber, now with a detachable hood and updated design. MyCity logo, graffiti all-over print on both sides. Contrast orange lining. Heavy duty light bronze zipper. Multi pocket styling. Gathered sleeves. Distressed effect elasticised waistband and cuffs. Male model is 6'4 and wearing a size L 100% Nylon. This bomber fit is slightly cropped and true to size.",
+  "category": "NEW ARRIVALS",
+  "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L",
+    "XL"
+  ],
+  "mainImage": "https://www.mowalola.com/cdn/shop/files/JACKET_01.jpg",
+  "images": [
+    "https://www.mowalola.com/cdn/shop/files/JACKET_01.jpg",
+    "https://www.mowalola.com/cdn/shop/files/Screenshot2025-07-18at12.38.34.png",
+    "https://www.mowalola.com/cdn/shop/files/JACKET_02.jpg",
+    "https://www.mowalola.com/cdn/shop/files/Screenshot2025-07-18at12.38.43.png",
+    "https://www.mowalola.com/cdn/shop/files/2864MOWALOLA040525.jpg",
+    "https://www.mowalola.com/cdn/shop/files/2883MOWALOLA040525-2.jpg"
+  ],
+  "availability": "in_stock",
+  "variants": [
+    {
+      "color": "",
+      "size": "XS",
+      "availability": "in_stock"
+    },
+    {
+      "color": "",
+      "size": "S",
+      "availability": "in_stock"
+    },
+    {
+      "color": "",
+      "size": "M",
+      "availability": "in_stock"
+    },
+    {
+      "color": "",
+      "size": "L",
+      "availability": "in_stock"
+    },
+    {
+      "color": "",
+      "size": "XL",
+      "availability": "in_stock"
+    }
+  ],
+  "productURL": "https://www.mowalola.com/products/graffiti-bomber-jacket",
+  "categoryPage": "https://www.mowalola.com/collections/new-arrivals",
+  "scrapeTimestamp": "2025-08-12 22:52:35"
+},
+{
+  "brand": "MOWALOLA",
+  "name": "M Socks White",
+  "price": 42,
+  "currency": "USD",
+  "description": "100% Cotton All Sales Final - For Hygiene Purposes this Cannot be Returned",
+  "category": "ACCESSORIES",
+  "sizes": [
+    "S-M",
+    "M-L"
+  ],
+  "mainImage": "https://www.mowalola.com/cdn/shop/files/IMG_2507.jpg",
+  "images": [
+    "https://www.mowalola.com/cdn/shop/files/IMG_2507.jpg",
+    "https://www.mowalola.com/cdn/shop/files/IMG_2512.jpg",
+    "https://www.mowalola.com/cdn/shop/files/IMG_2511.jpg"
+  ],
+  "availability": "in_stock",
+  "variants": [
+    {
+      "color": "",
+      "size": "S-M",
+      "availability": "in_stock"
+    },
+    {
+      "color": "",
+      "size": "M-L",
+      "availability": "in_stock"
+    }
+  ],
+  "productURL": "https://www.mowalola.com/products/m-socks-copy",
+  "categoryPage": "https://www.mowalola.com/collections/accessories",
+  "scrapeTimestamp": "2025-08-12 22:52:35"
+},
+{
+  "brand": "MOWALOLA",
+  "name": "MY CITY Bomber",
+  "price": 1034,
+  "currency": "USD",
+  "description": "Our classic bomber silhouette and MYCITY logo. An essential. 100% Nylon, zip-up three ways allows for sleeves to be semi-detachable, offering a mid-season look. This bomber is slightly cropped. True to size. Side pockets, neck closure with pressure button. Model is 6'4 and wearing a size L.",
+  "category": "OUTERWEAR",
+  "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL"
+  ],
+  "mainImage": "https://www.mowalola.com/cdn/shop/files/Screenshot2025-04-14at16.00.41.png",
+  "images": [
+    "https://www.mowalola.com/cdn/shop/files/Screenshot2025-04-14at16.00.41.png",
+    "https://www.mowalola.com/cdn/shop/files/NylonBomberMYlogo_01.jpg",
+    "https://www.mowalola.com/cdn/shop/files/NylonBomberMYlogo_02.jpg"
+  ],
+  "availability": "in_stock",
+  "variants": [
+    {
+      "color": "",
+      "size": "XS",
+      "availability": "out_of_stock"
+    },
+    {
+      "color": "",
+      "size": "S",
+      "availability": "in_stock"
+    },
+    {
+      "color": "",
+      "size": "M",
+      "availability": "out_of_stock"
+    },
+    {
+      "color": "",
+      "size": "L",
+      "availability": "out_of_stock"
+    },
+    {
+      "color": "",
+      "size": "XL",
+      "availability": "out_of_stock"
+    },
+    {
+      "color": "",
+      "size": "XXL",
+      "availability": "out_of_stock"
+    }
+  ],
+  "productURL": "https://www.mowalola.com/products/ny-bomber-jacket",
+  "categoryPage": "https://www.mowalola.com/collections/jackets",
+  "scrapeTimestamp": "2025-08-12 22:52:35"
+},
+{
+  "brand": "MOWALOLA",
+  "name": "THONG POLO DRESS",
+  "price": 414,
+  "currency": "USD",
+  "description": "M logo polo cotton piqueé dress, open back cut out detail. Model is 5'7\" and is wearing a size M.",
+  "category": "DRESSES",
+  "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L",
+    "XL"
+  ],
+  "mainImage": "https://www.mowalola.com/cdn/shop/files/Screenshot_2025-04-03_at_12.45.20.png",
+  "images": [
+    "https://www.mowalola.com/cdn/shop/files/Screenshot_2025-04-03_at_12.45.20.png",
+    "https://www.mowalola.com/cdn/shop/files/THONG_POLO_DRESS_01_be62d75c-c5a3-4255-ae20-7cce8c5d8ea4.jpg",
+    "https://www.mowalola.com/cdn/shop/files/Screenshot_2025-04-03_at_12.45.06.png"
+  ],
+  "availability": "in_stock",
+  "variants": [
+    {
+      "color": "",
+      "size": "XS",
+      "availability": "out_of_stock"
+    },
+    {
+      "color": "",
+      "size": "S",
+      "availability": "in_stock"
+    },
+    {
+      "color": "",
+      "size": "M",
+      "availability": "in_stock"
+    },
+    {
+      "color": "",
+      "size": "L",
+      "availability": "in_stock"
+    },
+    {
+      "color": "",
+      "size": "XL",
+      "availability": "out_of_stock"
+    }
+  ],
+  "productURL": "https://www.mowalola.com/products/thong-polo-dress",
+  "categoryPage": "https://www.mowalola.com/collections/dresses",
+  "scrapeTimestamp": "2025-08-12 22:52:35"
+},
+{
+  "brand": "MOWALOLA",
+  "name": "MOTO DRESS",
+  "price": 896,
+  "currency": "USD",
+  "description": "A statement SS24 runway piece. Fitted neoprene zip-up maxi dress featuring multiple Mowalola logo graphics. Can be worn fully zipped or to preferred length by adjusting the two-way zipper. Model is 5'10\" and is wearing a size S.",
+  "category": "DRESSES",
+  "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L",
+    "XL"
+  ],
+  "mainImage": "https://www.mowalola.com/cdn/shop/files/Screenshot_2025-04-03_at_12.13.50.png",
+  "images": [
+    "https://www.mowalola.com/cdn/shop/files/Screenshot_2025-04-03_at_12.13.50.png",
+    "https://www.mowalola.com/cdn/shop/files/MOTO_DRESS_01_95267c62-b197-48d0-99d7-4dd2bf201698.jpg",
+    "https://www.mowalola.com/cdn/shop/files/MOTO_DRESS_02.jpg"
+  ],
+  "availability": "in_stock",
+  "variants": [
+    {
+      "color": "",
+      "size": "XS",
+      "availability": "in_stock"
+    },
+    {
+      "color": "",
+      "size": "S",
+      "availability": "in_stock"
+    },
+    {
+      "color": "",
+      "size": "M",
+      "availability": "out_of_stock"
+    },
+    {
+      "color": "",
+      "size": "L",
+      "availability": "out_of_stock"
+    },
+    {
+      "color": "",
+      "size": "XL",
+      "availability": "out_of_stock"
+    }
+  ],
+  "productURL": "https://www.mowalola.com/products/moto-dress",
+  "categoryPage": "https://www.mowalola.com/collections/dresses",
+  "scrapeTimestamp": "2025-08-12 22:52:35"
+},
+{
+  "brand": "MOWALOLA",
+  "name": "MOTO DENIM JACKET",
+  "price": 759,
+  "currency": "USD",
+  "description": "Zip-up denim moto jacket in brown wash. 100% cotton.",
+  "category": "OUTERWEAR",
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL"
+  ],
+  "mainImage": "https://www.mowalola.com/cdn/shop/files/Moto_Denim_Jacket_Brown_Wash_01.jpg",
+  "images": [
+    "https://www.mowalola.com/cdn/shop/files/Moto_Denim_Jacket_Brown_Wash_01.jpg",
+    "https://www.mowalola.com/cdn/shop/files/MOTO_DENIM_JACKET_BROWN_02.jpg"
+  ],
+  "availability": "in_stock",
+  "variants": [
+    {
+      "color": "",
+      "size": "S",
+      "availability": "in_stock"
+    },
+    {
+      "color": "",
+      "size": "M",
+      "availability": "in_stock"
+    },
+    {
+      "color": "",
+      "size": "L",
+      "availability": "in_stock"
+    },
+    {
+      "color": "",
+      "size": "XL",
+      "availability": "in_stock"
+    }
+  ],
+  "productURL": "https://www.mowalola.com/products/moto-denim-jacket",
+  "categoryPage": "https://www.mowalola.com/collections/jackets",
+  "scrapeTimestamp": "2025-08-12 22:52:35"
+},
+{
+  "brand": "MOWALOLA",
+  "name": "CRASH BOMBER BLACK",
+  "price": 1365,
+  "currency": "USD",
+  "description": "Slightly oversized puffed denim bomber as seen on SS24 runway, printed logo patches with distressed effect. 100% Cotton. Ribbed, elastic waistband and cuffs. First model is 5'10\" and is wearing a size M. Second model is 5'7\" and is wearing a size L.",
+  "category": "OUTERWEAR",
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL"
+  ],
+  "mainImage": "https://www.mowalola.com/cdn/shop/files/Screenshot2025-04-15at12.05.07.png",
+  "images": [
+    "https://www.mowalola.com/cdn/shop/files/Screenshot2025-04-15at12.05.07.png",
+    "https://www.mowalola.com/cdn/shop/files/CRASH_BOMBER_BLACK_01_bddecdd3-b664-458f-a3dc-26e6fd65c266.jpg",
+    "https://www.mowalola.com/cdn/shop/files/Screenshot_2025-04-02_at_18.35.16.png",
+    "https://www.mowalola.com/cdn/shop/files/CRASH_BOMBER_BLACK_02_d0fe1cc4-eb93-4768-8bfc-f38faa475d67.jpg"
+  ],
+  "availability": "in_stock",
+  "variants": [
+    {
+      "color": "",
+      "size": "S",
+      "availability": "out_of_stock"
+    },
+    {
+      "color": "",
+      "size": "M",
+      "availability": "out_of_stock"
+    },
+    {
+      "color": "",
+      "size": "L",
+      "availability": "in_stock"
+    },
+    {
+      "color": "",
+      "size": "XL",
+      "availability": "in_stock"
+    }
+  ],
+  "productURL": "https://www.mowalola.com/products/crash-bomber",
+  "categoryPage": "https://www.mowalola.com/collections/jackets",
+  "scrapeTimestamp": "2025-08-12 22:52:35"
+},
+{
+  "brand": "MOWALOLA",
+  "name": "TYSON BOMBER JACKET",
+  "price": 1172,
+  "currency": "USD",
+  "description": "Reversible bomber First model is 6'3\"and is wearing a size M. Second model is 5'7\"and is wearing a size M.",
+  "category": "OUTERWEAR",
+  "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL"
+  ],
+  "mainImage": "https://www.mowalola.com/cdn/shop/files/TYSON_BOMBER_JACKET_07.jpg",
+  "images": [
+    "https://www.mowalola.com/cdn/shop/files/TYSON_BOMBER_JACKET_07.jpg",
+    "https://www.mowalola.com/cdn/shop/files/TYSON_BOMBER_JACKET_03_7d586489-ce64-483e-b869-d2fd7bbccb3b.jpg",
+    "https://www.mowalola.com/cdn/shop/files/TYSON_BOMBER_JACKET_01_1c4324a3-f4e5-405d-8d83-5aea1d2bbc0f.jpg",
+    "https://www.mowalola.com/cdn/shop/files/TYSON_BOMBER_SUCKER_SHORTS_GREY_RED_21.jpg",
+    "https://www.mowalola.com/cdn/shop/files/TYSON_BOMBER_JACKET_03.jpg"
+  ],
+  "availability": "in_stock",
+  "variants": [
+    {
+      "color": "",
+      "size": "XS",
+      "availability": "in_stock"
+    },
+    {
+      "color": "",
+      "size": "S",
+      "availability": "in_stock"
+    },
+    {
+      "color": "",
+      "size": "M",
+      "availability": "in_stock"
+    },
+    {
+      "color": "",
+      "size": "L",
+      "availability": "out_of_stock"
+    },
+    {
+      "color": "",
+      "size": "XL",
+      "availability": "out_of_stock"
+    },
+    {
+      "color": "",
+      "size": "XXL",
+      "availability": "in_stock"
+    }
+  ],
+  "productURL": "https://www.mowalola.com/products/tyson-bomber-jacket",
+  "categoryPage": "https://www.mowalola.com/collections/jackets",
+  "scrapeTimestamp": "2025-08-12 22:52:35"
+},
+{
+  "brand": "MOWALOLA",
+  "name": "M Socks Black",
+  "price": 42,
+  "currency": "USD",
+  "description": "100% Cotton All Sales Final - For Hygiene Purposes this Cannot be Returned",
+  "category": "ACCESSORIES",
+  "sizes": [
+    "S-M",
+    "M-L"
+  ],
+  "mainImage": "https://www.mowalola.com/cdn/shop/files/IMG_2493.jpg",
+  "images": [
+    "https://www.mowalola.com/cdn/shop/files/IMG_2493.jpg",
+    "https://www.mowalola.com/cdn/shop/files/IMG_2498.jpg",
+    "https://www.mowalola.com/cdn/shop/files/IMG_2496.jpg"
+  ],
+  "availability": "in_stock",
+  "variants": [
+    {
+      "color": "",
+      "size": "S-M",
+      "availability": "in_stock"
+    },
+    {
+      "color": "",
+      "size": "M-L",
+      "availability": "in_stock"
+    }
+  ],
+  "productURL": "https://www.mowalola.com/products/m-socks",
+  "categoryPage": "https://www.mowalola.com/collections/accessories",
+  "scrapeTimestamp": "2025-08-12 22:52:35"
+},
+{
+  "brand": "MOWALOLA",
+  "name": "M Earrings",
+  "price": 97,
+  "currency": "USD",
+  "description": "MOWALOLA SS23 M EARRINGS CAUTION Puncture Hazard: Sharp edges. Handle with care. Hard contact may result in injury. Always keep edges pointed away from yourself and others at all times. Keep out of reach of children. MOWALOLA LTD will not be liable for any loss (including but not limited to personal injury, death, and damage to or loss of property). MOWALOLA LTD is not responsible for any such incidents. By purchasing any products from this website the buyer is aware of this disclaimer and will not hold the company and/or its owners responsible. Finishing May Vary and Age Over Time: Pieces are unique in character; expect finishes applied to vary and wear back over time 100% Metal: with Lacquer / Mirror Polish",
+  "category": "ACCESSORIES",
+  "sizes": [],
+  "mainImage": "https://www.mowalola.com/cdn/shop/files/Screenshot2025-04-30at16.06.23.png",
+  "images": [
+    "https://www.mowalola.com/cdn/shop/files/Screenshot2025-04-30at16.06.23.png",
+    "https://www.mowalola.com/cdn/shop/files/Screenshot2025-04-30at16.10.50.png",
+    "https://www.mowalola.com/cdn/shop/files/Screenshot2025-04-30at16.05.28.png",
+    "https://www.mowalola.com/cdn/shop/files/Screenshot2025-04-30at16.08.27.png",
+    "https://www.mowalola.com/cdn/shop/files/Screenshot2025-04-30at16.08.53.png",
+    "https://www.mowalola.com/cdn/shop/files/Screenshot2025-04-30at16.09.50.png"
+  ],
+  "availability": "in_stock",
+  "variants": [
+    {
+      "color": "",
+      "size": "",
+      "availability": "in_stock"
+    },
+    {
+      "color": "",
+      "size": "",
+      "availability": "out_of_stock"
+    },
+    {
+      "color": "",
+      "size": "",
+      "availability": "out_of_stock"
+    }
+  ],
+  "productURL": "https://www.mowalola.com/products/m-pendant-necklace",
+  "categoryPage": "https://www.mowalola.com/collections/accessories",
+  "scrapeTimestamp": "2025-08-12 22:52:35"
+},
+{
+  "brand": "MOWALOLA",
+  "name": "Brown Puff Puff Trucker",
+  "price": 69,
+  "currency": "USD",
+  "description": "Our classic trucker hat. White and brown. Red M logo. One Size 100% Cotton",
+  "category": "ACCESSORIES",
+  "sizes": [],
+  "mainImage": "https://www.mowalola.com/cdn/shop/files/hat1jhgfds.jpg",
+  "images": [
+    "https://www.mowalola.com/cdn/shop/files/hat1jhgfds.jpg"
+  ],
+  "availability": "in_stock",
+  "variants": [
+    {
+      "color": "",
+      "size": "",
+      "availability": "in_stock"
+    }
+  ],
+  "productURL": "https://www.mowalola.com/products/darkweb-exclusive-colourway-puff-puff-trucker",
+  "categoryPage": "https://www.mowalola.com/collections/accessories",
+  "scrapeTimestamp": "2025-08-12 22:52:35"
+},
+{
+  "brand": "MOWALOLA",
+  "name": "MW Hat",
+  "price": 69,
+  "currency": "USD",
+  "description": "MOWALOLA 'MW' Hat AW23 Dark Web Exclusive 100% Cotton This hat is a fitted baseball cap.",
+  "category": "ACCESSORIES",
+  "sizes": [
+    "One Size"
+  ],
+  "mainImage": "https://www.mowalola.com/cdn/shop/files/Screenshot2025-05-26at12.21.54.png",
+  "images": [
+    "https://www.mowalola.com/cdn/shop/files/Screenshot2025-05-26at12.21.54.png"
+  ],
+  "availability": "in_stock",
+  "variants": [
+    {
+      "color": "",
+      "size": "One Size",
+      "availability": "in_stock"
+    }
+  ],
+  "productURL": "https://www.mowalola.com/products/volkswagen-trucker",
+  "categoryPage": "https://www.mowalola.com/collections/accessories",
+  "scrapeTimestamp": "2025-08-12 22:52:35"
+},
+{
+  "brand": "MOWALOLA",
+  "name": "CHI CAP",
+  "price": 111,
+  "currency": "USD",
+  "description": "Embroidered cap",
+  "category": "ACCESSORIES",
+  "sizes": [
+    "One size"
+  ],
+  "mainImage": "https://www.mowalola.com/cdn/shop/files/Screenshot2025-04-30at15.31.18.png",
+  "images": [
+    "https://www.mowalola.com/cdn/shop/files/Screenshot2025-04-30at15.31.18.png",
+    "https://www.mowalola.com/cdn/shop/files/CHI_CAP_01_5c28ecc2-6edc-4b01-88e1-68e63bac8a41.jpg",
+    "https://www.mowalola.com/cdn/shop/files/Screenshot2025-04-30at15.46.38.png"
+  ],
+  "availability": "in_stock",
+  "variants": [
+    {
+      "color": "",
+      "size": "One size",
+      "availability": "in_stock"
+    }
+  ],
+  "productURL": "https://www.mowalola.com/products/chi-cap",
+  "categoryPage": "https://www.mowalola.com/collections/accessories",
+  "scrapeTimestamp": "2025-08-12 22:52:35"
+},
+{
+  "brand": "MOWALOLA",
+  "name": "JPN BUNDLE",
+  "price": 690,
+  "currency": "USD",
+  "description": "Each bag is individually hand-painted, making every piece unique. Due to the nature of the hand-painted artwork, colours may fade or change over time, particularly with exposure to direct sunlight, moisture, or rough handling. To preserve the artwork, we recommend handling your bag with care. This natural aging process is part of the bag’s uniqueness.",
+  "category": "ACCESSORIES",
+  "sizes": [
+    "S"
+  ],
+  "mainImage": "https://www.mowalola.com/cdn/shop/files/Screenshot2025-04-30at15.13.09.png",
+  "images": [
+    "https://www.mowalola.com/cdn/shop/files/Screenshot2025-04-30at15.13.09.png",
+    "https://www.mowalola.com/cdn/shop/files/2_7c2a5def-5ddf-4a62-80dc-9856b7161244.jpg"
+  ],
+  "availability": "in_stock",
+  "variants": [
+    {
+      "color": "",
+      "size": "S",
+      "availability": "in_stock"
+    }
+  ],
+  "productURL": "https://www.mowalola.com/products/jpn-bundle-1",
+  "categoryPage": "https://www.mowalola.com/collections/accessories",
+  "scrapeTimestamp": "2025-08-12 22:52:35"
+},
+{
+  "brand": "MOWALOLA",
+  "name": "CHN BUNDLE",
+  "price": 896,
+  "currency": "USD",
+  "description": "Each bag is individually hand-painted, making every piece unique. Due to the nature of the hand-painted artwork, colours may fade or change over time, particularly with exposure to direct sunlight, moisture, or rough handling. To preserve the artwork, we recommend handling your bag with care. This natural aging process is part of the bag’s uniqueness.",
+  "category": "ACCESSORIES",
+  "sizes": [
+    "M"
+  ],
+  "mainImage": "https://www.mowalola.com/cdn/shop/files/IMG_4294.jpg",
+  "images": [
+    "https://www.mowalola.com/cdn/shop/files/IMG_4294.jpg",
+    "https://www.mowalola.com/cdn/shop/files/90745C2D-06F5-4D68-9210-DD4B5A4F6C12.jpg",
+    "https://www.mowalola.com/cdn/shop/files/IMG_4295.jpg"
+  ],
+  "availability": "in_stock",
+  "variants": [
+    {
+      "color": "",
+      "size": "M",
+      "availability": "in_stock"
+    }
+  ],
+  "productURL": "https://www.mowalola.com/products/5-star-flag-bag-medium",
+  "categoryPage": "https://www.mowalola.com/collections/accessories",
+  "scrapeTimestamp": "2025-08-12 22:52:35"
+},
+{
+  "brand": "MOWALOLA",
+  "name": "GB BUNDLE",
+  "price": 896,
+  "currency": "USD",
+  "description": "Each bag is individually hand-painted, making every piece unique. Due to the nature of the hand-painted artwork, colours may fade or change over time, particularly with exposure to direct sunlight, moisture, or rough handling. To preserve the artwork, we recommend handling your bag with care. This natural aging process is part of the bag’s uniqueness.",
+  "category": "ACCESSORIES",
+  "sizes": [
+    "M"
+  ],
+  "mainImage": "https://www.mowalola.com/cdn/shop/files/Screenshot2025-04-30at15.09.07.png",
+  "images": [
+    "https://www.mowalola.com/cdn/shop/files/Screenshot2025-04-30at15.09.07.png",
+    "https://www.mowalola.com/cdn/shop/files/UK_MEDIUM_BAG_01_f20060bd-acc2-4341-8cd0-c8262bd79b86.jpg"
+  ],
+  "availability": "in_stock",
+  "variants": [
+    {
+      "color": "",
+      "size": "M",
+      "availability": "in_stock"
+    }
+  ],
+  "productURL": "https://www.mowalola.com/products/uk-medium-bag",
+  "categoryPage": "https://www.mowalola.com/collections/accessories",
+  "scrapeTimestamp": "2025-08-12 22:52:35"
+},
+{
+  "brand": "MOWALOLA",
+  "name": "GB BUNDLE",
+  "price": 690,
+  "currency": "USD",
+  "description": "Each bag is individually hand-painted, making every piece unique. Due to the nature of the hand-painted artwork, colours may fade or change over time, particularly with exposure to direct sunlight, moisture, or rough handling. To preserve the artwork, we recommend handling your bag with care. This natural aging process is part of the bag’s uniqueness.",
+  "category": "ACCESSORIES",
+  "sizes": [
+    "S"
+  ],
+  "mainImage": "https://www.mowalola.com/cdn/shop/files/Screenshot2025-04-30at15.07.51.png",
+  "images": [
+    "https://www.mowalola.com/cdn/shop/files/Screenshot2025-04-30at15.07.51.png",
+    "https://www.mowalola.com/cdn/shop/files/UK_MINI_BAG_01_8f3627a4-f022-4de0-9a19-4cc032f70bf7.jpg",
+    "https://www.mowalola.com/cdn/shop/files/Screenshot2025-04-30at15.08.38.png"
+  ],
+  "availability": "in_stock",
+  "variants": [
+    {
+      "color": "",
+      "size": "S",
+      "availability": "in_stock"
+    }
+  ],
+  "productURL": "https://www.mowalola.com/products/uk-mini-bag",
+  "categoryPage": "https://www.mowalola.com/collections/accessories",
+  "scrapeTimestamp": "2025-08-12 22:52:35"
+},
+{
+  "brand": "MOWALOLA",
+  "name": "SUCKER SHORTS BLACK",
+  "price": 276,
+  "currency": "USD",
+  "description": "Activewear cotton shorts. Model is 6'3\"and is wearing a size L.",
+  "category": "BOTTOMS",
+  "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L",
+    "XL"
+  ],
+  "mainImage": "https://www.mowalola.com/cdn/shop/files/Screenshot2025-04-30at16.15.57.png",
+  "images": [
+    "https://www.mowalola.com/cdn/shop/files/Screenshot2025-04-30at16.15.57.png",
+    "https://www.mowalola.com/cdn/shop/files/SUCKER_SHORTS_BLACK_01_0eb0562e-6de6-4d9b-965c-58b67b4f1910.jpg",
+    "https://www.mowalola.com/cdn/shop/files/SUCKER_SHORTS_BLACK_02_45a21a1e-39ae-417f-ac9a-d70bdb7f359c.jpg"
+  ],
+  "availability": "in_stock",
+  "variants": [
+    {
+      "color": "",
+      "size": "XS",
+      "availability": "in_stock"
+    },
+    {
+      "color": "",
+      "size": "S",
+      "availability": "in_stock"
+    },
+    {
+      "color": "",
+      "size": "M",
+      "availability": "out_of_stock"
+    },
+    {
+      "color": "",
+      "size": "L",
+      "availability": "in_stock"
+    },
+    {
+      "color": "",
+      "size": "XL",
+      "availability": "in_stock"
+    }
+  ],
+  "productURL": "https://www.mowalola.com/products/sucker-shorts-copy",
+  "categoryPage": "https://www.mowalola.com/collections/bottoms",
+  "scrapeTimestamp": "2025-08-12 22:52:35"
+},
+{
+  "brand": "MOWALOLA",
+  "name": "MoWA Sweatpants",
+  "price": 276,
+  "currency": "USD",
+  "description": "MoMa embroidered logo detail on our classic sweatpants shape. Male model is wearing size XL. 100% Cotton. Elasticised waistband and cuffs. These sweatpants run slightly longer in length. Waistband is true to size and adjustable.",
+  "category": "BOTTOMS",
+  "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L",
+    "XL"
+  ],
+  "mainImage": "https://www.mowalola.com/cdn/shop/files/Screenshot_2025-04-02_at_18.57.28.png",
+  "images": [
+    "https://www.mowalola.com/cdn/shop/files/Screenshot_2025-04-02_at_18.57.28.png",
+    "https://www.mowalola.com/cdn/shop/files/GreyMoWasweatpants_01.jpg",
+    "https://www.mowalola.com/cdn/shop/files/GreyMoWasweatpants_02.jpg"
+  ],
+  "availability": "in_stock",
+  "variants": [
+    {
+      "color": "",
+      "size": "XS",
+      "availability": "in_stock"
+    },
+    {
+      "color": "",
+      "size": "S",
+      "availability": "in_stock"
+    },
+    {
+      "color": "",
+      "size": "M",
+      "availability": "out_of_stock"
+    },
+    {
+      "color": "",
+      "size": "L",
+      "availability": "out_of_stock"
+    },
+    {
+      "color": "",
+      "size": "XL",
+      "availability": "out_of_stock"
+    }
+  ],
+  "productURL": "https://www.mowalola.com/products/moma-sweatpants",
+  "categoryPage": "https://www.mowalola.com/collections/bottoms?page=2&phcursor=eyJhbGciOiJIUzI1NiJ9.eyJzayI6InByb2R1Y3RfY3JlYXRlZF9hdCIsInN2IjoiMjAyNC0wOS0xMlQxNjowMDo1Mi4wMDBaIiwiZCI6ImYiLCJ1aWQiOjM0NTI2MzYzMDI1NTczLCJsIjoxNiwibyI6MCwiciI6IkNEUCIsInYiOjEsInAiOjJ9.CgEho3Heox_pQTYCrwiLv59yzpVW2-UOsvbGo-5ble8",
+  "scrapeTimestamp": "2025-08-12 22:52:35"
+},
+{
+  "brand": "MOWALOLA",
+  "name": "STAMP JOGGERS GREY",
+  "price": 455,
+  "currency": "USD",
+  "description": "Baggy cotton grey joggers, Mowalola Tyson logo screen print detail. Adjustable waistband drawstring detail. Airbrushed gradient print effect. 100% cotton. Model is 5’10” and is wearing a size S.",
+  "category": "BOTTOMS",
+  "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L",
+    "XL"
+  ],
+  "mainImage": "https://www.mowalola.com/cdn/shop/files/Screenshot_2025-04-30_at_16.17.15.png",
+  "images": [
+    "https://www.mowalola.com/cdn/shop/files/Screenshot_2025-04-30_at_16.17.15.png",
+    "https://www.mowalola.com/cdn/shop/files/STAMP_JOGGERS_01_d4fd84a0-d925-41b6-90d1-e03feabde506.jpg"
+  ],
+  "availability": "in_stock",
+  "variants": [
+    {
+      "color": "",
+      "size": "XS",
+      "availability": "out_of_stock"
+    },
+    {
+      "color": "",
+      "size": "S",
+      "availability": "in_stock"
+    },
+    {
+      "color": "",
+      "size": "M",
+      "availability": "in_stock"
+    },
+    {
+      "color": "",
+      "size": "L",
+      "availability": "in_stock"
+    },
+    {
+      "color": "",
+      "size": "XL",
+      "availability": "in_stock"
+    }
+  ],
+  "productURL": "https://www.mowalola.com/products/stamp-joggers",
+  "categoryPage": "https://www.mowalola.com/collections/bottoms?page=2&phcursor=eyJhbGciOiJIUzI1NiJ9.eyJzayI6InByb2R1Y3RfY3JlYXRlZF9hdCIsInN2IjoiMjAyNC0wOS0xMlQxNjowMDo1Mi4wMDBaIiwiZCI6ImYiLCJ1aWQiOjM0NTI2MzYzMDI1NTczLCJsIjoxNiwibyI6MCwiciI6IkNEUCIsInYiOjEsInAiOjJ9.CgEho3Heox_pQTYCrwiLv59yzpVW2-UOsvbGo-5ble8",
+  "scrapeTimestamp": "2025-08-12 22:52:35"
+},
+{
+  "brand": "MOWALOLA",
+  "name": "TAXI SHIRT",
+  "price": 538,
+  "currency": "USD",
+  "description": "Long sleeve button-up cotton shirt, all-over print anime Mowalola graphic as seen on our most recent Marc Jacobs collaboration. 100% COTTON. Model is 6”3’ and is wearing a size M.",
+  "category": "TOPS",
+  "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L",
+    "XL"
+  ],
+  "mainImage": "https://www.mowalola.com/cdn/shop/files/Screenshot2025-04-15at12.15.57.png",
+  "images": [
+    "https://www.mowalola.com/cdn/shop/files/Screenshot2025-04-15at12.15.57.png",
+    "https://www.mowalola.com/cdn/shop/files/TAXI_SHIRT_01_f612c697-4410-44f3-a7e3-f199af58a56a.jpg",
+    "https://www.mowalola.com/cdn/shop/files/TAXI_SHIRT_02.jpg"
+  ],
+  "availability": "in_stock",
+  "variants": [
+    {
+      "color": "",
+      "size": "XS",
+      "availability": "in_stock"
+    },
+    {
+      "color": "",
+      "size": "S",
+      "availability": "in_stock"
+    },
+    {
+      "color": "",
+      "size": "M",
+      "availability": "in_stock"
+    },
+    {
+      "color": "",
+      "size": "L",
+      "availability": "in_stock"
+    },
+    {
+      "color": "",
+      "size": "XL",
+      "availability": "in_stock"
+    }
+  ],
+  "productURL": "https://www.mowalola.com/products/taxi-shirt",
+  "categoryPage": "https://www.mowalola.com/collections/tees?page=2&phcursor=eyJhbGciOiJIUzI1NiJ9.eyJzayI6InBvc2l0aW9uIiwic3YiOjIyLCJkIjoiZiIsInVpZCI6MzQ2OTc3NzA1OTg1NjUsImwiOjE2LCJvIjowLCJyIjoiQ0RQIiwidiI6MSwicCI6Mn0.Z-9TQtcwoBkGemIP8PrhiiAftd43tMwpVtZXU5HZ25U",
+  "scrapeTimestamp": "2025-08-12 22:52:35"
+},
+{
+  "brand": "MOWALOLA",
+  "name": "P. POLO BLACK",
+  "price": 207,
+  "currency": "USD",
+  "description": "Asymmetrical sleeveless polo tank Model is 5'10\"and is wearing a size M.",
+  "category": "TOPS",
+  "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L",
+    "XL"
+  ],
+  "mainImage": "https://www.mowalola.com/cdn/shop/files/Screenshot2025-04-15at12.01.19.png",
+  "images": [
+    "https://www.mowalola.com/cdn/shop/files/Screenshot2025-04-15at12.01.19.png",
+    "https://www.mowalola.com/cdn/shop/files/P_Polo_Black_01_b082c0cf-46e4-4199-9151-0b1bb0ce219d.jpg",
+    "https://www.mowalola.com/cdn/shop/files/P_Polo_Black_02_8f861fb8-d60d-4d5e-987f-3ed1ebd35e1e.jpg"
+  ],
+  "availability": "in_stock",
+  "variants": [
+    {
+      "color": "",
+      "size": "XS",
+      "availability": "out_of_stock"
+    },
+    {
+      "color": "",
+      "size": "S",
+      "availability": "in_stock"
+    },
+    {
+      "color": "",
+      "size": "M",
+      "availability": "in_stock"
+    },
+    {
+      "color": "",
+      "size": "L",
+      "availability": "in_stock"
+    },
+    {
+      "color": "",
+      "size": "XL",
+      "availability": "out_of_stock"
+    }
+  ],
+  "productURL": "https://www.mowalola.com/products/p-polo",
+  "categoryPage": "https://www.mowalola.com/collections/tees?page=2&phcursor=eyJhbGciOiJIUzI1NiJ9.eyJzayI6InBvc2l0aW9uIiwic3YiOjIyLCJkIjoiZiIsInVpZCI6MzQ2OTc3NzA1OTg1NjUsImwiOjE2LCJvIjowLCJyIjoiQ0RQIiwidiI6MSwicCI6Mn0.Z-9TQtcwoBkGemIP8PrhiiAftd43tMwpVtZXU5HZ25U",
+  "scrapeTimestamp": "2025-08-12 22:52:35"
+},
+{
+  "brand": "MOWALOLA",
+  "name": "Dropout Tee Green",
+  "price": 166,
+  "currency": "USD",
+  "description": "Model is 5'7\" and is wearing a size S. M logo printed tee. This tee is fitted and slightly cropped.",
+  "category": "TOPS",
+  "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL"
+  ],
+  "mainImage": "https://www.mowalola.com/cdn/shop/files/Screenshot2025-04-15at13.25.25.png",
+  "images": [
+    "https://www.mowalola.com/cdn/shop/files/Screenshot2025-04-15at13.25.25.png",
+    "https://www.mowalola.com/cdn/shop/files/babytshirtsswalkman_01.jpg",
+    "https://www.mowalola.com/cdn/shop/files/babytshirtsswalkman_02.jpg"
+  ],
+  "availability": "in_stock",
+  "variants": [
+    {
+      "color": "",
+      "size": "XS",
+      "availability": "in_stock"
+    },
+    {
+      "color": "",
+      "size": "S",
+      "availability": "in_stock"
+    },
+    {
+      "color": "",
+      "size": "M",
+      "availability": "in_stock"
+    },
+    {
+      "color": "",
+      "size": "L",
+      "availability": "in_stock"
+    },
+    {
+      "color": "",
+      "size": "XL",
+      "availability": "in_stock"
+    },
+    {
+      "color": "",
+      "size": "XXL",
+      "availability": "in_stock"
+    }
+  ],
+  "productURL": "https://www.mowalola.com/products/dropout-tee",
+  "categoryPage": "https://www.mowalola.com/collections/tees?page=3&phcursor=eyJhbGciOiJIUzI1NiJ9.eyJzayI6InBvc2l0aW9uIiwic3YiOjQyLCJkIjoiZiIsInVpZCI6MzQxNTA0NDEyODc4NDUsImwiOjE2LCJvIjowLCJyIjoiQ0RQIiwidiI6MSwicCI6M30.kYIUdLvc8LXZYqHC_7jJwgMePkeaNZS2pBUSoXMPHDY",
+  "scrapeTimestamp": "2025-08-12 22:52:35"
+},
+{
+  "brand": "MOWALOLA",
+  "name": "Baby Lip Tee",
+  "price": 138,
+  "currency": "USD",
+  "description": "Lip Baby Tee 93% Vicsose 7% Elastan This tee is cropped and fitted.",
+  "category": "TOPS",
+  "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL"
+  ],
+  "mainImage": "https://www.mowalola.com/cdn/shop/files/Screenshot2025-04-15at12.09.34.png",
+  "images": [
+    "https://www.mowalola.com/cdn/shop/files/Screenshot2025-04-15at12.09.34.png",
+    "https://www.mowalola.com/cdn/shop/files/LIPS_BABY_TEE_ILLUMINATING_b631f01a-978c-4756-b50b-96d1c52f7795.jpg"
+  ],
+  "availability": "in_stock",
+  "variants": [
+    {
+      "color": "",
+      "size": "XS",
+      "availability": "in_stock"
+    },
+    {
+      "color": "",
+      "size": "S",
+      "availability": "out_of_stock"
+    },
+    {
+      "color": "",
+      "size": "M",
+      "availability": "in_stock"
+    },
+    {
+      "color": "",
+      "size": "L",
+      "availability": "in_stock"
+    },
+    {
+      "color": "",
+      "size": "XL",
+      "availability": "in_stock"
+    },
+    {
+      "color": "",
+      "size": "XXL",
+      "availability": "out_of_stock"
+    }
+  ],
+  "productURL": "https://www.mowalola.com/products/baby-lip-tee-dark-web",
+  "categoryPage": "https://www.mowalola.com/collections/tees?page=3&phcursor=eyJhbGciOiJIUzI1NiJ9.eyJzayI6InBvc2l0aW9uIiwic3YiOjQyLCJkIjoiZiIsInVpZCI6MzQxNTA0NDEyODc4NDUsImwiOjE2LCJvIjowLCJyIjoiQ0RQIiwidiI6MSwicCI6M30.kYIUdLvc8LXZYqHC_7jJwgMePkeaNZS2pBUSoXMPHDY",
+  "scrapeTimestamp": "2025-08-12 22:52:35"
+},
+{
+  "brand": "MOWALOLA",
+  "name": "LVL 5 Cardigan",
+  "price": 414,
+  "currency": "USD",
+  "description": "Knitted graphic, zip-up ribbed cardigan. Male model is 6'4 and wearing a size M. This cardigan is fitted. True to size.",
+  "category": "TOPS",
+  "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L",
+    "XL"
+  ],
+  "mainImage": "https://www.mowalola.com/cdn/shop/files/Screenshot2025-04-15at12.55.44.png",
+  "images": [
+    "https://www.mowalola.com/cdn/shop/files/Screenshot2025-04-15at12.55.44.png",
+    "https://www.mowalola.com/cdn/shop/files/jacketfrontzipLS_01.jpg",
+    "https://www.mowalola.com/cdn/shop/files/jacketfrontzipLS_02.jpg"
+  ],
+  "availability": "in_stock",
+  "variants": [
+    {
+      "color": "",
+      "size": "XS",
+      "availability": "out_of_stock"
+    },
+    {
+      "color": "",
+      "size": "S",
+      "availability": "in_stock"
+    },
+    {
+      "color": "",
+      "size": "M",
+      "availability": "in_stock"
+    },
+    {
+      "color": "",
+      "size": "L",
+      "availability": "in_stock"
+    },
+    {
+      "color": "",
+      "size": "XL",
+      "availability": "out_of_stock"
+    }
+  ],
+  "productURL": "https://www.mowalola.com/products/lvl-5-cardigan",
+  "categoryPage": "https://www.mowalola.com/collections/tees?page=3&phcursor=eyJhbGciOiJIUzI1NiJ9.eyJzayI6InBvc2l0aW9uIiwic3YiOjQyLCJkIjoiZiIsInVpZCI6MzQxNTA0NDEyODc4NDUsImwiOjE2LCJvIjowLCJyIjoiQ0RQIiwidiI6MSwicCI6M30.kYIUdLvc8LXZYqHC_7jJwgMePkeaNZS2pBUSoXMPHDY",
+  "scrapeTimestamp": "2025-08-12 22:52:35"
+},
+{
+  "brand": "MOWALOLA",
+  "name": "Dropout Tee Black",
+  "price": 166,
+  "currency": "USD",
+  "description": "M logo printed, stretchy tee. This tee is fitted and slightly cropped.",
+  "category": "TOPS",
+  "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL"
+  ],
+  "mainImage": "https://www.mowalola.com/cdn/shop/files/tshirtsswalkman_01.jpg",
+  "images": [
+    "https://www.mowalola.com/cdn/shop/files/tshirtsswalkman_01.jpg",
+    "https://www.mowalola.com/cdn/shop/files/tshirtsswalkman_02.jpg"
+  ],
+  "availability": "in_stock",
+  "variants": [
+    {
+      "color": "",
+      "size": "XS",
+      "availability": "in_stock"
+    },
+    {
+      "color": "",
+      "size": "S",
+      "availability": "in_stock"
+    },
+    {
+      "color": "",
+      "size": "M",
+      "availability": "out_of_stock"
+    },
+    {
+      "color": "",
+      "size": "L",
+      "availability": "in_stock"
+    },
+    {
+      "color": "",
+      "size": "XL",
+      "availability": "in_stock"
+    },
+    {
+      "color": "",
+      "size": "XXL",
+      "availability": "out_of_stock"
+    }
+  ],
+  "productURL": "https://www.mowalola.com/products/bestseller-dropout-tee",
+  "categoryPage": "https://www.mowalola.com/collections/tees?page=3&phcursor=eyJhbGciOiJIUzI1NiJ9.eyJzayI6InBvc2l0aW9uIiwic3YiOjQyLCJkIjoiZiIsInVpZCI6MzQxNTA0NDEyODc4NDUsImwiOjE2LCJvIjowLCJyIjoiQ0RQIiwidiI6MSwicCI6M30.kYIUdLvc8LXZYqHC_7jJwgMePkeaNZS2pBUSoXMPHDY",
+  "scrapeTimestamp": "2025-08-12 22:52:35"
+},
+{
+  "brand": "MOWALOLA",
+  "name": "MoWA Hoodie",
+  "price": 345,
+  "currency": "USD",
+  "description": "MoMa cotton hoodie. Embroidered chest and cuff logos. True to size. 100% Cotton Model is 6'0\" and wearing size L.",
+  "category": "TOPS",
+  "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L",
+    "XL"
+  ],
+  "mainImage": "https://www.mowalola.com/cdn/shop/files/Screenshot2025-04-15at12.36.11.png",
+  "images": [
+    "https://www.mowalola.com/cdn/shop/files/Screenshot2025-04-15at12.36.11.png",
+    "https://www.mowalola.com/cdn/shop/files/GreyMoWahoodie_01.jpg",
+    "https://www.mowalola.com/cdn/shop/files/GreyMoWahoodie_02.jpg"
+  ],
+  "availability": "in_stock",
+  "variants": [
+    {
+      "color": "",
+      "size": "XS",
+      "availability": "in_stock"
+    },
+    {
+      "color": "",
+      "size": "S",
+      "availability": "in_stock"
+    },
+    {
+      "color": "",
+      "size": "M",
+      "availability": "in_stock"
+    },
+    {
+      "color": "",
+      "size": "L",
+      "availability": "in_stock"
+    },
+    {
+      "color": "",
+      "size": "XL",
+      "availability": "in_stock"
+    }
+  ],
+  "productURL": "https://www.mowalola.com/products/mowa-hoodie",
+  "categoryPage": "https://www.mowalola.com/collections/tees?page=3&phcursor=eyJhbGciOiJIUzI1NiJ9.eyJzayI6InBvc2l0aW9uIiwic3YiOjQyLCJkIjoiZiIsInVpZCI6MzQxNTA0NDEyODc4NDUsImwiOjE2LCJvIjowLCJyIjoiQ0RQIiwidiI6MSwicCI6M30.kYIUdLvc8LXZYqHC_7jJwgMePkeaNZS2pBUSoXMPHDY",
+  "scrapeTimestamp": "2025-08-12 22:52:35"
+},
+{
+  "brand": "MOWALOLA",
+  "name": "Classic Baby Tee",
+  "price": 138,
+  "currency": "USD",
+  "description": "100% Cotton This tee is cropped and fitted. Model is 5'7 and wearing size S.",
+  "category": "TOPS",
+  "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L",
+    "XL"
+  ],
+  "mainImage": "https://www.mowalola.com/cdn/shop/files/Screenshot2025-04-15at12.35.14.png",
+  "images": [
+    "https://www.mowalola.com/cdn/shop/files/Screenshot2025-04-15at12.35.14.png",
+    "https://www.mowalola.com/cdn/shop/files/minitshirtsswalkman_01.jpg",
+    "https://www.mowalola.com/cdn/shop/files/minitshirtsswalkman_02.jpg"
+  ],
+  "availability": "in_stock",
+  "variants": [
+    {
+      "color": "",
+      "size": "XS",
+      "availability": "in_stock"
+    },
+    {
+      "color": "",
+      "size": "S",
+      "availability": "in_stock"
+    },
+    {
+      "color": "",
+      "size": "M",
+      "availability": "out_of_stock"
+    },
+    {
+      "color": "",
+      "size": "L",
+      "availability": "out_of_stock"
+    },
+    {
+      "color": "",
+      "size": "XL",
+      "availability": "in_stock"
+    }
+  ],
+  "productURL": "https://www.mowalola.com/products/best-seller-classic-baby-tee",
+  "categoryPage": "https://www.mowalola.com/collections/tees?page=3&phcursor=eyJhbGciOiJIUzI1NiJ9.eyJzayI6InBvc2l0aW9uIiwic3YiOjQyLCJkIjoiZiIsInVpZCI6MzQxNTA0NDEyODc4NDUsImwiOjE2LCJvIjowLCJyIjoiQ0RQIiwidiI6MSwicCI6M30.kYIUdLvc8LXZYqHC_7jJwgMePkeaNZS2pBUSoXMPHDY",
+  "scrapeTimestamp": "2025-08-12 22:52:35"
+},
+{
+  "brand": "MOWALOLA",
+  "name": "DOUBLE SWEAT TEE",
+  "price": 166,
+  "currency": "USD",
+  "description": "Loose fit 100% cotton tee with our double Tyson logo print detail. Model is 6'3\" and is wearing a size a M.",
+  "category": "TOPS",
+  "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL"
+  ],
+  "mainImage": "https://www.mowalola.com/cdn/shop/files/Screenshot2025-04-15at11.57.46.png",
+  "images": [
+    "https://www.mowalola.com/cdn/shop/files/Screenshot2025-04-15at11.57.46.png",
+    "https://www.mowalola.com/cdn/shop/files/DOUBLE_SWEAT_TEE_01_4c21ec5d-839d-4f69-b55b-4e9c58c5d54d.jpg"
+  ],
+  "availability": "in_stock",
+  "variants": [
+    {
+      "color": "",
+      "size": "XS",
+      "availability": "in_stock"
+    },
+    {
+      "color": "",
+      "size": "S",
+      "availability": "out_of_stock"
+    },
+    {
+      "color": "",
+      "size": "M",
+      "availability": "out_of_stock"
+    },
+    {
+      "color": "",
+      "size": "L",
+      "availability": "out_of_stock"
+    },
+    {
+      "color": "",
+      "size": "XL",
+      "availability": "out_of_stock"
+    },
+    {
+      "color": "",
+      "size": "XXL",
+      "availability": "out_of_stock"
+    }
+  ],
+  "productURL": "https://www.mowalola.com/products/double-sweat-tee",
+  "categoryPage": "https://www.mowalola.com/collections/tees?page=3&phcursor=eyJhbGciOiJIUzI1NiJ9.eyJzayI6InBvc2l0aW9uIiwic3YiOjQyLCJkIjoiZiIsInVpZCI6MzQxNTA0NDEyODc4NDUsImwiOjE2LCJvIjowLCJyIjoiQ0RQIiwidiI6MSwicCI6M30.kYIUdLvc8LXZYqHC_7jJwgMePkeaNZS2pBUSoXMPHDY",
+  "scrapeTimestamp": "2025-08-12 22:52:35"
+},
+{
+  "brand": "MOWALOLA",
+  "name": "MOWA SPORTS TRACKTOP",
+  "price": 373,
+  "currency": "USD",
+  "description": "Fitted sports track-top, Mowalola \"3\" printed detail. Elastic waistband and cuffs, zip-up closure. Model is 5'7\" and is wearing a size S.",
+  "category": "TOPS",
+  "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL"
+  ],
+  "mainImage": "https://www.mowalola.com/cdn/shop/files/Screenshot2025-04-14at18.04.15.png",
+  "images": [
+    "https://www.mowalola.com/cdn/shop/files/Screenshot2025-04-14at18.04.15.png",
+    "https://www.mowalola.com/cdn/shop/files/MOWA_SPORTS_TRACKTOP_01_22319e0d-595a-47e9-8b8c-e64981f71cf9.jpg"
+  ],
+  "availability": "in_stock",
+  "variants": [
+    {
+      "color": "",
+      "size": "XS",
+      "availability": "in_stock"
+    },
+    {
+      "color": "",
+      "size": "S",
+      "availability": "in_stock"
+    },
+    {
+      "color": "",
+      "size": "M",
+      "availability": "in_stock"
+    },
+    {
+      "color": "",
+      "size": "L",
+      "availability": "out_of_stock"
+    },
+    {
+      "color": "",
+      "size": "XL",
+      "availability": "out_of_stock"
+    },
+    {
+      "color": "",
+      "size": "XXL",
+      "availability": "in_stock"
+    }
+  ],
+  "productURL": "https://www.mowalola.com/products/mowa-sports-tracktop",
+  "categoryPage": "https://www.mowalola.com/collections/tees?page=3&phcursor=eyJhbGciOiJIUzI1NiJ9.eyJzayI6InBvc2l0aW9uIiwic3YiOjQyLCJkIjoiZiIsInVpZCI6MzQxNTA0NDEyODc4NDUsImwiOjE2LCJvIjowLCJyIjoiQ0RQIiwidiI6MSwicCI6M30.kYIUdLvc8LXZYqHC_7jJwgMePkeaNZS2pBUSoXMPHDY",
+  "scrapeTimestamp": "2025-08-12 22:52:35"
+},
+{
+  "brand": "MOWALOLA",
+  "name": "TYSON POLO",
+  "price": 345,
+  "currency": "USD",
+  "description": "Double side printed cotton piqué polo shirt, Mowalola Tyson logo detail. Model is 6”0’ and is wearing a size XL.",
+  "category": "TOPS",
+  "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L",
+    "XL"
+  ],
+  "mainImage": "https://www.mowalola.com/cdn/shop/files/Screenshot2025-04-15at11.56.05.png",
+  "images": [
+    "https://www.mowalola.com/cdn/shop/files/Screenshot2025-04-15at11.56.05.png",
+    "https://www.mowalola.com/cdn/shop/files/Mowaland_Polo_Red_Blue_01.jpg",
+    "https://www.mowalola.com/cdn/shop/files/Mowaland_Polo_Red_Blue_02.jpg"
+  ],
+  "availability": "in_stock",
+  "variants": [
+    {
+      "color": "",
+      "size": "XS",
+      "availability": "out_of_stock"
+    },
+    {
+      "color": "",
+      "size": "S",
+      "availability": "out_of_stock"
+    },
+    {
+      "color": "",
+      "size": "M",
+      "availability": "out_of_stock"
+    },
+    {
+      "color": "",
+      "size": "L",
+      "availability": "out_of_stock"
+    },
+    {
+      "color": "",
+      "size": "XL",
+      "availability": "in_stock"
+    }
+  ],
+  "productURL": "https://www.mowalola.com/products/tyson-polo",
+  "categoryPage": "https://www.mowalola.com/collections/tees?page=2&phcursor=eyJhbGciOiJIUzI1NiJ9.eyJzayI6InBvc2l0aW9uIiwic3YiOjIyLCJkIjoiZiIsInVpZCI6MzQ2OTc3NzA1OTg1NjUsImwiOjE2LCJvIjowLCJyIjoiQ0RQIiwidiI6MSwicCI6Mn0.Z-9TQtcwoBkGemIP8PrhiiAftd43tMwpVtZXU5HZ25U",
+  "scrapeTimestamp": "2025-08-12 22:52:35"
+},
+{
+  "brand": "MOWALOLA",
+  "name": "CRASH SHIRT",
+  "price": 538,
+  "currency": "USD",
+  "description": "Graphic long sleeve button up shirt with anime graphic all-over print. 100% cotton. Model is 6”0’ and is wearing a size XL",
+  "category": "TOPS",
+  "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L",
+    "XL"
+  ],
+  "mainImage": "https://www.mowalola.com/cdn/shop/files/Screenshot2025-04-14at16.05.45.png",
+  "images": [
+    "https://www.mowalola.com/cdn/shop/files/Screenshot2025-04-14at16.05.45.png",
+    "https://www.mowalola.com/cdn/shop/files/CRASH_SHIRT_01_ce62b19e-28b0-4f77-ba68-316b805fcc54.jpg",
+    "https://www.mowalola.com/cdn/shop/files/CRASH_SHIRT_02.jpg"
+  ],
+  "availability": "in_stock",
+  "variants": [
+    {
+      "color": "",
+      "size": "XS",
+      "availability": "out_of_stock"
+    },
+    {
+      "color": "",
+      "size": "S",
+      "availability": "in_stock"
+    },
+    {
+      "color": "",
+      "size": "M",
+      "availability": "in_stock"
+    },
+    {
+      "color": "",
+      "size": "L",
+      "availability": "out_of_stock"
+    },
+    {
+      "color": "",
+      "size": "XL",
+      "availability": "in_stock"
+    }
+  ],
+  "productURL": "https://www.mowalola.com/products/crash-shirt",
+  "categoryPage": "https://www.mowalola.com/collections/tees?page=2&phcursor=eyJhbGciOiJIUzI1NiJ9.eyJzayI6InBvc2l0aW9uIiwic3YiOjIyLCJkIjoiZiIsInVpZCI6MzQ2OTc3NzA1OTg1NjUsImwiOjE2LCJvIjowLCJyIjoiQ0RQIiwidiI6MSwicCI6Mn0.Z-9TQtcwoBkGemIP8PrhiiAftd43tMwpVtZXU5HZ25U",
+  "scrapeTimestamp": "2025-08-12 22:52:35"
+},
+{
+  "brand": "MOWALOLA",
+  "name": "MOWALAND EURO POLO",
+  "price": 345,
+  "currency": "USD",
+  "description": "Loose fit, cropped cotton piqué printed polo. Model is 5'4\" and is wearing a size XS.",
+  "category": "TOPS",
+  "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L",
+    "XL"
+  ],
+  "mainImage": "https://www.mowalola.com/cdn/shop/files/Screenshot2025-04-14at15.35.39.png",
+  "images": [
+    "https://www.mowalola.com/cdn/shop/files/Screenshot2025-04-14at15.35.39.png",
+    "https://www.mowalola.com/cdn/shop/files/MOWALAND_EURO_POLO_01_87a338f4-df19-4600-9e1e-d3999b652a0d.jpg"
+  ],
+  "availability": "in_stock",
+  "variants": [
+    {
+      "color": "",
+      "size": "XS",
+      "availability": "in_stock"
+    },
+    {
+      "color": "",
+      "size": "S",
+      "availability": "out_of_stock"
+    },
+    {
+      "color": "",
+      "size": "M",
+      "availability": "out_of_stock"
+    },
+    {
+      "color": "",
+      "size": "L",
+      "availability": "out_of_stock"
+    },
+    {
+      "color": "",
+      "size": "XL",
+      "availability": "out_of_stock"
+    }
+  ],
+  "productURL": "https://www.mowalola.com/products/mowaland-euro-polo",
+  "categoryPage": "https://www.mowalola.com/collections/tees?page=2&phcursor=eyJhbGciOiJIUzI1NiJ9.eyJzayI6InBvc2l0aW9uIiwic3YiOjIyLCJkIjoiZiIsInVpZCI6MzQ2OTc3NzA1OTg1NjUsImwiOjE2LCJvIjowLCJyIjoiQ0RQIiwidiI6MSwicCI6Mn0.Z-9TQtcwoBkGemIP8PrhiiAftd43tMwpVtZXU5HZ25U",
+  "scrapeTimestamp": "2025-08-12 22:52:35"
+},
+{
+  "brand": "MOWALOLA",
+  "name": "MOTO POLO",
+  "price": 442,
+  "currency": "USD",
+  "description": "Cropped printed faux leather shirt. Model is 5”10’ and is wearing a size S.",
+  "category": "TOPS",
+  "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL"
+  ],
+  "mainImage": "https://www.mowalola.com/cdn/shop/files/Screenshot2025-04-15at11.47.14.png",
+  "images": [
+    "https://www.mowalola.com/cdn/shop/files/Screenshot2025-04-15at11.47.14.png",
+    "https://www.mowalola.com/cdn/shop/files/MOTO_POLO_01_9f6132d5-37d2-4009-a98f-93d4beeb2717.jpg"
+  ],
+  "availability": "in_stock",
+  "variants": [
+    {
+      "color": "",
+      "size": "XS",
+      "availability": "out_of_stock"
+    },
+    {
+      "color": "",
+      "size": "S",
+      "availability": "in_stock"
+    },
+    {
+      "color": "",
+      "size": "M",
+      "availability": "in_stock"
+    },
+    {
+      "color": "",
+      "size": "L",
+      "availability": "in_stock"
+    },
+    {
+      "color": "",
+      "size": "XL",
+      "availability": "out_of_stock"
+    },
+    {
+      "color": "",
+      "size": "XXL",
+      "availability": "out_of_stock"
+    }
+  ],
+  "productURL": "https://www.mowalola.com/products/moto-polo",
+  "categoryPage": "https://www.mowalola.com/collections/tees?page=2&phcursor=eyJhbGciOiJIUzI1NiJ9.eyJzayI6InBvc2l0aW9uIiwic3YiOjIyLCJkIjoiZiIsInVpZCI6MzQ2OTc3NzA1OTg1NjUsImwiOjE2LCJvIjowLCJyIjoiQ0RQIiwidiI6MSwicCI6Mn0.Z-9TQtcwoBkGemIP8PrhiiAftd43tMwpVtZXU5HZ25U",
+  "scrapeTimestamp": "2025-08-12 22:52:35"
+},
+{
+  "brand": "MOWALOLA",
+  "name": "SWEAT TEE - BLACK",
+  "price": 166,
+  "currency": "USD",
+  "description": "Loose fit tee Model is 6'3\"and is wearing a size M.",
+  "category": "TOPS",
+  "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL"
+  ],
+  "mainImage": "https://www.mowalola.com/cdn/shop/files/Screenshot2025-04-14at15.40.56.png",
+  "images": [
+    "https://www.mowalola.com/cdn/shop/files/Screenshot2025-04-14at15.40.56.png",
+    "https://www.mowalola.com/cdn/shop/files/SWEAT_TEE_BLACK_01_6b17d9c6-923d-44e8-97ab-2a456c6e9c86.jpg",
+    "https://www.mowalola.com/cdn/shop/files/SWEAT_TEE_BLACK_02_22a33eec-23b0-4f18-8dd6-059e232b8a5a.jpg"
+  ],
+  "availability": "in_stock",
+  "variants": [
+    {
+      "color": "",
+      "size": "XS",
+      "availability": "in_stock"
+    },
+    {
+      "color": "",
+      "size": "S",
+      "availability": "out_of_stock"
+    },
+    {
+      "color": "",
+      "size": "M",
+      "availability": "out_of_stock"
+    },
+    {
+      "color": "",
+      "size": "L",
+      "availability": "out_of_stock"
+    },
+    {
+      "color": "",
+      "size": "XL",
+      "availability": "out_of_stock"
+    },
+    {
+      "color": "",
+      "size": "XXL",
+      "availability": "in_stock"
+    }
+  ],
+  "productURL": "https://www.mowalola.com/products/sweat-tee-1",
+  "categoryPage": "https://www.mowalola.com/collections/tees?page=2&phcursor=eyJhbGciOiJIUzI1NiJ9.eyJzayI6InBvc2l0aW9uIiwic3YiOjIyLCJkIjoiZiIsInVpZCI6MzQ2OTc3NzA1OTg1NjUsImwiOjE2LCJvIjowLCJyIjoiQ0RQIiwidiI6MSwicCI6Mn0.Z-9TQtcwoBkGemIP8PrhiiAftd43tMwpVtZXU5HZ25U",
+  "scrapeTimestamp": "2025-08-12 22:52:35"
+},
+{
+  "brand": "MOWALOLA",
+  "name": "DOUBLE D HOODIE GREY",
+  "price": 414,
+  "currency": "USD",
+  "description": "Grey, fitted and cropped zip-up hoodie. Double hood and printed logo detail, 100% Cotton. Model is 5'11\" and is wearing a size M.",
+  "category": "TOPS",
+  "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L",
+    "XL"
+  ],
+  "mainImage": "https://www.mowalola.com/cdn/shop/files/Screenshot2025-04-30at16.42.11.png",
+  "images": [
+    "https://www.mowalola.com/cdn/shop/files/Screenshot2025-04-30at16.42.11.png",
+    "https://www.mowalola.com/cdn/shop/files/Doubl__D_Hoodie_Grey_01.jpg"
+  ],
+  "availability": "in_stock",
+  "variants": [
+    {
+      "color": "",
+      "size": "XS",
+      "availability": "in_stock"
+    },
+    {
+      "color": "",
+      "size": "S",
+      "availability": "in_stock"
+    },
+    {
+      "color": "",
+      "size": "M",
+      "availability": "in_stock"
+    },
+    {
+      "color": "",
+      "size": "L",
+      "availability": "in_stock"
+    },
+    {
+      "color": "",
+      "size": "XL",
+      "availability": "in_stock"
+    }
+  ],
+  "productURL": "https://www.mowalola.com/products/double-d-hoodie-1",
+  "categoryPage": "https://www.mowalola.com/collections/tees?page=2&phcursor=eyJhbGciOiJIUzI1NiJ9.eyJzayI6InBvc2l0aW9uIiwic3YiOjIyLCJkIjoiZiIsInVpZCI6MzQ2OTc3NzA1OTg1NjUsImwiOjE2LCJvIjowLCJyIjoiQ0RQIiwidiI6MSwicCI6Mn0.Z-9TQtcwoBkGemIP8PrhiiAftd43tMwpVtZXU5HZ25U",
+  "scrapeTimestamp": "2025-08-12 22:52:35"
+},
+{
+  "brand": "MOWALOLA",
+  "name": "WET SEX TANK",
+  "price": 56,
+  "currency": "USD",
+  "description": "Model is and 5'10 and wearing size S. 100% Cotton This tank is fitted. True to size.",
+  "category": "TOPS",
+  "sizes": [
+    "S",
+    "M",
+    "L"
+  ],
+  "mainImage": "https://www.mowalola.com/cdn/shop/files/Screenshot2025-04-14at18.52.59.png",
+  "images": [
+    "https://www.mowalola.com/cdn/shop/files/Screenshot2025-04-14at18.52.59.png"
+  ],
+  "availability": "in_stock",
+  "variants": [
+    {
+      "color": "",
+      "size": "S",
+      "availability": "out_of_stock"
+    },
+    {
+      "color": "",
+      "size": "M",
+      "availability": "out_of_stock"
+    },
+    {
+      "color": "",
+      "size": "L",
+      "availability": "in_stock"
+    }
+  ],
+  "productURL": "https://www.mowalola.com/products/wet-sex-tank",
+  "categoryPage": "https://www.mowalola.com/collections/tees?page=2&phcursor=eyJhbGciOiJIUzI1NiJ9.eyJzayI6InBvc2l0aW9uIiwic3YiOjIyLCJkIjoiZiIsInVpZCI6MzQ2OTc3NzA1OTg1NjUsImwiOjE2LCJvIjowLCJyIjoiQ0RQIiwidiI6MSwicCI6Mn0.Z-9TQtcwoBkGemIP8PrhiiAftd43tMwpVtZXU5HZ25U",
+  "scrapeTimestamp": "2025-08-12 22:52:35"
+},
+{
+  "brand": "MOWALOLA",
+  "name": "WET SEX ROMPER",
+  "price": 83,
+  "currency": "USD",
+  "description": "Model is 5'11 and wearing size M. 100% Cotton. This tank is fitted. True to size.",
+  "category": "TOPS",
+  "sizes": [
+    "S",
+    "M",
+    "L"
+  ],
+  "mainImage": "https://www.mowalola.com/cdn/shop/files/Screenshot2025-04-14at18.44.28.png",
+  "images": [
+    "https://www.mowalola.com/cdn/shop/files/Screenshot2025-04-14at18.44.28.png"
+  ],
+  "availability": "in_stock",
+  "variants": [
+    {
+      "color": "",
+      "size": "S",
+      "availability": "out_of_stock"
+    },
+    {
+      "color": "",
+      "size": "M",
+      "availability": "in_stock"
+    },
+    {
+      "color": "",
+      "size": "L",
+      "availability": "in_stock"
+    }
+  ],
+  "productURL": "https://www.mowalola.com/products/wet-sex-romper",
+  "categoryPage": "https://www.mowalola.com/collections/tees?page=2&phcursor=eyJhbGciOiJIUzI1NiJ9.eyJzayI6InBvc2l0aW9uIiwic3YiOjIyLCJkIjoiZiIsInVpZCI6MzQ2OTc3NzA1OTg1NjUsImwiOjE2LCJvIjowLCJyIjoiQ0RQIiwidiI6MSwicCI6Mn0.Z-9TQtcwoBkGemIP8PrhiiAftd43tMwpVtZXU5HZ25U",
+  "scrapeTimestamp": "2025-08-12 22:52:35"
+},
+{
+  "brand": "MOWALOLA",
+  "name": "COLLEGE TEE RED",
+  "price": 97,
+  "currency": "USD",
+  "description": "Red and black cropped t-shirt. Model is 5'10\" and is wearing a size S.",
+  "category": "TOPS",
+  "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL"
+  ],
+  "mainImage": "https://www.mowalola.com/cdn/shop/files/Screenshot2025-04-15at11.43.23.png",
+  "images": [
+    "https://www.mowalola.com/cdn/shop/files/Screenshot2025-04-15at11.43.23.png",
+    "https://www.mowalola.com/cdn/shop/files/College_Tee_Red_01.jpg"
+  ],
+  "availability": "in_stock",
+  "variants": [
+    {
+      "color": "",
+      "size": "XS",
+      "availability": "out_of_stock"
+    },
+    {
+      "color": "",
+      "size": "S",
+      "availability": "out_of_stock"
+    },
+    {
+      "color": "",
+      "size": "M",
+      "availability": "out_of_stock"
+    },
+    {
+      "color": "",
+      "size": "L",
+      "availability": "out_of_stock"
+    },
+    {
+      "color": "",
+      "size": "XL",
+      "availability": "in_stock"
+    },
+    {
+      "color": "",
+      "size": "XXL",
+      "availability": "in_stock"
+    }
+  ],
+  "productURL": "https://www.mowalola.com/products/college-tee",
+  "categoryPage": "https://www.mowalola.com/collections/tees?page=2&phcursor=eyJhbGciOiJIUzI1NiJ9.eyJzayI6InBvc2l0aW9uIiwic3YiOjIyLCJkIjoiZiIsInVpZCI6MzQ2OTc3NzA1OTg1NjUsImwiOjE2LCJvIjowLCJyIjoiQ0RQIiwidiI6MSwicCI6Mn0.Z-9TQtcwoBkGemIP8PrhiiAftd43tMwpVtZXU5HZ25U",
+  "scrapeTimestamp": "2025-08-12 22:52:35"
+},
+{
+  "brand": "MOWALOLA",
+  "name": "COLLEGE TEE GREY",
+  "price": 97,
+  "currency": "USD",
+  "description": "Grey and black cropped cotton t-shirt. Model is 5'4\" and is wearing a size S.",
+  "category": "TOPS",
+  "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL"
+  ],
+  "mainImage": "https://www.mowalola.com/cdn/shop/files/Screenshot2025-04-15at11.33.01.png",
+  "images": [
+    "https://www.mowalola.com/cdn/shop/files/Screenshot2025-04-15at11.33.01.png",
+    "https://www.mowalola.com/cdn/shop/files/CollegeTee_01.jpg"
+  ],
+  "availability": "in_stock",
+  "variants": [
+    {
+      "color": "",
+      "size": "XS",
+      "availability": "out_of_stock"
+    },
+    {
+      "color": "",
+      "size": "S",
+      "availability": "out_of_stock"
+    },
+    {
+      "color": "",
+      "size": "M",
+      "availability": "out_of_stock"
+    },
+    {
+      "color": "",
+      "size": "L",
+      "availability": "in_stock"
+    },
+    {
+      "color": "",
+      "size": "XL",
+      "availability": "in_stock"
+    },
+    {
+      "color": "",
+      "size": "XXL",
+      "availability": "out_of_stock"
+    }
+  ],
+  "productURL": "https://www.mowalola.com/products/college-tee-1",
+  "categoryPage": "https://www.mowalola.com/collections/tees?page=2&phcursor=eyJhbGciOiJIUzI1NiJ9.eyJzayI6InBvc2l0aW9uIiwic3YiOjIyLCJkIjoiZiIsInVpZCI6MzQ2OTc3NzA1OTg1NjUsImwiOjE2LCJvIjowLCJyIjoiQ0RQIiwidiI6MSwicCI6Mn0.Z-9TQtcwoBkGemIP8PrhiiAftd43tMwpVtZXU5HZ25U",
+  "scrapeTimestamp": "2025-08-12 22:52:35"
+},
+{
+  "brand": "MOWALOLA",
+  "name": "DUNGAREE SKIRT",
+  "price": 896,
+  "currency": "USD",
+  "description": "Detachable long denim skirt in white wash. Versatile piece, can be worn in 3 ways: as a mini skirt, a mid-length skirt using the bottom cargo pockets skirt, or as a full length maxi skirt. 100% cotton. SS24 runway piece and perfect for all seasons. Model is 5”7’ and is wearing a size XS.",
+  "category": "BOTTOMS",
+  "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L",
+    "XL"
+  ],
+  "mainImage": "https://www.mowalola.com/cdn/shop/files/Screenshot2025-04-15at12.13.23.png",
+  "images": [
+    "https://www.mowalola.com/cdn/shop/files/Screenshot2025-04-15at12.13.23.png",
+    "https://www.mowalola.com/cdn/shop/files/DUNGAREE_SKIRT_01_1841f953-79a7-4875-ab88-a7123cec4268.jpg",
+    "https://www.mowalola.com/cdn/shop/files/DUNGAREE_SKIRT_02.jpg"
+  ],
+  "availability": "in_stock",
+  "variants": [
+    {
+      "color": "",
+      "size": "XS",
+      "availability": "in_stock"
+    },
+    {
+      "color": "",
+      "size": "S",
+      "availability": "in_stock"
+    },
+    {
+      "color": "",
+      "size": "M",
+      "availability": "out_of_stock"
+    },
+    {
+      "color": "",
+      "size": "L",
+      "availability": "out_of_stock"
+    },
+    {
+      "color": "",
+      "size": "XL",
+      "availability": "out_of_stock"
+    }
+  ],
+  "productURL": "https://www.mowalola.com/products/dungaree-skirt",
+  "categoryPage": "https://www.mowalola.com/collections/bottoms?page=2&phcursor=eyJhbGciOiJIUzI1NiJ9.eyJzayI6InByb2R1Y3RfY3JlYXRlZF9hdCIsInN2IjoiMjAyNC0wOS0xMlQxNjowMDo1Mi4wMDBaIiwiZCI6ImYiLCJ1aWQiOjM0NTI2MzYzMDI1NTczLCJsIjoxNiwibyI6MCwiciI6IkNEUCIsInYiOjEsInAiOjJ9.CgEho3Heox_pQTYCrwiLv59yzpVW2-UOsvbGo-5ble8",
+  "scrapeTimestamp": "2025-08-12 22:52:35"
+},
+{
+  "brand": "MOWALOLA",
+  "name": "DOUBLE D JEANS WHITE",
+  "price": 717,
+  "currency": "USD",
+  "description": "Baggy-fit cargo denim in white wash. First model is 6”3’ and is wearing a size 32. Second model is 5”7’ and is wearing a size 32.",
+  "category": "BOTTOMS",
+  "sizes": [
+    "24",
+    "26",
+    "28",
+    "30",
+    "32",
+    "34",
+    "36"
+  ],
+  "mainImage": "https://www.mowalola.com/cdn/shop/files/DOUBLE_D_JEANS_WHITE_01_49187c92-c009-43ff-9d11-f391e27fdf93.jpg",
+  "images": [
+    "https://www.mowalola.com/cdn/shop/files/DOUBLE_D_JEANS_WHITE_01_49187c92-c009-43ff-9d11-f391e27fdf93.jpg",
+    "https://www.mowalola.com/cdn/shop/files/Screenshot2025-04-14at15.53.25.png",
+    "https://www.mowalola.com/cdn/shop/files/DOUBLE_D_JEANS_WHITE_02.jpg"
+  ],
+  "availability": "in_stock",
+  "variants": [
+    {
+      "color": "",
+      "size": "24",
+      "availability": "out_of_stock"
+    },
+    {
+      "color": "",
+      "size": "26",
+      "availability": "out_of_stock"
+    },
+    {
+      "color": "",
+      "size": "28",
+      "availability": "out_of_stock"
+    },
+    {
+      "color": "",
+      "size": "30",
+      "availability": "out_of_stock"
+    },
+    {
+      "color": "",
+      "size": "32",
+      "availability": "in_stock"
+    },
+    {
+      "color": "",
+      "size": "34",
+      "availability": "out_of_stock"
+    },
+    {
+      "color": "",
+      "size": "36",
+      "availability": "out_of_stock"
+    }
+  ],
+  "productURL": "https://www.mowalola.com/products/double-d-jeans-white",
+  "categoryPage": "https://www.mowalola.com/collections/bottoms?page=2&phcursor=eyJhbGciOiJIUzI1NiJ9.eyJzayI6InByb2R1Y3RfY3JlYXRlZF9hdCIsInN2IjoiMjAyNC0wOS0xMlQxNjowMDo1Mi4wMDBaIiwiZCI6ImYiLCJ1aWQiOjM0NTI2MzYzMDI1NTczLCJsIjoxNiwibyI6MCwiciI6IkNEUCIsInYiOjEsInAiOjJ9.CgEho3Heox_pQTYCrwiLv59yzpVW2-UOsvbGo-5ble8",
+  "scrapeTimestamp": "2025-08-12 22:52:35"
+},
+{
+  "brand": "MOWALOLA",
+  "name": "STAMP JOGGERS ORANGE",
+  "price": 455,
+  "currency": "USD",
+  "description": "Baggy cotton orange joggers with screen print detail.",
+  "category": "BOTTOMS",
+  "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L",
+    "XL"
+  ],
+  "mainImage": "https://www.mowalola.com/cdn/shop/files/Screenshot_2025-04-02_at_15.01.15.png",
+  "images": [
+    "https://www.mowalola.com/cdn/shop/files/Screenshot_2025-04-02_at_15.01.15.png",
+    "https://www.mowalola.com/cdn/shop/files/STAMP_JOGGERS_TRUE_ORANGE_01_1054b969-26fa-492a-9ae1-6f30741c099e.jpg"
+  ],
+  "availability": "in_stock",
+  "variants": [
+    {
+      "color": "",
+      "size": "XS",
+      "availability": "in_stock"
+    },
+    {
+      "color": "",
+      "size": "S",
+      "availability": "out_of_stock"
+    },
+    {
+      "color": "",
+      "size": "M",
+      "availability": "out_of_stock"
+    },
+    {
+      "color": "",
+      "size": "L",
+      "availability": "out_of_stock"
+    },
+    {
+      "color": "",
+      "size": "XL",
+      "availability": "out_of_stock"
+    }
+  ],
+  "productURL": "https://www.mowalola.com/products/stamp-joggers-orange",
+  "categoryPage": "https://www.mowalola.com/collections/bottoms",
+  "scrapeTimestamp": "2025-08-12 22:52:35"
+}
+]

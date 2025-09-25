@@ -1,0 +1,5518 @@
+[
+{
+  "brand": "Ludovic de Saint Sernin",
+  "name": "Ariel Skirt in Cotton - 10083295101261",
+  "description": "The Ariel Skirt is a maxi skirt with a mermaid silhouette, made from a lightweight, slightly translucent net fabric featuring diagonal stripe patterns and a long, flowing hemline. Size Guide: Size Waist Measurements XS 67 cm S 70 cm M 75 cm L 78 cm",
+  "price": 680,
+  "currency": "EUR",
+  "category": "Dresses & Skirts",
+  "colors": [
+    "White"
+  ],
+  "gender": "WOMEN",
+  "mainImage": "https://ludovicdesaintsernin.com/cdn/shop/files/ariel_skirtfront.jpg?v=1747317531",
+  "images": [
+    "https://ludovicdesaintsernin.com/cdn/shop/files/ariel_skirtback.jpg?v=1747317531"
+  ],
+  "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L"
+  ],
+  "variants": [
+    {
+      "size": "XS",
+      "color": "White",
+      "availability": "out_of_stock"
+    },
+    {
+      "size": "S",
+      "color": "White",
+      "availability": "in_stock"
+    },
+    {
+      "size": "M",
+      "color": "White",
+      "availability": "out_of_stock"
+    },
+    {
+      "size": "L",
+      "color": "White",
+      "availability": "out_of_stock"
+    }
+  ],
+  "availability": "in_stock",
+  "productURL": "https://ludovicdesaintsernin.com/products/ariel-skirt-copy",
+  "categoryPage": "https://ludovicdesaintsernin.com/collections/women-dresses-skirts",
+  "scrapeTimestamp": "2025-08-11 19:32:56"
+},
+{
+  "brand": "Ludovic de Saint Sernin",
+  "name": "Robert Jacket in Gabardine - 9928477114701",
+  "description": "The Robert Jacket style transitioned from the LdSS x Robert Mapplethorpe collection. Made from light cotton, it features the classic fit of a bomber jacket, delivering a powerful and sophisticated look. The item is currently available for pre-order. Delivery by June 15.",
+  "price": 493,
+  "currency": "EUR",
+  "category": "Outerwear",
+  "colors": [
+    "Beige"
+  ],
+  "gender": "UNISEX",
+  "mainImage": "https://ludovicdesaintsernin.com/cdn/shop/files/Artboard2_dbc94422-5d1f-4280-919e-288405bc9f4a.jpg?v=1742990480",
+  "images": [
+    "https://ludovicdesaintsernin.com/cdn/shop/files/Artboard3_22a29070-7b02-4f46-987e-18fd013ce34e.jpg?v=1742990480"
+  ],
+  "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L"
+  ],
+  "variants": [
+    {
+      "size": "XS",
+      "color": "Beige",
+      "availability": "in_stock"
+    },
+    {
+      "size": "S",
+      "color": "Beige",
+      "availability": "in_stock"
+    },
+    {
+      "size": "M",
+      "color": "Beige",
+      "availability": "in_stock"
+    },
+    {
+      "size": "L",
+      "color": "Beige",
+      "availability": "in_stock"
+    }
+  ],
+  "availability": "in_stock",
+  "productURL": "https://ludovicdesaintsernin.com/products/robert-jacket-in-beige-cotton",
+  "categoryPage": "https://ludovicdesaintsernin.com/collections/unisex-outerwear",
+  "scrapeTimestamp": "2025-08-11 19:32:58"
+},
+{
+  "brand": "Ludovic de Saint Sernin",
+  "name": "Boxer Pants in Cotton - 10072689967437",
+  "description": "Our Boxer Pants are made from a light cotton fabric, featuring an elastic waistband for a relaxed and comfortable fit. Size Guide: Size Waist * XS 68 cm S 72 cm M 74 cm L 80 cm XL 84 cm *Measurements were not done on a model but a flat surface.",
+  "price": 290,
+  "currency": "EUR",
+  "category": "Bottoms",
+  "colors": [
+    "Ecru"
+  ],
+  "gender": "UNISEX",
+  "mainImage": "https://ludovicdesaintsernin.com/cdn/shop/files/SS25-PT006-M-CO0020-Almond_1.jpg?v=1746613813",
+  "images": [
+    "https://ludovicdesaintsernin.com/cdn/shop/files/SS25-PT006-M-CO0020-Almond_2.jpg?v=1746613813"
+  ],
+  "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L",
+    "XL"
+  ],
+  "variants": [
+    {
+      "size": "XS",
+      "color": "Ecru",
+      "availability": "out_of_stock"
+    },
+    {
+      "size": "S",
+      "color": "Ecru",
+      "availability": "in_stock"
+    },
+    {
+      "size": "M",
+      "color": "Ecru",
+      "availability": "in_stock"
+    },
+    {
+      "size": "L",
+      "color": "Ecru",
+      "availability": "out_of_stock"
+    },
+    {
+      "size": "XL",
+      "color": "Ecru",
+      "availability": "in_stock"
+    }
+  ],
+  "availability": "in_stock",
+  "productURL": "https://ludovicdesaintsernin.com/products/boxer-pants-3",
+  "categoryPage": "https://ludovicdesaintsernin.com/collections/unisex-bottoms",
+  "scrapeTimestamp": "2025-08-11 19:33:00"
+},
+{
+  "brand": "Ludovic de Saint Sernin",
+  "name": "Lace-Up Micro Shorts in Cotton - 9928475541837",
+  "description": "The micro shorts are made from braided Japanese fabric. This piece features eyelets and adjustable lacing on each side for a more personalized fit. The style falls on the hips for a low-rise silhouette. Size Guide: Size Hip * XS 78 cm S 82 cm M 86 cm L 90 cm *Measurements were not done on a model but a flat surface.",
+  "price": 175,
+  "currency": "EUR",
+  "category": "Bottoms",
+  "colors": [
+    "Light Blue"
+  ],
+  "gender": "UNISEX",
+  "mainImage": "https://ludovicdesaintsernin.com/cdn/shop/files/Artboard2_9cd90b01-5484-40ff-b016-fe374ab75c27.jpg?v=1747064175",
+  "images": [
+    "https://ludovicdesaintsernin.com/cdn/shop/files/Artboard5_4a73dff1-4b33-4baa-a803-ba6e7c163871.jpg?v=1747064176"
+  ],
+  "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L"
+  ],
+  "variants": [
+    {
+      "size": "XS",
+      "color": "Light Blue",
+      "availability": "out_of_stock"
+    },
+    {
+      "size": "S",
+      "color": "Light Blue",
+      "availability": "out_of_stock"
+    },
+    {
+      "size": "M",
+      "color": "Light Blue",
+      "availability": "in_stock"
+    },
+    {
+      "size": "L",
+      "color": "Light Blue",
+      "availability": "in_stock"
+    }
+  ],
+  "availability": "in_stock",
+  "productURL": "https://ludovicdesaintsernin.com/products/light-blue-micro-short",
+  "categoryPage": "https://ludovicdesaintsernin.com/collections/unisex-bottoms",
+  "scrapeTimestamp": "2025-08-11 19:33:02"
+},
+{
+  "brand": "Ludovic de Saint Sernin",
+  "name": "Lace-Up Micro Shorts in Leather - 9928476164429",
+  "description": "The Micro Shorts are made from fine lamb leather and feature eyelets with adjustable lacing on each side for a personalised fit. The style falls on the hips for a low-rise silhouette. Size Guide: Size Hip * XS 82 cm S 86 cm M 90 cm L 94 cm *Measurements were not done on a model but a flat surface.",
+  "price": 433,
+  "currency": "EUR",
+  "category": "Bottoms",
+  "colors": [
+    "Black"
+  ],
+  "gender": "UNISEX",
+  "mainImage": "https://ludovicdesaintsernin.com/cdn/shop/files/MicroShortLeather2.jpg?v=1739879449",
+  "images": [
+    "https://ludovicdesaintsernin.com/cdn/shop/files/MicroShortLeather1.jpg?v=1739879449"
+  ],
+  "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L"
+  ],
+  "variants": [
+    {
+      "size": "XS",
+      "color": "Black",
+      "availability": "out_of_stock"
+    },
+    {
+      "size": "S",
+      "color": "Black",
+      "availability": "in_stock"
+    },
+    {
+      "size": "M",
+      "color": "Black",
+      "availability": "out_of_stock"
+    },
+    {
+      "size": "L",
+      "color": "Black",
+      "availability": "out_of_stock"
+    }
+  ],
+  "availability": "in_stock",
+  "productURL": "https://ludovicdesaintsernin.com/products/micro-shorts-in-leather",
+  "categoryPage": "https://ludovicdesaintsernin.com/collections/unisex-bottoms",
+  "scrapeTimestamp": "2025-08-11 19:33:04"
+},
+{
+  "brand": "Ludovic de Saint Sernin",
+  "name": "Boxer Shorts in Cotton - 10073423905101",
+  "description": "Our boxer shorts are made from braided Japanese fabric and feature an elastic waistband for a comfortable and easy fit. Size Guide: Size Waist * XS 68 cm S 72 cm M 74 cm L 78 cm *Measurements were not done on a model but a flat surface.",
+  "price": 140,
+  "currency": "EUR",
+  "category": "Bottoms",
+  "colors": [
+    "Brown"
+  ],
+  "gender": "UNISEX",
+  "mainImage": "https://ludovicdesaintsernin.com/cdn/shop/files/Blue-BoxerShorts_1.jpg?v=1746634981",
+  "images": [
+    "https://ludovicdesaintsernin.com/cdn/shop/files/Blue_BoxerShorts_2.jpg?v=1746634981"
+  ],
+  "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L"
+  ],
+  "variants": [
+    {
+      "size": "XS",
+      "color": "Brown",
+      "availability": "out_of_stock"
+    },
+    {
+      "size": "S",
+      "color": "Brown",
+      "availability": "out_of_stock"
+    },
+    {
+      "size": "M",
+      "color": "Brown",
+      "availability": "out_of_stock"
+    },
+    {
+      "size": "L",
+      "color": "Brown",
+      "availability": "out_of_stock"
+    }
+  ],
+  "availability": "out_of_stock",
+  "productURL": "https://ludovicdesaintsernin.com/products/boxer-shorts-in-cotton-blue",
+  "categoryPage": "https://ludovicdesaintsernin.com/collections/unisex-bottoms",
+  "scrapeTimestamp": "2025-08-11 19:33:05"
+},
+{
+  "brand": "Ludovic de Saint Sernin",
+  "name": "Boxer Shorts in Cotton - 9928475476301",
+  "description": "Our boxer shorts are made from braided Japanese fabric and feature an elastic waistband for a comfortable and easy fit. Size Guide: Size Waist * XS 68 cm S 72 cm M 74 cm L 78 cm *Measurements were not done on a model but a flat surface.",
+  "price": 140,
+  "currency": "EUR",
+  "category": "Bottoms",
+  "colors": [
+    "Brown"
+  ],
+  "gender": "UNISEX",
+  "mainImage": "https://ludovicdesaintsernin.com/cdn/shop/files/Brown_BoxerPants1_5c428dea-b69e-4702-bd12-b8a395d5d602_2.jpg?v=1746627257",
+  "images": [
+    "https://ludovicdesaintsernin.com/cdn/shop/files/Brown_BoxerPants2_9cf5929e-6fcf-4b0d-ab08-783773e84b81.jpg?v=1746627257"
+  ],
+  "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L"
+  ],
+  "variants": [
+    {
+      "size": "XS",
+      "color": "Brown",
+      "availability": "out_of_stock"
+    },
+    {
+      "size": "S",
+      "color": "Brown",
+      "availability": "out_of_stock"
+    },
+    {
+      "size": "M",
+      "color": "Brown",
+      "availability": "out_of_stock"
+    },
+    {
+      "size": "L",
+      "color": "Brown",
+      "availability": "out_of_stock"
+    }
+  ],
+  "availability": "out_of_stock",
+  "productURL": "https://ludovicdesaintsernin.com/products/brown-boxer-short",
+  "categoryPage": "https://ludovicdesaintsernin.com/collections/unisex-bottoms",
+  "scrapeTimestamp": "2025-08-11 19:33:08"
+},
+{
+  "brand": "Ludovic de Saint Sernin",
+  "name": "Boxer Shorts in Cotton - 10061154058573",
+  "description": "Our boxer shorts are made from braided Japanese fabric and feature an elastic waistband for a comfortable and easy fit. Size Guide: Size Waist * XS 68 cm S 72 cm M 74 cm L 78 cm *Measurements were not done on a model but a flat surface.",
+  "price": 140,
+  "currency": "EUR",
+  "category": "Bottoms",
+  "colors": [
+    "Black"
+  ],
+  "gender": "UNISEX",
+  "mainImage": "https://ludovicdesaintsernin.com/cdn/shop/files/Artboard2_33a6f161-5967-4da3-b237-90c2bf8af06d.jpg?v=1745938129",
+  "images": [
+    "https://ludovicdesaintsernin.com/cdn/shop/files/Artboard1_594f92df-96f6-4672-b6dc-f71a35cb61b1.jpg?v=1745938129"
+  ],
+  "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L"
+  ],
+  "variants": [
+    {
+      "size": "XS",
+      "color": "Black",
+      "availability": "out_of_stock"
+    },
+    {
+      "size": "S",
+      "color": "Black",
+      "availability": "out_of_stock"
+    },
+    {
+      "size": "M",
+      "color": "Black",
+      "availability": "in_stock"
+    },
+    {
+      "size": "L",
+      "color": "Black",
+      "availability": "out_of_stock"
+    }
+  ],
+  "availability": "in_stock",
+  "productURL": "https://ludovicdesaintsernin.com/products/boxer-shorts-copy",
+  "categoryPage": "https://ludovicdesaintsernin.com/collections/unisex-bottoms",
+  "scrapeTimestamp": "2025-08-11 19:33:10"
+},
+{
+  "brand": "Ludovic de Saint Sernin",
+  "name": "Double Lace-Up Shorts in Denim - 9928477507917",
+  "description": "Our Double Lace-Up Shorts, made from soft denim, feature eyelets and adjustable lacing on each side for a more personalised fit. Size Guide: Size Waist * 24 75 cm 26 77 cm 28 84 cm 30 88 cm 32 94 cm 34 98 cm *Measurements were not done on a model but a flat surface.",
+  "price": 348,
+  "currency": "EUR",
+  "category": "Bottoms",
+  "colors": [
+    "White"
+  ],
+  "gender": "UNISEX",
+  "mainImage": "https://ludovicdesaintsernin.com/cdn/shop/files/Double_LaceUp1.jpg?v=1737642102",
+  "images": [
+    "https://ludovicdesaintsernin.com/cdn/shop/files/Double_LaceUp2.jpg?v=1737642145"
+  ],
+  "sizes": [
+    "24",
+    "26",
+    "28",
+    "30",
+    "32",
+    "34"
+  ],
+  "variants": [
+    {
+      "size": "24",
+      "color": "White",
+      "availability": "out_of_stock"
+    },
+    {
+      "size": "26",
+      "color": "White",
+      "availability": "out_of_stock"
+    },
+    {
+      "size": "28",
+      "color": "White",
+      "availability": "in_stock"
+    },
+    {
+      "size": "30",
+      "color": "White",
+      "availability": "out_of_stock"
+    },
+    {
+      "size": "32",
+      "color": "White",
+      "availability": "out_of_stock"
+    },
+    {
+      "size": "34",
+      "color": "White",
+      "availability": "in_stock"
+    }
+  ],
+  "availability": "in_stock",
+  "productURL": "https://ludovicdesaintsernin.com/products/womens-double-laced-up-shorts-in-white",
+  "categoryPage": "https://ludovicdesaintsernin.com/collections/unisex-bottoms",
+  "scrapeTimestamp": "2025-08-11 19:33:11"
+},
+{
+  "brand": "Ludovic de Saint Sernin",
+  "name": "Double Lace-Up Shorts in Denim - 9928477540685",
+  "description": "Our Double Lace-Up Shorts, made from soft denim, feature eyelets and adjustable lacing on each side for a more personalised fit. Size Guide: Size Waist * XXS 75 cm XS 77 cm S 80 cm M 85 cm L 88 cm XL 91 cm *Measurements were not done on a model but a flat surface.",
+  "price": 348,
+  "currency": "EUR",
+  "category": "Bottoms",
+  "colors": [
+    "Black"
+  ],
+  "gender": "UNISEX",
+  "mainImage": "https://ludovicdesaintsernin.com/cdn/shop/files/Artboard_2_95949a9b-9c91-4756-a19f-45330fa8fdda.jpg?v=1742482568",
+  "images": [
+    "https://ludovicdesaintsernin.com/cdn/shop/files/Artboard3_48fe8813-0745-4390-bbbf-49290da2a021.jpg?v=1742482568"
+  ],
+  "sizes": [
+    "XXS",
+    "XS",
+    "S",
+    "M",
+    "L",
+    "XL"
+  ],
+  "variants": [
+    {
+      "size": "XXS",
+      "color": "Black",
+      "availability": "out_of_stock"
+    },
+    {
+      "size": "XS",
+      "color": "Black",
+      "availability": "in_stock"
+    },
+    {
+      "size": "S",
+      "color": "Black",
+      "availability": "out_of_stock"
+    },
+    {
+      "size": "M",
+      "color": "Black",
+      "availability": "out_of_stock"
+    },
+    {
+      "size": "L",
+      "color": "Black",
+      "availability": "out_of_stock"
+    },
+    {
+      "size": "XL",
+      "color": "Black",
+      "availability": "out_of_stock"
+    }
+  ],
+  "availability": "in_stock",
+  "productURL": "https://ludovicdesaintsernin.com/products/womens-double-laced-up-shorts-in-black",
+  "categoryPage": "https://ludovicdesaintsernin.com/collections/unisex-bottoms",
+  "scrapeTimestamp": "2025-08-11 19:33:14"
+},
+{
+  "brand": "Ludovic de Saint Sernin",
+  "name": "Boxer Pants - 9928481669453",
+  "description": "Our Boxer Pants are made from a semi-sheer fabric, featuring an elastic waistband for a relaxed and comfortable fit. Size Guide: Size Waist * XS 69 cm S 73 cm M 75 cm L 77 cm *Measurements were not done on a model but a flat surface.",
+  "price": 225,
+  "currency": "EUR",
+  "category": "Bottoms",
+  "colors": [
+    "Black"
+  ],
+  "gender": "UNISEX",
+  "mainImage": "https://ludovicdesaintsernin.com/cdn/shop/files/Black_BoxerPants1.jpg?v=1737643590",
+  "images": [
+    "https://ludovicdesaintsernin.com/cdn/shop/files/Black_BoxerPants2.jpg?v=1737643604"
+  ],
+  "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L"
+  ],
+  "variants": [
+    {
+      "size": "XS",
+      "color": "Black",
+      "availability": "in_stock"
+    },
+    {
+      "size": "S",
+      "color": "Black",
+      "availability": "in_stock"
+    },
+    {
+      "size": "M",
+      "color": "Black",
+      "availability": "in_stock"
+    },
+    {
+      "size": "L",
+      "color": "Black",
+      "availability": "out_of_stock"
+    }
+  ],
+  "availability": "in_stock",
+  "productURL": "https://ludovicdesaintsernin.com/products/boxer-pants-ss25",
+  "categoryPage": "https://ludovicdesaintsernin.com/collections/unisex-bottoms",
+  "scrapeTimestamp": "2025-08-11 19:33:14"
+},
+{
+  "brand": "Ludovic de Saint Sernin",
+  "name": "Thomas Suit Pants in Wool - 9831413350733",
+  "description": "The pants have a classic cut with a subtle flare toward the hem. An X-shaped belt loop on the back was inspired by Robert Mapplethorpe's \"X Portfolio.\" Size Guide: Size Hip Measurements XS 78 cm S 81 cm M 84 cm L 88 cm",
+  "price": 332,
+  "currency": "EUR",
+  "category": "Bottoms",
+  "colors": [],
+  "gender": "UNISEX",
+  "mainImage": "https://ludovicdesaintsernin.com/cdn/shop/files/Artboard47_cccef994-c43b-4a70-8205-8e57ed312cea.jpg?v=1730989404",
+  "images": [
+    "https://ludovicdesaintsernin.com/cdn/shop/files/Artboard_48_160672b7-c009-497f-8a8f-d171209c6b11.jpg?v=1731408896"
+  ],
+  "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L"
+  ],
+  "variants": [
+    {
+      "size": "XS",
+      "color": "",
+      "availability": "in_stock"
+    },
+    {
+      "size": "S",
+      "color": "",
+      "availability": "out_of_stock"
+    },
+    {
+      "size": "M",
+      "color": "",
+      "availability": "out_of_stock"
+    },
+    {
+      "size": "L",
+      "color": "",
+      "availability": "out_of_stock"
+    }
+  ],
+  "availability": "in_stock",
+  "productURL": "https://ludovicdesaintsernin.com/products/black-thomas-suit-pants",
+  "categoryPage": "https://ludovicdesaintsernin.com/collections/unisex-bottoms",
+  "scrapeTimestamp": "2025-08-11 19:33:16"
+},
+{
+  "brand": "Ludovic de Saint Sernin",
+  "name": "Steve Pants in Leather - 9928475771213",
+  "description": "The Steve Pants are crafted from supple lamb leather and feature our signature lace-up crotch. The back highlights a cleavage stitch detail and a new embossed patent leather patch with the LdSS logo. Size Guide: Size Waist * 24 73 cm 26 76 cm 28 80 cm 30 84 cm 32 88 cm *Measurements were not done on a model but a flat surface.",
+  "price": 795,
+  "currency": "EUR",
+  "category": "Bottoms",
+  "colors": [
+    "Black"
+  ],
+  "gender": "UNISEX",
+  "mainImage": "https://ludovicdesaintsernin.com/cdn/shop/files/Artboard1_f66f3802-1a52-4cfa-bc9a-a5a5a1db86f5.jpg?v=1739891170",
+  "images": [
+    "https://ludovicdesaintsernin.com/cdn/shop/files/Artboard2_3f1e1f0b-e44f-4487-9272-3b24762d847c.jpg?v=1739891169"
+  ],
+  "sizes": [
+    "24",
+    "26",
+    "28",
+    "30",
+    "32"
+  ],
+  "variants": [
+    {
+      "size": "24",
+      "color": "Black",
+      "availability": "in_stock"
+    },
+    {
+      "size": "26",
+      "color": "Black",
+      "availability": "in_stock"
+    },
+    {
+      "size": "28",
+      "color": "Black",
+      "availability": "in_stock"
+    },
+    {
+      "size": "30",
+      "color": "Black",
+      "availability": "out_of_stock"
+    },
+    {
+      "size": "32",
+      "color": "Black",
+      "availability": "in_stock"
+    }
+  ],
+  "availability": "in_stock",
+  "productURL": "https://ludovicdesaintsernin.com/products/steve-pants-in-leather",
+  "categoryPage": "https://ludovicdesaintsernin.com/collections/unisex-bottoms",
+  "scrapeTimestamp": "2025-08-11 19:33:19"
+},
+{
+  "brand": "Ludovic de Saint Sernin",
+  "name": "Lace-Up Jeans in Denim - 8536797086029",
+  "description": "Our jeans feature a signature lace-up crotch and straight-leg silhouette. Inspired by the iconic Eyelet Briefs and crafted from soft, organic cotton, which sits on the hip for a low waisted look as they offer a comfortable fit. Size Guide: Size Hip Measurements 26 80 cm 28 86 cm 30 88 cm 32 92 cm 34 97 cm",
+  "price": 590,
+  "currency": "EUR",
+  "category": "Bottoms",
+  "colors": [
+    "Black"
+  ],
+  "gender": "UNISEX",
+  "mainImage": "https://ludovicdesaintsernin.com/cdn/shop/files/Artboard41_97aa60fc-75fc-416e-ac4c-e7721d734d20.jpg?v=1730391726",
+  "images": [
+    "https://ludovicdesaintsernin.com/cdn/shop/files/Artboard42_03333cde-cb41-4c5e-9812-307545038922.jpg?v=1730391728"
+  ],
+  "sizes": [
+    "26",
+    "28",
+    "30",
+    "32",
+    "34"
+  ],
+  "variants": [
+    {
+      "size": "26",
+      "color": "Black",
+      "availability": "in_stock"
+    },
+    {
+      "size": "28",
+      "color": "Black",
+      "availability": "in_stock"
+    },
+    {
+      "size": "30",
+      "color": "Black",
+      "availability": "in_stock"
+    },
+    {
+      "size": "32",
+      "color": "Black",
+      "availability": "in_stock"
+    },
+    {
+      "size": "34",
+      "color": "Black",
+      "availability": "in_stock"
+    }
+  ],
+  "availability": "in_stock",
+  "productURL": "https://ludovicdesaintsernin.com/products/black-lace-up-jeans-1",
+  "categoryPage": "https://ludovicdesaintsernin.com/collections/unisex-bottoms",
+  "scrapeTimestamp": "2025-08-11 19:33:20"
+},
+{
+  "brand": "Ludovic de Saint Sernin",
+  "name": "Lace Up Pants in Leather - 6719075909687",
+  "description": "Crafted by hand in Paris, our Lace-Up Pants feature our signature lace-up crotch and straight-leg silhouette. Inspired by iconic Eyelet Briefs and cut from a soft, stretch leather, they offer a comfortable fit. Size Guide: Size Hip Measurements 26 78 cm 28 81 cm 30 84 cm 32 87 cm",
+  "price": 1560,
+  "currency": "EUR",
+  "category": "Bottoms",
+  "colors": [
+    "Black"
+  ],
+  "gender": "UNISEX",
+  "mainImage": "https://ludovicdesaintsernin.com/cdn/shop/files/Artboard51_f7b4e2df-bc9f-41e6-91ae-40039ced1402.jpg?v=1730392628",
+  "images": [
+    "https://ludovicdesaintsernin.com/cdn/shop/files/Artboard52_7423ff34-661a-4c72-9426-9ce4fee9f757.jpg?v=1730392631",
+    "https://ludovicdesaintsernin.com/cdn/shop/files/Pt041.jpg?v=1716824743",
+    "https://ludovicdesaintsernin.com/cdn/shop/files/Pt044.jpg?v=1693407143",
+    "https://ludovicdesaintsernin.com/cdn/shop/files/pt052.jpg?v=1693407150",
+    "https://ludovicdesaintsernin.com/cdn/shop/files/pt043.jpg?v=1693407153"
+  ],
+  "sizes": [
+    "26",
+    "28",
+    "30",
+    "32"
+  ],
+  "variants": [
+    {
+      "size": "26",
+      "color": "Black",
+      "availability": "out_of_stock"
+    },
+    {
+      "size": "28",
+      "color": "Black",
+      "availability": "in_stock"
+    },
+    {
+      "size": "30",
+      "color": "Black",
+      "availability": "in_stock"
+    },
+    {
+      "size": "32",
+      "color": "Black",
+      "availability": "out_of_stock"
+    }
+  ],
+  "availability": "in_stock",
+  "productURL": "https://ludovicdesaintsernin.com/products/black-lace-up-leather-jeans",
+  "categoryPage": "https://ludovicdesaintsernin.com/collections/unisex-bottoms",
+  "scrapeTimestamp": "2025-08-11 19:33:21"
+},
+{
+  "brand": "Ludovic de Saint Sernin",
+  "name": "Diamond Eyelet Jeans in Denim - 9928475967821",
+  "description": "Our Diamond Eyelet Jeans are made from soft denim, boasting a loose fit and featuring eyelet diamond-shaped patterns along with a straight-leg cut. Designed to sit on the hip, the back showcases stitching, while the pockets are accented with eyelets and a new embossed LdSS leather patch. Size Guide: Size Hip * 24 80 cm 26 85 cm 28 88 cm 30 91 cm 32 96 cm *Measurements were not done on a model but a flat surface.",
+  "price": 590,
+  "currency": "EUR",
+  "category": "Bottoms",
+  "colors": [
+    "Black"
+  ],
+  "gender": "UNISEX",
+  "mainImage": "https://ludovicdesaintsernin.com/cdn/shop/files/Black_RegularJeans2.jpg?v=1738677287",
+  "images": [
+    "https://ludovicdesaintsernin.com/cdn/shop/files/Black_RegularJeans1.jpg?v=1738677287"
+  ],
+  "sizes": [
+    "24",
+    "26",
+    "28",
+    "30",
+    "32",
+    "34"
+  ],
+  "variants": [
+    {
+      "size": "24",
+      "color": "Black",
+      "availability": "in_stock"
+    },
+    {
+      "size": "26",
+      "color": "Black",
+      "availability": "out_of_stock"
+    },
+    {
+      "size": "28",
+      "color": "Black",
+      "availability": "in_stock"
+    },
+    {
+      "size": "30",
+      "color": "Black",
+      "availability": "in_stock"
+    },
+    {
+      "size": "32",
+      "color": "Black",
+      "availability": "out_of_stock"
+    },
+    {
+      "size": "34",
+      "color": "Black",
+      "availability": "in_stock"
+    }
+  ],
+  "availability": "in_stock",
+  "productURL": "https://ludovicdesaintsernin.com/products/regular-jeans-in-black",
+  "categoryPage": "https://ludovicdesaintsernin.com/collections/unisex-bottoms",
+  "scrapeTimestamp": "2025-08-11 19:33:24"
+},
+{
+  "brand": "Ludovic de Saint Sernin",
+  "name": "Diamond Eyelet Jeans in Denim - 9928475935053",
+  "description": "Our Diamond Eyelet Jeans are made from soft denim, boasting a loose fit and featuring eyelet diamond-shaped patterns along with a straight-leg cut. Designed to sit on the hip, the back showcases stitching, while the pockets are accented with eyelets and a new embossed LdSS leather patch. Size Guide: Size Hip * 26 85 cm 28 90 cm 30 93 cm 32 96 cm 34 99 cm *Measurements were not done on a model but a flat surface.",
+  "price": 590,
+  "currency": "EUR",
+  "category": "Bottoms",
+  "colors": [
+    "Blue"
+  ],
+  "gender": "UNISEX",
+  "mainImage": "https://ludovicdesaintsernin.com/cdn/shop/files/Blue_RegularJeans1.jpg?v=1737647559",
+  "images": [
+    "https://ludovicdesaintsernin.com/cdn/shop/files/Blue_RegularJeans2.jpg?v=1737647574"
+  ],
+  "sizes": [
+    "26",
+    "28",
+    "30",
+    "32",
+    "34"
+  ],
+  "variants": [
+    {
+      "size": "26",
+      "color": "Blue",
+      "availability": "out_of_stock"
+    },
+    {
+      "size": "28",
+      "color": "Blue",
+      "availability": "in_stock"
+    },
+    {
+      "size": "30",
+      "color": "Blue",
+      "availability": "in_stock"
+    },
+    {
+      "size": "32",
+      "color": "Blue",
+      "availability": "out_of_stock"
+    },
+    {
+      "size": "34",
+      "color": "Blue",
+      "availability": "in_stock"
+    }
+  ],
+  "availability": "in_stock",
+  "productURL": "https://ludovicdesaintsernin.com/products/regular-jeans-in-blue",
+  "categoryPage": "https://ludovicdesaintsernin.com/collections/unisex-bottoms",
+  "scrapeTimestamp": "2025-08-11 19:33:25"
+},
+{
+  "brand": "Ludovic de Saint Sernin",
+  "name": "Robert Jacket in Suede - 9928477016397",
+  "description": "The Robert Jacket style transitioned from the LdSS x Robert Mapplethorpe collection. Crafted from fine deep brown suede, it features the classic fit of a bomber jacket, delivering a powerful and sophisticated look.",
+  "price": 838,
+  "currency": "EUR",
+  "category": "Outerwear",
+  "colors": [
+    "Burgundy"
+  ],
+  "gender": "UNISEX",
+  "mainImage": "https://ludovicdesaintsernin.com/cdn/shop/files/Artboard2_7198ca75-37c6-4b5e-9983-747d406d8464.jpg?v=1741617314",
+  "images": [
+    "https://ludovicdesaintsernin.com/cdn/shop/files/Artboard3_b9600929-56d9-4f5d-bcbf-96c8810aaf66.jpg?v=1741617314"
+  ],
+  "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L"
+  ],
+  "variants": [
+    {
+      "size": "XS",
+      "color": "Burgundy",
+      "availability": "out_of_stock"
+    },
+    {
+      "size": "S",
+      "color": "Burgundy",
+      "availability": "out_of_stock"
+    },
+    {
+      "size": "M",
+      "color": "Burgundy",
+      "availability": "out_of_stock"
+    },
+    {
+      "size": "L",
+      "color": "Burgundy",
+      "availability": "out_of_stock"
+    }
+  ],
+  "availability": "out_of_stock",
+  "productURL": "https://ludovicdesaintsernin.com/products/robert-jacket-in-brown-suede-leather",
+  "categoryPage": "https://ludovicdesaintsernin.com/collections/unisex-outerwear",
+  "scrapeTimestamp": "2025-08-11 19:33:27"
+},
+{
+  "brand": "Ludovic de Saint Sernin",
+  "name": "Robert Jacket in Suede - 9997649445197",
+  "description": "The Robert Jacket style transitioned from the LdSS x Robert Mapplethorpe collection. Crafted from fine deep brown suede, it features the classic fit of a bomber jacket, delivering a powerful and sophisticated look.",
+  "price": 838,
+  "currency": "EUR",
+  "category": "Outerwear",
+  "colors": [
+    "Beige"
+  ],
+  "gender": "UNISEX",
+  "mainImage": "https://ludovicdesaintsernin.com/cdn/shop/files/Artboard2_77e41207-8ac4-4a41-980b-13009f7049c9.jpg?v=1741709191",
+  "images": [
+    "https://ludovicdesaintsernin.com/cdn/shop/files/Artboard3_5b7e0227-85d2-4e9a-be49-23724823507b.jpg?v=1741709191"
+  ],
+  "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L"
+  ],
+  "variants": [
+    {
+      "size": "XS",
+      "color": "Beige",
+      "availability": "in_stock"
+    },
+    {
+      "size": "S",
+      "color": "Beige",
+      "availability": "in_stock"
+    },
+    {
+      "size": "M",
+      "color": "Beige",
+      "availability": "out_of_stock"
+    },
+    {
+      "size": "L",
+      "color": "Beige",
+      "availability": "out_of_stock"
+    }
+  ],
+  "availability": "in_stock",
+  "productURL": "https://ludovicdesaintsernin.com/products/robert-jacket-in-suede",
+  "categoryPage": "https://ludovicdesaintsernin.com/collections/unisex-outerwear",
+  "scrapeTimestamp": "2025-08-11 19:33:29"
+},
+{
+  "brand": "Ludovic de Saint Sernin",
+  "name": "Amanda Trench Coat in Suede - 9928476950861",
+  "description": "The style of the Amanda Trench Coat transitioned from the LdSS x Robert Mapplethorpe collection. Crafted from luxurious beige suede, it features eyelets along the belt and our logo on the silver buttons.",
+  "price": 1025,
+  "currency": "EUR",
+  "category": "Outerwear",
+  "colors": [
+    "Beige"
+  ],
+  "gender": "UNISEX",
+  "mainImage": "https://ludovicdesaintsernin.com/cdn/shop/files/Coat1.jpg?v=1741534544",
+  "images": [
+    "https://ludovicdesaintsernin.com/cdn/shop/files/Coat2.jpg?v=1741534544"
+  ],
+  "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L"
+  ],
+  "variants": [
+    {
+      "size": "XS",
+      "color": "Beige",
+      "availability": "out_of_stock"
+    },
+    {
+      "size": "S",
+      "color": "Beige",
+      "availability": "in_stock"
+    },
+    {
+      "size": "M",
+      "color": "Beige",
+      "availability": "out_of_stock"
+    },
+    {
+      "size": "L",
+      "color": "Beige",
+      "availability": "out_of_stock"
+    }
+  ],
+  "availability": "in_stock",
+  "productURL": "https://ludovicdesaintsernin.com/products/amanda-trench-coat-in-suede-leather",
+  "categoryPage": "https://ludovicdesaintsernin.com/collections/unisex-outerwear",
+  "scrapeTimestamp": "2025-08-11 19:33:31"
+},
+{
+  "brand": "Ludovic de Saint Sernin",
+  "name": "Amanda Trench Coat in Leather - 9928476459341",
+  "description": "The style of the Amanda Trench Coat transitioned from the LdSS x Robert Mapplethorpe collection. Crafted from fine lamb leather, it features eyelets along the belt and our logo on the silver buttons.",
+  "price": 1985,
+  "currency": "EUR",
+  "category": "Outerwear",
+  "colors": [
+    "Black"
+  ],
+  "gender": "UNISEX",
+  "mainImage": "https://ludovicdesaintsernin.com/cdn/shop/files/Amanda_Trench_Recolor_1_fab6c8ce-b8b9-4446-8089-888eea192614.jpg?v=1740503668",
+  "images": [
+    "https://ludovicdesaintsernin.com/cdn/shop/files/Amanda_Trench_Recolor_2.jpg?v=1740503668"
+  ],
+  "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L"
+  ],
+  "variants": [
+    {
+      "size": "XS",
+      "color": "Black",
+      "availability": "in_stock"
+    },
+    {
+      "size": "S",
+      "color": "Black",
+      "availability": "in_stock"
+    },
+    {
+      "size": "M",
+      "color": "Black",
+      "availability": "out_of_stock"
+    },
+    {
+      "size": "L",
+      "color": "Black",
+      "availability": "out_of_stock"
+    }
+  ],
+  "availability": "in_stock",
+  "productURL": "https://ludovicdesaintsernin.com/products/amanda-trench-coat",
+  "categoryPage": "https://ludovicdesaintsernin.com/collections/unisex-outerwear",
+  "scrapeTimestamp": "2025-08-11 19:33:32"
+},
+{
+  "brand": "Ludovic de Saint Sernin",
+  "name": "Robert Jacket in Denim - 9928476492109",
+  "description": "The style of the Robert Jacket transitioned from the LdSS x Robert Mapplethorpe collection. Made from soft denim, the piece features marigold stitching along with eyelet diamond-shaped patterns. The item is currently available for pre-order. Delivery by June 15.",
+  "price": 970,
+  "currency": "EUR",
+  "category": "Outerwear",
+  "colors": [
+    "Blue"
+  ],
+  "gender": "UNISEX",
+  "mainImage": "https://ludovicdesaintsernin.com/cdn/shop/files/Artboard_4_7e87ff1c-52e7-40f8-a8c6-49501c5b2f4b.jpg?v=1741779180",
+  "images": [
+    "https://ludovicdesaintsernin.com/cdn/shop/files/Artboard_5_17cd2bb4-7e3e-4499-b6af-392c5b0bbd21.jpg?v=1741779180"
+  ],
+  "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L"
+  ],
+  "variants": [
+    {
+      "size": "XS",
+      "color": "Blue",
+      "availability": "in_stock"
+    },
+    {
+      "size": "S",
+      "color": "Blue",
+      "availability": "in_stock"
+    },
+    {
+      "size": "M",
+      "color": "Blue",
+      "availability": "out_of_stock"
+    },
+    {
+      "size": "L",
+      "color": "Blue",
+      "availability": "out_of_stock"
+    }
+  ],
+  "availability": "in_stock",
+  "productURL": "https://ludovicdesaintsernin.com/products/robert-bomber-in-blue-denim",
+  "categoryPage": "https://ludovicdesaintsernin.com/collections/unisex-outerwear",
+  "scrapeTimestamp": "2025-08-11 19:33:34"
+},
+{
+  "brand": "Ludovic de Saint Sernin",
+  "name": "Robert Jacket in Denim - 9928476524877",
+  "description": "The style of the Robert Jacket transitioned from the LdSS x Robert Mapplethorpe collection. Made from soft denim, the piece features black stitching along with eyelet diamond-shaped patterns. The item is currently available for pre-order. Delivery by June 15.",
+  "price": 970,
+  "currency": "EUR",
+  "category": "Outerwear",
+  "colors": [
+    "Black"
+  ],
+  "gender": "UNISEX",
+  "mainImage": "https://ludovicdesaintsernin.com/cdn/shop/files/Artboard_2_3702755a-60e5-40e9-a467-13c79bbae10b.jpg?v=1741779147",
+  "images": [
+    "https://ludovicdesaintsernin.com/cdn/shop/files/Artboard_3_94a92b7c-d2a9-4c1e-8b39-da61b8fa6c37.jpg?v=1741779148"
+  ],
+  "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L"
+  ],
+  "variants": [
+    {
+      "size": "XS",
+      "color": "Black",
+      "availability": "in_stock"
+    },
+    {
+      "size": "S",
+      "color": "Black",
+      "availability": "in_stock"
+    },
+    {
+      "size": "M",
+      "color": "Black",
+      "availability": "out_of_stock"
+    },
+    {
+      "size": "L",
+      "color": "Black",
+      "availability": "out_of_stock"
+    }
+  ],
+  "availability": "in_stock",
+  "productURL": "https://ludovicdesaintsernin.com/products/robert-bomber-in-black-denim",
+  "categoryPage": "https://ludovicdesaintsernin.com/collections/unisex-outerwear",
+  "scrapeTimestamp": "2025-08-11 19:33:35"
+},
+{
+  "brand": "Ludovic de Saint Sernin",
+  "name": "Robert Jacket in Leather - 9928477049165",
+  "description": "The Robert Jacket style transitioned from our previous collection. Crafted from fine lamb leather, it features the classic fit of a bomber jacket, delivering a powerful and sophisticated look.",
+  "price": 1675,
+  "currency": "EUR",
+  "category": "Outerwear",
+  "colors": [
+    "Black"
+  ],
+  "gender": "UNISEX",
+  "mainImage": "https://ludovicdesaintsernin.com/cdn/shop/files/Robert_Jacket1.jpg?v=1739270439",
+  "images": [
+    "https://ludovicdesaintsernin.com/cdn/shop/files/Robert_Jacket_2.jpg?v=1739270439"
+  ],
+  "sizes": [
+    "XXS",
+    "XS",
+    "S",
+    "M",
+    "L"
+  ],
+  "variants": [
+    {
+      "size": "XXS",
+      "color": "Black",
+      "availability": "in_stock"
+    },
+    {
+      "size": "XS",
+      "color": "Black",
+      "availability": "in_stock"
+    },
+    {
+      "size": "S",
+      "color": "Black",
+      "availability": "out_of_stock"
+    },
+    {
+      "size": "M",
+      "color": "Black",
+      "availability": "in_stock"
+    },
+    {
+      "size": "L",
+      "color": "Black",
+      "availability": "out_of_stock"
+    }
+  ],
+  "availability": "in_stock",
+  "productURL": "https://ludovicdesaintsernin.com/products/robert-jacket-in-black-leather",
+  "categoryPage": "https://ludovicdesaintsernin.com/collections/unisex-outerwear",
+  "scrapeTimestamp": "2025-08-11 19:33:37"
+},
+{
+  "brand": "Ludovic de Saint Sernin",
+  "name": "Ballet Skirt - 9928475181389",
+  "description": "Drawing inspiration from ballet, this wrap skirt features a smooth, flowing silhouette and is made of delicate, translucent fabric. Size Guide: Size Hip Measurements XS 89 cm S 92 cm M 94 cm L 97 cm",
+  "price": 195,
+  "currency": "EUR",
+  "category": "Dresses & Skirts",
+  "colors": [
+    "Black"
+  ],
+  "gender": "WOMEN",
+  "mainImage": "https://ludovicdesaintsernin.com/cdn/shop/files/Black_BalletSkirt1.jpg?v=1738757790",
+  "images": [
+    "https://ludovicdesaintsernin.com/cdn/shop/files/Black_BlackSkirt2.jpg?v=1738757790"
+  ],
+  "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L"
+  ],
+  "variants": [
+    {
+      "size": "XS",
+      "color": "Black",
+      "availability": "out_of_stock"
+    },
+    {
+      "size": "S",
+      "color": "Black",
+      "availability": "in_stock"
+    },
+    {
+      "size": "M",
+      "color": "Black",
+      "availability": "out_of_stock"
+    },
+    {
+      "size": "L",
+      "color": "Black",
+      "availability": "out_of_stock"
+    }
+  ],
+  "availability": "in_stock",
+  "productURL": "https://ludovicdesaintsernin.com/products/black-ballet-long-skirt",
+  "categoryPage": "https://ludovicdesaintsernin.com/collections/women-dresses-skirts",
+  "scrapeTimestamp": "2025-08-11 19:33:39"
+},
+{
+  "brand": "Ludovic de Saint Sernin",
+  "name": "Ice Skating Mini Skirt in Denim - 9928477606221",
+  "description": "The Ice Skating Eyelet Mini Skirt is made from soft brown denim and features eyelets on both the waistband and the ruffles, which sway with your movement. Size Guide: Size Hip Measurements XS 86 cm S 91 cm M 96 cm L 98 cm",
+  "price": 780,
+  "currency": "EUR",
+  "category": "Dresses & Skirts",
+  "colors": [
+    "Brown"
+  ],
+  "gender": "WOMEN",
+  "mainImage": "https://ludovicdesaintsernin.com/cdn/shop/files/Artboard_2_27a0a807-b5a6-4590-8298-f9852996123d.jpg?v=1743521602",
+  "images": [
+    "https://ludovicdesaintsernin.com/cdn/shop/files/Artboard_3_17eb105c-8f09-4491-9dd7-44db24a46125.jpg?v=1743521602"
+  ],
+  "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L",
+    "XL"
+  ],
+  "variants": [
+    {
+      "size": "XS",
+      "color": "Brown",
+      "availability": "out_of_stock"
+    },
+    {
+      "size": "S",
+      "color": "Brown",
+      "availability": "out_of_stock"
+    },
+    {
+      "size": "M",
+      "color": "Brown",
+      "availability": "out_of_stock"
+    },
+    {
+      "size": "L",
+      "color": "Brown",
+      "availability": "out_of_stock"
+    },
+    {
+      "size": "XL",
+      "color": "Brown",
+      "availability": "in_stock"
+    }
+  ],
+  "availability": "in_stock",
+  "productURL": "https://ludovicdesaintsernin.com/products/ice-skating-eyelet-mini-skirt",
+  "categoryPage": "https://ludovicdesaintsernin.com/collections/women-dresses-skirts",
+  "scrapeTimestamp": "2025-08-11 19:33:41"
+},
+{
+  "brand": "Ludovic de Saint Sernin",
+  "name": "Charlotte Micro Skirt in Cotton - 9928475345229",
+  "description": "The Charlotte Micro Skirt features a combination of multi-layered Japanese fabric and a bold leather waistband. The soft, flowing layers of cotton create a voluminous, tutu-inspired silhouette, while the leather waistband, adorned with eyelets and lacing, adds a hint of daring BDSM influence.",
+  "price": 490,
+  "currency": "EUR",
+  "category": "Dresses & Skirts",
+  "colors": [
+    "Black"
+  ],
+  "gender": "WOMEN",
+  "mainImage": "https://ludovicdesaintsernin.com/cdn/shop/files/MicroSKirtFront.jpg?v=1746547527",
+  "images": [
+    "https://ludovicdesaintsernin.com/cdn/shop/files/MicroSkirtBack.jpg?v=1746547527"
+  ],
+  "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L"
+  ],
+  "variants": [
+    {
+      "size": "XS",
+      "color": "Black",
+      "availability": "out_of_stock"
+    },
+    {
+      "size": "S",
+      "color": "Black",
+      "availability": "in_stock"
+    },
+    {
+      "size": "M",
+      "color": "Black",
+      "availability": "out_of_stock"
+    },
+    {
+      "size": "L",
+      "color": "Black",
+      "availability": "in_stock"
+    }
+  ],
+  "availability": "in_stock",
+  "productURL": "https://ludovicdesaintsernin.com/products/charlotte-micro-skirt",
+  "categoryPage": "https://ludovicdesaintsernin.com/collections/women-dresses-skirts",
+  "scrapeTimestamp": "2025-08-11 19:33:43"
+},
+{
+  "brand": "Ludovic de Saint Sernin",
+  "name": "Charlotte Skirt - 9928475246925",
+  "description": "This skirt blends soft lamb leather with Japanese fabric, balancing boldness and delicacy. The supple leather adds edge, while the tutu-inspired cotton skirt brings ballet grace. Eyelet lacing unites the materials, embodying the duality of ballet and BDSM influences for a striking, versatile piece. Size Guide: Size Hip Measurements XS 86 cm S 90 cm M 94 cm L 97 cm",
+  "price": 750,
+  "currency": "EUR",
+  "category": "Dresses & Skirts",
+  "colors": [
+    "Brown"
+  ],
+  "gender": "WOMEN",
+  "mainImage": "https://ludovicdesaintsernin.com/cdn/shop/files/BrownCharlotte_Skirt1.jpg?v=1738758496",
+  "images": [
+    "https://ludovicdesaintsernin.com/cdn/shop/files/BrownCharlotte_Skirt2.jpg?v=1738758496"
+  ],
+  "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L"
+  ],
+  "variants": [
+    {
+      "size": "XS",
+      "color": "Brown",
+      "availability": "out_of_stock"
+    },
+    {
+      "size": "S",
+      "color": "Brown",
+      "availability": "out_of_stock"
+    },
+    {
+      "size": "M",
+      "color": "Brown",
+      "availability": "out_of_stock"
+    },
+    {
+      "size": "L",
+      "color": "Brown",
+      "availability": "out_of_stock"
+    }
+  ],
+  "availability": "out_of_stock",
+  "productURL": "https://ludovicdesaintsernin.com/products/brown-charlotte-skirt",
+  "categoryPage": "https://ludovicdesaintsernin.com/collections/women-dresses-skirts",
+  "scrapeTimestamp": "2025-08-11 19:33:44"
+},
+{
+  "brand": "Ludovic de Saint Sernin",
+  "name": "Mermaid Cleavage Dress in Denim - 9928476819789",
+  "description": "Our Mermaid Dress takes inspiration from the classic Cleavage Dress silhouette, reimagined with a long hemline for an elegant touch. Now made in a new material, denim, it pairs our signature eyelets with a flattering mermaid cut.",
+  "price": 640,
+  "currency": "EUR",
+  "category": "Dresses & Skirts",
+  "colors": [
+    "Light Blue"
+  ],
+  "gender": "WOMEN",
+  "mainImage": "https://ludovicdesaintsernin.com/cdn/shop/files/Artboard2_3084beb3-433b-4f28-80cd-0f1180fc80cb.jpg?v=1743176510",
+  "images": [
+    "https://ludovicdesaintsernin.com/cdn/shop/files/Artboard3_a5b1583d-3388-496e-b226-21951e981f45.jpg?v=1743176510"
+  ],
+  "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L"
+  ],
+  "variants": [
+    {
+      "size": "XS",
+      "color": "Light Blue",
+      "availability": "in_stock"
+    },
+    {
+      "size": "S",
+      "color": "Light Blue",
+      "availability": "in_stock"
+    },
+    {
+      "size": "M",
+      "color": "Light Blue",
+      "availability": "in_stock"
+    },
+    {
+      "size": "L",
+      "color": "Light Blue",
+      "availability": "out_of_stock"
+    }
+  ],
+  "availability": "in_stock",
+  "productURL": "https://ludovicdesaintsernin.com/products/mermaid-dress-in-denim",
+  "categoryPage": "https://ludovicdesaintsernin.com/collections/women-dresses-skirts",
+  "scrapeTimestamp": "2025-08-11 19:33:47"
+},
+{
+  "brand": "Ludovic de Saint Sernin",
+  "name": "Mermaid Cleavage Dress - 9928499331405",
+  "description": "Our Mermaid Dress takes inspiration from the classic Cleavage Dress silhouette, reimagined with a long hemline for an elegant touch. Made from fishnet-textured fabric, it pairs our signature eyelets with a flattering mermaid cut.",
+  "price": 640,
+  "currency": "EUR",
+  "category": "Dresses & Skirts",
+  "colors": [
+    "Beige"
+  ],
+  "gender": "WOMEN",
+  "mainImage": "https://ludovicdesaintsernin.com/cdn/shop/files/Beige_MermaidDress1.jpg?v=1737642742",
+  "images": [
+    "https://ludovicdesaintsernin.com/cdn/shop/files/Beige_MermaidDress2.jpg?v=1737642753"
+  ],
+  "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L"
+  ],
+  "variants": [
+    {
+      "size": "XS",
+      "color": "Beige",
+      "availability": "in_stock"
+    },
+    {
+      "size": "S",
+      "color": "Beige",
+      "availability": "out_of_stock"
+    },
+    {
+      "size": "M",
+      "color": "Beige",
+      "availability": "out_of_stock"
+    },
+    {
+      "size": "L",
+      "color": "Beige",
+      "availability": "out_of_stock"
+    }
+  ],
+  "availability": "in_stock",
+  "productURL": "https://ludovicdesaintsernin.com/products/mermaid-dress-beige",
+  "categoryPage": "https://ludovicdesaintsernin.com/collections/women-dresses-skirts",
+  "scrapeTimestamp": "2025-08-11 19:33:49"
+},
+{
+  "brand": "Ludovic de Saint Sernin",
+  "name": "Mermaid Cleavage Dress - 9928499495245",
+  "description": "Our Mermaid Dress takes inspiration from the classic Cleavage Dress silhouette, reimagined with a long hemline for an elegant touch. Made from fishnet-textured fabric, it pairs our signature eyelets with a flattering mermaid cut.",
+  "price": 640,
+  "currency": "EUR",
+  "category": "Dresses & Skirts",
+  "colors": [
+    "Black"
+  ],
+  "gender": "WOMEN",
+  "mainImage": "https://ludovicdesaintsernin.com/cdn/shop/files/Black_MermaidDress_1.jpg?v=1746635699",
+  "images": [
+    "https://ludovicdesaintsernin.com/cdn/shop/files/Black_MermaidDress2.jpg?v=1746786695"
+  ],
+  "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L"
+  ],
+  "variants": [
+    {
+      "size": "XS",
+      "color": "Black",
+      "availability": "out_of_stock"
+    },
+    {
+      "size": "S",
+      "color": "Black",
+      "availability": "out_of_stock"
+    },
+    {
+      "size": "M",
+      "color": "Black",
+      "availability": "out_of_stock"
+    },
+    {
+      "size": "L",
+      "color": "Black",
+      "availability": "out_of_stock"
+    }
+  ],
+  "availability": "out_of_stock",
+  "productURL": "https://ludovicdesaintsernin.com/products/mermaid-dress-black",
+  "categoryPage": "https://ludovicdesaintsernin.com/collections/women-dresses-skirts",
+  "scrapeTimestamp": "2025-08-11 19:33:50"
+},
+{
+  "brand": "Ludovic de Saint Sernin",
+  "name": "Carrie Dress - 9928834482509",
+  "description": "The Carrie Dress features a sleek, form-fitting silhouette with a standout knotted harness detail that accentuates the plunging neckline. The long, flowing hem enhances its graceful appeal, while the sheer fabric evokes the material used for ballet tights, reflecting the collection's ballet-inspired theme.",
+  "price": 635,
+  "currency": "EUR",
+  "category": "Dresses & Skirts",
+  "colors": [
+    "White"
+  ],
+  "gender": "WOMEN",
+  "mainImage": "https://ludovicdesaintsernin.com/cdn/shop/files/White_CarrieDress1.jpg?v=1737646433",
+  "images": [
+    "https://ludovicdesaintsernin.com/cdn/shop/files/White_CarrieDress2.jpg?v=1737646443"
+  ],
+  "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L"
+  ],
+  "variants": [
+    {
+      "size": "XS",
+      "color": "White",
+      "availability": "out_of_stock"
+    },
+    {
+      "size": "S",
+      "color": "White",
+      "availability": "out_of_stock"
+    },
+    {
+      "size": "M",
+      "color": "White",
+      "availability": "in_stock"
+    },
+    {
+      "size": "L",
+      "color": "White",
+      "availability": "out_of_stock"
+    }
+  ],
+  "availability": "in_stock",
+  "productURL": "https://ludovicdesaintsernin.com/products/white-carrie-dress",
+  "categoryPage": "https://ludovicdesaintsernin.com/collections/women-dresses-skirts",
+  "scrapeTimestamp": "2025-08-11 19:33:53"
+},
+{
+  "brand": "Ludovic de Saint Sernin",
+  "name": "Melrose Long Dress in Sequins - 9928474591565",
+  "description": "The Melrose Dress is a full-length asymmetrical piece crafted from shimmering sequins. Designed to contour the body, it elegantly enhances the natural silhouette.",
+  "price": 550,
+  "currency": "EUR",
+  "category": "Dresses & Skirts",
+  "colors": [
+    "Black"
+  ],
+  "gender": "WOMEN",
+  "mainImage": "https://ludovicdesaintsernin.com/cdn/shop/files/BlackSequin_Melrose1_6b9351ed-5f86-4e3c-ae27-9bdabaeec5f7.jpg?v=1740586429",
+  "images": [
+    "https://ludovicdesaintsernin.com/cdn/shop/files/BlackSequin_Melrose2.jpg?v=1740586429"
+  ],
+  "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L"
+  ],
+  "variants": [
+    {
+      "size": "XS",
+      "color": "Black",
+      "availability": "out_of_stock"
+    },
+    {
+      "size": "S",
+      "color": "Black",
+      "availability": "out_of_stock"
+    },
+    {
+      "size": "M",
+      "color": "Black",
+      "availability": "out_of_stock"
+    },
+    {
+      "size": "L",
+      "color": "Black",
+      "availability": "out_of_stock"
+    }
+  ],
+  "availability": "out_of_stock",
+  "productURL": "https://ludovicdesaintsernin.com/products/melrose-long-dress",
+  "categoryPage": "https://ludovicdesaintsernin.com/collections/women-dresses-skirts",
+  "scrapeTimestamp": "2025-08-11 19:33:58"
+},
+{
+  "brand": "Ludovic de Saint Sernin",
+  "name": "Lucy Cleavage Mini Dress - 9928476655949",
+  "description": "The Lucy Dress merges the Lucinda Bustier Dress and Cut Out Cleavage Bra for a bold, sophisticated look, with lamb leather bands, signature eyelets, and lacing that highlight its daring cleavage shape.",
+  "price": 698,
+  "currency": "EUR",
+  "category": "Dresses & Skirts",
+  "colors": [
+    "Black"
+  ],
+  "gender": "WOMEN",
+  "mainImage": "https://ludovicdesaintsernin.com/cdn/shop/files/Artboard_2_ab35f97c-8276-45c0-90e1-147648e23226.jpg?v=1741968458",
+  "images": [
+    "https://ludovicdesaintsernin.com/cdn/shop/files/Artboard_3_6c02ec3a-d4e8-49bb-87f3-f8e8e156e182.jpg?v=1741968458"
+  ],
+  "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L"
+  ],
+  "variants": [
+    {
+      "size": "XS",
+      "color": "Black",
+      "availability": "out_of_stock"
+    },
+    {
+      "size": "S",
+      "color": "Black",
+      "availability": "in_stock"
+    },
+    {
+      "size": "M",
+      "color": "Black",
+      "availability": "in_stock"
+    },
+    {
+      "size": "L",
+      "color": "Black",
+      "availability": "out_of_stock"
+    }
+  ],
+  "availability": "in_stock",
+  "productURL": "https://ludovicdesaintsernin.com/products/lucy-dress",
+  "categoryPage": "https://ludovicdesaintsernin.com/collections/women-dresses-skirts",
+  "scrapeTimestamp": "2025-08-11 19:33:59"
+},
+{
+  "brand": "Ludovic de Saint Sernin",
+  "name": "Anthonia Dress in Sequins - 9928474624333",
+  "description": "The Anthonia Dress is the ultimate evening piece, made from shimmering sequins and featuring a long, flowing hemline.",
+  "price": 655,
+  "currency": "EUR",
+  "category": "Dresses & Skirts",
+  "colors": [
+    "Black"
+  ],
+  "gender": "WOMEN",
+  "mainImage": "https://ludovicdesaintsernin.com/cdn/shop/files/Anthonia_Dress1_0dd2366c-ad58-495c-8f5f-b5de83eb636d.jpg?v=1740587803",
+  "images": [
+    "https://ludovicdesaintsernin.com/cdn/shop/files/Anthonia_Dress2.jpg?v=1740587803"
+  ],
+  "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L"
+  ],
+  "variants": [
+    {
+      "size": "XS",
+      "color": "Black",
+      "availability": "out_of_stock"
+    },
+    {
+      "size": "S",
+      "color": "Black",
+      "availability": "out_of_stock"
+    },
+    {
+      "size": "M",
+      "color": "Black",
+      "availability": "out_of_stock"
+    },
+    {
+      "size": "L",
+      "color": "Black",
+      "availability": "out_of_stock"
+    }
+  ],
+  "availability": "out_of_stock",
+  "productURL": "https://ludovicdesaintsernin.com/products/anthonia-dress",
+  "categoryPage": "https://ludovicdesaintsernin.com/collections/women-dresses-skirts",
+  "scrapeTimestamp": "2025-08-11 19:33:59"
+},
+{
+  "brand": "Ludovic de Saint Sernin",
+  "name": "Cleavage Mini Dress in Leather - 9713336058189",
+  "description": "Our Cleavage Mini Dress is crafted from supple leather and features our signature cleavage neckline and adjustable lacing straps.",
+  "price": 1590,
+  "currency": "EUR",
+  "category": "Dresses & Skirts",
+  "colors": [
+    "Black"
+  ],
+  "gender": "WOMEN",
+  "mainImage": "https://ludovicdesaintsernin.com/cdn/shop/files/Artboard_1_f1273431-2815-4548-bd43-af65a40d128f.jpg?v=1740579562",
+  "images": [
+    "https://ludovicdesaintsernin.com/cdn/shop/files/Artboard_32_e59f9390-0e42-4d26-84ab-a1915844c852.jpg?v=1740579562"
+  ],
+  "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L"
+  ],
+  "variants": [
+    {
+      "size": "XS",
+      "color": "Black",
+      "availability": "out_of_stock"
+    },
+    {
+      "size": "S",
+      "color": "Black",
+      "availability": "out_of_stock"
+    },
+    {
+      "size": "M",
+      "color": "Black",
+      "availability": "in_stock"
+    },
+    {
+      "size": "L",
+      "color": "Black",
+      "availability": "out_of_stock"
+    }
+  ],
+  "availability": "in_stock",
+  "productURL": "https://ludovicdesaintsernin.com/products/black-cleavage-mini-dress",
+  "categoryPage": "https://ludovicdesaintsernin.com/collections/women-dresses-skirts",
+  "scrapeTimestamp": "2025-08-11 19:34:03"
+},
+{
+  "brand": "Ludovic de Saint Sernin",
+  "name": "Cleavage Ruffle Dress in Leather - 8615160545613",
+  "description": "We’re thrilled to introduce our Cleavage Dress. Crafted from soft leather, it features our signature eyelets and lacing, allowing for an adjustable, flawless fit.",
+  "price": 1490,
+  "currency": "EUR",
+  "category": "Dresses & Skirts",
+  "colors": [
+    "Black"
+  ],
+  "gender": "WOMEN",
+  "mainImage": "https://ludovicdesaintsernin.com/cdn/shop/files/Artboard_29_f4d0ee0d-416b-4dfe-bbcc-d1d7535eba03.jpg?v=1740579633",
+  "images": [
+    "https://ludovicdesaintsernin.com/cdn/shop/files/Artboard_30_9ed3c273-6c5e-4e69-a869-f4107b3b3e51.jpg?v=1740579633",
+    "https://ludovicdesaintsernin.com/cdn/shop/files/clevage2.jpg?v=1740579633",
+    "https://ludovicdesaintsernin.com/cdn/shop/files/clevage3.jpg?v=1740579633",
+    "https://ludovicdesaintsernin.com/cdn/shop/files/clevage4.jpg?v=1740579633",
+    "https://ludovicdesaintsernin.com/cdn/shop/files/clevage5.jpg?v=1740579633",
+    "https://ludovicdesaintsernin.com/cdn/shop/files/clevage1.jpg?v=1740579633"
+  ],
+  "sizes": [
+    "L",
+    "M",
+    "S",
+    "XS"
+  ],
+  "variants": [
+    {
+      "size": "L",
+      "color": "Black",
+      "availability": "out_of_stock"
+    },
+    {
+      "size": "M",
+      "color": "Black",
+      "availability": "out_of_stock"
+    },
+    {
+      "size": "S",
+      "color": "Black",
+      "availability": "out_of_stock"
+    },
+    {
+      "size": "XS",
+      "color": "Black",
+      "availability": "out_of_stock"
+    }
+  ],
+  "availability": "out_of_stock",
+  "productURL": "https://ludovicdesaintsernin.com/products/black-cleavage-dress",
+  "categoryPage": "https://ludovicdesaintsernin.com/collections/women-dresses-skirts",
+  "scrapeTimestamp": "2025-08-11 19:34:03"
+},
+{
+  "brand": "Ludovic de Saint Sernin",
+  "name": "Eva Cleavage Mini Dress - 9928476688717",
+  "description": "The Eva Dress is inspired by the Mermaid Cleavage Dress silhouette, made from fishnet fabric and reimagined with a fresh cut, featuring ruffles that elegantly sway with every movement.",
+  "price": 515,
+  "currency": "EUR",
+  "category": "Dresses & Skirts",
+  "colors": [
+    "Black"
+  ],
+  "gender": "WOMEN",
+  "mainImage": "https://ludovicdesaintsernin.com/cdn/shop/files/Eva_Dress1.jpg?v=1737642984",
+  "images": [
+    "https://ludovicdesaintsernin.com/cdn/shop/files/Eva_Dress2.jpg?v=1737642999"
+  ],
+  "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L"
+  ],
+  "variants": [
+    {
+      "size": "XS",
+      "color": "Black",
+      "availability": "out_of_stock"
+    },
+    {
+      "size": "S",
+      "color": "Black",
+      "availability": "out_of_stock"
+    },
+    {
+      "size": "M",
+      "color": "Black",
+      "availability": "in_stock"
+    },
+    {
+      "size": "L",
+      "color": "Black",
+      "availability": "out_of_stock"
+    }
+  ],
+  "availability": "in_stock",
+  "productURL": "https://ludovicdesaintsernin.com/products/eva-dress",
+  "categoryPage": "https://ludovicdesaintsernin.com/collections/women-dresses-skirts",
+  "scrapeTimestamp": "2025-08-11 19:34:04"
+},
+{
+  "brand": "Ludovic de Saint Sernin",
+  "name": "Melrose Dress in Leather - 9928476590413",
+  "description": "The Melrose Dress is an asymmetrical midi piece crafted from supple leather that clings to the body, creating a stunning silhouette.",
+  "price": 648,
+  "currency": "EUR",
+  "category": "Dresses & Skirts",
+  "colors": [
+    "Brown"
+  ],
+  "gender": "WOMEN",
+  "mainImage": "https://ludovicdesaintsernin.com/cdn/shop/files/Brown_MelroseDress_Leather1.jpg?v=1737642807",
+  "images": [
+    "https://ludovicdesaintsernin.com/cdn/shop/files/Brown_MelroseDress_Leather2.jpg?v=1737642818"
+  ],
+  "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L",
+    "XL"
+  ],
+  "variants": [
+    {
+      "size": "XS",
+      "color": "Brown",
+      "availability": "out_of_stock"
+    },
+    {
+      "size": "S",
+      "color": "Brown",
+      "availability": "in_stock"
+    },
+    {
+      "size": "M",
+      "color": "Brown",
+      "availability": "in_stock"
+    },
+    {
+      "size": "L",
+      "color": "Brown",
+      "availability": "in_stock"
+    },
+    {
+      "size": "XL",
+      "color": "Brown",
+      "availability": "in_stock"
+    }
+  ],
+  "availability": "in_stock",
+  "productURL": "https://ludovicdesaintsernin.com/products/melrose-dress-in-brown-leather",
+  "categoryPage": "https://ludovicdesaintsernin.com/collections/women-dresses-skirts",
+  "scrapeTimestamp": "2025-08-11 19:34:05"
+},
+{
+  "brand": "Ludovic de Saint Sernin",
+  "name": "Lucinda Bustier Mini Dress in Denim - 9928476623181",
+  "description": "The Lucinda Bustier Mini Dress features two bands of denim embellished with our signature eyelets and lacing. This little dress is a classic piece with a modern twist.",
+  "price": 655,
+  "currency": "EUR",
+  "category": "Dresses & Skirts",
+  "colors": [
+    "Brown"
+  ],
+  "gender": "WOMEN",
+  "mainImage": "https://ludovicdesaintsernin.com/cdn/shop/files/Lucinda_Bustier_Dress_2.1.jpg?v=1740068564",
+  "images": [
+    "https://ludovicdesaintsernin.com/cdn/shop/files/Lucinda_Bustier_Dress_2.jpg?v=1740068564"
+  ],
+  "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L"
+  ],
+  "variants": [
+    {
+      "size": "XS",
+      "color": "Brown",
+      "availability": "in_stock"
+    },
+    {
+      "size": "S",
+      "color": "Brown",
+      "availability": "in_stock"
+    },
+    {
+      "size": "M",
+      "color": "Brown",
+      "availability": "out_of_stock"
+    },
+    {
+      "size": "L",
+      "color": "Brown",
+      "availability": "out_of_stock"
+    }
+  ],
+  "availability": "in_stock",
+  "productURL": "https://ludovicdesaintsernin.com/products/lucinda-bustier-mini-dress-in-denim",
+  "categoryPage": "https://ludovicdesaintsernin.com/collections/women-dresses-skirts",
+  "scrapeTimestamp": "2025-08-11 19:34:08"
+},
+{
+  "brand": "Ludovic de Saint Sernin",
+  "name": "Sascha Dress in Cotton - 9928474296653",
+  "description": "Inspired by ballerina dresses from the first half of the 20th century, this piece is made from braided Japanese fabric for ultimate comfort. The Square Dress features a halter neckline and a pleated tutu-style skirt, attached using the brand's signature eyelets and lacing. The dress perfectly embodies the concept of the 'BDSM Ballet' collection.",
+  "price": 645,
+  "currency": "EUR",
+  "category": "Dresses & Skirts",
+  "colors": [
+    "Beige"
+  ],
+  "gender": "WOMEN",
+  "mainImage": "https://ludovicdesaintsernin.com/cdn/shop/files/Square_Dress_Cotton_1_a8278e4a-2c0f-4302-a014-fb0a6d1ea5f2.png?v=1739875686",
+  "images": [
+    "https://ludovicdesaintsernin.com/cdn/shop/files/Square_Dress_Cotton_2_29cfaeab-9676-472e-be1d-df9f20eb31d0.png?v=1739875686"
+  ],
+  "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L"
+  ],
+  "variants": [
+    {
+      "size": "XS",
+      "color": "Beige",
+      "availability": "out_of_stock"
+    },
+    {
+      "size": "S",
+      "color": "Beige",
+      "availability": "out_of_stock"
+    },
+    {
+      "size": "M",
+      "color": "Beige",
+      "availability": "in_stock"
+    },
+    {
+      "size": "L",
+      "color": "Beige",
+      "availability": "in_stock"
+    }
+  ],
+  "availability": "in_stock",
+  "productURL": "https://ludovicdesaintsernin.com/products/square-dress",
+  "categoryPage": "https://ludovicdesaintsernin.com/collections/women-dresses-skirts",
+  "scrapeTimestamp": "2025-08-11 19:34:09"
+},
+{
+  "brand": "Ludovic de Saint Sernin",
+  "name": "Halter Dress - 9928481636685",
+  "description": "Crafted from two lightweight, supple layers of stretch fabric, our Halter Dress from the Spring-Summer 2024 collection offers a snug fit that contours to the shape of the body. It is embellished with the iconic LdSS Swarovski crystal logo.",
+  "price": 815,
+  "currency": "EUR",
+  "category": "Dresses & Skirts",
+  "colors": [
+    "White"
+  ],
+  "gender": "WOMEN",
+  "mainImage": "https://ludovicdesaintsernin.com/cdn/shop/files/White_HalterDress1.jpg?v=1738753229",
+  "images": [
+    "https://ludovicdesaintsernin.com/cdn/shop/files/White_HalterDress2.jpg?v=1738753230"
+  ],
+  "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L"
+  ],
+  "variants": [
+    {
+      "size": "XS",
+      "color": "White",
+      "availability": "out_of_stock"
+    },
+    {
+      "size": "S",
+      "color": "White",
+      "availability": "out_of_stock"
+    },
+    {
+      "size": "M",
+      "color": "White",
+      "availability": "in_stock"
+    },
+    {
+      "size": "L",
+      "color": "White",
+      "availability": "out_of_stock"
+    }
+  ],
+  "availability": "in_stock",
+  "productURL": "https://ludovicdesaintsernin.com/products/halter-dress-ss25",
+  "categoryPage": "https://ludovicdesaintsernin.com/collections/women-dresses-skirts",
+  "scrapeTimestamp": "2025-08-11 19:34:11"
+},
+{
+  "brand": "Ludovic de Saint Sernin",
+  "name": "Halter Dress - 8773339087181",
+  "description": "Crafted from two lightweight, supple layers of stretch fabric, our Halter Dress from the Spring-Summer 2024 collection offers a snug fit that contours to the shape of the body. It is embellished with the iconic LdSS Swarovski crystal logo.",
+  "price": 815,
+  "currency": "EUR",
+  "category": "Dresses & Skirts",
+  "colors": [
+    "Black"
+  ],
+  "gender": "WOMEN",
+  "mainImage": "https://ludovicdesaintsernin.com/cdn/shop/files/Artboard_80.jpg?v=1730801857",
+  "images": [
+    "https://ludovicdesaintsernin.com/cdn/shop/files/Artboard_81.jpg?v=1730801858",
+    "https://ludovicdesaintsernin.com/cdn/shop/files/CO-DR007-W-PL001-Fullbody-TIFF-1_bis.jpg?v=1707239379",
+    "https://ludovicdesaintsernin.com/cdn/shop/files/CO-DR007-W-PL001-Fullbody-TIFF-3_bis.jpg?v=1707301393",
+    "https://ludovicdesaintsernin.com/cdn/shop/files/CO-DR007-W-PL001-TOP-TIFF-2_bis.jpg?v=1707301393",
+    "https://ludovicdesaintsernin.com/cdn/shop/files/CO-DR007-W-PL001-Fullbody-TIFF-2_bis.jpg?v=1707301393",
+    "https://ludovicdesaintsernin.com/cdn/shop/files/CO-DR007-W-PL001-TOP-TIFF-5_bis.jpg?v=1707301386"
+  ],
+  "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L"
+  ],
+  "variants": [
+    {
+      "size": "XS",
+      "color": "Black",
+      "availability": "in_stock"
+    },
+    {
+      "size": "S",
+      "color": "Black",
+      "availability": "out_of_stock"
+    },
+    {
+      "size": "M",
+      "color": "Black",
+      "availability": "in_stock"
+    },
+    {
+      "size": "L",
+      "color": "Black",
+      "availability": "in_stock"
+    }
+  ],
+  "availability": "in_stock",
+  "productURL": "https://ludovicdesaintsernin.com/products/black-halter-dress",
+  "categoryPage": "https://ludovicdesaintsernin.com/collections/women-dresses-skirts",
+  "scrapeTimestamp": "2025-08-11 19:34:14"
+},
+{
+  "brand": "Ludovic de Saint Sernin",
+  "name": "Cleavage Dress - 8773337743693",
+  "description": "Introducing our Cleavage Long Dress, a long version of our classic cleavage dress. It features our signature eyelets and lacing that allow you to adjust it to your perfect fit.",
+  "price": 900,
+  "currency": "EUR",
+  "category": "Dresses & Skirts",
+  "colors": [
+    "Black"
+  ],
+  "gender": "WOMEN",
+  "mainImage": "https://ludovicdesaintsernin.com/cdn/shop/files/Artboard_82.jpg?v=1730801910",
+  "images": [
+    "https://ludovicdesaintsernin.com/cdn/shop/files/Artboard_83_db628c14-9edb-48e3-a944-2fb3df89b505.jpg?v=1730802255",
+    "https://ludovicdesaintsernin.com/cdn/shop/files/SS24-DR016-W-PL-Fullbody-TIFF-1_bis.jpg?v=1707319741",
+    "https://ludovicdesaintsernin.com/cdn/shop/files/SS24-DR016-W-PL-Fullbody-TIFF-2_bis.jpg?v=1707319741",
+    "https://ludovicdesaintsernin.com/cdn/shop/files/SS24-DR016-W-PL-TOP-TIFF-6_bis.jpg?v=1707319754",
+    "https://ludovicdesaintsernin.com/cdn/shop/files/SS24-DR016-W-PL-TOP-TIFF-2_bis.jpg?v=1707319754",
+    "https://ludovicdesaintsernin.com/cdn/shop/files/SS24-DR016-W-PL-TOP-TIFF-5_bis.jpg?v=1707319746"
+  ],
+  "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L"
+  ],
+  "variants": [
+    {
+      "size": "XS",
+      "color": "Black",
+      "availability": "in_stock"
+    },
+    {
+      "size": "S",
+      "color": "Black",
+      "availability": "in_stock"
+    },
+    {
+      "size": "M",
+      "color": "Black",
+      "availability": "in_stock"
+    },
+    {
+      "size": "L",
+      "color": "Black",
+      "availability": "in_stock"
+    }
+  ],
+  "availability": "in_stock",
+  "productURL": "https://ludovicdesaintsernin.com/products/cleavage-long-dress",
+  "categoryPage": "https://ludovicdesaintsernin.com/collections/women-dresses-skirts",
+  "scrapeTimestamp": "2025-08-11 19:34:16"
+},
+{
+  "brand": "Ludovic de Saint Sernin",
+  "name": "Slim Shirt in Cotton - 10060375720269",
+  "description": "The Shirt is made from a soft cotton fabric and features a slim-fit cut that beautifully accentuates the body.",
+  "price": 318,
+  "currency": "EUR",
+  "category": "Tops",
+  "colors": [
+    "Ecru"
+  ],
+  "gender": "UNISEX",
+  "mainImage": "https://ludovicdesaintsernin.com/cdn/shop/files/SS25-SH001-U-CO0021-Ecru_1.jpg?v=1746611864",
+  "images": [
+    "https://ludovicdesaintsernin.com/cdn/shop/files/SS25-SH001-U-CO0021-Ecru_2.jpg?v=1746611865"
+  ],
+  "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L",
+    "XL"
+  ],
+  "variants": [
+    {
+      "size": "XS",
+      "color": "Ecru",
+      "availability": "out_of_stock"
+    },
+    {
+      "size": "S",
+      "color": "Ecru",
+      "availability": "out_of_stock"
+    },
+    {
+      "size": "M",
+      "color": "Ecru",
+      "availability": "in_stock"
+    },
+    {
+      "size": "L",
+      "color": "Ecru",
+      "availability": "in_stock"
+    },
+    {
+      "size": "XL",
+      "color": "Ecru",
+      "availability": "out_of_stock"
+    }
+  ],
+  "availability": "in_stock",
+  "productURL": "https://ludovicdesaintsernin.com/products/go-to-shirt",
+  "categoryPage": "https://ludovicdesaintsernin.com/collections/unisex-tops",
+  "scrapeTimestamp": "2025-08-11 19:34:23"
+},
+{
+  "brand": "Ludovic de Saint Sernin",
+  "name": "Grey Leather Jockstrap - 6609895718967",
+  "description": "This underwear is made to order to our exacting standards in our atelier in Paris. Please allow four to six weeks to receive your underwear order. The materials of our Leather Jockstraps were carefully selected for their unique characteristics. The leather is delicate and will age beautifully with proper care. To maintain the quality of your jockstrap, we recommend cleaning it with leather conditioner. If taken to the dry cleaner, please gently remove the leather lacing from the jockstrap to avoid any damage. Returns or size exchanges are not accepted for this item.",
+  "price": 250,
+  "currency": "EUR",
+  "category": "Underwear",
+  "colors": [],
+  "gender": "MEN",
+  "mainImage": "https://ludovicdesaintsernin.com/cdn/shop/files/Artboard_1_af5f1eeb-8ac1-4c0a-802e-a7b562b04a52.jpg?v=1740594238",
+  "images": [
+    "https://ludovicdesaintsernin.com/cdn/shop/files/Artboard_4_f96bd617-db7b-49a9-a749-ecda97154d73.jpg?v=1740594870",
+    "https://ludovicdesaintsernin.com/cdn/shop/files/Artboard_2_3381a3f1-0b3d-40c1-b817-9e99a577d4a6.jpg?v=1740594870",
+    "https://ludovicdesaintsernin.com/cdn/shop/files/Artboard_1_97f3e88a-3bc1-47b3-b211-7a37933f5bc8.jpg?v=1740594870",
+    "https://ludovicdesaintsernin.com/cdn/shop/files/Artboard_3_38973cf6-d993-442d-9b65-1e1ac3db1bf6.jpg?v=1740594870"
+  ],
+  "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L",
+    "XL"
+  ],
+  "variants": [
+    {
+      "size": "XS",
+      "color": "",
+      "availability": "in_stock"
+    },
+    {
+      "size": "S",
+      "color": "",
+      "availability": "in_stock"
+    },
+    {
+      "size": "M",
+      "color": "",
+      "availability": "in_stock"
+    },
+    {
+      "size": "L",
+      "color": "",
+      "availability": "in_stock"
+    },
+    {
+      "size": "XL",
+      "color": "",
+      "availability": "in_stock"
+    }
+  ],
+  "availability": "in_stock",
+  "productURL": "https://ludovicdesaintsernin.com/products/grey-leather-jockstrap",
+  "categoryPage": "https://ludovicdesaintsernin.com/collections/men-underwear-1",
+  "scrapeTimestamp": "2025-08-11 19:34:25"
+},
+{
+  "brand": "Ludovic de Saint Sernin",
+  "name": "Brown Leather Jockstrap - 6609895227447",
+  "description": "This underwear is made to order to our exacting standards in our atelier in Paris. Please allow four to six weeks to receive your underwear order. The materials of our Leather Jockstraps were carefully selected for their unique characteristics. The leather is delicate and will age beautifully with proper care. To maintain the quality of your jockstrap, we recommend cleaning it with leather conditioner. If taken to the dry cleaner, please gently remove the leather lacing from the jockstrap to avoid any damage. Returns or size exchanges are not accepted for this item.",
+  "price": 250,
+  "currency": "EUR",
+  "category": "Underwear",
+  "colors": [
+    "Brown"
+  ],
+  "gender": "MEN",
+  "mainImage": "https://ludovicdesaintsernin.com/cdn/shop/files/Artboard_4_92cbace1-9c2a-46f0-b42c-6c47d402f929.jpg?v=1740593535",
+  "images": [
+    "https://ludovicdesaintsernin.com/cdn/shop/files/Artboard_3_3fd7bcb2-bd78-4d8b-9842-fdfecb3b0719.jpg?v=1740593535",
+    "https://ludovicdesaintsernin.com/cdn/shop/files/Artboard_1_43205f7a-0498-47b9-8a40-c3be4d94cde2.jpg?v=1740593535",
+    "https://ludovicdesaintsernin.com/cdn/shop/files/Artboard_2_980a7fa6-ede7-4add-b7d6-8356b18d248e.jpg?v=1740593535"
+  ],
+  "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L",
+    "XL"
+  ],
+  "variants": [
+    {
+      "size": "XS",
+      "color": "Brown",
+      "availability": "in_stock"
+    },
+    {
+      "size": "S",
+      "color": "Brown",
+      "availability": "in_stock"
+    },
+    {
+      "size": "M",
+      "color": "Brown",
+      "availability": "in_stock"
+    },
+    {
+      "size": "L",
+      "color": "Brown",
+      "availability": "in_stock"
+    },
+    {
+      "size": "XL",
+      "color": "Brown",
+      "availability": "in_stock"
+    }
+  ],
+  "availability": "in_stock",
+  "productURL": "https://ludovicdesaintsernin.com/products/brown-leather-jockstrap",
+  "categoryPage": "https://ludovicdesaintsernin.com/collections/men-underwear-1",
+  "scrapeTimestamp": "2025-08-11 19:34:27"
+},
+{
+  "brand": "Ludovic de Saint Sernin",
+  "name": "White Leather Jockstrap - 6609895620663",
+  "description": "This underwear is made to order to our exacting standards in our atelier in Paris. Please allow four to six weeks to receive your underwear order. The materials of our Leather Jockstraps were carefully selected for their unique characteristics. The leather is delicate and will age beautifully with proper care. To maintain the quality of your jockstrap, we recommend cleaning it with leather conditioner. If taken to the dry cleaner, please gently remove the leather lacing from the jockstrap to avoid any damage. Returns or size exchanges are not accepted for this item.",
+  "price": 250,
+  "currency": "EUR",
+  "category": "Underwear",
+  "colors": [
+    "White"
+  ],
+  "gender": "MEN",
+  "mainImage": "https://ludovicdesaintsernin.com/cdn/shop/files/Artboard_3_f7f9efa3-67d1-4963-9ee3-9d765f0fdd0a.jpg?v=1740593832",
+  "images": [
+    "https://ludovicdesaintsernin.com/cdn/shop/files/Artboard_1_bb61d2de-d73e-4dda-86a8-3de7a3abbb0a.jpg?v=1740593832",
+    "https://ludovicdesaintsernin.com/cdn/shop/files/Artboard_2_cdcb29b4-48e1-4487-ae8e-e7aceb511b3f.jpg?v=1740593832",
+    "https://ludovicdesaintsernin.com/cdn/shop/files/Artboard_4_5d25ce46-e7e2-4e73-aefd-bab73c6044c8.jpg?v=1740593822"
+  ],
+  "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L",
+    "XL"
+  ],
+  "variants": [
+    {
+      "size": "XS",
+      "color": "White",
+      "availability": "in_stock"
+    },
+    {
+      "size": "S",
+      "color": "White",
+      "availability": "in_stock"
+    },
+    {
+      "size": "M",
+      "color": "White",
+      "availability": "in_stock"
+    },
+    {
+      "size": "L",
+      "color": "White",
+      "availability": "in_stock"
+    },
+    {
+      "size": "XL",
+      "color": "White",
+      "availability": "in_stock"
+    }
+  ],
+  "availability": "in_stock",
+  "productURL": "https://ludovicdesaintsernin.com/products/white-leather-jockstrap",
+  "categoryPage": "https://ludovicdesaintsernin.com/collections/men-underwear-1",
+  "scrapeTimestamp": "2025-08-11 19:34:29"
+},
+{
+  "brand": "Ludovic de Saint Sernin",
+  "name": "Brown Leather Eyelet Briefs - 6609898635319",
+  "description": "This underwear is made to order to our exacting standards in our atelier in Paris. Please allow four to six weeks to receive your underwear order. The materials of this product were carefully selected for their unique characteristics. The leather is delicate and will age beautifully with proper care. To maintain the quality of your briefs, we recommend cleaning it with leather conditioner. If taken to the dry cleaner, please gently remove the black leather lacing from the briefs to avoid any damage. Returns or size exchanges are not accepted for this item.",
+  "price": 290,
+  "currency": "EUR",
+  "category": "Underwear",
+  "colors": [
+    "Brown"
+  ],
+  "gender": "MEN",
+  "mainImage": "https://ludovicdesaintsernin.com/cdn/shop/files/Artboard_5_626c9160-2b9e-4dda-81ff-c9e3febe537d.jpg?v=1740594814",
+  "images": [
+    "https://ludovicdesaintsernin.com/cdn/shop/files/Artboard_2_958e90d3-6437-4757-8082-8cd733c015cf.jpg?v=1740594814",
+    "https://ludovicdesaintsernin.com/cdn/shop/files/Artboard_3_f7fd0591-a22e-48a4-9e16-7919ff18c38e.jpg?v=1740594814",
+    "https://ludovicdesaintsernin.com/cdn/shop/files/Artboard_4_c73bc98b-3a07-4d35-b63c-de3e91a84f32.jpg?v=1740594814"
+  ],
+  "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L",
+    "XL"
+  ],
+  "variants": [
+    {
+      "size": "XS",
+      "color": "Brown",
+      "availability": "in_stock"
+    },
+    {
+      "size": "S",
+      "color": "Brown",
+      "availability": "in_stock"
+    },
+    {
+      "size": "M",
+      "color": "Brown",
+      "availability": "in_stock"
+    },
+    {
+      "size": "L",
+      "color": "Brown",
+      "availability": "in_stock"
+    },
+    {
+      "size": "XL",
+      "color": "Brown",
+      "availability": "in_stock"
+    }
+  ],
+  "availability": "in_stock",
+  "productURL": "https://ludovicdesaintsernin.com/products/brown-leather-eyelet-briefs",
+  "categoryPage": "https://ludovicdesaintsernin.com/collections/men-underwear-1",
+  "scrapeTimestamp": "2025-08-11 19:34:31"
+},
+{
+  "brand": "Ludovic de Saint Sernin",
+  "name": "Black Leather Eyelet Briefs - 6609898307639",
+  "description": "This underwear is made to order to our exacting standards in our atelier in Paris. Please allow four to six weeks to receive your underwear order. The materials of this product were carefully selected for their unique characteristics. The leather is delicate and will age beautifully with proper care. To maintain the quality of your briefs, we recommend cleaning it with leather conditioner. If taken to the dry cleaner, please gently remove the black leather lacing from the briefs to avoid any damage. Returns or size exchanges are not accepted for this item.",
+  "price": 290,
+  "currency": "EUR",
+  "category": "Underwear",
+  "colors": [
+    "Black"
+  ],
+  "gender": "MEN",
+  "mainImage": "https://ludovicdesaintsernin.com/cdn/shop/files/Artboard_7_096cdfbc-6d2c-4615-a44c-1ef4512676d6.jpg?v=1740595686",
+  "images": [
+    "https://ludovicdesaintsernin.com/cdn/shop/files/Artboard_4_a1eccd8b-5486-47c6-8e6e-4bdd5663dfd2.jpg?v=1740595686",
+    "https://ludovicdesaintsernin.com/cdn/shop/files/Artboard_5_4f782237-64b1-46d6-a0ab-4326d9b2d3c1.jpg?v=1740595686",
+    "https://ludovicdesaintsernin.com/cdn/shop/files/Artboard_6_38097586-e9ff-4fcb-b7db-90479f2de848.jpg?v=1740595686"
+  ],
+  "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L",
+    "XL"
+  ],
+  "variants": [
+    {
+      "size": "XS",
+      "color": "Black",
+      "availability": "in_stock"
+    },
+    {
+      "size": "S",
+      "color": "Black",
+      "availability": "in_stock"
+    },
+    {
+      "size": "M",
+      "color": "Black",
+      "availability": "in_stock"
+    },
+    {
+      "size": "L",
+      "color": "Black",
+      "availability": "in_stock"
+    },
+    {
+      "size": "XL",
+      "color": "Black",
+      "availability": "in_stock"
+    }
+  ],
+  "availability": "in_stock",
+  "productURL": "https://ludovicdesaintsernin.com/products/black-leather-eyelet-briefs",
+  "categoryPage": "https://ludovicdesaintsernin.com/collections/men-underwear-1",
+  "scrapeTimestamp": "2025-08-11 19:34:33"
+},
+{
+  "brand": "Ludovic de Saint Sernin",
+  "name": "White Leather Eyelet Briefs - 6609898111031",
+  "description": "This underwear is made to order to our exacting standards in our atelier in Paris. Please allow four to six weeks to receive your underwear order. The materials of this product were carefully selected for their unique characteristics. The leather is delicate and will age beautifully with proper care. To maintain the quality of your briefs, we recommend cleaning it with leather conditioner. If taken to the dry cleaner, please gently remove the black leather lacing from the briefs to avoid any damage. Returns or size exchanges are not accepted for this item.",
+  "price": 290,
+  "currency": "EUR",
+  "category": "Underwear",
+  "colors": [
+    "White"
+  ],
+  "gender": "MEN",
+  "mainImage": "https://ludovicdesaintsernin.com/cdn/shop/files/Artboard_14_a144850b-e504-4542-ba24-7edafa12d9aa.jpg?v=1740596994",
+  "images": [
+    "https://ludovicdesaintsernin.com/cdn/shop/files/Artboard_13_35c3358b-a01c-4530-b1f5-a786ed00966c.jpg?v=1740596994",
+    "https://ludovicdesaintsernin.com/cdn/shop/files/Artboard_12_d469d75e-ee09-41a1-965d-c4aa3e8d79e5.jpg?v=1740596994",
+    "https://ludovicdesaintsernin.com/cdn/shop/files/Artboard_11_51708135-aa7b-41d6-85bf-923a799b3ed8.jpg?v=1740596994"
+  ],
+  "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L",
+    "XL"
+  ],
+  "variants": [
+    {
+      "size": "XS",
+      "color": "White",
+      "availability": "in_stock"
+    },
+    {
+      "size": "S",
+      "color": "White",
+      "availability": "in_stock"
+    },
+    {
+      "size": "M",
+      "color": "White",
+      "availability": "in_stock"
+    },
+    {
+      "size": "L",
+      "color": "White",
+      "availability": "in_stock"
+    },
+    {
+      "size": "XL",
+      "color": "White",
+      "availability": "in_stock"
+    }
+  ],
+  "availability": "in_stock",
+  "productURL": "https://ludovicdesaintsernin.com/products/white-leather-eyelet-briefs",
+  "categoryPage": "https://ludovicdesaintsernin.com/collections/men-underwear-1",
+  "scrapeTimestamp": "2025-08-11 19:34:34"
+},
+{
+  "brand": "Ludovic de Saint Sernin",
+  "name": "Black Leather Jockstrap - 4671946883127",
+  "description": "This underwear is made to order to our exacting standards in our atelier in Paris. Please allow four to six weeks to receive your underwear order. The materials of our Leather Jockstraps were carefully selected for their unique characteristics. The leather is delicate and will age beautifully with proper care. To maintain the quality of your jockstrap, we recommend cleaning it with leather conditioner. If taken to the dry cleaner, please gently remove the leather lacing from the jockstrap to avoid any damage. Returns or size exchanges are not accepted for this item.",
+  "price": 250,
+  "currency": "EUR",
+  "category": "Underwear",
+  "colors": [
+    "Black"
+  ],
+  "gender": "MEN",
+  "mainImage": "https://ludovicdesaintsernin.com/cdn/shop/files/Artboard_4_f23a0e3b-e7f1-4243-b565-eb40f10e93d6.jpg?v=1740592213",
+  "images": [
+    "https://ludovicdesaintsernin.com/cdn/shop/files/Artboard_3_a20e3c56-3aa6-4729-9466-8bb3c0dc2f03.jpg?v=1740592213",
+    "https://ludovicdesaintsernin.com/cdn/shop/files/Artboard_2_9c7fcf89-c082-451a-b0a8-c22a5fc3c7f1.jpg?v=1740592213",
+    "https://ludovicdesaintsernin.com/cdn/shop/files/Artboard_1_8d5f6050-a3e6-4946-b808-8ca40a90f1f3.jpg?v=1740592213"
+  ],
+  "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L",
+    "XL"
+  ],
+  "variants": [
+    {
+      "size": "XS",
+      "color": "Black",
+      "availability": "in_stock"
+    },
+    {
+      "size": "S",
+      "color": "Black",
+      "availability": "in_stock"
+    },
+    {
+      "size": "M",
+      "color": "Black",
+      "availability": "in_stock"
+    },
+    {
+      "size": "L",
+      "color": "Black",
+      "availability": "in_stock"
+    },
+    {
+      "size": "XL",
+      "color": "Black",
+      "availability": "in_stock"
+    }
+  ],
+  "availability": "in_stock",
+  "productURL": "https://ludovicdesaintsernin.com/products/eyelet-jockstrap-3",
+  "categoryPage": "https://ludovicdesaintsernin.com/collections/men-underwear-1",
+  "scrapeTimestamp": "2025-08-11 19:34:36"
+},
+{
+  "brand": "Ludovic de Saint Sernin",
+  "name": "Black Leather Lace Up Thong - 6609899520055",
+  "description": "This underwear is made to order to our exacting standards in our atelier in Paris. Please allow four to six weeks to receive your underwear order. Each of our Black Leather Lace Up Thongs are made by hand to order to our exacting standards in our atelier in Paris. Returns or size exchanges are not accepted for this item.",
+  "price": 230,
+  "currency": "EUR",
+  "category": "Underwear",
+  "colors": [
+    "Black"
+  ],
+  "gender": "MEN",
+  "mainImage": "https://ludovicdesaintsernin.com/cdn/shop/files/lace-up-leather-thong1.jpg?v=1740590834",
+  "images": [
+    "https://ludovicdesaintsernin.com/cdn/shop/files/Artboard_10_aa9762ff-9358-4660-83be-2b9f655a3982.jpg?v=1740596306",
+    "https://ludovicdesaintsernin.com/cdn/shop/files/Artboard_7_b9571ba6-521e-476f-9950-eb74ff7357b4.jpg?v=1740596306",
+    "https://ludovicdesaintsernin.com/cdn/shop/files/Artboard_9_9da7f8a8-3205-4bbf-a79a-e3e039bbb66b.jpg?v=1740596306",
+    "https://ludovicdesaintsernin.com/cdn/shop/files/Artboard_8_cee43eac-57d7-4f0a-a70e-019ba9f5c4a3.jpg?v=1740596306"
+  ],
+  "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L",
+    "XL"
+  ],
+  "variants": [
+    {
+      "size": "XS",
+      "color": "Black",
+      "availability": "in_stock"
+    },
+    {
+      "size": "S",
+      "color": "Black",
+      "availability": "in_stock"
+    },
+    {
+      "size": "M",
+      "color": "Black",
+      "availability": "in_stock"
+    },
+    {
+      "size": "L",
+      "color": "Black",
+      "availability": "in_stock"
+    },
+    {
+      "size": "XL",
+      "color": "Black",
+      "availability": "in_stock"
+    }
+  ],
+  "availability": "in_stock",
+  "productURL": "https://ludovicdesaintsernin.com/products/black-leather-lace-up-thong",
+  "categoryPage": "https://ludovicdesaintsernin.com/collections/men-underwear-1",
+  "scrapeTimestamp": "2025-08-11 19:34:37"
+},
+{
+  "brand": "Ludovic de Saint Sernin",
+  "name": "Black Leather Eyelet Briefs - 4545565851703",
+  "description": "This underwear is made to order to our exacting standards in our atelier in Paris. Please allow four to six weeks to receive your underwear order. The materials of this product were carefully selected for their unique characteristics. The leather is delicate and will age beautifully with proper care. To maintain the quality of your briefs, we recommend cleaning it with leather conditioner. If taken to the dry cleaner, please gently remove the black leather lacing from the briefs to avoid any damage. Returns or size exchanges are not accepted for this item.",
+  "price": 290,
+  "currency": "EUR",
+  "category": "Underwear",
+  "colors": [
+    "Black"
+  ],
+  "gender": "MEN",
+  "mainImage": "https://ludovicdesaintsernin.com/cdn/shop/files/Artboard_10_0627cb9d-0d91-406e-aa8b-f2cba9a5db72.jpg?v=1740596929",
+  "images": [
+    "https://ludovicdesaintsernin.com/cdn/shop/files/Artboard_9_26c77ce2-bd0e-456a-9100-6af368c1dee4.jpg?v=1740596959",
+    "https://ludovicdesaintsernin.com/cdn/shop/files/Artboard_8_61899f5a-5109-410c-a1ab-510bb34be55c.jpg?v=1740596959",
+    "https://ludovicdesaintsernin.com/cdn/shop/files/Artboard_7_ccf24061-0805-4863-8489-ce854542e072.jpg?v=1740596959"
+  ],
+  "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L",
+    "XL"
+  ],
+  "variants": [
+    {
+      "size": "XS",
+      "color": "Black",
+      "availability": "in_stock"
+    },
+    {
+      "size": "S",
+      "color": "Black",
+      "availability": "in_stock"
+    },
+    {
+      "size": "M",
+      "color": "Black",
+      "availability": "in_stock"
+    },
+    {
+      "size": "L",
+      "color": "Black",
+      "availability": "in_stock"
+    },
+    {
+      "size": "XL",
+      "color": "Black",
+      "availability": "in_stock"
+    }
+  ],
+  "availability": "in_stock",
+  "productURL": "https://ludovicdesaintsernin.com/products/signature-eyelet-briefs-in-leather",
+  "categoryPage": "https://ludovicdesaintsernin.com/collections/men-underwear-1",
+  "scrapeTimestamp": "2025-08-11 19:34:38"
+},
+{
+  "brand": "Ludovic de Saint Sernin",
+  "name": "Go To Shirt in Cotton - 10070146253133",
+  "description": "The shirt is made from fine, lightweight Japanese fabric and features a relaxed, slightly oversized cut for a comfortable fit. Its ecru color evokes the tones of vintage paper and sun-kissed sand.",
+  "price": 345,
+  "currency": "EUR",
+  "category": "Tops",
+  "colors": [
+    "Ecru"
+  ],
+  "gender": "UNISEX",
+  "mainImage": "https://ludovicdesaintsernin.com/cdn/shop/files/SS25-SH001-U-CO0021-Ecru_1_9f41e9b5-cc20-4d9e-bb9a-72a3ec028be4.jpg?v=1746612380",
+  "images": [
+    "https://ludovicdesaintsernin.com/cdn/shop/files/SS25-SH001-U-CO0021-Ecru_2_69cd0cfb-88c9-450f-a6cb-2483639747c5.jpg?v=1746612379"
+  ],
+  "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L",
+    "XL"
+  ],
+  "variants": [
+    {
+      "size": "XS",
+      "color": "Ecru",
+      "availability": "in_stock"
+    },
+    {
+      "size": "S",
+      "color": "Ecru",
+      "availability": "in_stock"
+    },
+    {
+      "size": "M",
+      "color": "Ecru",
+      "availability": "in_stock"
+    },
+    {
+      "size": "L",
+      "color": "Ecru",
+      "availability": "in_stock"
+    },
+    {
+      "size": "XL",
+      "color": "Ecru",
+      "availability": "in_stock"
+    }
+  ],
+  "availability": "in_stock",
+  "productURL": "https://ludovicdesaintsernin.com/products/slim-shirt-in-cotton-copy",
+  "categoryPage": "https://ludovicdesaintsernin.com/collections/unisex-tops",
+  "scrapeTimestamp": "2025-08-11 19:34:40"
+},
+{
+  "brand": "Ludovic de Saint Sernin",
+  "name": "Long Sleeve Stud Top - 10109768925517",
+  "description": "The Long Sleeve Stud Top is crafted from soft, stretch jersey, offering a close, body-hugging fit that shapes the figure, accented with the new studded LdSS logo.",
+  "price": 120,
+  "currency": "EUR",
+  "category": "Tops",
+  "colors": [
+    "Black"
+  ],
+  "gender": "UNISEX",
+  "mainImage": "https://ludovicdesaintsernin.com/cdn/shop/files/StudLongSleeve.jpg?v=1748964937",
+  "images": [
+    "https://ludovicdesaintsernin.com/cdn/shop/files/StudLongSleeve_2_9503f702-11fb-4246-a5c1-db07a689953e.jpg?v=1748964937"
+  ],
+  "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L"
+  ],
+  "variants": [
+    {
+      "size": "XS",
+      "color": "Black",
+      "availability": "in_stock"
+    },
+    {
+      "size": "S",
+      "color": "Black",
+      "availability": "out_of_stock"
+    },
+    {
+      "size": "M",
+      "color": "Black",
+      "availability": "out_of_stock"
+    },
+    {
+      "size": "L",
+      "color": "Black",
+      "availability": "out_of_stock"
+    }
+  ],
+  "availability": "in_stock",
+  "productURL": "https://ludovicdesaintsernin.com/products/long-sleeve-stud-top-ss25",
+  "categoryPage": "https://ludovicdesaintsernin.com/collections/unisex-tops",
+  "scrapeTimestamp": "2025-08-11 19:34:41"
+},
+{
+  "brand": "Ludovic de Saint Sernin",
+  "name": "Jay Top in Suede - 9928477737293",
+  "description": "The Jay Top made from soft, supple suede. This revealing yet neoclassical piece provides a striking look for special events.",
+  "price": 388,
+  "currency": "EUR",
+  "category": "Tops",
+  "colors": [
+    "Brown"
+  ],
+  "gender": "UNISEX",
+  "mainImage": "https://ludovicdesaintsernin.com/cdn/shop/files/Brown_JayTopSuede1.jpg?v=1737645101",
+  "images": [
+    "https://ludovicdesaintsernin.com/cdn/shop/files/Brown_JayTopSuede2.jpg?v=1737645114"
+  ],
+  "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L"
+  ],
+  "variants": [
+    {
+      "size": "XS",
+      "color": "Brown",
+      "availability": "out_of_stock"
+    },
+    {
+      "size": "S",
+      "color": "Brown",
+      "availability": "in_stock"
+    },
+    {
+      "size": "M",
+      "color": "Brown",
+      "availability": "in_stock"
+    },
+    {
+      "size": "L",
+      "color": "Brown",
+      "availability": "out_of_stock"
+    }
+  ],
+  "availability": "in_stock",
+  "productURL": "https://ludovicdesaintsernin.com/products/jay-top-in-suede-leather",
+  "categoryPage": "https://ludovicdesaintsernin.com/collections/unisex-tops",
+  "scrapeTimestamp": "2025-08-11 19:34:43"
+},
+{
+  "brand": "Ludovic de Saint Sernin",
+  "name": "Long Sleeves Top in Cotton - 9928476295501",
+  "description": "The Long Sleeve Top is made from soft, translucent cotton that hugs and contours the body.",
+  "price": 210,
+  "currency": "EUR",
+  "category": "Tops",
+  "colors": [
+    "Pearl"
+  ],
+  "gender": "UNISEX",
+  "mainImage": "https://ludovicdesaintsernin.com/cdn/shop/files/Pearl_LongSleevesTop1.jpg?v=1739272757",
+  "images": [
+    "https://ludovicdesaintsernin.com/cdn/shop/files/Pearl_LongSleevesTop2.jpg?v=1739272769"
+  ],
+  "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L"
+  ],
+  "variants": [
+    {
+      "size": "XS",
+      "color": "Pearl",
+      "availability": "in_stock"
+    },
+    {
+      "size": "S",
+      "color": "Pearl",
+      "availability": "in_stock"
+    },
+    {
+      "size": "M",
+      "color": "Pearl",
+      "availability": "out_of_stock"
+    },
+    {
+      "size": "L",
+      "color": "Pearl",
+      "availability": "out_of_stock"
+    }
+  ],
+  "availability": "in_stock",
+  "productURL": "https://ludovicdesaintsernin.com/products/simple-long-sleeves-top-in-cotton",
+  "categoryPage": "https://ludovicdesaintsernin.com/collections/unisex-tops",
+  "scrapeTimestamp": "2025-08-11 19:34:49"
+},
+{
+  "brand": "Ludovic de Saint Sernin",
+  "name": "Bolero Top in Cotton - 9928476328269",
+  "description": "The Bolero Top draws inspiration from the ballet theme of the collection. Made from soft fabric, it perfectly complements your look or pairs effortlessly with our Simple Long Sleeves Top, crafted from the same fabric and colour.",
+  "price": 203,
+  "currency": "EUR",
+  "category": "Tops",
+  "colors": [
+    "Pearl"
+  ],
+  "gender": "UNISEX",
+  "mainImage": "https://ludovicdesaintsernin.com/cdn/shop/files/Bolero1.jpg?v=1741536065",
+  "images": [
+    "https://ludovicdesaintsernin.com/cdn/shop/files/Bolero2.jpg?v=1741536065"
+  ],
+  "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L"
+  ],
+  "variants": [
+    {
+      "size": "XS",
+      "color": "Pearl",
+      "availability": "out_of_stock"
+    },
+    {
+      "size": "S",
+      "color": "Pearl",
+      "availability": "in_stock"
+    },
+    {
+      "size": "M",
+      "color": "Pearl",
+      "availability": "out_of_stock"
+    },
+    {
+      "size": "L",
+      "color": "Pearl",
+      "availability": "out_of_stock"
+    }
+  ],
+  "availability": "in_stock",
+  "productURL": "https://ludovicdesaintsernin.com/products/bolero-top",
+  "categoryPage": "https://ludovicdesaintsernin.com/collections/unisex-tops",
+  "scrapeTimestamp": "2025-08-11 19:34:50"
+},
+{
+  "brand": "Ludovic de Saint Sernin",
+  "name": "Jay Top in Sequins - 9928474853709",
+  "description": "The beloved Top is reintroduced this season in a new shiny material—shimmering sequins. This revealing yet neoclassical piece offers a striking look for special events.",
+  "price": 280,
+  "currency": "EUR",
+  "category": "Tops",
+  "colors": [
+    "Black"
+  ],
+  "gender": "UNISEX",
+  "mainImage": "https://ludovicdesaintsernin.com/cdn/shop/files/Black_JayTop1_7abbc3de-71e2-4939-b310-ad13dbeb783a.jpg?v=1740573945",
+  "images": [
+    "https://ludovicdesaintsernin.com/cdn/shop/files/Black_JayTop2_3cfb3b68-10c6-4dd9-82b5-2a1b1b0adf38.jpg?v=1740573944"
+  ],
+  "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L"
+  ],
+  "variants": [
+    {
+      "size": "XS",
+      "color": "Black",
+      "availability": "out_of_stock"
+    },
+    {
+      "size": "S",
+      "color": "Black",
+      "availability": "out_of_stock"
+    },
+    {
+      "size": "M",
+      "color": "Black",
+      "availability": "in_stock"
+    },
+    {
+      "size": "L",
+      "color": "Black",
+      "availability": "out_of_stock"
+    }
+  ],
+  "availability": "in_stock",
+  "productURL": "https://ludovicdesaintsernin.com/products/black-jay-top",
+  "categoryPage": "https://ludovicdesaintsernin.com/collections/unisex-tops",
+  "scrapeTimestamp": "2025-08-11 19:34:52"
+},
+{
+  "brand": "Ludovic de Saint Sernin",
+  "name": "Tank Top in Cotton - 9928476262733",
+  "description": "Made from a single layer of stretch fabric, our LdSS Tank Top contours to the body for a snug fit.",
+  "price": 125,
+  "currency": "EUR",
+  "category": "Tops",
+  "colors": [
+    "Pearl"
+  ],
+  "gender": "UNISEX",
+  "mainImage": "https://ludovicdesaintsernin.com/cdn/shop/files/Artboard7_b20d2986-4a22-4d6f-ac38-4edbe2d8f42d.jpg?v=1739275363",
+  "images": [
+    "https://ludovicdesaintsernin.com/cdn/shop/files/Artboard8_2c6b3654-e6f5-48af-a154-a4553d7e63cd.jpg?v=1739275371"
+  ],
+  "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L"
+  ],
+  "variants": [
+    {
+      "size": "XS",
+      "color": "Pearl",
+      "availability": "in_stock"
+    },
+    {
+      "size": "S",
+      "color": "Pearl",
+      "availability": "out_of_stock"
+    },
+    {
+      "size": "M",
+      "color": "Pearl",
+      "availability": "out_of_stock"
+    },
+    {
+      "size": "L",
+      "color": "Pearl",
+      "availability": "out_of_stock"
+    }
+  ],
+  "availability": "in_stock",
+  "productURL": "https://ludovicdesaintsernin.com/products/mesh-tank-top-in-cotton",
+  "categoryPage": "https://ludovicdesaintsernin.com/collections/unisex-tops",
+  "scrapeTimestamp": "2025-08-11 19:34:53"
+},
+{
+  "brand": "Ludovic de Saint Sernin",
+  "name": "Slim Shirt - 9928477311309",
+  "description": "The Shirt is made from a semi-sheer fabric and features a slim-fit cut that beautifully accentuates the body.",
+  "price": 635,
+  "currency": "EUR",
+  "category": "Tops",
+  "colors": [
+    "Black"
+  ],
+  "gender": "UNISEX",
+  "mainImage": "https://ludovicdesaintsernin.com/cdn/shop/files/Black_SlimShirt1.jpg?v=1737644463",
+  "images": [
+    "https://ludovicdesaintsernin.com/cdn/shop/files/Black_SlimShirt2.jpg?v=1737644480"
+  ],
+  "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L",
+    "XL"
+  ],
+  "variants": [
+    {
+      "size": "XS",
+      "color": "Black",
+      "availability": "out_of_stock"
+    },
+    {
+      "size": "S",
+      "color": "Black",
+      "availability": "in_stock"
+    },
+    {
+      "size": "M",
+      "color": "Black",
+      "availability": "out_of_stock"
+    },
+    {
+      "size": "L",
+      "color": "Black",
+      "availability": "out_of_stock"
+    },
+    {
+      "size": "XL",
+      "color": "Black",
+      "availability": "out_of_stock"
+    }
+  ],
+  "availability": "in_stock",
+  "productURL": "https://ludovicdesaintsernin.com/products/slim-shirt-in-cotton",
+  "categoryPage": "https://ludovicdesaintsernin.com/collections/unisex-tops",
+  "scrapeTimestamp": "2025-08-11 19:34:55"
+},
+{
+  "brand": "Ludovic de Saint Sernin",
+  "name": "Jay Top in Sequins - 9928481505613",
+  "description": "The beloved Top is reintroduced this season in a new shiny material—shimmering sequins. This revealing yet neoclassical piece offers a striking look for special events.",
+  "price": 260,
+  "currency": "EUR",
+  "category": "Tops",
+  "colors": [
+    "Beige"
+  ],
+  "gender": "UNISEX",
+  "mainImage": "https://ludovicdesaintsernin.com/cdn/shop/files/Beige_JayTop1_1c59a845-2035-4958-bc9e-21f0f10d3371_1.png?v=1744378053",
+  "images": [
+    "https://ludovicdesaintsernin.com/cdn/shop/files/Beige_JayTop2_30efd3cd-a330-48a5-84f2-9da3cf11930f.png?v=1744378052"
+  ],
+  "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L"
+  ],
+  "variants": [
+    {
+      "size": "XS",
+      "color": "Beige",
+      "availability": "out_of_stock"
+    },
+    {
+      "size": "S",
+      "color": "Beige",
+      "availability": "out_of_stock"
+    },
+    {
+      "size": "M",
+      "color": "Beige",
+      "availability": "out_of_stock"
+    },
+    {
+      "size": "L",
+      "color": "Beige",
+      "availability": "in_stock"
+    }
+  ],
+  "availability": "in_stock",
+  "productURL": "https://ludovicdesaintsernin.com/products/jay-top-ss25",
+  "categoryPage": "https://ludovicdesaintsernin.com/collections/unisex-tops",
+  "scrapeTimestamp": "2025-08-11 19:34:56"
+},
+{
+  "brand": "Ludovic de Saint Sernin",
+  "name": "Queer Power T-Shirt in Cotton - 9077340438861",
+  "description": "This T-Shirt in cream is made out of soft cotton with a brown ribbed round neck, banded sleeves and a \"Queer Power\" screen printed text. Designed with a small, fitted, and cropped silhouette.",
+  "price": 88,
+  "currency": "EUR",
+  "category": "Tops",
+  "colors": [
+    "Cream"
+  ],
+  "gender": "UNISEX",
+  "mainImage": "https://ludovicdesaintsernin.com/cdn/shop/files/cream_ecomm2.png?v=1718377251",
+  "images": [
+    "https://ludovicdesaintsernin.com/cdn/shop/files/cream_ecomm1.png?v=1718377261"
+  ],
+  "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L"
+  ],
+  "variants": [
+    {
+      "size": "XS",
+      "color": "Cream",
+      "availability": "in_stock"
+    },
+    {
+      "size": "S",
+      "color": "Cream",
+      "availability": "in_stock"
+    },
+    {
+      "size": "M",
+      "color": "Cream",
+      "availability": "in_stock"
+    },
+    {
+      "size": "L",
+      "color": "Cream",
+      "availability": "in_stock"
+    }
+  ],
+  "availability": "in_stock",
+  "productURL": "https://ludovicdesaintsernin.com/products/queen-power-beige-t-shirt",
+  "categoryPage": "https://ludovicdesaintsernin.com/collections/unisex-tops",
+  "scrapeTimestamp": "2025-08-11 19:34:58"
+},
+{
+  "brand": "Ludovic de Saint Sernin",
+  "name": "Queer Power T-Shirt in Cotton - 9077343191373",
+  "description": "This T-Shirt in brown is made out of soft cotton with a cream ribbed round neck, banded sleeves and a \"Queer Power\" screen printed text. Designed with a small, fitted, and cropped silhouette.",
+  "price": 88,
+  "currency": "EUR",
+  "category": "Tops",
+  "colors": [
+    "Brown"
+  ],
+  "gender": "UNISEX",
+  "mainImage": "https://ludovicdesaintsernin.com/cdn/shop/files/brown_ecomm1.png?v=1718376946",
+  "images": [
+    "https://ludovicdesaintsernin.com/cdn/shop/files/brown_ecomm2.png?v=1718376956"
+  ],
+  "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L"
+  ],
+  "variants": [
+    {
+      "size": "XS",
+      "color": "Brown",
+      "availability": "in_stock"
+    },
+    {
+      "size": "S",
+      "color": "Brown",
+      "availability": "in_stock"
+    },
+    {
+      "size": "M",
+      "color": "Brown",
+      "availability": "in_stock"
+    },
+    {
+      "size": "L",
+      "color": "Brown",
+      "availability": "in_stock"
+    }
+  ],
+  "availability": "in_stock",
+  "productURL": "https://ludovicdesaintsernin.com/products/queer-power-brown-t-shirt",
+  "categoryPage": "https://ludovicdesaintsernin.com/collections/unisex-tops",
+  "scrapeTimestamp": "2025-08-11 19:34:59"
+},
+{
+  "brand": "Ludovic de Saint Sernin",
+  "name": "Queer Power T-Shirt in Cotton - 9928477802829",
+  "description": "This T-Shirt is made out of soft cotton with a black ribbed round neck, banded sleeves and a \"Queer Power\" screen printed text. Designed with a small, fitted, and cropped silhouette.",
+  "price": 88,
+  "currency": "EUR",
+  "category": "Tops",
+  "colors": [
+    "White"
+  ],
+  "gender": "UNISEX",
+  "mainImage": "https://ludovicdesaintsernin.com/cdn/shop/files/White_QueerPowerTShirt1.jpg?v=1737644915",
+  "images": [
+    "https://ludovicdesaintsernin.com/cdn/shop/files/White_QueerPowerTShirt2.jpg?v=1737644944"
+  ],
+  "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L"
+  ],
+  "variants": [
+    {
+      "size": "XS",
+      "color": "White",
+      "availability": "in_stock"
+    },
+    {
+      "size": "S",
+      "color": "White",
+      "availability": "in_stock"
+    },
+    {
+      "size": "M",
+      "color": "White",
+      "availability": "in_stock"
+    },
+    {
+      "size": "L",
+      "color": "White",
+      "availability": "in_stock"
+    }
+  ],
+  "availability": "in_stock",
+  "productURL": "https://ludovicdesaintsernin.com/products/queer-power-t-shirt-in-cotton-in-white",
+  "categoryPage": "https://ludovicdesaintsernin.com/collections/unisex-tops",
+  "scrapeTimestamp": "2025-08-11 19:35:02"
+},
+{
+  "brand": "Ludovic de Saint Sernin",
+  "name": "Queer Power T-Shirt in Cotton - 9928477770061",
+  "description": "This T-Shirt is made out of soft cotton with a white ribbed round neck, banded sleeves and a \"Queer Power\" screen printed text. Designed with a small, fitted, and cropped silhouette.",
+  "price": 88,
+  "currency": "EUR",
+  "category": "Tops",
+  "colors": [
+    "Black"
+  ],
+  "gender": "UNISEX",
+  "mainImage": "https://ludovicdesaintsernin.com/cdn/shop/files/blackqueerpower1.jpg?v=1738149083",
+  "images": [
+    "https://ludovicdesaintsernin.com/cdn/shop/files/blackqueerpowershirt.jpg?v=1738149083"
+  ],
+  "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L"
+  ],
+  "variants": [
+    {
+      "size": "XS",
+      "color": "Black",
+      "availability": "in_stock"
+    },
+    {
+      "size": "S",
+      "color": "Black",
+      "availability": "in_stock"
+    },
+    {
+      "size": "M",
+      "color": "Black",
+      "availability": "out_of_stock"
+    },
+    {
+      "size": "L",
+      "color": "Black",
+      "availability": "in_stock"
+    }
+  ],
+  "availability": "in_stock",
+  "productURL": "https://ludovicdesaintsernin.com/products/queer-power-t-shirt-in-cotton-in-black",
+  "categoryPage": "https://ludovicdesaintsernin.com/collections/unisex-tops",
+  "scrapeTimestamp": "2025-08-11 19:35:04"
+},
+{
+  "brand": "Ludovic de Saint Sernin",
+  "name": "Stud T-Shirt - 9928478163277",
+  "description": "The Short-Sleeve T-Shirt is made from soft, stretchy jersey, designed for a close, body-hugging fit and accented with the new studded LdSS logo.",
+  "price": 108,
+  "currency": "EUR",
+  "category": "Tops",
+  "colors": [
+    "White"
+  ],
+  "gender": "UNISEX",
+  "mainImage": "https://ludovicdesaintsernin.com/cdn/shop/files/whiteshortsleeves1woohoo.jpg?v=1738149536",
+  "images": [
+    "https://ludovicdesaintsernin.com/cdn/shop/files/whiteshortsleeves2.jpg?v=1738149536"
+  ],
+  "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L"
+  ],
+  "variants": [
+    {
+      "size": "XS",
+      "color": "White",
+      "availability": "in_stock"
+    },
+    {
+      "size": "S",
+      "color": "White",
+      "availability": "out_of_stock"
+    },
+    {
+      "size": "M",
+      "color": "White",
+      "availability": "out_of_stock"
+    },
+    {
+      "size": "L",
+      "color": "White",
+      "availability": "out_of_stock"
+    }
+  ],
+  "availability": "in_stock",
+  "productURL": "https://ludovicdesaintsernin.com/products/ldss-stud-logo-short-sleeves-t-shirt-in-white",
+  "categoryPage": "https://ludovicdesaintsernin.com/collections/unisex-tops",
+  "scrapeTimestamp": "2025-08-11 19:35:07"
+},
+{
+  "brand": "Ludovic de Saint Sernin",
+  "name": "Alan Shirt in Cotton - 10015682429261",
+  "description": "The Alan Shirt, made from lightweight braided Japanese fabric with a deep V-neckline for a subtly revealing look, embodies the collection's ballet-inspired theme.",
+  "price": 258,
+  "currency": "EUR",
+  "category": "Tops",
+  "colors": [
+    "Black"
+  ],
+  "gender": "UNISEX",
+  "mainImage": "https://ludovicdesaintsernin.com/cdn/shop/files/Artboard2_89bd71da-8768-46cd-b086-fc07e82afab6.jpg?v=1742987559",
+  "images": [
+    "https://ludovicdesaintsernin.com/cdn/shop/files/Artboard3_d3140a70-85ff-4c97-8dff-45e7563cfd99.jpg?v=1742987559"
+  ],
+  "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L",
+    "XL"
+  ],
+  "variants": [
+    {
+      "size": "XS",
+      "color": "Black",
+      "availability": "out_of_stock"
+    },
+    {
+      "size": "S",
+      "color": "Black",
+      "availability": "out_of_stock"
+    },
+    {
+      "size": "M",
+      "color": "Black",
+      "availability": "out_of_stock"
+    },
+    {
+      "size": "L",
+      "color": "Black",
+      "availability": "out_of_stock"
+    },
+    {
+      "size": "XL",
+      "color": "Black",
+      "availability": "out_of_stock"
+    }
+  ],
+  "availability": "out_of_stock",
+  "productURL": "https://ludovicdesaintsernin.com/products/alan-shirt-in-cotton",
+  "categoryPage": "https://ludovicdesaintsernin.com/collections/unisex-tops",
+  "scrapeTimestamp": "2025-08-11 19:35:08"
+},
+{
+  "brand": "Ludovic de Saint Sernin",
+  "name": "Crystal Tank Top in Cotton - 9928478294349",
+  "description": "The Tank Top is made from soft, stretchy jersey, designed for a close, body-hugging fit and accented with the crystal LdSS logo.",
+  "price": 98,
+  "currency": "EUR",
+  "category": "Tops",
+  "colors": [
+    "White"
+  ],
+  "gender": "UNISEX",
+  "mainImage": "https://ludovicdesaintsernin.com/cdn/shop/files/Artboard6_6063bdfc-e0ce-4b1a-b0d5-3270a552a22a.jpg?v=1742999410",
+  "images": [
+    "https://ludovicdesaintsernin.com/cdn/shop/files/Artboard7_02f62532-e651-42e9-9935-104bf96b9812.jpg?v=1742999410"
+  ],
+  "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L"
+  ],
+  "variants": [
+    {
+      "size": "XS",
+      "color": "White",
+      "availability": "out_of_stock"
+    },
+    {
+      "size": "S",
+      "color": "White",
+      "availability": "out_of_stock"
+    },
+    {
+      "size": "M",
+      "color": "White",
+      "availability": "out_of_stock"
+    },
+    {
+      "size": "L",
+      "color": "White",
+      "availability": "out_of_stock"
+    }
+  ],
+  "availability": "out_of_stock",
+  "productURL": "https://ludovicdesaintsernin.com/products/ldss-stud-logo-tank-top-in-white",
+  "categoryPage": "https://ludovicdesaintsernin.com/collections/unisex-tops",
+  "scrapeTimestamp": "2025-08-11 19:35:10"
+},
+{
+  "brand": "Ludovic de Saint Sernin",
+  "name": "Tulip And Thorn Print T-Shirt in Cotton - 9713338450253",
+  "description": "Our classic oversized cotton T-Shirt features a round neckline and banded finish, showcasing Robert Mapplethorpe's \"Tulip And Thorn, 1988\" artwork. © Robert Mapplethorpe Foundation. Used by Permission.",
+  "price": 100,
+  "currency": "EUR",
+  "category": "Tops",
+  "colors": [
+    "White"
+  ],
+  "gender": "UNISEX",
+  "mainImage": "https://ludovicdesaintsernin.com/cdn/shop/files/Artboard_9_428e3db9-57cc-421b-a86f-91b6399452f0.jpg?v=1730815710",
+  "images": [
+    "https://ludovicdesaintsernin.com/cdn/shop/files/Artboard_10_16e777f8-2fcf-4e5b-bfb6-7816a5a38441.jpg?v=1730815710",
+    "https://ludovicdesaintsernin.com/cdn/shop/files/Artboard183.jpg?v=1726236535",
+    "https://ludovicdesaintsernin.com/cdn/shop/files/Artboard184.jpg?v=1726236534"
+  ],
+  "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L"
+  ],
+  "variants": [
+    {
+      "size": "XS",
+      "color": "White",
+      "availability": "in_stock"
+    },
+    {
+      "size": "S",
+      "color": "White",
+      "availability": "in_stock"
+    },
+    {
+      "size": "M",
+      "color": "White",
+      "availability": "in_stock"
+    },
+    {
+      "size": "L",
+      "color": "White",
+      "availability": "in_stock"
+    }
+  ],
+  "availability": "in_stock",
+  "productURL": "https://ludovicdesaintsernin.com/products/white-oversized-tulip-print-t-shirt",
+  "categoryPage": "https://ludovicdesaintsernin.com/collections/unisex-tops",
+  "scrapeTimestamp": "2025-08-11 19:35:12"
+},
+{
+  "brand": "Ludovic de Saint Sernin",
+  "name": "Frank Diaz Print T-Shirt in Cotton - 9713338515789",
+  "description": "Our classic oversized cotton T-Shirt features a round neckline and banded finish, showcasing Robert Mapplethorpe's \"Frank Diaz, 1980\" artwork. © Robert Mapplethorpe Foundation. Used by permission",
+  "price": 100,
+  "currency": "EUR",
+  "category": "Tops",
+  "colors": [
+    "Black"
+  ],
+  "gender": "UNISEX",
+  "mainImage": "https://ludovicdesaintsernin.com/cdn/shop/files/Artboard_16_3dc0cba6-f633-42ef-8088-7d8de90deb9d.jpg?v=1730815522",
+  "images": [
+    "https://ludovicdesaintsernin.com/cdn/shop/files/Artboard_17_b1b1366b-12d9-4128-be3a-b156da3b3c55.jpg?v=1730815522",
+    "https://ludovicdesaintsernin.com/cdn/shop/files/Artboard179.jpg?v=1726235389",
+    "https://ludovicdesaintsernin.com/cdn/shop/files/Artboard180.jpg?v=1726235388"
+  ],
+  "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L"
+  ],
+  "variants": [
+    {
+      "size": "XS",
+      "color": "Black",
+      "availability": "in_stock"
+    },
+    {
+      "size": "S",
+      "color": "Black",
+      "availability": "in_stock"
+    },
+    {
+      "size": "M",
+      "color": "Black",
+      "availability": "in_stock"
+    },
+    {
+      "size": "L",
+      "color": "Black",
+      "availability": "in_stock"
+    }
+  ],
+  "availability": "in_stock",
+  "productURL": "https://ludovicdesaintsernin.com/products/black-oversized-horns-print-t-shirt",
+  "categoryPage": "https://ludovicdesaintsernin.com/collections/unisex-tops",
+  "scrapeTimestamp": "2025-08-11 19:35:14"
+},
+{
+  "brand": "Ludovic de Saint Sernin",
+  "name": "Carrie Top - 9928474689869",
+  "description": "The Carrie Top takes inspiration from the Carrie Dress, featuring a sleek, form-fitting silhouette with a standout knotted harness detail that accentuates the plunging neckline. The sheer fabric evokes the material used for ballet tights, reflecting the collection's ballet-inspired theme.",
+  "price": 530,
+  "currency": "EUR",
+  "category": "Tops",
+  "colors": [
+    "White"
+  ],
+  "gender": "UNISEX",
+  "mainImage": "https://ludovicdesaintsernin.com/cdn/shop/files/White_CarrieTop1.jpg?v=1737646267",
+  "images": [
+    "https://ludovicdesaintsernin.com/cdn/shop/files/White_CarrieTop2.jpg?v=1737646277"
+  ],
+  "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L"
+  ],
+  "variants": [
+    {
+      "size": "XS",
+      "color": "White",
+      "availability": "in_stock"
+    },
+    {
+      "size": "S",
+      "color": "White",
+      "availability": "in_stock"
+    },
+    {
+      "size": "M",
+      "color": "White",
+      "availability": "in_stock"
+    },
+    {
+      "size": "L",
+      "color": "White",
+      "availability": "in_stock"
+    }
+  ],
+  "availability": "in_stock",
+  "productURL": "https://ludovicdesaintsernin.com/products/carrie-top",
+  "categoryPage": "https://ludovicdesaintsernin.com/collections/unisex-tops",
+  "scrapeTimestamp": "2025-08-11 19:35:15"
+},
+{
+  "brand": "Ludovic de Saint Sernin",
+  "name": "Carrie Top - 9928474755405",
+  "description": "The Carrie Top takes inspiration from the Carrie Dress, featuring a sleek, form-fitting silhouette with a standout knotted harness detail that accentuates the plunging neckline. The sheer fabric evokes the material used for ballet tights, reflecting the collection's ballet-inspired theme.",
+  "price": 530,
+  "currency": "EUR",
+  "category": "Tops",
+  "colors": [
+    "Black"
+  ],
+  "gender": "UNISEX",
+  "mainImage": "https://ludovicdesaintsernin.com/cdn/shop/files/Artboard6_96fbc2d5-171a-4330-8665-f28fc2f47362.jpg?v=1741796598",
+  "images": [
+    "https://ludovicdesaintsernin.com/cdn/shop/files/Artboard7_1aab0370-7825-4523-a5c6-ee5ad76f41e9.jpg?v=1741796598"
+  ],
+  "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L"
+  ],
+  "variants": [
+    {
+      "size": "XS",
+      "color": "Black",
+      "availability": "out_of_stock"
+    },
+    {
+      "size": "S",
+      "color": "Black",
+      "availability": "in_stock"
+    },
+    {
+      "size": "M",
+      "color": "Black",
+      "availability": "in_stock"
+    },
+    {
+      "size": "L",
+      "color": "Black",
+      "availability": "in_stock"
+    }
+  ],
+  "availability": "in_stock",
+  "productURL": "https://ludovicdesaintsernin.com/products/black-carrie-top",
+  "categoryPage": "https://ludovicdesaintsernin.com/collections/unisex-tops",
+  "scrapeTimestamp": "2025-08-11 19:35:17"
+},
+{
+  "brand": "Ludovic de Saint Sernin",
+  "name": "Mesh LdSS Crystal Tank Top - 8615164477773",
+  "description": "Crafted from a single layer of stretch fabric, our LdSS Crystal Tank Top conforms to the body for a snug fit. Embellished with the iconic LdSS Swarovski crystal logo.",
+  "price": 250,
+  "currency": "EUR",
+  "category": "Tops",
+  "colors": [
+    "Rose"
+  ],
+  "gender": "UNISEX",
+  "mainImage": "https://ludovicdesaintsernin.com/cdn/shop/files/Artboard29_6b2f5033-aef5-43f9-9779-e345cc874474.jpg?v=1730390262",
+  "images": [
+    "https://ludovicdesaintsernin.com/cdn/shop/files/Artboard30_bf27824a-8de5-4f25-8f21-4726e4fb6282.jpg?v=1730390264",
+    "https://ludovicdesaintsernin.com/cdn/shop/files/pinktop1_5d07c9ef-e746-4d97-8073-58bb2701dd10.jpg?v=1718801460",
+    "https://ludovicdesaintsernin.com/cdn/shop/files/pinktop2_bf21c53d-1c60-4865-a7c5-0192489c194d.jpg?v=1718801489",
+    "https://ludovicdesaintsernin.com/cdn/shop/files/pinktop4_77393f9d-6446-411d-8bb2-9df8d3c3032a.jpg?v=1718801503",
+    "https://ludovicdesaintsernin.com/cdn/shop/files/pinktop3_fbec3984-f723-434b-8af6-d8edb4ef0ebb.jpg?v=1718801518"
+  ],
+  "sizes": [
+    "L",
+    "M",
+    "S",
+    "XS"
+  ],
+  "variants": [
+    {
+      "size": "L",
+      "color": "Rose",
+      "availability": "out_of_stock"
+    },
+    {
+      "size": "M",
+      "color": "Rose",
+      "availability": "out_of_stock"
+    },
+    {
+      "size": "S",
+      "color": "Rose",
+      "availability": "in_stock"
+    },
+    {
+      "size": "XS",
+      "color": "Rose",
+      "availability": "out_of_stock"
+    }
+  ],
+  "availability": "in_stock",
+  "productURL": "https://ludovicdesaintsernin.com/products/rose-mesh-logo-tank-top",
+  "categoryPage": "https://ludovicdesaintsernin.com/collections/unisex-tops",
+  "scrapeTimestamp": "2025-08-11 19:35:18"
+},
+{
+  "brand": "Ludovic de Saint Sernin",
+  "name": "Halter Top - 9928477638989",
+  "description": "Our Halter Top is made from lightweight, supple stretch fabric that conforms to the body for a snug fit.",
+  "price": 245,
+  "currency": "EUR",
+  "category": "Tops",
+  "colors": [
+    "White"
+  ],
+  "gender": "UNISEX",
+  "mainImage": "https://ludovicdesaintsernin.com/cdn/shop/files/White_HalterTop1.jpg?v=1737642442",
+  "images": [
+    "https://ludovicdesaintsernin.com/cdn/shop/files/White_HalterTop2.jpg?v=1737642455"
+  ],
+  "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L",
+    "XL"
+  ],
+  "variants": [
+    {
+      "size": "XS",
+      "color": "White",
+      "availability": "out_of_stock"
+    },
+    {
+      "size": "S",
+      "color": "White",
+      "availability": "out_of_stock"
+    },
+    {
+      "size": "M",
+      "color": "White",
+      "availability": "out_of_stock"
+    },
+    {
+      "size": "L",
+      "color": "White",
+      "availability": "out_of_stock"
+    },
+    {
+      "size": "XL",
+      "color": "White",
+      "availability": "in_stock"
+    }
+  ],
+  "availability": "in_stock",
+  "productURL": "https://ludovicdesaintsernin.com/products/white-halter-top",
+  "categoryPage": "https://ludovicdesaintsernin.com/collections/unisex-tops",
+  "scrapeTimestamp": "2025-08-11 19:35:20"
+},
+{
+  "brand": "Ludovic de Saint Sernin",
+  "name": "Halter Top - 9928481734989",
+  "description": "Our Halter Top is made from lightweight, supple stretch fabric that conforms to the body for a snug fit.",
+  "price": 245,
+  "currency": "EUR",
+  "category": "Tops",
+  "colors": [
+    "Black"
+  ],
+  "gender": "UNISEX",
+  "mainImage": "https://ludovicdesaintsernin.com/cdn/shop/files/Black_HalterTop_2.jpg?v=1748877732",
+  "images": [
+    "https://ludovicdesaintsernin.com/cdn/shop/files/Black_HalterTop2_1.jpg?v=1749121056"
+  ],
+  "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L",
+    "XL"
+  ],
+  "variants": [
+    {
+      "size": "XS",
+      "color": "Black",
+      "availability": "out_of_stock"
+    },
+    {
+      "size": "S",
+      "color": "Black",
+      "availability": "out_of_stock"
+    },
+    {
+      "size": "M",
+      "color": "Black",
+      "availability": "out_of_stock"
+    },
+    {
+      "size": "L",
+      "color": "Black",
+      "availability": "in_stock"
+    },
+    {
+      "size": "XL",
+      "color": "Black",
+      "availability": "out_of_stock"
+    }
+  ],
+  "availability": "in_stock",
+  "productURL": "https://ludovicdesaintsernin.com/products/black-halter-top-ss25",
+  "categoryPage": "https://ludovicdesaintsernin.com/collections/unisex-tops",
+  "scrapeTimestamp": "2025-08-11 19:35:22"
+},
+{
+  "brand": "Ludovic de Saint Sernin",
+  "name": "Chaps Pants in Denim - 9928475738445",
+  "description": "The Chaps Pants are made from soft denim, featuring wide legs with eyelet diamond-shaped patterns and an adjustable eyelet belt for a customised fit. With a loose, flattering cut and metallic accents, they are designed for rebellious spirits. The style falls on the hips for a low-rise look. Size Guide: Size Hip * XS 86 cm S 90 cm M 94 cm L 100 cm *Measurements were not done on a model but a flat surface.",
+  "price": 540,
+  "currency": "EUR",
+  "category": "Bottoms",
+  "colors": [
+    "Black"
+  ],
+  "gender": "MEN",
+  "mainImage": "https://ludovicdesaintsernin.com/cdn/shop/files/BlackChaps_1.jpg?v=1748880580",
+  "images": [
+    "https://ludovicdesaintsernin.com/cdn/shop/files/BlackChaps_2.jpg?v=1748880580"
+  ],
+  "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L"
+  ],
+  "variants": [
+    {
+      "size": "XS",
+      "color": "Black",
+      "availability": "out_of_stock"
+    },
+    {
+      "size": "S",
+      "color": "Black",
+      "availability": "out_of_stock"
+    },
+    {
+      "size": "M",
+      "color": "Black",
+      "availability": "in_stock"
+    },
+    {
+      "size": "L",
+      "color": "Black",
+      "availability": "out_of_stock"
+    }
+  ],
+  "availability": "in_stock",
+  "productURL": "https://ludovicdesaintsernin.com/products/black-chaps-pants",
+  "categoryPage": "https://ludovicdesaintsernin.com/collections/men-bottoms",
+  "scrapeTimestamp": "2025-08-11 19:35:30"
+},
+{
+  "brand": "Ludovic de Saint Sernin",
+  "name": "Go To Shirt in Cotton - 9928477344077",
+  "description": "Our Go-To Shirt is crafted for ultimate comfort, made from breathable, thick, and soft braided Japanese fabric. It pairs perfectly with our Boxer Pants or Boxer Shorts.",
+  "price": 325,
+  "currency": "EUR",
+  "category": "Tops",
+  "colors": [
+    "Cream"
+  ],
+  "gender": "MEN",
+  "mainImage": "https://ludovicdesaintsernin.com/cdn/shop/files/Braided_Cotton1.jpg?v=1738753773",
+  "images": [
+    "https://ludovicdesaintsernin.com/cdn/shop/files/Braided_Cotton2.jpg?v=1738753777"
+  ],
+  "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L"
+  ],
+  "variants": [
+    {
+      "size": "XS",
+      "color": "Cream",
+      "availability": "out_of_stock"
+    },
+    {
+      "size": "S",
+      "color": "Cream",
+      "availability": "in_stock"
+    },
+    {
+      "size": "M",
+      "color": "Cream",
+      "availability": "out_of_stock"
+    },
+    {
+      "size": "L",
+      "color": "Cream",
+      "availability": "out_of_stock"
+    }
+  ],
+  "availability": "in_stock",
+  "productURL": "https://ludovicdesaintsernin.com/products/go-to-shirt-in-braided-cotton",
+  "categoryPage": "https://ludovicdesaintsernin.com/collections/men-tops",
+  "scrapeTimestamp": "2025-08-11 19:35:31"
+},
+{
+  "brand": "Ludovic de Saint Sernin",
+  "name": "Diamond Eyelet Swim Shorts - 10146558181709",
+  "description": "Introducing our newest LdSS swimwear style. These swim shorts feature an elasticated waistband with adjustable drawstrings for optimal fit and comfort, along with two side pockets and a breathable micro-mesh lining. Adorned with our iconic diamond-shaped LdSS eyelets, each pair comes in its own branded pouch — designed to protect your swimwear while traveling or after sun-drenched days. Size Guide: Size Waist * Waist Stretched * XS 68 cm 86 cm S 72 cm 90 cm M 76 cm 94 cm L 80 cm 98 cm *Measurements were not done on a model but a flat surface. For hygiene purposes we do not accept returns or exchanges for swimwear.",
+  "price": 240,
+  "currency": "EUR",
+  "category": "Swimwear",
+  "colors": [],
+  "gender": "MEN",
+  "mainImage": "https://ludovicdesaintsernin.com/cdn/shop/files/4.jpg?v=1754916429",
+  "images": [
+    "https://ludovicdesaintsernin.com/cdn/shop/files/008_2_9392c06f-75ba-4cc5-a97d-0e4720d0996a.jpg?v=1754916421",
+    "https://ludovicdesaintsernin.com/cdn/shop/files/008_1_c779848c-0997-43ed-88de-dc0eaf30faf1.jpg?v=1754916421",
+    "https://ludovicdesaintsernin.com/cdn/shop/files/Facetune_26-06-2025-17-44-24.jpg?v=1754916421",
+    "https://ludovicdesaintsernin.com/cdn/shop/files/6_ca3bfe6d-7112-4975-b9d1-e2513d3d6bfa.jpg?v=1752845429",
+    "https://ludovicdesaintsernin.com/cdn/shop/files/023_3.jpg?v=1752845441"
+  ],
+  "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L"
+  ],
+  "variants": [
+    {
+      "size": "XS",
+      "color": "",
+      "availability": "in_stock"
+    },
+    {
+      "size": "S",
+      "color": "",
+      "availability": "in_stock"
+    },
+    {
+      "size": "M",
+      "color": "",
+      "availability": "in_stock"
+    },
+    {
+      "size": "L",
+      "color": "",
+      "availability": "in_stock"
+    }
+  ],
+  "availability": "in_stock",
+  "productURL": "https://ludovicdesaintsernin.com/products/swim-boxer-shorts-brown-copy",
+  "categoryPage": "https://ludovicdesaintsernin.com/collections/men-swimwear",
+  "scrapeTimestamp": "2025-08-11 19:35:33"
+},
+{
+  "brand": "Ludovic de Saint Sernin",
+  "name": "Signature Swim Briefs - 10146495955277",
+  "description": "Our Signature Swim Briefs have been reimagined and refined. This updated style features adjustable drawstrings that wrap around the waist, offering an optimal fit and comfort. A breathable micro-mesh lining sits discreetly behind the iconic lace-up crotch preventing direct contact between skin and metal components. UPF 50+ sun protection helps prevent fabric damage caused by UV exposure. OEKO-TEX®️ certification ensures the material is free from substances that could compromise health or well-being. Each pair comes in its own branded pouch — designed to protect your swimwear while traveling or after sun-drenched days. Size Guide: Size Waist * XS 69 cm S 73 cm M 77 cm L 81 cm *Measurements were not done on a model but a flat surface. For hygiene purposes we do not accept returns or exchanges for swimwear.",
+  "price": 220,
+  "currency": "EUR",
+  "category": "Swimwear",
+  "colors": [],
+  "gender": "MEN",
+  "mainImage": "https://ludovicdesaintsernin.com/cdn/shop/files/10_3fbbf245-32fa-49d7-a18d-e577f89a69ec.jpg?v=1754916376",
+  "images": [
+    "https://ludovicdesaintsernin.com/cdn/shop/files/Facetune_26-06-2025-18-17-41.jpg?v=1754916348",
+    "https://ludovicdesaintsernin.com/cdn/shop/files/Facetune_26-06-2025-18-18-09.jpg?v=1754916348",
+    "https://ludovicdesaintsernin.com/cdn/shop/files/Facetune_26-06-2025-17-53-56.jpg?v=1754916348",
+    "https://ludovicdesaintsernin.com/cdn/shop/files/11.jpg?v=1751376079",
+    "https://ludovicdesaintsernin.com/cdn/shop/files/023_3.jpg?v=1752845441"
+  ],
+  "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L"
+  ],
+  "variants": [
+    {
+      "size": "XS",
+      "color": "",
+      "availability": "in_stock"
+    },
+    {
+      "size": "S",
+      "color": "",
+      "availability": "in_stock"
+    },
+    {
+      "size": "M",
+      "color": "",
+      "availability": "in_stock"
+    },
+    {
+      "size": "L",
+      "color": "",
+      "availability": "in_stock"
+    }
+  ],
+  "availability": "in_stock",
+  "productURL": "https://ludovicdesaintsernin.com/products/signature-swim-briefs-white-copy",
+  "categoryPage": "https://ludovicdesaintsernin.com/collections/men-swimwear",
+  "scrapeTimestamp": "2025-08-11 19:35:36"
+},
+{
+  "brand": "Ludovic de Saint Sernin",
+  "name": "Signature Swim Thong - 10146519253325",
+  "description": "Our Signature Swim Thongs have been reimagined and refined. This updated style features adjustable drawstrings that wrap around the waist, offering an optimal fit and comfort. A breathable micro-mesh lining sits discreetly behind the iconic lace-up crotch preventing direct contact between skin and metal components. UPF 50+ sun protection helps prevent fabric damage caused by UV exposure. OEKO-TEX®️ certification ensures the material is free from substances that could compromise health or well-being. Each pair comes in its own branded pouch — designed to protect your swimwear while traveling or after sun-drenched days. Size Guide: Size Waist * XS 69 cm S 73 cm M 77 cm L 81 cm *Measurements were not done on a model but a flat surface. For hygiene purposes we do not accept returns or exchanges for swimwear.",
+  "price": 220,
+  "currency": "EUR",
+  "category": "Swimwear",
+  "colors": [],
+  "gender": "MEN",
+  "mainImage": "https://ludovicdesaintsernin.com/cdn/shop/files/20_5ba41b7b-fce2-42e6-9cc5-673580e9b0c8.jpg?v=1754916402",
+  "images": [
+    "https://ludovicdesaintsernin.com/cdn/shop/files/Facetune_26-06-2025-18-27-35.jpg?v=1754916391",
+    "https://ludovicdesaintsernin.com/cdn/shop/files/Facetune_26-06-2025-18-27-07.jpg?v=1754916391",
+    "https://ludovicdesaintsernin.com/cdn/shop/files/Facetune_26-06-2025-18-28-31.jpg?v=1754916391",
+    "https://ludovicdesaintsernin.com/cdn/shop/files/19_cee1be22-6368-4d1e-b902-3a11581dfa0a.jpg?v=1751376161",
+    "https://ludovicdesaintsernin.com/cdn/shop/files/023_3.jpg?v=1752845441"
+  ],
+  "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L"
+  ],
+  "variants": [
+    {
+      "size": "XS",
+      "color": "",
+      "availability": "in_stock"
+    },
+    {
+      "size": "S",
+      "color": "",
+      "availability": "in_stock"
+    },
+    {
+      "size": "M",
+      "color": "",
+      "availability": "in_stock"
+    },
+    {
+      "size": "L",
+      "color": "",
+      "availability": "in_stock"
+    }
+  ],
+  "availability": "in_stock",
+  "productURL": "https://ludovicdesaintsernin.com/products/signature-swim-thong-brown",
+  "categoryPage": "https://ludovicdesaintsernin.com/collections/men-swimwear",
+  "scrapeTimestamp": "2025-08-11 19:35:37"
+},
+{
+  "brand": "Ludovic de Saint Sernin",
+  "name": "Diamond Eyelet Swim Shorts - 10147683500365",
+  "description": "Introducing our newest LdSS swimwear style. These swim shorts feature an elasticated waistband with adjustable drawstrings for optimal fit and comfort, along with two side pockets and a breathable micro-mesh lining. Adorned with our iconic diamond-shaped LdSS eyelets, each pair comes in its own branded pouch — designed to protect your swimwear while traveling or after sun-drenched days. Size Guide: Size Waist * Waist Stretched * XS 68 cm 86 cm S 72 cm 90 cm M 76 cm 94 cm L 80 cm 98 cm *Measurements were not done on a model but a flat surface. For hygiene purposes we do not accept returns or exchanges for swimwear.",
+  "price": 240,
+  "currency": "EUR",
+  "category": "Swimwear",
+  "colors": [],
+  "gender": "MEN",
+  "mainImage": "https://ludovicdesaintsernin.com/cdn/shop/files/2.jpg?v=1754916326",
+  "images": [
+    "https://ludovicdesaintsernin.com/cdn/shop/files/009_2_953e63b8-5d4a-4817-9ec9-0de4b2deede8.jpg?v=1754916315",
+    "https://ludovicdesaintsernin.com/cdn/shop/files/009_1_9ad0a706-751d-44f8-8792-774ee2439c1b.jpg?v=1754916315",
+    "https://ludovicdesaintsernin.com/cdn/shop/files/Facetune_26-06-2025-17-46-40.jpg?v=1754916315",
+    "https://ludovicdesaintsernin.com/cdn/shop/files/3.jpg?v=1752845441",
+    "https://ludovicdesaintsernin.com/cdn/shop/files/023_3.jpg?v=1752845441"
+  ],
+  "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L"
+  ],
+  "variants": [
+    {
+      "size": "XS",
+      "color": "",
+      "availability": "in_stock"
+    },
+    {
+      "size": "S",
+      "color": "",
+      "availability": "in_stock"
+    },
+    {
+      "size": "M",
+      "color": "",
+      "availability": "in_stock"
+    },
+    {
+      "size": "L",
+      "color": "",
+      "availability": "in_stock"
+    }
+  ],
+  "availability": "in_stock",
+  "productURL": "https://ludovicdesaintsernin.com/products/swim-boxer-shorts-white",
+  "categoryPage": "https://ludovicdesaintsernin.com/collections/men-swimwear",
+  "scrapeTimestamp": "2025-08-11 19:35:38"
+},
+{
+  "brand": "Ludovic de Saint Sernin",
+  "name": "Signature Swim Briefs - 10146487763277",
+  "description": "Our Signature Swim Briefs have been reimagined and refined. This updated style features adjustable drawstrings that wrap around the waist, offering an optimal fit and comfort. A breathable micro-mesh lining sits discreetly behind the iconic lace-up crotch preventing direct contact between skin and metal components. UPF 50+ sun protection helps prevent fabric damage caused by UV exposure. OEKO-TEX®️ certification ensures the material is free from substances that could compromise health or well-being. Each pair comes in its own branded pouch — designed to protect your swimwear while traveling or after sun-drenched days. Size Guide: Size Waist * XS 69 cm S 73 cm M 77 cm L 81 cm *Measurements were not done on a model but a flat surface. For hygiene purposes we do not accept returns or exchanges for swimwear.",
+  "price": 220,
+  "currency": "EUR",
+  "category": "Swimwear",
+  "colors": [],
+  "gender": "MEN",
+  "mainImage": "https://ludovicdesaintsernin.com/cdn/shop/files/9_8905ea61-68ae-4ce4-ae25-4d5d2a3ea964.jpg?v=1754916260",
+  "images": [
+    "https://ludovicdesaintsernin.com/cdn/shop/files/Facetune_26-06-2025-18-21-18.jpg?v=1754916246",
+    "https://ludovicdesaintsernin.com/cdn/shop/files/Facetune_26-06-2025-18-21-38.jpg?v=1754916246",
+    "https://ludovicdesaintsernin.com/cdn/shop/files/Facetune_26-06-2025-18-02-37.jpg?v=1754916246",
+    "https://ludovicdesaintsernin.com/cdn/shop/files/5_2354dd91-a7e0-4050-9f25-19d26579a3af.jpg?v=1751373896",
+    "https://ludovicdesaintsernin.com/cdn/shop/files/023_3.jpg?v=1752845441"
+  ],
+  "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L"
+  ],
+  "variants": [
+    {
+      "size": "XS",
+      "color": "",
+      "availability": "in_stock"
+    },
+    {
+      "size": "S",
+      "color": "",
+      "availability": "in_stock"
+    },
+    {
+      "size": "M",
+      "color": "",
+      "availability": "in_stock"
+    },
+    {
+      "size": "L",
+      "color": "",
+      "availability": "in_stock"
+    }
+  ],
+  "availability": "in_stock",
+  "productURL": "https://ludovicdesaintsernin.com/products/signature-swim-briefs-black-copy",
+  "categoryPage": "https://ludovicdesaintsernin.com/collections/men-swimwear",
+  "scrapeTimestamp": "2025-08-11 19:35:42"
+},
+{
+  "brand": "Ludovic de Saint Sernin",
+  "name": "Signature Swim Thong - 10146546712909",
+  "description": "Our Signature Swim Thongs have been reimagined and refined. This updated style features adjustable drawstrings that wrap around the waist, offering an optimal fit and comfort. A breathable micro-mesh lining sits discreetly behind the iconic lace-up crotch preventing direct contact between skin and metal components. UPF 50+ sun protection helps prevent fabric damage caused by UV exposure. OEKO-TEX®️ certification ensures the material is free from substances that could compromise health or well-being. Each pair comes in its own branded pouch — designed to protect your swimwear while traveling or after sun-drenched days. Size Guide: Size Waist * XS 69 cm S 73 cm M 77 cm L 81 cm *Measurements were not done on a model but a flat surface. For hygiene purposes we do not accept returns or exchanges for swimwear.",
+  "price": 220,
+  "currency": "EUR",
+  "category": "Swimwear",
+  "colors": [],
+  "gender": "MEN",
+  "mainImage": "https://ludovicdesaintsernin.com/cdn/shop/files/16_98de9314-3f17-4425-9e8d-9b7639ddd2ea.jpg?v=1754916294",
+  "images": [
+    "https://ludovicdesaintsernin.com/cdn/shop/files/Facetune_26-06-2025-18-31-42.jpg?v=1754916279",
+    "https://ludovicdesaintsernin.com/cdn/shop/files/Facetune_26-06-2025-18-31-08.jpg?v=1754916279",
+    "https://ludovicdesaintsernin.com/cdn/shop/files/Facetune_26-06-2025-18-32-33.jpg?v=1754916279",
+    "https://ludovicdesaintsernin.com/cdn/shop/files/17.jpg?v=1751373959",
+    "https://ludovicdesaintsernin.com/cdn/shop/files/023_3.jpg?v=1752845441"
+  ],
+  "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L"
+  ],
+  "variants": [
+    {
+      "size": "XS",
+      "color": "",
+      "availability": "in_stock"
+    },
+    {
+      "size": "S",
+      "color": "",
+      "availability": "in_stock"
+    },
+    {
+      "size": "M",
+      "color": "",
+      "availability": "in_stock"
+    },
+    {
+      "size": "L",
+      "color": "",
+      "availability": "in_stock"
+    }
+  ],
+  "availability": "in_stock",
+  "productURL": "https://ludovicdesaintsernin.com/products/signature-swim-thong-brown-copy",
+  "categoryPage": "https://ludovicdesaintsernin.com/collections/men-swimwear",
+  "scrapeTimestamp": "2025-08-11 19:35:42"
+},
+{
+  "brand": "Ludovic de Saint Sernin",
+  "name": "Diamond Eyelet Swim Shorts - 10146555396429",
+  "description": "Introducing our newest LdSS swimwear style. These swim shorts feature an elasticated waistband with adjustable drawstrings for optimal fit and comfort, along with two side pockets and a breathable micro-mesh lining. Adorned with our iconic diamond-shaped LdSS eyelets, each pair comes in its own branded pouch — designed to protect your swimwear while traveling or after sun-drenched days. Size Guide: Size Waist * Waist Stretched * XS 68 cm 86 cm S 72 cm 90 cm M 76 cm 94 cm L 80 cm 98 cm *Measurements were not done on a model but a flat surface. For hygiene purposes we do not accept returns or exchanges for swimwear.",
+  "price": 240,
+  "currency": "EUR",
+  "category": "Swimwear",
+  "colors": [],
+  "gender": "MEN",
+  "mainImage": "https://ludovicdesaintsernin.com/cdn/shop/files/7_48d11fed-7a09-448e-a29e-7d053a18487b.jpg?v=1754916215",
+  "images": [
+    "https://ludovicdesaintsernin.com/cdn/shop/files/007_2_21854919-a442-429f-afef-80e3e6aea603.jpg?v=1754916200",
+    "https://ludovicdesaintsernin.com/cdn/shop/files/007_1_5c0d80f6-6d89-4981-8a59-89af60e6510a.jpg?v=1754916200",
+    "https://ludovicdesaintsernin.com/cdn/shop/files/Facetune_26-06-2025-17-37-10.jpg?v=1754916200",
+    "https://ludovicdesaintsernin.com/cdn/shop/files/1_c791f9f1-b838-47f2-bab5-13ff699c8d12.jpg?v=1752845418",
+    "https://ludovicdesaintsernin.com/cdn/shop/files/023_3.jpg?v=1752845441"
+  ],
+  "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L"
+  ],
+  "variants": [
+    {
+      "size": "XS",
+      "color": "",
+      "availability": "in_stock"
+    },
+    {
+      "size": "S",
+      "color": "",
+      "availability": "in_stock"
+    },
+    {
+      "size": "M",
+      "color": "",
+      "availability": "in_stock"
+    },
+    {
+      "size": "L",
+      "color": "",
+      "availability": "in_stock"
+    }
+  ],
+  "availability": "in_stock",
+  "productURL": "https://ludovicdesaintsernin.com/products/swim-boxer-shorts-black",
+  "categoryPage": "https://ludovicdesaintsernin.com/collections/men-swimwear",
+  "scrapeTimestamp": "2025-08-11 19:35:44"
+},
+{
+  "brand": "Ludovic de Saint Sernin",
+  "name": "Signature Swim Thong - 10146513748301",
+  "description": "Our Signature Swim Thongs have been reimagined and refined. This updated style features adjustable drawstrings that wrap around the waist, offering an optimal fit and comfort. A breathable micro-mesh lining sits discreetly behind the iconic lace-up crotch preventing direct contact between skin and metal components. UPF 50+ sun protection helps prevent fabric damage caused by UV exposure. OEKO-TEX®️ certification ensures the material is free from substances that could compromise health or well-being. Each pair comes in its own branded pouch — designed to protect your swimwear while traveling or after sun-drenched days. Size Guide: Size Waist * XS 69 cm S 73 cm M 77 cm L 81 cm *Measurements were not done on a model but a flat surface. For hygiene purposes we do not accept returns or exchanges for swimwear.",
+  "price": 220,
+  "currency": "EUR",
+  "category": "Swimwear",
+  "colors": [],
+  "gender": "MEN",
+  "mainImage": "https://ludovicdesaintsernin.com/cdn/shop/files/14_12f76f00-4919-459c-b963-19c9eda972fd.jpg?v=1754916174",
+  "images": [
+    "https://ludovicdesaintsernin.com/cdn/shop/files/Facetune_26-06-2025-18-07-09.jpg?v=1754916174",
+    "https://ludovicdesaintsernin.com/cdn/shop/files/Facetune_26-06-2025-18-25-11.jpg?v=1754916174",
+    "https://ludovicdesaintsernin.com/cdn/shop/files/Facetune_26-06-2025-18-08-28.jpg?v=1754916174",
+    "https://ludovicdesaintsernin.com/cdn/shop/files/15_2ca6395f-00ae-45a1-8b6a-dda3671e408a.jpg?v=1751373686",
+    "https://ludovicdesaintsernin.com/cdn/shop/files/023_3.jpg?v=1752845441"
+  ],
+  "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L"
+  ],
+  "variants": [
+    {
+      "size": "XS",
+      "color": "",
+      "availability": "in_stock"
+    },
+    {
+      "size": "S",
+      "color": "",
+      "availability": "in_stock"
+    },
+    {
+      "size": "M",
+      "color": "",
+      "availability": "in_stock"
+    },
+    {
+      "size": "L",
+      "color": "",
+      "availability": "in_stock"
+    }
+  ],
+  "availability": "in_stock",
+  "productURL": "https://ludovicdesaintsernin.com/products/signature-swim-thong-black",
+  "categoryPage": "https://ludovicdesaintsernin.com/collections/men-swimwear",
+  "scrapeTimestamp": "2025-08-11 19:35:47"
+},
+{
+  "brand": "Ludovic de Saint Sernin",
+  "name": "Signature Swim Briefs - 10146481635661",
+  "description": "Our Signature Swim Briefs have been reimagined and refined. This updated style features adjustable drawstrings that wrap around the waist, offering an optimal fit and comfort. A breathable micro-mesh lining sits discreetly behind the iconic lace-up crotch preventing direct contact between skin and metal components. UPF 50+ sun protection helps prevent fabric damage caused by UV exposure. OEKO-TEX®️ certification ensures the material is free from substances that could compromise health or well-being. Each pair comes in its own branded pouch — designed to protect your swimwear while traveling or after sun-drenched days. Size Guide: Size Waist * XS 69 cm S 73 cm M 77 cm L 81 cm *Measurements were not done on a model but a flat surface. For hygiene purposes we do not accept returns or exchanges for swimwear.",
+  "price": 220,
+  "currency": "EUR",
+  "category": "Swimwear",
+  "colors": [],
+  "gender": "MEN",
+  "mainImage": "https://ludovicdesaintsernin.com/cdn/shop/files/12.jpg?v=1754916155",
+  "images": [
+    "https://ludovicdesaintsernin.com/cdn/shop/files/Facetune_26-06-2025-18-16-08.jpg?v=1754916142",
+    "https://ludovicdesaintsernin.com/cdn/shop/files/Facetune_26-06-2025-18-16-28.jpg?v=1754916142",
+    "https://ludovicdesaintsernin.com/cdn/shop/files/Facetune_26-06-2025-17-49-19.jpg?v=1754916142",
+    "https://ludovicdesaintsernin.com/cdn/shop/files/13_c29d942f-0ae7-4d1a-ad56-b803c27f9b34.jpg?v=1751373553",
+    "https://ludovicdesaintsernin.com/cdn/shop/files/023_3.jpg?v=1752845441"
+  ],
+  "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L"
+  ],
+  "variants": [
+    {
+      "size": "XS",
+      "color": "",
+      "availability": "in_stock"
+    },
+    {
+      "size": "S",
+      "color": "",
+      "availability": "in_stock"
+    },
+    {
+      "size": "M",
+      "color": "",
+      "availability": "in_stock"
+    },
+    {
+      "size": "L",
+      "color": "",
+      "availability": "in_stock"
+    }
+  ],
+  "availability": "in_stock",
+  "productURL": "https://ludovicdesaintsernin.com/products/signature-swim-briefs",
+  "categoryPage": "https://ludovicdesaintsernin.com/collections/men-swimwear",
+  "scrapeTimestamp": "2025-08-11 19:35:48"
+},
+{
+  "brand": "Ludovic de Saint Sernin",
+  "name": "Alan Shirt in Cotton - 9928476066125",
+  "description": "The Alan Shirt, made from lightweight braided Japanese fabric with a deep V-neckline for a subtly revealing look, embodies the collection's ballet-inspired theme.",
+  "price": 258,
+  "currency": "EUR",
+  "category": "Tops",
+  "colors": [
+    "Black"
+  ],
+  "gender": "MEN",
+  "mainImage": "https://ludovicdesaintsernin.com/cdn/shop/files/Black_AlanShirt1.jpg?v=1737647691",
+  "images": [
+    "https://ludovicdesaintsernin.com/cdn/shop/files/Black_AlanShirt2.jpg?v=1737647738"
+  ],
+  "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L",
+    "XL"
+  ],
+  "variants": [
+    {
+      "size": "XS",
+      "color": "Black",
+      "availability": "out_of_stock"
+    },
+    {
+      "size": "S",
+      "color": "Black",
+      "availability": "out_of_stock"
+    },
+    {
+      "size": "M",
+      "color": "Black",
+      "availability": "out_of_stock"
+    },
+    {
+      "size": "L",
+      "color": "Black",
+      "availability": "out_of_stock"
+    },
+    {
+      "size": "XL",
+      "color": "Black",
+      "availability": "out_of_stock"
+    }
+  ],
+  "availability": "out_of_stock",
+  "productURL": "https://ludovicdesaintsernin.com/products/alan-shirt-in-black",
+  "categoryPage": "https://ludovicdesaintsernin.com/collections/men-tops",
+  "scrapeTimestamp": "2025-08-11 19:35:50"
+},
+{
+  "brand": "Ludovic de Saint Sernin",
+  "name": "Alan Shirt in Leather - 9928476098893",
+  "description": "The Alan Shirt is crafted from fine black leather, featuring a deep V-neckline for a subtly revealing look. Eyelets and lacing adorn the neckline, reflecting the collection's BDSM-inspired theme.",
+  "price": 705,
+  "currency": "EUR",
+  "category": "Tops",
+  "colors": [
+    "Black"
+  ],
+  "gender": "MEN",
+  "mainImage": "https://ludovicdesaintsernin.com/cdn/shop/files/Alan_shirt_recolor_1.jpg?v=1740503506",
+  "images": [
+    "https://ludovicdesaintsernin.com/cdn/shop/files/Alan_shirt_recolor_2.jpg?v=1740503505"
+  ],
+  "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L"
+  ],
+  "variants": [
+    {
+      "size": "XS",
+      "color": "Black",
+      "availability": "out_of_stock"
+    },
+    {
+      "size": "S",
+      "color": "Black",
+      "availability": "out_of_stock"
+    },
+    {
+      "size": "M",
+      "color": "Black",
+      "availability": "out_of_stock"
+    },
+    {
+      "size": "L",
+      "color": "Black",
+      "availability": "out_of_stock"
+    }
+  ],
+  "availability": "out_of_stock",
+  "productURL": "https://ludovicdesaintsernin.com/products/alan-shirt-in-leather",
+  "categoryPage": "https://ludovicdesaintsernin.com/collections/men-tops",
+  "scrapeTimestamp": "2025-08-11 19:35:52"
+},
+{
+  "brand": "Ludovic de Saint Sernin",
+  "name": "Alan Shirt in Cotton - 9928476033357",
+  "description": "The Alan Shirt, made from soft cotton with a deep V-neckline for a subtly revealing look, embodies the collection's ballet-inspired theme.",
+  "price": 480,
+  "currency": "EUR",
+  "category": "Tops",
+  "colors": [
+    "White"
+  ],
+  "gender": "MEN",
+  "mainImage": "https://ludovicdesaintsernin.com/cdn/shop/files/White_AlanShirt1.jpg?v=1748880762",
+  "images": [
+    "https://ludovicdesaintsernin.com/cdn/shop/files/White_AlanShirt2.jpg?v=1748880761"
+  ],
+  "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L",
+    "XL"
+  ],
+  "variants": [
+    {
+      "size": "XS",
+      "color": "White",
+      "availability": "out_of_stock"
+    },
+    {
+      "size": "S",
+      "color": "White",
+      "availability": "in_stock"
+    },
+    {
+      "size": "M",
+      "color": "White",
+      "availability": "out_of_stock"
+    },
+    {
+      "size": "L",
+      "color": "White",
+      "availability": "in_stock"
+    },
+    {
+      "size": "XL",
+      "color": "White",
+      "availability": "out_of_stock"
+    }
+  ],
+  "availability": "in_stock",
+  "productURL": "https://ludovicdesaintsernin.com/products/alan-shirt-in-white",
+  "categoryPage": "https://ludovicdesaintsernin.com/collections/men-tops",
+  "scrapeTimestamp": "2025-08-11 19:35:54"
+},
+{
+  "brand": "Ludovic de Saint Sernin",
+  "name": "Alan Shirt in Cotton - 10073460048205",
+  "description": "The Alan Shirt, made from soft cotton with a deep V-neckline for a subtly revealing look, embodies the collection's ballet-inspired theme.",
+  "price": 480,
+  "currency": "EUR",
+  "category": "Tops",
+  "colors": [
+    "Black"
+  ],
+  "gender": "MEN",
+  "mainImage": "https://ludovicdesaintsernin.com/cdn/shop/files/Alan_Shirt_black1.jpg?v=1748617011",
+  "images": [
+    "https://ludovicdesaintsernin.com/cdn/shop/files/Alan_Shirt_black2.jpg?v=1748617011"
+  ],
+  "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L",
+    "XL"
+  ],
+  "variants": [
+    {
+      "size": "XS",
+      "color": "Black",
+      "availability": "out_of_stock"
+    },
+    {
+      "size": "S",
+      "color": "Black",
+      "availability": "in_stock"
+    },
+    {
+      "size": "M",
+      "color": "Black",
+      "availability": "out_of_stock"
+    },
+    {
+      "size": "L",
+      "color": "Black",
+      "availability": "out_of_stock"
+    },
+    {
+      "size": "XL",
+      "color": "Black",
+      "availability": "in_stock"
+    }
+  ],
+  "availability": "in_stock",
+  "productURL": "https://ludovicdesaintsernin.com/products/alan-shirt-in-black-1",
+  "categoryPage": "https://ludovicdesaintsernin.com/collections/men-tops",
+  "scrapeTimestamp": "2025-08-11 19:35:55"
+},
+{
+  "brand": "Ludovic de Saint Sernin",
+  "name": "Boxer Shorts in Cotton - 9928477475149",
+  "description": "Our Boxer Shorts are made from breathable, thick, and soft braided Japanese fabric, featuring an elastic waistband for a relaxed and comfortable fit. They pair perfectly with our Go To Shirt in Braided Cotton. Size Guide: Size Waist * XS 71 cm S 74 cm M 77 cm L 83 cm *Measurements were not done on a model but a flat surface.",
+  "price": 173,
+  "currency": "EUR",
+  "category": "Bottoms",
+  "colors": [
+    "Cream"
+  ],
+  "gender": "MEN",
+  "mainImage": "https://ludovicdesaintsernin.com/cdn/shop/files/BraidedCotton_BoxerShorts_2.jpg?v=1738754565",
+  "images": [
+    "https://ludovicdesaintsernin.com/cdn/shop/files/BraidedCotton_BoxerShorts_1.jpg?v=1738754565"
+  ],
+  "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L"
+  ],
+  "variants": [
+    {
+      "size": "XS",
+      "color": "Cream",
+      "availability": "in_stock"
+    },
+    {
+      "size": "S",
+      "color": "Cream",
+      "availability": "in_stock"
+    },
+    {
+      "size": "M",
+      "color": "Cream",
+      "availability": "in_stock"
+    },
+    {
+      "size": "L",
+      "color": "Cream",
+      "availability": "out_of_stock"
+    }
+  ],
+  "availability": "in_stock",
+  "productURL": "https://ludovicdesaintsernin.com/products/boxer-shorts-in-braided-cotton",
+  "categoryPage": "https://ludovicdesaintsernin.com/collections/men-bottoms",
+  "scrapeTimestamp": "2025-08-11 19:35:57"
+},
+{
+  "brand": "Ludovic de Saint Sernin",
+  "name": "Boxer Shorts - 9928477409613",
+  "description": "Our Boxer Shorts are made from a semi-sheer fabric, featuring an elastic waistband for a relaxed and comfortable fit. Size Guide: Size Waist * XS 67 cm S 70 cm M 75 cm L 77 cm XL 83 cm *Measurements were not done on a model but a flat surface.",
+  "price": 173,
+  "currency": "EUR",
+  "category": "Bottoms",
+  "colors": [
+    "Black"
+  ],
+  "gender": "MEN",
+  "mainImage": "https://ludovicdesaintsernin.com/cdn/shop/files/Black_BoxerShorts2.jpg?v=1738754769",
+  "images": [
+    "https://ludovicdesaintsernin.com/cdn/shop/files/Black_BoxerShorts1.jpg?v=1738754773"
+  ],
+  "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L",
+    "XL"
+  ],
+  "variants": [
+    {
+      "size": "XS",
+      "color": "Black",
+      "availability": "in_stock"
+    },
+    {
+      "size": "S",
+      "color": "Black",
+      "availability": "in_stock"
+    },
+    {
+      "size": "M",
+      "color": "Black",
+      "availability": "in_stock"
+    },
+    {
+      "size": "L",
+      "color": "Black",
+      "availability": "in_stock"
+    },
+    {
+      "size": "XL",
+      "color": "Black",
+      "availability": "in_stock"
+    }
+  ],
+  "availability": "in_stock",
+  "productURL": "https://ludovicdesaintsernin.com/products/boxer-shorts",
+  "categoryPage": "https://ludovicdesaintsernin.com/collections/men-bottoms",
+  "scrapeTimestamp": "2025-08-11 19:35:58"
+},
+{
+  "brand": "Ludovic de Saint Sernin",
+  "name": "Boxer Pants in Cotton - 9928477376845",
+  "description": "Our Boxer Pants are made from breathable, thick, and soft braided Japanese fabric, featuring an elastic waistband for a relaxed and comfortable fit. Size Guide: Size Waist * XS 71 cm S 74 cm M 78 cm L 81 cm *Measurements were not done on a model but a flat surface.",
+  "price": 283,
+  "currency": "EUR",
+  "category": "Bottoms",
+  "colors": [
+    "Cream"
+  ],
+  "gender": "MEN",
+  "mainImage": "https://ludovicdesaintsernin.com/cdn/shop/files/BraidedCotton_Pant2.jpg?v=1738754040",
+  "images": [
+    "https://ludovicdesaintsernin.com/cdn/shop/files/BraidedCotton_Pants1.jpg?v=1738754040"
+  ],
+  "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L"
+  ],
+  "variants": [
+    {
+      "size": "XS",
+      "color": "Cream",
+      "availability": "in_stock"
+    },
+    {
+      "size": "S",
+      "color": "Cream",
+      "availability": "in_stock"
+    },
+    {
+      "size": "M",
+      "color": "Cream",
+      "availability": "in_stock"
+    },
+    {
+      "size": "L",
+      "color": "Cream",
+      "availability": "out_of_stock"
+    }
+  ],
+  "availability": "in_stock",
+  "productURL": "https://ludovicdesaintsernin.com/products/boxer-pants-in-braided-cotton",
+  "categoryPage": "https://ludovicdesaintsernin.com/collections/men-bottoms",
+  "scrapeTimestamp": "2025-08-11 19:36:06"
+},
+{
+  "brand": "Ludovic de Saint Sernin",
+  "name": "Chaps Shorts in Denim - 9928476197197",
+  "description": "The Chaps Shorts are made from soft denim, featuring diamond-shaped eyelet patterns and an adjustable eyelet belt for a customized fit. The style falls on the hips for a low-rise look. Size Guide: Size Hip * XS 86 cm S 90 cm M 94 cm L 100 cm *Measurements were not done on a model but a flat surface.",
+  "price": 270,
+  "currency": "EUR",
+  "category": "Bottoms",
+  "colors": [
+    "Black"
+  ],
+  "gender": "MEN",
+  "mainImage": "https://ludovicdesaintsernin.com/cdn/shop/files/Black_ChapsShortsDenim1.jpg?v=1737645964",
+  "images": [
+    "https://ludovicdesaintsernin.com/cdn/shop/files/Black_ChapsShortsDenim2.jpg?v=1737645979"
+  ],
+  "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L"
+  ],
+  "variants": [
+    {
+      "size": "XS",
+      "color": "Black",
+      "availability": "out_of_stock"
+    },
+    {
+      "size": "S",
+      "color": "Black",
+      "availability": "out_of_stock"
+    },
+    {
+      "size": "M",
+      "color": "Black",
+      "availability": "in_stock"
+    },
+    {
+      "size": "L",
+      "color": "Black",
+      "availability": "out_of_stock"
+    }
+  ],
+  "availability": "in_stock",
+  "productURL": "https://ludovicdesaintsernin.com/products/chaps-shorts-in-denim",
+  "categoryPage": "https://ludovicdesaintsernin.com/collections/men-bottoms",
+  "scrapeTimestamp": "2025-08-11 19:36:07"
+},
+{
+  "brand": "Ludovic de Saint Sernin",
+  "name": "Black Lace Up Bag Strap - 9732696047949",
+  "description": "Our first ever detachable long strap. Crafted in lamb leather, adorned in our iconic silver eyelets and lacing. The perfect pairing to our cleavage bags.",
+  "price": 145,
+  "currency": "EUR",
+  "category": "Bags",
+  "colors": [
+    "Black"
+  ],
+  "gender": "UNISEX",
+  "mainImage": "https://ludovicdesaintsernin.com/cdn/shop/files/Artboard2_7b72ede5-c78e-4bd6-8c64-8b25946dec9d.jpg?v=1725377124",
+  "images": [
+    "https://ludovicdesaintsernin.com/cdn/shop/files/Edited2.jpg?v=1725439499",
+    "https://ludovicdesaintsernin.com/cdn/shop/files/Finaledit123.jpg?v=1725439969"
+  ],
+  "sizes": [
+    "Default Title"
+  ],
+  "variants": [
+    {
+      "size": "Default Title",
+      "color": "Black",
+      "availability": "in_stock"
+    }
+  ],
+  "availability": "in_stock",
+  "productURL": "https://ludovicdesaintsernin.com/products/black-lace-up-bag-strap",
+  "categoryPage": "https://ludovicdesaintsernin.com/collections/unisex-bags",
+  "scrapeTimestamp": "2025-08-11 19:36:12"
+},
+{
+  "brand": "Ludovic de Saint Sernin",
+  "name": "The Cleavage Bag Silver Embossed Leather - 6783197806647",
+  "description": "Introducing The Cleavage Bag. Crafted from silver embossed leather, complete with our iconic eyelets and lacing.",
+  "price": 413,
+  "currency": "EUR",
+  "category": "Bags",
+  "colors": [
+    "Silver"
+  ],
+  "gender": "UNISEX",
+  "mainImage": "https://ludovicdesaintsernin.com/cdn/shop/files/Artboard_1_e0aeafb5-4214-4466-bccc-1c32e12da875.jpg?v=1733219639",
+  "images": [
+    "https://ludovicdesaintsernin.com/cdn/shop/products/silver2.jpg?v=1733219688",
+    "https://ludovicdesaintsernin.com/cdn/shop/products/silver3.jpg?v=1733219723",
+    "https://ludovicdesaintsernin.com/cdn/shop/products/silver4.jpg?v=1733219744"
+  ],
+  "sizes": [
+    "Default Title"
+  ],
+  "variants": [
+    {
+      "size": "Default Title",
+      "color": "Silver",
+      "availability": "in_stock"
+    }
+  ],
+  "availability": "in_stock",
+  "productURL": "https://ludovicdesaintsernin.com/products/cleavage-colorsilver-python",
+  "categoryPage": "https://ludovicdesaintsernin.com/collections/unisex-bags",
+  "scrapeTimestamp": "2025-08-11 19:36:13"
+},
+{
+  "brand": "Ludovic de Saint Sernin",
+  "name": "The Cleavage Bag in White Patent Embossed Leather - 8615675035981",
+  "description": "Introducing The Cleavage Bag. Crafted from patent white embossed leather, complete with our iconic eyelets and lacing.",
+  "price": 413,
+  "currency": "EUR",
+  "category": "Bags",
+  "colors": [
+    "Embossed Patent White"
+  ],
+  "gender": "UNISEX",
+  "mainImage": "https://ludovicdesaintsernin.com/cdn/shop/files/Artboard_4_5f3cab6d-5d17-4fc4-99dd-9571e86da5fc.jpg?v=1733219641",
+  "images": [
+    "https://ludovicdesaintsernin.com/cdn/shop/files/White5.jpg?v=1733219952",
+    "https://ludovicdesaintsernin.com/cdn/shop/files/White2.jpg?v=1733219984",
+    "https://ludovicdesaintsernin.com/cdn/shop/files/White4_35582add-edd8-4a3e-866f-1521738dbd73.jpg?v=1733220002"
+  ],
+  "sizes": [
+    "Default Title"
+  ],
+  "variants": [
+    {
+      "size": "Default Title",
+      "color": "Embossed Patent White",
+      "availability": "in_stock"
+    }
+  ],
+  "availability": "in_stock",
+  "productURL": "https://ludovicdesaintsernin.com/products/the-cleavage-bag-in-white",
+  "categoryPage": "https://ludovicdesaintsernin.com/collections/unisex-bags",
+  "scrapeTimestamp": "2025-08-11 19:36:16"
+},
+{
+  "brand": "Ludovic de Saint Sernin",
+  "name": "The Cleavage Bag in Mirror Leather - 8615668941133",
+  "description": "Introducing The Cleavage Bag. Crafted from glossy mirror leather, complete with our iconic eyelets and lacing.",
+  "price": 413,
+  "currency": "EUR",
+  "category": "Bags",
+  "colors": [
+    "Mirror"
+  ],
+  "gender": "UNISEX",
+  "mainImage": "https://ludovicdesaintsernin.com/cdn/shop/files/Artboard_8_4a2a3be9-31f8-41f2-a425-fcbff2e45ee3.jpg?v=1733220377",
+  "images": [
+    "https://ludovicdesaintsernin.com/cdn/shop/files/Mirror4.jpg?v=1733220130",
+    "https://ludovicdesaintsernin.com/cdn/shop/files/Mirror2.jpg?v=1733220152",
+    "https://ludovicdesaintsernin.com/cdn/shop/files/Mirror3.jpg?v=1733220172"
+  ],
+  "sizes": [
+    "Default Title"
+  ],
+  "variants": [
+    {
+      "size": "Default Title",
+      "color": "Mirror",
+      "availability": "out_of_stock"
+    }
+  ],
+  "availability": "out_of_stock",
+  "productURL": "https://ludovicdesaintsernin.com/products/the-cleavage-bag-in-mirror",
+  "categoryPage": "https://ludovicdesaintsernin.com/collections/unisex-bags",
+  "scrapeTimestamp": "2025-08-11 19:36:18"
+},
+{
+  "brand": "Ludovic de Saint Sernin",
+  "name": "The Cleavage Crossbody Bag in Blue Patent - 9732688707917",
+  "description": "Introducing the Cleavage Phone Bag. Our first crossbody bag, carefully crafted from patent leather for the glossy finish, adorned with our iconic eyelets and lacing.",
+  "price": 298,
+  "currency": "EUR",
+  "category": "Bags",
+  "colors": [
+    "Blue"
+  ],
+  "gender": "UNISEX",
+  "mainImage": "https://ludovicdesaintsernin.com/cdn/shop/files/Artboard_11_43e1fa12-a5ef-40e3-833c-e1fd0b80917a.jpg?v=1733221212",
+  "images": [
+    "https://ludovicdesaintsernin.com/cdn/shop/files/Lielt_123_8848deaf-fdfa-4543-a327-d62ed2cdc672.jpg?v=1725440441",
+    "https://ludovicdesaintsernin.com/cdn/shop/files/Lielt_123_92c7430f-9435-4adc-aaa9-6ef90f9aa4f8.jpg?v=1725440577",
+    "https://ludovicdesaintsernin.com/cdn/shop/files/Lielt_123_937b73e4-2b7f-4de9-a47b-50f6aa0bae8f.jpg?v=1725440703"
+  ],
+  "sizes": [
+    "Default Title"
+  ],
+  "variants": [
+    {
+      "size": "Default Title",
+      "color": "Blue",
+      "availability": "in_stock"
+    }
+  ],
+  "availability": "in_stock",
+  "productURL": "https://ludovicdesaintsernin.com/products/the-cleavage-crossbody-bag-in-blue",
+  "categoryPage": "https://ludovicdesaintsernin.com/collections/unisex-bags",
+  "scrapeTimestamp": "2025-08-11 19:36:19"
+},
+{
+  "brand": "Ludovic de Saint Sernin",
+  "name": "The Cleavage Crossbody Bag in Mirror Leather - 9695208735053",
+  "description": "Introducing the Cleavage Phone Bag. Our bags are carefully crafted from patent leather for a beautiful glossy mirror look, adorned with our iconic eyelets and lacing.",
+  "price": 298,
+  "currency": "EUR",
+  "category": "Bags",
+  "colors": [
+    "Silver"
+  ],
+  "gender": "UNISEX",
+  "mainImage": "https://ludovicdesaintsernin.com/cdn/shop/files/Mirrorphonebag1.jpg?v=1725372605",
+  "images": [
+    "https://ludovicdesaintsernin.com/cdn/shop/files/Artboard2_518711c3-3db8-4ce3-b1e3-775747e45dd5.jpg?v=1725376414",
+    "https://ludovicdesaintsernin.com/cdn/shop/files/Mirrorphonebag3.jpg?v=1725372615",
+    "https://ludovicdesaintsernin.com/cdn/shop/files/Mirrorphonebag2.jpg?v=1725372610"
+  ],
+  "sizes": [
+    "Default Title"
+  ],
+  "variants": [
+    {
+      "size": "Default Title",
+      "color": "Silver",
+      "availability": "in_stock"
+    }
+  ],
+  "availability": "in_stock",
+  "productURL": "https://ludovicdesaintsernin.com/products/the-cleavage-phone-bag-black-leather-copy",
+  "categoryPage": "https://ludovicdesaintsernin.com/collections/unisex-bags",
+  "scrapeTimestamp": "2025-08-11 19:36:21"
+},
+{
+  "brand": "Ludovic de Saint Sernin",
+  "name": "The Cleavage Crossbody Bag in Black Leather - 9695244517709",
+  "description": "Introducing the Cleavage Phone Bag. Our bags are carefully crafted from black leather, adorned with our iconic eyelets and lacing.",
+  "price": 277,
+  "currency": "EUR",
+  "category": "Bags",
+  "colors": [
+    "Black"
+  ],
+  "gender": "UNISEX",
+  "mainImage": "https://ludovicdesaintsernin.com/cdn/shop/files/Artboard_10_409692f9-3192-40d6-b8ed-5f4079065641.jpg?v=1733221213",
+  "images": [
+    "https://ludovicdesaintsernin.com/cdn/shop/files/Artboard3_55b81c18-d27d-4689-9f08-fc2076481ebd.jpg?v=1725376361",
+    "https://ludovicdesaintsernin.com/cdn/shop/files/BlackphoneBag4.jpg?v=1725372190",
+    "https://ludovicdesaintsernin.com/cdn/shop/files/BlackphoneBag3.jpg?v=1725372182"
+  ],
+  "sizes": [
+    "Default Title"
+  ],
+  "variants": [
+    {
+      "size": "Default Title",
+      "color": "Black",
+      "availability": "in_stock"
+    }
+  ],
+  "availability": "in_stock",
+  "productURL": "https://ludovicdesaintsernin.com/products/the-cleavage-phone-bag-in-black-leather-2",
+  "categoryPage": "https://ludovicdesaintsernin.com/collections/unisex-bags",
+  "scrapeTimestamp": "2025-08-11 19:36:25"
+},
+{
+  "brand": "Ludovic de Saint Sernin",
+  "name": "Easy Cleavage Bra in Leather - 9713339105613",
+  "description": "The Easy Cleavage Bra features eyelet and lacing details on the front and back. Designed in a signature cleavage shape.",
+  "price": 380,
+  "currency": "EUR",
+  "category": "Tops",
+  "colors": [
+    "Black"
+  ],
+  "gender": "WOMEN",
+  "mainImage": "https://ludovicdesaintsernin.com/cdn/shop/files/Artboard_5_6542d5a5-8fc5-476a-9193-cb52bbb2fe28.jpg?v=1730804826",
+  "images": [
+    "https://ludovicdesaintsernin.com/cdn/shop/files/Artboard_4_b3948121-26d1-4f31-a1d1-d0e5d085c630.jpg?v=1730804825"
+  ],
+  "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L"
+  ],
+  "variants": [
+    {
+      "size": "XS",
+      "color": "Black",
+      "availability": "in_stock"
+    },
+    {
+      "size": "S",
+      "color": "Black",
+      "availability": "out_of_stock"
+    },
+    {
+      "size": "M",
+      "color": "Black",
+      "availability": "out_of_stock"
+    },
+    {
+      "size": "L",
+      "color": "Black",
+      "availability": "in_stock"
+    }
+  ],
+  "availability": "in_stock",
+  "productURL": "https://ludovicdesaintsernin.com/products/easy-cleavage-bra",
+  "categoryPage": "https://ludovicdesaintsernin.com/collections/women-tops",
+  "scrapeTimestamp": "2025-08-11 19:36:29"
+},
+{
+  "brand": "Ludovic de Saint Sernin",
+  "name": "Robin Top - 9928478392653",
+  "description": "The Robin Top features a structured, corset-like design with a signature cleavage neckline. Featuring a lace-up detail at the front, it seamlessly combines sheer and opaque fabrics for a refined and subtly revealing look.",
+  "price": 515,
+  "currency": "EUR",
+  "category": "Tops",
+  "colors": [
+    "Black"
+  ],
+  "gender": "WOMEN",
+  "mainImage": "https://ludovicdesaintsernin.com/cdn/shop/files/robintop_1.jpg?v=1748880533",
+  "images": [
+    "https://ludovicdesaintsernin.com/cdn/shop/files/robintop_2.jpg?v=1748880533"
+  ],
+  "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L"
+  ],
+  "variants": [
+    {
+      "size": "XS",
+      "color": "Black",
+      "availability": "out_of_stock"
+    },
+    {
+      "size": "S",
+      "color": "Black",
+      "availability": "in_stock"
+    },
+    {
+      "size": "M",
+      "color": "Black",
+      "availability": "in_stock"
+    },
+    {
+      "size": "L",
+      "color": "Black",
+      "availability": "out_of_stock"
+    }
+  ],
+  "availability": "in_stock",
+  "productURL": "https://ludovicdesaintsernin.com/products/robin-top-in-fishnet",
+  "categoryPage": "https://ludovicdesaintsernin.com/collections/women-tops",
+  "scrapeTimestamp": "2025-08-11 19:36:31"
+},
+{
+  "brand": "Ludovic de Saint Sernin",
+  "name": "Cleavage Bra in Patent Leather - 9928474952013",
+  "description": "The Cleavage Bra is made from black patent leather and features eyelet and lacing details on both the front and back, designed in our signature cleavage shape.",
+  "price": 190,
+  "currency": "EUR",
+  "category": "Tops",
+  "colors": [
+    "Black"
+  ],
+  "gender": "WOMEN",
+  "mainImage": "https://ludovicdesaintsernin.com/cdn/shop/files/Black_ECleavageBra1_d6205d83-64ec-4908-ae96-b45035f12026.jpg?v=1740657350",
+  "images": [
+    "https://ludovicdesaintsernin.com/cdn/shop/files/Artboard_2_19086266-768a-4200-bbff-b9106cfe0b42.jpg?v=1740657350"
+  ],
+  "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L"
+  ],
+  "variants": [
+    {
+      "size": "XS",
+      "color": "Black",
+      "availability": "in_stock"
+    },
+    {
+      "size": "S",
+      "color": "Black",
+      "availability": "out_of_stock"
+    },
+    {
+      "size": "M",
+      "color": "Black",
+      "availability": "out_of_stock"
+    },
+    {
+      "size": "L",
+      "color": "Black",
+      "availability": "out_of_stock"
+    }
+  ],
+  "availability": "in_stock",
+  "productURL": "https://ludovicdesaintsernin.com/products/black-easy-cleavage-bra",
+  "categoryPage": "https://ludovicdesaintsernin.com/collections/women-tops",
+  "scrapeTimestamp": "2025-08-11 19:36:32"
+},
+{
+  "brand": "Ludovic de Saint Sernin",
+  "name": "Cleavage Bra in Patent Leather - 9928474886477",
+  "description": "The Cleavage Bra is made from red patent leather and features eyelet and lacing details on both the front and back, designed in our signature cleavage shape.The item is",
+  "price": 190,
+  "currency": "EUR",
+  "category": "Tops",
+  "colors": [
+    "Red"
+  ],
+  "gender": "WOMEN",
+  "mainImage": "https://ludovicdesaintsernin.com/cdn/shop/files/Artboard_2_dcbd1715-b7e6-48fd-afc4-210cd0b38aef.jpg?v=1738944199",
+  "images": [
+    "https://ludovicdesaintsernin.com/cdn/shop/files/Artboard_1_f6025004-a7be-401e-9a01-0541b6faf2dd.jpg?v=1738944199"
+  ],
+  "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L"
+  ],
+  "variants": [
+    {
+      "size": "XS",
+      "color": "Red",
+      "availability": "out_of_stock"
+    },
+    {
+      "size": "S",
+      "color": "Red",
+      "availability": "out_of_stock"
+    },
+    {
+      "size": "M",
+      "color": "Red",
+      "availability": "out_of_stock"
+    },
+    {
+      "size": "L",
+      "color": "Red",
+      "availability": "out_of_stock"
+    }
+  ],
+  "availability": "out_of_stock",
+  "productURL": "https://ludovicdesaintsernin.com/products/red-easy-cleavage-bra",
+  "categoryPage": "https://ludovicdesaintsernin.com/collections/women-tops",
+  "scrapeTimestamp": "2025-08-11 19:36:35"
+},
+{
+  "brand": "Ludovic de Saint Sernin",
+  "name": "Rebecca Jacket in Cotton - 9928476885325",
+  "description": "The Rebecca Jacket is a fitted, hourglass-shaped black blazer with padded shoulders, featuring a cleavage-cut bra. Instead of buttons, the jacket is designed with loops that allow for a more customizable fit.",
+  "price": 595,
+  "currency": "EUR",
+  "category": "Tops",
+  "colors": [
+    "White"
+  ],
+  "gender": "WOMEN",
+  "mainImage": "https://ludovicdesaintsernin.com/cdn/shop/files/White_RebeccaJacket1.jpg?v=1737643266",
+  "images": [
+    "https://ludovicdesaintsernin.com/cdn/shop/files/White_RebeccaJacket2.jpg?v=1737643276"
+  ],
+  "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L"
+  ],
+  "variants": [
+    {
+      "size": "XS",
+      "color": "White",
+      "availability": "out_of_stock"
+    },
+    {
+      "size": "S",
+      "color": "White",
+      "availability": "in_stock"
+    },
+    {
+      "size": "M",
+      "color": "White",
+      "availability": "in_stock"
+    },
+    {
+      "size": "L",
+      "color": "White",
+      "availability": "out_of_stock"
+    }
+  ],
+  "availability": "in_stock",
+  "productURL": "https://ludovicdesaintsernin.com/products/white-rebecca-jacket",
+  "categoryPage": "https://ludovicdesaintsernin.com/collections/women-tops",
+  "scrapeTimestamp": "2025-08-11 19:36:37"
+},
+{
+  "brand": "Ludovic de Saint Sernin",
+  "name": "Easy Cleavage Top in Denim - 9928477704525",
+  "description": "The Cleavage Top is made from soft cotton and features a signature cleavage shape with a subtly revealing cut at the belly.",
+  "price": 195,
+  "currency": "EUR",
+  "category": "Tops",
+  "colors": [
+    "Brown"
+  ],
+  "gender": "WOMEN",
+  "mainImage": "https://ludovicdesaintsernin.com/cdn/shop/files/SS25-TP011-W-DEN-brown-1.jpg?v=1740069251",
+  "images": [
+    "https://ludovicdesaintsernin.com/cdn/shop/files/SS25-TP011-W-DEN-brown-2.jpg?v=1740069251"
+  ],
+  "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L"
+  ],
+  "variants": [
+    {
+      "size": "XS",
+      "color": "Brown",
+      "availability": "out_of_stock"
+    },
+    {
+      "size": "S",
+      "color": "Brown",
+      "availability": "out_of_stock"
+    },
+    {
+      "size": "M",
+      "color": "Brown",
+      "availability": "out_of_stock"
+    },
+    {
+      "size": "L",
+      "color": "Brown",
+      "availability": "out_of_stock"
+    }
+  ],
+  "availability": "out_of_stock",
+  "productURL": "https://ludovicdesaintsernin.com/products/easy-cleavage-top",
+  "categoryPage": "https://ludovicdesaintsernin.com/collections/women-tops",
+  "scrapeTimestamp": "2025-08-11 19:36:38"
+},
+{
+  "brand": "Ludovic de Saint Sernin",
+  "name": "Robin Top in Cotton - 10061184827725",
+  "description": "The Robin Top features a structured, corset-like design with a signature cleavage neckline. Featuring a lace-up detail at the front, it seamlessly combines fishnet-textured and opaque fabrics for a refined and subtly revealing look.",
+  "price": 258,
+  "currency": "EUR",
+  "category": "Tops",
+  "colors": [
+    "Brown"
+  ],
+  "gender": "WOMEN",
+  "mainImage": "https://ludovicdesaintsernin.com/cdn/shop/files/SS25-TP029-W-CO0006_1.jpg?v=1746008075",
+  "images": [
+    "https://ludovicdesaintsernin.com/cdn/shop/files/Artboard4_f3a9f94b-afce-4045-bd01-fe1a0282d820.jpg?v=1746008075"
+  ],
+  "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L"
+  ],
+  "variants": [
+    {
+      "size": "XS",
+      "color": "Brown",
+      "availability": "out_of_stock"
+    },
+    {
+      "size": "S",
+      "color": "Brown",
+      "availability": "in_stock"
+    },
+    {
+      "size": "M",
+      "color": "Brown",
+      "availability": "in_stock"
+    },
+    {
+      "size": "L",
+      "color": "Brown",
+      "availability": "out_of_stock"
+    }
+  ],
+  "availability": "in_stock",
+  "productURL": "https://ludovicdesaintsernin.com/products/robin-top-1",
+  "categoryPage": "https://ludovicdesaintsernin.com/collections/women-tops",
+  "scrapeTimestamp": "2025-08-11 19:36:39"
+},
+{
+  "brand": "Ludovic de Saint Sernin",
+  "name": "Easy Cleavage Bra in Leather - 9928474984781",
+  "description": "The Easy Cleavage Bra features eyelet and lacing details on the front and back. Designed in a signature cleavage shape.",
+  "price": 190,
+  "currency": "EUR",
+  "category": "Tops",
+  "colors": [
+    "Brown"
+  ],
+  "gender": "WOMEN",
+  "mainImage": "https://ludovicdesaintsernin.com/cdn/shop/files/brownbra_1.jpg?v=1748874590",
+  "images": [
+    "https://ludovicdesaintsernin.com/cdn/shop/files/brown_bra_2_f7c063a6-8646-41f1-a948-ee478d9fc338.jpg?v=1749121187"
+  ],
+  "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L"
+  ],
+  "variants": [
+    {
+      "size": "XS",
+      "color": "Brown",
+      "availability": "out_of_stock"
+    },
+    {
+      "size": "S",
+      "color": "Brown",
+      "availability": "out_of_stock"
+    },
+    {
+      "size": "M",
+      "color": "Brown",
+      "availability": "in_stock"
+    },
+    {
+      "size": "L",
+      "color": "Brown",
+      "availability": "out_of_stock"
+    }
+  ],
+  "availability": "in_stock",
+  "productURL": "https://ludovicdesaintsernin.com/products/brown-easy-cleavage-bra",
+  "categoryPage": "https://ludovicdesaintsernin.com/collections/women-tops",
+  "scrapeTimestamp": "2025-08-11 19:36:41"
+},
+{
+  "brand": "Ludovic de Saint Sernin",
+  "name": "Rebecca Jacket in Cotton - 9928476918093",
+  "description": "The Rebecca Jacket is a fitted, hourglass-shaped black blazer with padded shoulders, featuring a cleavage-cut bra. Instead of button, the jacket is designed with loops that allow for a more customisable fit.",
+  "price": 1190,
+  "currency": "EUR",
+  "category": "Tops",
+  "colors": [
+    "Black"
+  ],
+  "gender": "WOMEN",
+  "mainImage": "https://ludovicdesaintsernin.com/cdn/shop/files/RebeccaJacket_1.jpg?v=1737458132",
+  "images": [
+    "https://ludovicdesaintsernin.com/cdn/shop/files/Rebecca_Jacket2.jpg?v=1737641636"
+  ],
+  "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L"
+  ],
+  "variants": [
+    {
+      "size": "XS",
+      "color": "Black",
+      "availability": "out_of_stock"
+    },
+    {
+      "size": "S",
+      "color": "Black",
+      "availability": "in_stock"
+    },
+    {
+      "size": "M",
+      "color": "Black",
+      "availability": "in_stock"
+    },
+    {
+      "size": "L",
+      "color": "Black",
+      "availability": "out_of_stock"
+    }
+  ],
+  "availability": "in_stock",
+  "productURL": "https://ludovicdesaintsernin.com/products/black-rebecca-jacket",
+  "categoryPage": "https://ludovicdesaintsernin.com/collections/women-tops",
+  "scrapeTimestamp": "2025-08-11 19:36:43"
+}
+]
