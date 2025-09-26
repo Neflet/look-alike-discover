@@ -1,11 +1,24 @@
-# server.py
-import io, os, requests, time
+# server.py - Legacy compatibility wrapper
+# For new modular backend, use: backend/app/main.py
+import sys
+import os
+sys.path.append(os.path.join(os.path.dirname(__file__), 'backend'))
+
+try:
+    # Try to import the new modular app
+    from app.main import app
+    print("✅ Using new modular backend structure")
+except ImportError:
+    # Fallback to legacy implementation
+    print("⚠️  Using legacy server.py implementation")
+    
+    import io, requests, time
 from PIL import Image
-from fastapi import FastAPI, UploadFile, File, HTTPException, Form
-from fastapi.middleware.cors import CORSMiddleware
+    from fastapi import FastAPI, UploadFile, File, HTTPException, Form
+    from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
-from supabase import create_client, Client
-import numpy as np
+    from supabase import create_client, Client
+    import numpy as np
 
 app = FastAPI()
 
