@@ -102,120 +102,147 @@ export function ImageSearch() {
 
   return (
     <div className="min-h-screen bg-background">
-      {/* Header with Logo */}
-      <header className="border-b border-border/40">
-        <div className="max-w-7xl mx-auto px-6 py-4">
+      {/* Header */}
+      <header className="fixed top-0 left-0 right-0 z-50 bg-background/80 backdrop-blur-md border-b border-border/50">
+        <div className="max-w-[1600px] mx-auto px-8 py-5 flex items-center justify-between">
           <img 
             src={swagaiLogo}
             alt="Swagai" 
-            className="h-8 w-auto"
+            className="h-7 w-auto"
           />
         </div>
       </header>
 
       {/* Main Content */}
-      <div className="w-full max-w-6xl mx-auto px-6 py-12 space-y-12">
-        <div className="text-center space-y-3">
-          <h1 className="text-5xl font-bold tracking-tight">Find Your Style</h1>
-          <p className="text-muted-foreground text-lg font-light">
-            Upload an image to discover similar products
-          </p>
-        </div>
+      <div className="pt-24 pb-16">
+        {!searchCompleted && !isLoading && (
+          <div className="max-w-2xl mx-auto px-8 py-32 text-center space-y-12">
+            <div className="space-y-4">
+              <h1 className="text-6xl font-medium tracking-tight uppercase">
+                Find Your Style
+              </h1>
+              <p className="text-muted-foreground text-base tracking-wide uppercase">
+                Upload an image to discover similar products
+              </p>
+            </div>
 
-        {/* Upload Controls */}
-        <div className="flex flex-col sm:flex-row gap-3 justify-center max-w-md mx-auto">
-          <Button
-            onClick={() => fileInputRef.current?.click()}
-            disabled={isLoading}
-            size="lg"
-            className="flex items-center gap-2 font-medium"
-          >
-            <Upload className="w-4 h-4" />
-            Upload Image
-          </Button>
-          
-          <Button
-            onClick={() => cameraInputRef.current?.click()}
-            disabled={isLoading}
-            variant="outline"
-            size="lg"
-            className="flex items-center gap-2 font-medium"
-          >
-            <Camera className="w-4 h-4" />
-            Take Photo
-          </Button>
+            {/* Upload Controls */}
+            <div className="flex flex-col gap-4 items-center">
+              <Button
+                onClick={() => fileInputRef.current?.click()}
+                disabled={isLoading}
+                size="lg"
+                className="px-12 py-6 text-sm tracking-widest uppercase font-medium rounded-none"
+              >
+                Upload Image
+              </Button>
+              
+              <button
+                onClick={() => cameraInputRef.current?.click()}
+                disabled={isLoading}
+                className="text-sm tracking-wide uppercase text-muted-foreground hover:text-foreground transition-colors disabled:opacity-50"
+              >
+                or use camera
+              </button>
 
 
-          <input
-            ref={fileInputRef}
-            type="file"
-            accept="image/*"
-            onChange={handleFileUpload}
-            className="hidden"
-            aria-label="Upload image file"
-          />
-          
-          <input
-            ref={cameraInputRef}
-            type="file"
-            accept="image/*"
-            capture="environment"
-            onChange={handleFileUpload}
-            className="hidden"
-            aria-label="Capture photo"
-          />
-        </div>
+              <input
+                ref={fileInputRef}
+                type="file"
+                accept="image/*"
+                onChange={handleFileUpload}
+                className="hidden"
+                aria-label="Upload image file"
+              />
+              
+              <input
+                ref={cameraInputRef}
+                type="file"
+                accept="image/*"
+                capture="environment"
+                onChange={handleFileUpload}
+                className="hidden"
+                aria-label="Capture photo"
+              />
+            </div>
+          </div>
+        )}
 
         {/* Loading State */}
         {isLoading && (
-          <div className="flex flex-col items-center justify-center py-24 space-y-4">
-            <Loader2 className="w-8 h-8 animate-spin text-foreground" />
-            <p className="text-muted-foreground font-light">Searching...</p>
+          <div className="max-w-[1600px] mx-auto px-8">
+            <div className="flex flex-col items-center justify-center py-32 space-y-6">
+              <Loader2 className="w-6 h-6 animate-spin text-foreground" />
+              <p className="text-sm tracking-widest uppercase text-muted-foreground">Searching</p>
+            </div>
           </div>
         )}
 
         {/* Results Grid */}
         {searchCompleted && !isLoading && (
-          <>
+          <div className="max-w-[1600px] mx-auto px-8">
             {products.length === 0 ? (
-              <div className="flex flex-col items-center justify-center py-24 space-y-4">
-                <AlertCircle className="w-12 h-12 text-muted-foreground" />
-                <div className="text-center">
-                  <h3 className="text-xl font-semibold">No products found</h3>
-                  <p className="text-muted-foreground font-light">
-                    Try uploading a different image
-                  </p>
+              <div className="flex flex-col items-center justify-center py-32 space-y-4">
+                <AlertCircle className="w-8 h-8 text-muted-foreground" />
+                <div className="text-center space-y-2">
+                  <h3 className="text-lg tracking-wide uppercase">No products found</h3>
+                  <button
+                    onClick={() => {
+                      setSearchCompleted(false);
+                      setProducts([]);
+                    }}
+                    className="text-sm tracking-wide uppercase text-muted-foreground hover:text-foreground transition-colors"
+                  >
+                    Try another image
+                  </button>
                 </div>
               </div>
             ) : (
-              <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4">
-                {products.map((product) => (
-                  <div 
-                    key={product.id} 
-                    className="group cursor-pointer"
-                    onClick={() => handleProductClick(product)}
+              <>
+                <div className="mb-12 flex items-center justify-between">
+                  <p className="text-xs tracking-widest uppercase text-muted-foreground">
+                    {products.length} Results
+                  </p>
+                  <button
+                    onClick={() => {
+                      setSearchCompleted(false);
+                      setProducts([]);
+                    }}
+                    className="text-xs tracking-widest uppercase hover:text-foreground transition-colors"
                   >
-                    <div className="aspect-[3/4] relative overflow-hidden bg-muted mb-3">
-                      <img
-                        src={product.main_image_url}
-                        alt={product.title}
-                        className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105"
-                        loading="lazy"
-                      />
+                    New Search
+                  </button>
+                </div>
+                
+                <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-x-6 gap-y-12">
+                  {products.map((product) => (
+                    <div 
+                      key={product.id} 
+                      className="group cursor-pointer"
+                      onClick={() => handleProductClick(product)}
+                    >
+                      <div className="aspect-[3/4] relative overflow-hidden bg-muted mb-4">
+                        <img
+                          src={product.main_image_url}
+                          alt={product.title}
+                          className="w-full h-full object-cover transition-opacity duration-300 group-hover:opacity-80"
+                          loading="lazy"
+                        />
+                      </div>
+                      <div className="space-y-2">
+                        <h3 className="text-xs tracking-wide uppercase line-clamp-2 leading-relaxed" title={product.title}>
+                          {product.title}
+                        </h3>
+                        <p className="text-xs tracking-wider">
+                          ${product.price.toFixed(2)}
+                        </p>
+                      </div>
                     </div>
-                    <div className="space-y-1">
-                      <h3 className="font-medium text-sm line-clamp-2 leading-tight" title={product.title}>
-                        {product.title}
-                      </h3>
-                      <p className="text-sm font-semibold">
-                        ${product.price.toFixed(2)}
-                      </p>
-                    </div>
-                  </div>
-                ))}
-              </div>
+                  ))}
+                </div>
+              </>
             )}
-          </>
+          </div>
         )}
       </div>
     </div>
