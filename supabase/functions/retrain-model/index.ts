@@ -152,7 +152,7 @@ Deno.serve(async (req) => {
 
         } catch (error) {
           console.error(`Error processing product ${product.id}:`, error);
-          errors.push(`Product ${product.id}: ${error.message}`);
+          errors.push(`Product ${product.id}: ${error instanceof Error ? error.message : 'Unknown error'}`);
         }
       }
     }
