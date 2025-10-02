@@ -57,6 +57,9 @@ All colors MUST be HSL.
 
     --radius: 0rem;
 
+    /* Custom animations */
+    --transition-smooth: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+
     --sidebar-background: 0 0% 98%;
 
     --sidebar-foreground: 240 5.3% 26.1%;
