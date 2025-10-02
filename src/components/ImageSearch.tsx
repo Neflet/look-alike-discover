@@ -6,8 +6,6 @@ import { Camera, Upload, Loader2, AlertCircle, X } from 'lucide-react';
 import { useToast } from '@/hooks/use-toast';
 import { searchImage } from '@/api/search-image';
 import { trackEvent } from '@/api/analytics';
-import lensIcon from '@/public/icons/lens.svg';
-import swagaiLogo from '@/public/logo.svg';
 
 interface Product {
   id: string;
@@ -117,9 +115,9 @@ export function ImageSearch() {
       {/* Compact corner header */}
       <header className="fixed top-0 left-0 z-50 p-4">
         <div className="flex items-center gap-3 bg-background/95 backdrop-blur-sm px-4 py-2 border border-border/30">
-          <Image src={lensIcon} alt="" width={16} height={16} className="h-4 w-auto" />
+          <Image src="/icons/lens.svg" alt="" width={16} height={16} className="h-4 w-auto" />
           <div className="h-3 w-px bg-border" />
-          <Image src={swagaiLogo} alt="Swagai" width={64} height={16} className="h-4 w-auto" />
+          <Image src="/logo.svg" alt="Swagai" width={64} height={16} className="h-4 w-auto" />
         </div>
       </header>
 
@@ -172,7 +170,7 @@ export function ImageSearch() {
                   <div className="aspect-square relative">
                     <div className="absolute inset-0 border-2 border-border/30 translate-x-4 translate-y-4" />
                     <div className="absolute inset-0 border-2 border-foreground flex items-center justify-center bg-background">
-                      <Image src={lensIcon} alt="" width={128} height={128} className="w-32 h-32 opacity-40" />
+                      <Image src="/icons/lens.svg" alt="" width={128} height={128} className="w-32 h-32 opacity-40" />
                     </div>
                   </div>
                   <div className="absolute -bottom-6 -right-6 px-4 py-2 bg-foreground text-background text-[10px] tracking-[0.2em]">
@@ -209,7 +207,7 @@ export function ImageSearch() {
             <div className="flex flex-col items-center gap-10">
               <div className="relative">
                 <Image 
-                  src={lensIcon} 
+                  src="/icons/lens.svg" 
                   alt="" 
                   width={96}
                   height={96}
