@@ -10,3 +10,4 @@ fashion_ai_server/faiss_indexes/
 *.safetensors
 *.pt
 *.index
+.vercel

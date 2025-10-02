@@ -13,23 +13,23 @@ except ImportError:
     print("⚠️  Using legacy server.py implementation")
     
     import io, requests, time
-from PIL import Image
+    from PIL import Image
     from fastapi import FastAPI, UploadFile, File, HTTPException, Form
     from fastapi.middleware.cors import CORSMiddleware
-from pydantic import BaseModel
+    from pydantic import BaseModel
     from supabase import create_client, Client
     import numpy as np
 
-app = FastAPI()
+    app = FastAPI()
 
-# Add CORS middleware
-app.add_middleware(
-    CORSMiddleware,
-    allow_origins=["*"],
-    allow_credentials=True,
-    allow_methods=["*"],
-    allow_headers=["*"],
-)
+    # Add CORS middleware
+    app.add_middleware(
+        CORSMiddleware,
+        allow_origins=["*"],
+        allow_credentials=True,
+        allow_methods=["*"],
+        allow_headers=["*"],
+    )
 
 # Initialize Supabase client
 supabase_url = os.getenv("NEXT_PUBLIC_SUPABASE_URL", "")
