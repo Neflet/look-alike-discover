@@ -3,11 +3,6 @@ import { createClient } from "@supabase/supabase-js";
 
 export const runtime = "nodejs";
 
-const supabase = createClient(
-  process.env.NEXT_PUBLIC_SUPABASE_URL!,
-  process.env.SUPABASE_SERVICE_ROLE_KEY!
-);
-
 function l2(vec: number[]) {
   const s = Math.sqrt(vec.reduce((a, b) => a + b * b, 0)) || 1;
   return vec.map(v => v / s);
@@ -15,6 +10,16 @@ function l2(vec: number[]) {
 
 export async function POST(req: NextRequest) {
   try {
+    // Check if required environment variables are available
+    if (!process.env.NEXT_PUBLIC_SUPABASE_URL || !process.env.SUPABASE_SERVICE_ROLE_KEY) {
+      return new Response(JSON.stringify({ error: "Database configuration missing" }), { status: 500 });
+    }
+
+    const supabase = createClient(
+      process.env.NEXT_PUBLIC_SUPABASE_URL,
+      process.env.SUPABASE_SERVICE_ROLE_KEY
+    );
+
     const ct = req.headers.get("content-type") || "";
     let imageUrl: string | null = null;
     let bytes: ArrayBuffer | null = null;

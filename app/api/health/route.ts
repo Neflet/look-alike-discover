@@ -3,11 +3,6 @@ import { createClient } from "@supabase/supabase-js";
 
 export const runtime = "nodejs"; // force Node runtime
 
-const supabase = createClient(
-  process.env.NEXT_PUBLIC_SUPABASE_URL || "",
-  process.env.SUPABASE_SERVICE_ROLE_KEY || ""
-);
-
 export async function GET(req: NextRequest) {
   try {
     const hf = await fetch(process.env.HF_EMBED_ENDPOINT || "", {
@@ -34,11 +29,24 @@ export async function GET(req: NextRequest) {
       hfErr = `hf status ${hf.status}`;
     }
 
-    const { data, error } = await supabase.rpc("match_products_siglip", {
-      query_embedding: Array(1152).fill(0).map((_, i) => (i === 0 ? 1 : 0)),
-      match_count: 1,
-      similarity_threshold: 0.0,
-    });
+    let data = null;
+    let error = null;
+    
+    if (process.env.NEXT_PUBLIC_SUPABASE_URL && process.env.SUPABASE_SERVICE_ROLE_KEY) {
+      const supabase = createClient(
+        process.env.NEXT_PUBLIC_SUPABASE_URL,
+        process.env.SUPABASE_SERVICE_ROLE_KEY
+      );
+      
+      const result = await supabase.rpc("match_products_siglip", {
+        query_embedding: Array(1152).fill(0).map((_, i) => (i === 0 ? 1 : 0)),
+        match_count: 1,
+        similarity_threshold: 0.0,
+      });
+      
+      data = result.data;
+      error = result.error;
+    }
 
     return new Response(
       JSON.stringify(
