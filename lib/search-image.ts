@@ -86,6 +86,12 @@ export type SearchOptions = {
   minSimilarity?: number;  // default 0.55
 };
 
+export type SearchFilters = {
+  priceMin?: number;
+  priceMax?: number;
+  brand?: string; // plain text, we'll convert to '%brand%'
+};
+
 export async function searchSimilar(
   embedding: number[],
   model: string,
@@ -116,5 +122,36 @@ export async function searchSimilar(
     .filter(r => (typeof r.similarity === 'number' ? r.similarity >= minSimilarity : true));
 
   console.log('[RPC] results', rows.length);
+  return rows;
+}
+
+export async function searchSimilarFiltered(
+  embedding: number[],
+  model: string,
+  opts: SearchOptions & SearchFilters = {}
+): Promise<SearchHit[]> {
+  assertEmbedding(embedding, model);
+
+  const top_k = opts.topK ?? 24;
+  const minSimilarity = opts.minSimilarity ?? 0.55;
+
+  const { data, error } = await supabase.rpc('search_products_filtered', {
+    qvec: embedding as unknown as any,
+    p_model_id: model,
+    top_k,
+    price_min: typeof opts.priceMin === 'number' ? opts.priceMin : null,
+    price_max: typeof opts.priceMax === 'number' ? opts.priceMax : null,
+    brand_eq: opts.brand ? `%${opts.brand}%` : null,
+  }) as { data: SearchHit[] | null; error: any };
+
+  if (error) {
+    console.error('[RPC] filtered error', error);
+    throw error;
+  }
+
+  const rows = (data ?? []).filter(r =>
+    typeof r.similarity === 'number' ? r.similarity >= minSimilarity : true
+  );
+
   return rows;
 }
