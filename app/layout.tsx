@@ -9,6 +9,11 @@ const inter = Inter({ subsets: ['latin'] })
 export const metadata: Metadata = {
   title: 'Look Alike Discover',
   description: 'Discover fashion items that look alike',
+  icons: {
+    icon: '/favicon.png', // place your Swagai image at public/favicon.png
+    shortcut: '/favicon.png',
+    apple: '/favicon.png',
+  },
 }
 
 export default function RootLayout({
