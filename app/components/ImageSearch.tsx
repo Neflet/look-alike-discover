@@ -8,6 +8,7 @@ import { Camera, Upload, Loader2, AlertCircle, X } from 'lucide-react';
 import { useToast } from '@/hooks/use-toast';
 import { embedImage, searchSimilar, type SearchHit } from '../../lib/search-image';
 import { trackEvent } from '@/api/analytics';
+import { ImageCrop } from './ImageCrop';
 
 // Extended SearchHit for UI (includes score for backward compatibility)
 type UISearchHit = SearchHit & {
@@ -19,6 +20,8 @@ export function ImageSearch() {
   const [products, setProducts] = useState<UISearchHit[]>([]);
   const [searchCompleted, setSearchCompleted] = useState(false);
   const [uploadedImage, setUploadedImage] = useState<string | null>(null);
+  const [showCrop, setShowCrop] = useState(false);
+  const [uploadedFile, setUploadedFile] = useState<File | null>(null);
   const fileInputRef = useRef<HTMLInputElement>(null);
   const cameraInputRef = useRef<HTMLInputElement>(null);
   const { toast } = useToast();
@@ -38,9 +41,9 @@ export function ImageSearch() {
       // Step 1: Get embedding from edge function
       const { embedding, model } = await embedImage(file);
 
-      // Step 2: Search similar products
+      // Step 2: Search similar products - limit to top 5 most similar
       const results = await searchSimilar(embedding, model, {
-        topK: 48,
+        topK: 5,
         minSimilarity: 0.55, // tune between 0.50–0.65
       });
 
@@ -93,8 +96,25 @@ export function ImageSearch() {
   const handleFileUpload = (event: React.ChangeEvent<HTMLInputElement>) => {
     const file = event.target.files?.[0];
     if (file) {
-      handleImageSearch(file);
+      setUploadedFile(file);
+      const imageUrl = URL.createObjectURL(file);
+      setUploadedImage(imageUrl);
+      setShowCrop(true); // Show crop interface first
     }
+  };
+
+  const handleCropComplete = (croppedFile: File) => {
+    setShowCrop(false);
+    handleImageSearch(croppedFile);
+  };
+
+  const handleCropCancel = () => {
+    setShowCrop(false);
+    setUploadedImage(null);
+    setUploadedFile(null);
+    // Reset file inputs
+    if (fileInputRef.current) fileInputRef.current.value = '';
+    if (cameraInputRef.current) cameraInputRef.current.value = '';
   };
 
   const handleProductClick = async (product: UISearchHit) => {
@@ -108,7 +128,7 @@ export function ImageSearch() {
     // Since SearchHit doesn't have a url field, we'll just show a toast for now
     toast({
       title: "Product Clicked",
-      description: `${product.title} - Score: ${Math.round(product.score * 100)}%`,
+      description: product.title,
     });
   };
 
@@ -130,7 +150,17 @@ export function ImageSearch() {
 
       {/* Main Content */}
       <div className="relative z-10">
-        {!searchCompleted && !isLoading && (
+        {/* Crop Interface */}
+        {showCrop && uploadedFile && uploadedImage && (
+          <ImageCrop
+            imageFile={uploadedFile}
+            imageUrl={uploadedImage}
+            onCropComplete={handleCropComplete}
+            onCancel={handleCropCancel}
+          />
+        )}
+
+        {!showCrop && !searchCompleted && !isLoading && (
           <div className="min-h-screen flex items-center px-6 md:px-16 lg:px-24">
             <div className="w-full max-w-7xl mx-auto">
               <div className="grid lg:grid-cols-2 gap-20 items-center">
@@ -299,17 +329,10 @@ export function ImageSearch() {
                         <h3 className="text-[11px] leading-tight line-clamp-2 font-medium" title={product.title}>
                           {product.title}
                         </h3>
-                        <div className="flex items-center justify-between">
+                        <div>
                           <p className="text-xs font-bold">
                             {product.price ? `$${product.price.toFixed(2)}` : 'Price N/A'}
                           </p>
-                          <span className="text-[10px] opacity-60" title={`Similarity: ${product.similarity ? (product.similarity * 100).toFixed(1) : 'N/A'}%`}>
-                            {product.similarity 
-                              ? `${Math.round(product.similarity * 100)}%` 
-                              : product.score 
-                              ? `${Math.round(product.score * 100)}%`
-                              : '—'}
-                          </span>
                         </div>
                       </div>
                     </div>

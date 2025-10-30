@@ -82,7 +82,7 @@ export async function embedImage(file: File): Promise<EmbedResponse> {
 }
 
 export type SearchOptions = {
-  topK?: number;           // default 24
+  topK?: number;           // default 5
   minSimilarity?: number;  // default 0.55
 };
 
@@ -93,7 +93,7 @@ export async function searchSimilar(
 ): Promise<SearchHit[]> {
   assertEmbedding(embedding, model);
 
-  const top_k = opts.topK ?? 24;
+  const top_k = opts.topK ?? 5;
   const minSimilarity = opts.minSimilarity ?? 0.55;
 
   // Call the **vector overload** (qvec: vector(1152))
