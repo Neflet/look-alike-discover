@@ -1,6 +1,6 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  output: 'standalone',
+  // output: 'standalone', // Only for production builds, disabled for dev
   images: {
     domains: [
       'raw.githubusercontent.com',

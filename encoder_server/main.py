@@ -20,10 +20,19 @@ model = SiglipVisionModel.from_pretrained(MODEL_NAME).to(device).eval()
 
 @app.post("/embed")
 async def embed(file: UploadFile = File(...)):
-    img = Image.open(io.BytesIO(await file.read())).convert("RGB")
-    inputs = proc(images=[img], return_tensors="pt").to(device)
-    with torch.no_grad():
-        pooled = model(**inputs).pooler_output
-        pooled = torch.nn.functional.normalize(pooled, dim=1)
-    vec = pooled.squeeze(0).cpu().tolist()  # length 1152
-    return {"embedding": vec, "dims": len(vec)}
+    try:
+        img = Image.open(io.BytesIO(await file.read())).convert("RGB")
+        inputs = proc(images=[img], return_tensors="pt").to(device)
+        with torch.no_grad():
+            pooled = model(**inputs).pooler_output
+            pooled = torch.nn.functional.normalize(pooled, dim=1)
+        vec = pooled.squeeze(0).cpu().tolist()  # length 1152
+        return {
+            "embedding": vec, 
+            "dim": len(vec),
+            "dims": len(vec),  # backward compatibility
+            "model": MODEL_NAME
+        }
+    except Exception as e:
+        print(f"[encoder] error: {e}")
+        raise

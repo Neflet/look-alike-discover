@@ -1,0 +1,8 @@
+-- Note: HNSW index creation is deferred due to timeout issues
+-- The optimized search function should work without the index, but will be slower
+-- To create the index later, run this manually in Supabase SQL editor with increased timeout:
+-- SET statement_timeout = '300s';
+-- CREATE INDEX product_embeddings_embedding_hnsw_siglip
+-- ON product_embeddings
+-- USING hnsw (embedding vector_cosine_ops)
+-- WHERE model_id = 'google/siglip-so400m-patch14-384';

@@ -4,6 +4,7 @@ URL = os.getenv("SUPABASE_URL","")
 SRK = os.getenv("SUPABASE_SERVICE_ROLE_KEY","")
 BUCKET = os.getenv("SUPABASE_STORAGE_BUCKET","uploads")
 
+
 # REST helpers
 async def supa_rpc(fn: str, args: dict):
     async with aiohttp.ClientSession() as s:
@@ -20,7 +21,18 @@ async def supa_upload_bytes(path: str, data: bytes, content_type="image/jpeg"):
                           headers={"apikey": SRK, "Authorization": f"Bearer {SRK}", "Content-Type": content_type},
                           data=data) as resp:
             if resp.status >= 400:
-                raise RuntimeError(f"upload {resp.status}: {await resp.text()}")
+                error_text = await resp.text()
+                print(f"DEBUG: Supabase upload failed - status: {resp.status}, error: {error_text}")
+                # Handle duplicate file error gracefully
+                if resp.status == 400 and "Duplicate" in error_text:
+                    # File already exists, that's okay
+                    print(f"DEBUG: File already exists, continuing...")
+                    return
+                raise RuntimeError(f"upload {resp.status}: {error_text}")
+            else:
+                print(f"DEBUG: Supabase upload successful - status: {resp.status}")
+                response_text = await resp.text()
+                print(f"DEBUG: Upload response: {response_text}")
 
 async def supa_sign_url(path: str, expires: int):
     async with aiohttp.ClientSession() as s:

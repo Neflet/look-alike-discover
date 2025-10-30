@@ -1,71 +1,125 @@
-// supabase/functions/embed-image/index.ts
-// Deno Edge Function: generate SigLIP image embeddings via Hugging Face
-
-type EmbedResponse = { vector: number[]; dim: number; model: string };
-
-function l2norm(v: number[]): number[] {
-  const n = Math.sqrt(v.reduce((s, x) => s + x * x, 0)) || 1;
-  return v.map((x) => x / n);
-}
-
-async function getImageBytes(req: Request): Promise<Uint8Array> {
-  const ct = req.headers.get("content-type") ?? "";
-  if (ct.includes("multipart/form-data")) {
-    const form = await req.formData();
-    const f = form.get("image");
-    if (!(f instanceof File)) throw new Error("FormData must include file `image`");
-    return new Uint8Array(await f.arrayBuffer());
-  }
-  const body = await req.json().catch(() => ({} as any));
-  if (body.imageUrl) {
-    const r = await fetch(body.imageUrl);
-    if (!r.ok) throw new Error(`Failed to fetch imageUrl: ${r.status}`);
-    return new Uint8Array(await r.arrayBuffer());
-  }
-  if (body.base64) {
-    const b64 = String(body.base64).split(",").pop();
-    if (!b64) throw new Error("Invalid base64");
-    const bin = atob(b64);
-    const bytes = new Uint8Array(bin.length);
-    for (let i = 0; i < bin.length; i++) bytes[i] = bin.charCodeAt(i);
-    return bytes;
-  }
-  throw new Error("Send multipart 'image' OR JSON { imageUrl } OR { base64 }");
-}
-
 Deno.serve(async (req) => {
   const CORS = { "Access-Control-Allow-Origin": "*", "Access-Control-Allow-Headers": "*" };
   if (req.method === "OPTIONS") return new Response("ok", { headers: CORS });
 
   try {
-    const HF_TOKEN = Deno.env.get("HF_TOKEN");
-    const MODEL = Deno.env.get("SIGLIP_MODEL") ?? "google/siglip-so400m-patch14-384";
-    if (!HF_TOKEN) throw new Error("Missing HF_TOKEN secret");
+    const ct = req.headers.get("content-type") ?? "";
 
-    const bytes = await getImageBytes(req);
+    // Handle file upload - route to local encoder or backend
+    if (ct.includes("multipart/form-data")) {
+      const form = await req.formData();
+      const f = form.get("file") || form.get("image");
+      if (!(f instanceof File)) {
+        return new Response(JSON.stringify({ error: "Expected FormData with 'file' or 'image' key" }),
+          { status: 400, headers: { "Content-Type": "application/json", ...CORS } });
+      }
 
-    // Generate sophisticated hash-based embedding from image bytes
-    const hash = Array.from(bytes.slice(0, 32)).map(b => b.toString(16).padStart(2, '0')).join('');
+      // Option 1: Try backend API (can access local encoder)
+      const BACKEND_URL = Deno.env.get("BACKEND_URL") || "http://localhost:8000";
+      
+      try {
+        const backendFormData = new FormData();
+        backendFormData.append("file", f);
+        
+        const backendRes = await fetch(`${BACKEND_URL}/api/embed`, {
+          method: "POST",
+          body: backendFormData,
+        });
+        
+        if (backendRes.ok) {
+          const backendData = await backendRes.json();
+          const response = {
+            embedding: backendData.embedding || backendData.vector,
+            dim: backendData.dim || backendData.embedding?.length || 1152,
+            model: backendData.model || "google/siglip-so400m-patch14-384"
+          };
+          console.log(`[embed-image] using backend encoder, dim=${response.dim}`);
+          return new Response(JSON.stringify(response), { 
+            status: 200, 
+            headers: { "Content-Type": "application/json", ...CORS } 
+          });
+        }
+      } catch (backendErr) {
+        console.log(`[embed-image] backend failed: ${backendErr}`);
+      }
+      
+      // Option 2: Try HuggingFace endpoint
+      const BASE = Deno.env.get("EMBED_BASE_URL") || Deno.env.get("HF_EMBED_ENDPOINT") || "";
+      const HF_TOKEN = Deno.env.get("HF_API_TOKEN") || Deno.env.get("HF_TOKEN") || "";
+      
+      if (BASE) {
+        // For HF, we need to convert file to base64 or upload to storage first
+        // For now, return error suggesting to use backend
+        return new Response(JSON.stringify({ 
+          error: "File upload not directly supported. Please ensure backend API is running on localhost:8000 or configure backend endpoint."
+        }), { 
+          status: 500, 
+          headers: { "Content-Type": "application/json", ...CORS } 
+        });
+      }
+      
+      return new Response(JSON.stringify({ 
+        error: "No embedding service configured. Please set BACKEND_URL or EMBED_BASE_URL."
+      }), { 
+        status: 500, 
+        headers: { "Content-Type": "application/json", ...CORS } 
+      });
+    } 
     
-    // Create a deterministic 384-dimensional vector based on the image hash
-    // This simulates SigLIP's 384-dimensional output
-    const vec: number[] = [];
-    for (let i = 0; i < 384; i++) {
-      const hashIndex = i % hash.length;
-      const charCode = hash.charCodeAt(hashIndex);
-      const normalized = (charCode - 48) / 39; // Normalize to 0-1 range
-      vec.push(normalized - 0.5); // Center around 0
+    // Handle JSON input (imageUrl)
+    else {
+      const json = await req.json();
+      const BASE = Deno.env.get("EMBED_BASE_URL") || Deno.env.get("HF_EMBED_ENDPOINT") || "";
+      const HF_TOKEN = Deno.env.get("HF_API_TOKEN") || Deno.env.get("HF_TOKEN") || "";
+      
+      if (!BASE) {
+        return new Response(JSON.stringify({ 
+          error: "No embedding endpoint configured. Please set EMBED_BASE_URL or HF_EMBED_ENDPOINT."
+        }), { 
+          status: 500, 
+          headers: { "Content-Type": "application/json", ...CORS } 
+        });
+      }
+      
+      const payload = (json && typeof json === "object" && "imageUrl" in json)
+        ? { inputs: { image_url: json.imageUrl } }
+        : json;
+
+      const headers = new Headers();
+      headers.set("Content-Type", "application/json");
+      if (HF_TOKEN) headers.set("Authorization", `Bearer ${HF_TOKEN}`);
+
+      const upstream = await fetch(BASE, { method: "POST", headers, body: JSON.stringify(payload) });
+      const text = await upstream.text();
+      console.log("[embed-image] upstream", upstream.status, text.slice(0, 160));
+
+      if (!upstream.ok) {
+        return new Response(JSON.stringify({ error: `Upstream ${upstream.status}`, detail: text }),
+          { status: 500, headers: { "Content-Type": "application/json", ...CORS } });
+      }
+      
+      const hfData = JSON.parse(text);
+      const embedding = hfData.embedding || hfData[0]?.embedding || (Array.isArray(hfData) ? hfData : null);
+      
+      if (!embedding || !Array.isArray(embedding)) {
+        throw new Error(`Invalid embedding format: ${JSON.stringify(hfData).slice(0, 200)}`);
+      }
+      
+      const response = {
+        embedding: embedding,
+        dim: hfData.dim || embedding.length,
+        model: hfData.model || "google/siglip-so400m-patch14-384"
+      };
+      
+      console.log(`[embed-image] returning embedding dim=${response.dim}, model=${response.model}`);
+      return new Response(JSON.stringify(response), { 
+        status: 200, 
+        headers: { "Content-Type": "application/json", ...CORS } 
+      });
     }
-
-    const vector = l2norm(vec);
-    const res: EmbedResponse = { vector, dim: vector.length, model: MODEL };
-
-    return new Response(JSON.stringify(res), { headers: { "Content-Type": "application/json", ...CORS } });
   } catch (e) {
-    console.error("embed-image error:", e);
-    return new Response(JSON.stringify({ error: String(e) }), {
-      status: 500,
-      headers: { "Content-Type": "application/json", ...CORS },
-    });
+    console.error("[embed-image] error", e);
+    return new Response(JSON.stringify({ error: String(e), stack: e instanceof Error ? e.stack : undefined }),
+      { status: 500, headers: { "Content-Type": "application/json", ...CORS } });
   }
 });

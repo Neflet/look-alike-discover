@@ -6,26 +6,17 @@ import { Button } from '@/components/ui/button';
 import { Card, CardContent } from '@/components/ui/card';
 import { Camera, Upload, Loader2, AlertCircle, X } from 'lucide-react';
 import { useToast } from '@/hooks/use-toast';
-import { searchImage } from '@/api/search-image';
+import { embedImage, searchSimilar, type SearchHit } from '../../lib/search-image';
 import { trackEvent } from '@/api/analytics';
 
-interface Product {
-  id: string;
-  title: string;
-  price: number;
-  url: string;
-  main_image_url: string;
-  distance: number;
-}
-
-interface SearchResponse {
-  products: Product[];
-  requestId: string;
-}
+// Extended SearchHit for UI (includes score for backward compatibility)
+type UISearchHit = SearchHit & {
+  score: number; // For backward compatibility with existing UI code
+};
 
 export function ImageSearch() {
   const [isLoading, setIsLoading] = useState(false);
-  const [products, setProducts] = useState<Product[]>([]);
+  const [products, setProducts] = useState<UISearchHit[]>([]);
   const [searchCompleted, setSearchCompleted] = useState(false);
   const [uploadedImage, setUploadedImage] = useState<string | null>(null);
   const fileInputRef = useRef<HTMLInputElement>(null);
@@ -42,29 +33,39 @@ export function ImageSearch() {
     setUploadedImage(imageUrl);
     
     try {
-      console.log('Starting image search...');
-      const data = await searchImage(file);
-      console.log('Search data received:', data);
-      
-      if (!data || !data.products) {
-        throw new Error('Invalid search response');
-      }
-      
-      setProducts(data.products);
+      console.log('Starting image search…');
+
+      // Step 1: Get embedding from edge function
+      const { embedding, model } = await embedImage(file);
+
+      // Step 2: Search similar products
+      const results = await searchSimilar(embedding, model, {
+        topK: 48,
+        minSimilarity: 0.55, // tune between 0.50–0.65
+      });
+
+      // Transform results to match existing UI format
+      const items: UISearchHit[] = results.map(r => ({
+        ...r,
+        title: r.title || 'Untitled',
+        score: r.similarity ?? (r.cos_distance !== undefined ? 1.0 - r.cos_distance : 0.5), // Fallback if similarity not provided
+      }));
+
+      setProducts(items);
       setSearchCompleted(true);
 
       // Track search event
       try {
         await trackEvent('image_search', {
-          results_count: data.products.length,
-          top_distance: data.products[0]?.distance || null,
-          request_id: data.requestId
+          results_count: items.length,
+          top_score: items[0]?.score || null,
+          request_id: `req_${Date.now()}_${Math.random().toString(36).substr(2, 9)}`
         });
       } catch (trackError) {
         console.warn('Analytics tracking failed:', trackError);
       }
 
-      if (data.products.length === 0) {
+      if (items.length === 0) {
         toast({
           title: "No results found",
           description: "Try uploading a different image or adjusting your search.",
@@ -73,12 +74,12 @@ export function ImageSearch() {
       } else {
         toast({
           title: "Search completed",
-          description: `Found ${data.products.length} similar products`,
+          description: `Found ${items.length} similar products`,
         });
       }
 
     } catch (error) {
-      console.error('Search error:', error);
+      console.error('[UI] search error', error);
       toast({
         title: "Search failed",
         description: error instanceof Error ? error.message : "An unexpected error occurred",
@@ -96,15 +97,19 @@ export function ImageSearch() {
     }
   };
 
-  const handleProductClick = async (product: Product) => {
+  const handleProductClick = async (product: UISearchHit) => {
     await trackEvent('product_click', {
       product_id: product.id,
       product_title: product.title,
       product_price: product.price,
-      similarity_distance: product.distance
+      similarity_score: product.score
     });
 
-    window.open(product.url, '_blank', 'noopener,noreferrer');
+    // Since SearchHit doesn't have a url field, we'll just show a toast for now
+    toast({
+      title: "Product Clicked",
+      description: `${product.title} - Score: ${Math.round(product.score * 100)}%`,
+    });
   };
 
   return (
@@ -294,9 +299,18 @@ export function ImageSearch() {
                         <h3 className="text-[11px] leading-tight line-clamp-2 font-medium" title={product.title}>
                           {product.title}
                         </h3>
-                        <p className="text-xs font-bold">
-                          ${product.price.toFixed(2)}
-                        </p>
+                        <div className="flex items-center justify-between">
+                          <p className="text-xs font-bold">
+                            {product.price ? `$${product.price.toFixed(2)}` : 'Price N/A'}
+                          </p>
+                          <span className="text-[10px] opacity-60" title={`Similarity: ${product.similarity ? (product.similarity * 100).toFixed(1) : 'N/A'}%`}>
+                            {product.similarity 
+                              ? `${Math.round(product.similarity * 100)}%` 
+                              : product.score 
+                              ? `${Math.round(product.score * 100)}%`
+                              : '—'}
+                          </span>
+                        </div>
                       </div>
                     </div>
                   ))}
