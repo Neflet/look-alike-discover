@@ -1,7 +1,7 @@
 "use client";
 
-import { useState } from 'react';
-import { searchSimilarFiltered, type SearchHit } from '../../lib/search-image';
+import { useState, useEffect } from 'react';
+import { searchSimilarFiltered, getBrands, type SearchHit } from '../../lib/search-image';
 
 type Props = {
   isOpen: boolean;
@@ -19,10 +19,25 @@ export default function RefineSearch({
   onResults,
 }: Props) {
   const [brand, setBrand] = useState('');
+  const [brands, setBrands] = useState<string[]>([]);
   const [min, setMin] = useState<string>('');
   const [max, setMax] = useState<string>('');
   const [loading, setLoading] = useState(false);
+  const [loadingBrands, setLoadingBrands] = useState(false);
   const [err, setErr] = useState<string | null>(null);
+
+  // Load brands when drawer opens
+  useEffect(() => {
+    if (isOpen && brands.length === 0) {
+      setLoadingBrands(true);
+      getBrands()
+        .then(setBrands)
+        .catch(e => {
+          console.error('[RefineSearch] Failed to load brands:', e);
+        })
+        .finally(() => setLoadingBrands(false));
+    }
+  }, [isOpen, brands.length]);
 
   if (!isOpen) return null;
 
@@ -61,7 +76,7 @@ export default function RefineSearch({
       });
       
       const hits = await searchSimilarFiltered(lastEmbedding, lastModel, {
-        topK: 24,
+        topK: 5,
         minSimilarity: 0.55,
         priceMin: priceMinNum,
         priceMax: priceMaxNum,
@@ -91,12 +106,20 @@ export default function RefineSearch({
         <div className="grid gap-3">
           <label className="grid gap-1">
             <span className="text-sm opacity-60">Brand (optional)</span>
-            <input
+            <select
               value={brand}
               onChange={e => setBrand(e.target.value)}
-              placeholder="adidas, nike, zara…"
               className="border rounded px-3 py-2 bg-background"
-            />
+              disabled={loadingBrands}
+            >
+              <option value="">All brands</option>
+              {brands.map(b => (
+                <option key={b} value={b}>{b}</option>
+              ))}
+            </select>
+            {loadingBrands && (
+              <span className="text-xs opacity-60">Loading brands...</span>
+            )}
           </label>
 
           <div className="grid grid-cols-2 gap-3">

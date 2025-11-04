@@ -20,35 +20,51 @@ returns table (
 language sql
 security definer
 set search_path = public
-set statement_timeout = '8000ms'
+set statement_timeout = '20s'
 as $$
-  with cand as (
+  -- Optimize: do vector search first on larger candidate pool, then filter
+  -- This ensures we get enough results even after filtering
+  with ranked as (
     select
       pe.product_id as id,
-      p.title,
-      p.brand,
-      p.price,
-      p.url,
-      p.main_image_url,
-      pe.embedding,
       (pe.embedding <=> qvec) as cos_distance
     from product_embeddings pe
-    join products p on p.id = pe.product_id
     where pe.model_id = p_model_id
-      and (price_min is null or p.price >= price_min)
-      and (price_max is null or p.price <= price_max)
-      and (brand_eq is null or p.brand ilike brand_eq)
     order by pe.embedding <=> qvec
-    limit top_k
+    limit top_k * 5  -- Get larger candidate pool to account for filtering
   )
   select
-    id, title, brand, price, url, main_image_url,
-    (1.0 - (cos_distance / 2.0)) as similarity,
-    cos_distance
-  from cand
-  order by cos_distance asc;
+    p.id,
+    p.title,
+    p.brand,
+    p.price,
+    p.url,
+    p.main_image_url,
+    (1.0 - (r.cos_distance / 2.0)) as similarity,
+    r.cos_distance
+  from ranked r
+  join products p on p.id = r.id
+  where (price_min is null or p.price >= price_min)
+    and (price_max is null or p.price <= price_max)
+    and (brand_eq is null or lower(p.brand) = lower(brand_eq))
+  order by r.cos_distance asc
+  limit top_k;
 $$;
 
 -- Helpful indexes for filters
 create index if not exists idx_products_price on products(price);
 create index if not exists idx_products_brand on products(brand);
+
+-- Function to get distinct brands (for dropdown)
+create or replace function public.get_brands()
+returns table (brand text)
+language sql
+stable
+security definer
+set search_path = public
+as $$
+  select distinct brand
+  from products
+  where brand is not null
+  order by brand asc;
+$$;

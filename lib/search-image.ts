@@ -26,6 +26,18 @@ const SUPABASE_ANON_KEY = process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY!;
 
 export const supabase = createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
 
+// Get distinct brands for dropdown
+export async function getBrands(): Promise<string[]> {
+  const { data, error } = await supabase.rpc('get_brands') as { data: { brand: string }[] | null; error: any };
+  
+  if (error) {
+    console.error('[RPC] get_brands error', error);
+    return [];
+  }
+  
+  return (data ?? []).map(row => row.brand).filter(Boolean);
+}
+
 function assertEmbedding(e: number[], model: string) {
   if (!Array.isArray(e) || e.length !== 1152) {
     console.error('[embed] bad shape', { len: e?.length, model });
@@ -136,13 +148,14 @@ export async function searchSimilarFiltered(
   const minSimilarity = opts.minSimilarity ?? 0.55;
 
   // Build filter params - pass null for optional filters that aren't provided
+  // For brand, use exact match since we're using dropdown now
   const rpcParams: any = {
     qvec: embedding as unknown as any,
     p_model_id: model,
     top_k,
     price_min: typeof opts.priceMin === 'number' ? opts.priceMin : null,
     price_max: typeof opts.priceMax === 'number' ? opts.priceMax : null,
-    brand_eq: opts.brand && opts.brand.trim() ? `%${opts.brand.trim()}%` : null,
+    brand_eq: opts.brand && opts.brand.trim() ? opts.brand.trim() : null,
   };
 
   console.log('[RPC] calling search_products_filtered with params:', {
