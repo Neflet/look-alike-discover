@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from 'react';
-import { searchSimilarFiltered, type SearchHit } from '@/lib/search-image';
+import { searchSimilarFiltered, type SearchHit } from '../../lib/search-image';
 
 type Props = {
   isOpen: boolean;
@@ -31,22 +31,50 @@ export default function RefineSearch({
       setErr('No base query available. Upload an image first.');
       return;
     }
+    
+    // Validate numeric inputs
+    const priceMinNum = min.trim() ? Number(min.trim()) : undefined;
+    const priceMaxNum = max.trim() ? Number(max.trim()) : undefined;
+    
+    if (min.trim() && (isNaN(priceMinNum!) || priceMinNum! < 0)) {
+      setErr('Min price must be a valid number');
+      return;
+    }
+    
+    if (max.trim() && (isNaN(priceMaxNum!) || priceMaxNum! < 0)) {
+      setErr('Max price must be a valid number');
+      return;
+    }
+    
+    if (priceMinNum !== undefined && priceMaxNum !== undefined && priceMinNum > priceMaxNum) {
+      setErr('Min price cannot be greater than max price');
+      return;
+    }
+    
     setLoading(true);
     setErr(null);
     try {
-      const priceMin = min ? Number(min) : undefined;
-      const priceMax = max ? Number(max) : undefined;
+      console.log('[RefineSearch] Applying filters:', {
+        priceMin: priceMinNum,
+        priceMax: priceMaxNum,
+        brand: brand.trim() || undefined,
+      });
+      
       const hits = await searchSimilarFiltered(lastEmbedding, lastModel, {
         topK: 24,
         minSimilarity: 0.55,
-        priceMin,
-        priceMax,
+        priceMin: priceMinNum,
+        priceMax: priceMaxNum,
         brand: brand.trim() || undefined,
       });
+      
+      console.log('[RefineSearch] Got results:', hits.length);
       onResults(hits);
       onClose();
     } catch (e: any) {
-      setErr(e?.message ?? 'Refine failed');
+      console.error('[RefineSearch] Error:', e);
+      const errorMsg = e?.message || e?.error?.message || 'Refine search failed. Make sure the database migration has been applied.';
+      setErr(errorMsg);
     } finally {
       setLoading(false);
     }

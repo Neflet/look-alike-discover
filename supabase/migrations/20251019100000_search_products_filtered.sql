@@ -12,6 +12,8 @@ returns table (
   title text,
   brand text,
   price numeric,
+  url text,
+  main_image_url text,
   similarity double precision,
   cos_distance double precision
 )
@@ -26,6 +28,8 @@ as $$
       p.title,
       p.brand,
       p.price,
+      p.url,
+      p.main_image_url,
       pe.embedding,
       (pe.embedding <=> qvec) as cos_distance
     from product_embeddings pe
@@ -38,7 +42,7 @@ as $$
     limit top_k
   )
   select
-    id, title, brand, price,
+    id, title, brand, price, url, main_image_url,
     (1.0 - (cos_distance / 2.0)) as similarity,
     cos_distance
   from cand

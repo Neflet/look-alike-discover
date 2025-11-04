@@ -131,11 +131,16 @@ export function ImageSearch() {
       similarity_score: product.score
     });
 
-    // Since SearchHit doesn't have a url field, we'll just show a toast for now
-    toast({
-      title: "Product Clicked",
-      description: product.title,
-    });
+    // Navigate to product URL if available
+    if (product.url) {
+      window.open(product.url, '_blank', 'noopener,noreferrer');
+    } else {
+      toast({
+        title: "Product URL not available",
+        description: product.title,
+        variant: "destructive"
+      });
+    }
   };
 
   return (
@@ -202,23 +207,22 @@ export function ImageSearch() {
                       </div>
 
                       <div className="space-y-4">
-                        <Button
-                          onClick={() => fileInputRef.current?.click()}
-                          disabled={isLoading}
-                          className="h-14 px-10 text-xs tracking-[0.2em] uppercase bg-foreground text-background hover:bg-foreground/90 border-2 border-foreground"
+                        {/* Accessible label triggers are more reliable across browsers */}
+                        <label
+                          htmlFor="file-input"
+                          className="inline-flex items-center justify-center gap-2 whitespace-nowrap font-medium ring-offset-background focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0 transition-colors py-2 h-14 px-10 text-xs tracking-[0.2em] uppercase bg-foreground text-background hover:bg-foreground/90 border-2 border-foreground cursor-pointer"
                         >
                           Browse Files
-                        </Button>
+                        </label>
                         
                         <div className="flex items-center gap-3">
                           <div className="h-px w-12 bg-border/50" />
-                          <button
-                            onClick={() => cameraInputRef.current?.click()}
-                            disabled={isLoading}
-                            className="text-xs tracking-wide opacity-60 hover:opacity-100 transition-opacity"
+                          <label
+                            htmlFor="camera-input"
+                            className="text-xs tracking-wide opacity-60 hover:opacity-100 transition-opacity cursor-pointer"
                           >
                             or capture photo
-                          </button>
+                          </label>
                         </div>
                       </div>
                     </div>
@@ -238,6 +242,7 @@ export function ImageSearch() {
                   </div>
 
                   <input
+                    id="file-input"
                     ref={fileInputRef}
                     type="file"
                     accept="image/*"
@@ -247,6 +252,7 @@ export function ImageSearch() {
                   />
                   
                   <input
+                    id="camera-input"
                     ref={cameraInputRef}
                     type="file"
                     accept="image/*"

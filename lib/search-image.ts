@@ -135,17 +135,31 @@ export async function searchSimilarFiltered(
   const top_k = opts.topK ?? 24;
   const minSimilarity = opts.minSimilarity ?? 0.55;
 
-  const { data, error } = await supabase.rpc('search_products_filtered', {
+  // Build filter params - pass null for optional filters that aren't provided
+  const rpcParams: any = {
     qvec: embedding as unknown as any,
     p_model_id: model,
     top_k,
     price_min: typeof opts.priceMin === 'number' ? opts.priceMin : null,
     price_max: typeof opts.priceMax === 'number' ? opts.priceMax : null,
-    brand_eq: opts.brand ? `%${opts.brand}%` : null,
-  }) as { data: SearchHit[] | null; error: any };
+    brand_eq: opts.brand && opts.brand.trim() ? `%${opts.brand.trim()}%` : null,
+  };
+
+  console.log('[RPC] calling search_products_filtered with params:', {
+    top_k: rpcParams.top_k,
+    price_min: rpcParams.price_min ?? 'null',
+    price_max: rpcParams.price_max ?? 'null',
+    brand_eq: rpcParams.brand_eq ?? 'null',
+  });
+
+  const { data, error } = await supabase.rpc('search_products_filtered', rpcParams) as { data: SearchHit[] | null; error: any };
 
   if (error) {
     console.error('[RPC] filtered error', error);
+    // Provide more helpful error messages
+    if (error.message?.includes('function') || error.message?.includes('does not exist')) {
+      throw new Error('Database function not found. Please run the migration: supabase db push');
+    }
     throw error;
   }
 
@@ -153,5 +167,6 @@ export async function searchSimilarFiltered(
     typeof r.similarity === 'number' ? r.similarity >= minSimilarity : true
   );
 
+  console.log('[RPC] filtered results', rows.length);
   return rows;
 }
