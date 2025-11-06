@@ -25,6 +25,7 @@ export function initPostHog() {
   });
 
   window.__PH_INITIALIZED__ = true;
+  window.posthog = posthog;               // expose for console tests
 }
 
 export function track(event: string, props?: Record<string, any>) {
