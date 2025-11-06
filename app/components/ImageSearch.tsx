@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useState, useRef } from 'react';
+import React, { useState, useRef, useEffect } from 'react';
 import Image from 'next/image';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent } from '@/components/ui/card';
@@ -8,8 +8,11 @@ import { Camera, Upload, Loader2, AlertCircle, X } from 'lucide-react';
 import { useToast } from '@/hooks/use-toast';
 import { embedImage, searchSimilar, type SearchHit } from '../../lib/search-image';
 import { trackEvent } from '@/api/analytics';
+import { track } from '@/lib/posthog';
 import { ImageCrop } from './ImageCrop';
 import RefineSearch from '@/components/RefineSearch';
+import { UserMenu } from './UserMenu';
+import { SaveButton } from './SaveButton';
 
 // Extended SearchHit for UI (includes score for backward compatibility)
 type UISearchHit = SearchHit & {
@@ -30,6 +33,10 @@ export function ImageSearch() {
   const cameraInputRef = useRef<HTMLInputElement>(null);
   const { toast } = useToast();
 
+  // Track app open on mount
+  useEffect(() => {
+    track('app_open');
+  }, []);
 
   const handleImageSearch = async (file: File) => {
     setIsLoading(true);
@@ -46,6 +53,9 @@ export function ImageSearch() {
       const { embedding, model } = await embedImage(file);
       setLastEmbedding(embedding);
       setLastModel(model);
+
+      // Track search triggered
+      track('search_triggered', { qtype: 'image' });
 
       // Step 2: Search similar products - limit to top 5 most similar
       const results = await searchSimilar(embedding, model, {
@@ -106,6 +116,10 @@ export function ImageSearch() {
       const imageUrl = URL.createObjectURL(file);
       setUploadedImage(imageUrl);
       setShowCrop(true); // Show crop interface first
+      
+      // Track image upload
+      const source = event.target.id === 'camera-input' ? 'camera' : 'file';
+      track('image_uploaded', { source });
     }
   };
 
@@ -124,6 +138,13 @@ export function ImageSearch() {
   };
 
   const handleProductClick = async (product: UISearchHit) => {
+    // Track result clicked
+    track('result_clicked', {
+      productId: product.id,
+      brand: product.brand,
+      price: product.price,
+    });
+
     await trackEvent('product_click', {
       product_id: product.id,
       product_title: product.title,
@@ -133,6 +154,13 @@ export function ImageSearch() {
 
     // Navigate to product URL if available
     if (product.url) {
+      // Track affiliate click
+      track('affiliate_click', {
+        productId: product.id,
+        merchant: product.brand || 'unknown',
+        url: product.url,
+      });
+      
       window.open(product.url, '_blank', 'noopener,noreferrer');
     } else {
       toast({
@@ -158,6 +186,9 @@ export function ImageSearch() {
           <Image src="/logo.svg" alt="Swagai" width={64} height={16} className="h-4 w-auto" />
         </div>
       </header>
+
+      {/* User Menu */}
+      <UserMenu />
 
       {/* Main Content */}
       <div className="relative z-10">
@@ -359,6 +390,9 @@ export function ImageSearch() {
                               loading="lazy"
                             />
                             <div className="absolute inset-0 bg-foreground/0 group-hover:bg-foreground/5 transition-colors duration-300" />
+                            <div className="absolute top-2 right-2 z-10">
+                              <SaveButton productId={product.id} productTitle={product.title} />
+                            </div>
                           </div>
                           <div className="space-y-1">
                             <h3 className="text-[11px] leading-tight line-clamp-2 font-medium" title={product.title}>

@@ -3,6 +3,7 @@ from fastapi.middleware.cors import CORSMiddleware
 from .routes.search import router as search_router
 from .routes.health import router as health_router
 from .routes.metrics import router as metrics_router
+from .routes.analytics import router as analytics_router
 
 app = FastAPI(title="SwagAI API", version="1.0")
 
@@ -17,3 +18,4 @@ app.add_middleware(
 app.include_router(health_router, prefix="/api")
 app.include_router(search_router, prefix="/api")
 app.include_router(metrics_router, prefix="/api")
+app.include_router(analytics_router, prefix="/api")

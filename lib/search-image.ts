@@ -28,7 +28,7 @@ export const supabase = createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
 
 // Get distinct brands for dropdown
 export async function getBrands(): Promise<string[]> {
-  const { data, error } = await supabase.rpc('get_brands') as { data: { brand: string }[] | null; error: any };
+  const { data, error } = await (supabase.rpc as any)('get_brands') as { data: { brand: string }[] | null; error: any };
   
   if (error) {
     console.error('[RPC] get_brands error', error);
