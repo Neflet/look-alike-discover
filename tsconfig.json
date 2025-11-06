@@ -19,7 +19,7 @@
     ],
     "baseUrl": ".",
     "paths": {
-      "@/*": ["./app/*"]
+      "@/*": ["./*"]
     },
     "noImplicitAny": false,
     "noUnusedParameters": false,
