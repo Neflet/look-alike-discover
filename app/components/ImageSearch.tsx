@@ -33,11 +33,6 @@ export function ImageSearch() {
   const cameraInputRef = useRef<HTMLInputElement>(null);
   const { toast } = useToast();
 
-  // Track app open on mount
-  useEffect(() => {
-    track('app_open');
-  }, []);
-
   const handleImageSearch = async (file: File) => {
     setIsLoading(true);
     setSearchCompleted(false);
@@ -55,7 +50,7 @@ export function ImageSearch() {
       setLastModel(model);
 
       // Track search triggered
-      track('search_triggered', { qtype: 'image' });
+      track('search_triggered', { qtype: 'image', filters: null });
 
       // Step 2: Search similar products - limit to top 5 most similar
       const results = await searchSimilar(embedding, model, {

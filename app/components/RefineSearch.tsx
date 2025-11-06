@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from 'react';
 import { searchSimilarFiltered, getBrands, type SearchHit } from '../../lib/search-image';
+import { track } from '@/lib/posthog';
 
 type Props = {
   isOpen: boolean;
@@ -74,6 +75,14 @@ export default function RefineSearch({
         priceMax: priceMaxNum,
         brand: brand.trim() || undefined,
       });
+      
+      // Track search triggered with filters
+      const activeFilters = {
+        priceMin: priceMinNum ?? null,
+        priceMax: priceMaxNum ?? null,
+        brand: brand.trim() || null,
+      };
+      track('search_triggered', { qtype: 'image', filters: activeFilters });
       
       const hits = await searchSimilarFiltered(lastEmbedding, lastModel, {
         topK: 5,
