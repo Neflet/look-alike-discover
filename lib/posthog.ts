@@ -2,7 +2,7 @@
 import posthog from 'posthog-js';
 
 declare global {
-  interface Window { __PH_INITIALIZED__?: boolean }
+  interface Window { __PH_INITIALIZED__?: boolean; posthog?: typeof posthog }
 }
 
 const isBrowser = typeof window !== 'undefined';
