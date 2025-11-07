@@ -44,13 +44,13 @@ export function ImageSearch() {
     try {
       console.log('Starting image search…');
 
+      // Track search triggered
+      track('search_triggered', { qtype: 'image', filters: null });
+
       // Step 1: Get embedding from edge function
       const { embedding, model } = await embedImage(file);
       setLastEmbedding(embedding);
       setLastModel(model);
-
-      // Track search triggered
-      track('search_triggered', { qtype: 'image', filters: null });
 
       // Step 2: Search similar products - limit to top 5 most similar
       const results = await searchSimilar(embedding, model, {
@@ -94,9 +94,15 @@ export function ImageSearch() {
 
     } catch (error) {
       console.error('[UI] search error', error);
+      
+      // Track search failure
+      track('search_failed', { 
+        reason: error instanceof Error ? error.message : 'unknown' 
+      });
+      
       toast({
-        title: "Search failed",
-        description: error instanceof Error ? error.message : "An unexpected error occurred",
+        title: "Search service unavailable",
+        description: "The search service is warming up—please try again in a few seconds.",
         variant: "destructive"
       });
     } finally {

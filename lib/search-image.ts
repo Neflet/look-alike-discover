@@ -46,33 +46,66 @@ function assertEmbedding(e: number[], model: string) {
 }
 
 export async function embedImage(file: File): Promise<EmbedResponse> {
-  // Try local encoder server first (for development)
+  const isProd = process.env.NODE_ENV === 'production';
   const LOCAL_ENCODER = 'http://localhost:8001/embed';
   
+  // Try local encoder server first (only in development)
+  if (!isProd) {
+    try {
+      console.log('[EMBED-FN] trying local encoder at', LOCAL_ENCODER);
+      const fd = new FormData();
+      fd.append('file', file);
+      
+      const res = await fetch(LOCAL_ENCODER, {
+        method: 'POST',
+        body: fd,
+      });
+      
+      if (res.ok) {
+        const data = await res.json();
+        const embedding = data.embedding || data.vector;
+        const dim = data.dims || data.dim || embedding?.length;
+        const model = data.model || 'google/siglip-so400m-patch14-384';
+        
+        assertEmbedding(embedding, model);
+        if (dim !== 1152) throw new Error(`Unexpected dim ${dim}`);
+        
+        console.log('[EMBED-FN] local encoder ok', { len: embedding.length, model });
+        return { embedding, dim, model };
+      }
+    } catch (localErr) {
+      console.log('[EMBED-FN] local encoder failed, trying /api/embed:', localErr);
+    }
+  }
+  
+  // Try /api/embed route (proxies to HF endpoint)
   try {
-    console.log('[EMBED-FN] trying local encoder at', LOCAL_ENCODER);
-    const fd = new FormData();
-    fd.append('file', file);
+    console.log('[EMBED-FN] converting file to base64 for /api/embed');
+    const imageBase64 = await fileToBase64(file);
     
-    const res = await fetch(LOCAL_ENCODER, {
+    const res = await fetch('/api/embed', {
       method: 'POST',
-      body: fd,
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ imageBase64 }),
     });
     
     if (res.ok) {
       const data = await res.json();
-      const embedding = data.embedding || data.vector;
-      const dim = data.dims || data.dim || embedding?.length;
-      const model = data.model || 'google/siglip-so400m-patch14-384';
+      const embedding = data.embedding;
+      const dim = embedding?.length || 1152;
+      const model = 'google/siglip-so400m-patch14-384';
       
       assertEmbedding(embedding, model);
       if (dim !== 1152) throw new Error(`Unexpected dim ${dim}`);
       
-      console.log('[EMBED-FN] local encoder ok', { len: embedding.length, model });
+      console.log('[EMBED-FN] /api/embed ok', { len: embedding.length, model });
       return { embedding, dim, model };
+    } else {
+      const errorData = await res.json().catch(() => ({ error: 'Unknown error' }));
+      throw new Error(errorData.error || 'Embedding failed');
     }
-  } catch (localErr) {
-    console.log('[EMBED-FN] local encoder failed, trying edge function:', localErr);
+  } catch (apiErr) {
+    console.log('[EMBED-FN] /api/embed failed, trying edge function:', apiErr);
   }
   
   // Fallback to Supabase edge function
@@ -91,6 +124,21 @@ export async function embedImage(file: File): Promise<EmbedResponse> {
 
   console.log('[EMBED-FN] ok', { len: embedding.length, model });
   return data!;
+}
+
+// Helper to convert File to base64
+function fileToBase64(file: File): Promise<string> {
+  return new Promise((resolve, reject) => {
+    const reader = new FileReader();
+    reader.onload = () => {
+      const result = reader.result as string;
+      // Remove data:image/...;base64, prefix if present
+      const base64 = result.includes(',') ? result.split(',')[1] : result;
+      resolve(base64);
+    };
+    reader.onerror = reject;
+    reader.readAsDataURL(file);
+  });
 }
 
 export type SearchOptions = {
