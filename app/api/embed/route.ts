@@ -4,7 +4,7 @@ export const runtime = 'nodejs';
 
 export async function POST(req: NextRequest) {
   try {
-    const { imageUrl, imageBase64 } = await req.json();
+    const { inputs } = await req.json(); // inputs = base64 or URL
 
     const url = process.env.HF_ENDPOINT_URL!;
     const token = process.env.HF_API_TOKEN!;
@@ -13,15 +13,13 @@ export async function POST(req: NextRequest) {
       return NextResponse.json({ error: 'Server not configured' }, { status: 500 });
     }
 
-    const payload = imageBase64 ? { inputs: imageBase64 } : { inputs: imageUrl };
-
     const r = await fetch(url, {
       method: 'POST',
       headers: {
         Authorization: `Bearer ${token}`,
         'Content-Type': 'application/json',
       },
-      body: JSON.stringify(payload),
+      body: JSON.stringify({ inputs }),
     });
 
     if (!r.ok) {

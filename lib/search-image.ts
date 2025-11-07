@@ -81,12 +81,12 @@ export async function embedImage(file: File): Promise<EmbedResponse> {
   // Try /api/embed route (proxies to HF endpoint)
   try {
     console.log('[EMBED-FN] converting file to base64 for /api/embed');
-    const imageBase64 = await fileToBase64(file);
+    const inputs = await fileToBase64(file);
     
     const res = await fetch('/api/embed', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ imageBase64 }),
+      body: JSON.stringify({ inputs }),
     });
     
     if (res.ok) {
