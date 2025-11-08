@@ -1,18 +1,27 @@
 import { NextRequest, NextResponse } from 'next/server';
 
 export const runtime = 'nodejs';
+export const maxDuration = 30; // Increase timeout for large images
 
-const HF_URL = process.env.HF_EMBED_URL!;
-const HF_TOKEN = process.env.HF_EMBED_TOKEN!;
+const HF_URL = process.env.HF_EMBED_URL;
+const HF_TOKEN = process.env.HF_EMBED_TOKEN;
 
 export async function POST(req: NextRequest) {
-  if (req.method !== 'POST') {
-    return NextResponse.json({ error: 'Method not allowed' }, { status: 405 });
-  }
-
   try {
-    const body = await req.json();
-    const { image_url, image_base64, inputs } = body || {};
+    if (!HF_URL || !HF_TOKEN) {
+      console.error('Missing envs', { hasUrl: !!HF_URL, hasToken: !!HF_TOKEN });
+      return NextResponse.json(
+        { error: 'Server misconfigured: HF env vars missing' },
+        { status: 500 }
+      );
+    }
+
+    const body = await req.json().catch(() => ({}));
+    const { inputs, image_url, image_base64 } = body as {
+      inputs?: string;
+      image_url?: string;
+      image_base64?: string;
+    };
 
     // Accept either old fields or the new "inputs" contract
     const payload = inputs
@@ -24,14 +33,11 @@ export async function POST(req: NextRequest) {
           : null;
 
     if (!payload) {
+      console.error('Bad payload', body);
       return NextResponse.json(
         { error: "Provide 'inputs' OR 'image_url' OR 'image_base64'" },
         { status: 400 }
       );
-    }
-
-    if (!HF_URL || !HF_TOKEN) {
-      return NextResponse.json({ error: 'Server not configured' }, { status: 500 });
     }
 
     const r = await fetch(HF_URL, {
@@ -43,18 +49,24 @@ export async function POST(req: NextRequest) {
       body: JSON.stringify(payload),
     });
 
-    const data = await r.json();
+    const data = await r.json().catch(() => ({}));
+
     if (!r.ok) {
-      return NextResponse.json({ error: data }, { status: r.status });
+      console.error('HF error', r.status, data);
+      return NextResponse.json({ error: data || 'HF error' }, { status: r.status });
     }
 
-    // Handler returns { embedding: [...] }
     if (!data.embedding) {
-      return NextResponse.json({ error: 'No embedding field in response' }, { status: 500 });
+      console.error('No embedding in HF response', data);
+      return NextResponse.json(
+        { error: 'No embedding in HF response' },
+        { status: 500 }
+      );
     }
 
     return NextResponse.json({ embedding: data.embedding });
   } catch (e: any) {
+    console.error('Embed route exception', e);
     return NextResponse.json({ error: e?.message || 'Server error' }, { status: 500 });
   }
 }
