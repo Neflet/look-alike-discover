@@ -7,7 +7,19 @@ const HF_URL = process.env.HF_EMBED_URL;
 const HF_TOKEN = process.env.HF_EMBED_TOKEN;
 
 export async function POST(req: NextRequest) {
+  // Hard-fail on non-POST methods
+  if (req.method !== 'POST') {
+    return NextResponse.json(
+      { error: 'Method not allowed' },
+      { 
+        status: 405,
+        headers: { 'Allow': 'POST' }
+      }
+    );
+  }
+
   try {
+
     if (!HF_URL || !HF_TOKEN) {
       console.error('Missing envs', { hasUrl: !!HF_URL, hasToken: !!HF_TOKEN });
       return NextResponse.json(

@@ -80,8 +80,10 @@ export async function embedImage(file: File): Promise<EmbedResponse> {
   
   // Try /api/embed route (proxies to HF endpoint)
   try {
-    console.log('[EMBED-FN] converting file to base64 for /api/embed');
-    const inputs = await fileToBase64(file);
+    console.log('[EMBED-FN] downscaling image if needed, then converting to base64');
+    // Downscale large images before base64 to prevent 413 errors
+    const processedFile = await downscaleImageIfNeeded(file);
+    const inputs = await fileToBase64(processedFile);
     
     const res = await fetch('/api/embed', {
       method: 'POST',
@@ -124,6 +126,78 @@ export async function embedImage(file: File): Promise<EmbedResponse> {
 
   console.log('[EMBED-FN] ok', { len: embedding.length, model });
   return data!;
+}
+
+// Helper to downscale image before base64 (prevents 413 errors on mobile photos)
+async function downscaleImageIfNeeded(file: File): Promise<File> {
+  // Only downscale if file is larger than 2MB
+  if (file.size < 2 * 1024 * 1024) {
+    return file;
+  }
+
+  // Check if we're in browser (has Image and canvas)
+  if (typeof window === 'undefined' || !window.Image || !document.createElement) {
+    return file;
+  }
+
+  try {
+    return new Promise((resolve, reject) => {
+      const img = new Image();
+      const canvas = document.createElement('canvas');
+      const ctx = canvas.getContext('2d');
+      
+      if (!ctx) {
+        resolve(file); // Fallback to original if canvas not available
+        return;
+      }
+
+      img.onload = () => {
+        // Calculate new dimensions (max 768px on longest edge)
+        const maxDimension = 768;
+        let width = img.width;
+        let height = img.height;
+        
+        if (width > height) {
+          if (width > maxDimension) {
+            height = (height * maxDimension) / width;
+            width = maxDimension;
+          }
+        } else {
+          if (height > maxDimension) {
+            width = (width * maxDimension) / height;
+            height = maxDimension;
+          }
+        }
+
+        canvas.width = width;
+        canvas.height = height;
+
+        // Draw and compress to JPEG quality 0.7
+        ctx.drawImage(img, 0, 0, width, height);
+        
+        canvas.toBlob(
+          (blob) => {
+            if (!blob) {
+              resolve(file); // Fallback to original
+              return;
+            }
+            const downscaledFile = new File([blob], file.name, {
+              type: 'image/jpeg',
+              lastModified: Date.now(),
+            });
+            resolve(downscaledFile);
+          },
+          'image/jpeg',
+          0.7
+        );
+      };
+
+      img.onerror = () => resolve(file); // Fallback to original on error
+      img.src = URL.createObjectURL(file);
+    });
+  } catch {
+    return file; // Fallback to original on any error
+  }
 }
 
 // Helper to convert File to base64
