@@ -1,6 +1,12 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   // output: 'standalone', // Only for production builds, disabled for dev
+  // Increase body size limit for API routes (handles large base64 images)
+  experimental: {
+    serverActions: {
+      bodySizeLimit: '20mb',
+    },
+  },
   images: {
     domains: [
       'raw.githubusercontent.com',
