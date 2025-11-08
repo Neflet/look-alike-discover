@@ -73,6 +73,9 @@ export async function POST(req: NextRequest) {
 
 export async function GET() {
   try {
+    if (!HF_URL || !HF_TOKEN) {
+      return NextResponse.json({ ok: false }, { status: 503 });
+    }
     const r = await fetch(HF_URL, {
       method: 'HEAD',
       headers: { Authorization: `Bearer ${HF_TOKEN}` },
