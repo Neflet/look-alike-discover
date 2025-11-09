@@ -33,13 +33,15 @@ interface ResultsPageProps {
   initialUserImage?: string | null;
   onRefineConfirm?: (params: { crop?: any; weights?: any; userImage?: string }) => void;
   onNewSearch?: () => void;
+  showHeader?: boolean; // Optional header (default: true)
 }
 
 export default function ResultsPage({ 
   initialItems, 
   initialUserImage,
   onRefineConfirm,
-  onNewSearch
+  onNewSearch,
+  showHeader = true
 }: ResultsPageProps) {
   const [active, setActive] = useState(0);
   const [likes, setLikes] = useState<Record<string, boolean>>({});
@@ -74,7 +76,7 @@ export default function ResultsPage({
 
   return (
     <div className="min-h-screen bg-neutral-50">
-      <Header />
+      {showHeader && <Header />}
       
       <main className="mx-auto max-w-[120rem] px-4 py-8 lg:px-8">
         <div className="grid grid-cols-12 gap-6">

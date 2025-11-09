@@ -417,6 +417,7 @@ export function ImageSearch() {
                       <ResultsPage
                         initialItems={products}
                         initialUserImage={uploadedImage}
+                        showHeader={false}
                         onNewSearch={() => {
                           setSearchCompleted(false);
                           setProducts([]);
