@@ -232,11 +232,6 @@ export function ProductCoverflow({ products, onProductClick }: ProductCoverflowP
           })}
         </div>
       </div>
-              </div>
-            );
-          })}
-        </div>
-      </div>
 
       {/* Navigation Arrows */}
       {products.length > 1 && (
