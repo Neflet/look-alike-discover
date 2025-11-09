@@ -153,4 +153,15 @@ body {
 .lens-blink {
   animation: lens-blink 2.5s cubic-bezier(0.45, 0, 0.55, 1) infinite;
 }
+
+/* Prevent scrolling during crop interaction */
+.crop-container {
+  touch-action: none;
+  user-select: none;
+}
+
+.crop-container canvas,
+.crop-container img {
+  touch-action: none;
+}
 }

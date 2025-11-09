@@ -12,10 +12,13 @@ interface ImageCropProps {
   onCancel: () => void;
 }
 
+type ActiveHandle = 'n' | 's' | 'e' | 'w' | 'ne' | 'nw' | 'se' | 'sw' | 'move' | null;
+
 export function ImageCrop({ imageFile, imageUrl, onCropComplete, onCancel }: ImageCropProps) {
   const [cropArea, setCropArea] = useState<CropArea | null>(null);
-  const [isDragging, setIsDragging] = useState(false);
+  const [activeHandle, setActiveHandle] = useState<ActiveHandle>(null);
   const [startPos, setStartPos] = useState<{ x: number; y: number } | null>(null);
+  const [startCrop, setStartCrop] = useState<CropArea | null>(null);
   const [imageSize, setImageSize] = useState<{ width: number; height: number } | null>(null);
   const [displaySize, setDisplaySize] = useState<{ width: number; height: number } | null>(null);
   const imageRef = useRef<HTMLImageElement>(null);
@@ -43,8 +46,8 @@ export function ImageCrop({ imageFile, imageUrl, onCropComplete, onCancel }: Ima
   }, [imageSize]);
 
   useEffect(() => {
-    if (displaySize && imageSize) {
-      // Set initial crop area to center 60% of image (in display coordinates)
+    if (displaySize && imageSize && !cropArea) {
+      // Set initial crop area to center 60% of image
       const scaleX = displaySize.width / imageSize.width;
       const scaleY = displaySize.height / imageSize.height;
       const initialX = displaySize.width * 0.2;
@@ -52,7 +55,6 @@ export function ImageCrop({ imageFile, imageUrl, onCropComplete, onCancel }: Ima
       const initialWidth = displaySize.width * 0.6;
       const initialHeight = displaySize.height * 0.6;
       
-      // Convert back to original image coordinates for crop
       setCropArea({
         x: initialX / scaleX,
         y: initialY / scaleY,
@@ -60,39 +62,75 @@ export function ImageCrop({ imageFile, imageUrl, onCropComplete, onCancel }: Ima
         height: initialHeight / scaleY,
       });
     }
-  }, [displaySize, imageSize]);
+  }, [displaySize, imageSize, cropArea]);
 
-  const handleMouseDown = (e: React.MouseEvent) => {
-    if (!imageRef.current || !containerRef.current || !displaySize || !imageSize) return;
+  // Get handle at point (in image coordinates)
+  const getHandleAtPoint = (x: number, y: number, crop: CropArea, handleSize: number = 20): ActiveHandle => {
+    const scaleX = imageSize!.width / displaySize!.width;
+    const scaleY = imageSize!.height / displaySize!.height;
+    const handleSizeScaled = handleSize * Math.max(scaleX, scaleY);
+
+    const left = crop.x;
+    const right = crop.x + crop.width;
+    const top = crop.y;
+    const bottom = crop.y + crop.height;
+
+    // Check corners first (more specific)
+    if (Math.abs(x - left) < handleSizeScaled && Math.abs(y - top) < handleSizeScaled) return 'nw';
+    if (Math.abs(x - right) < handleSizeScaled && Math.abs(y - top) < handleSizeScaled) return 'ne';
+    if (Math.abs(x - left) < handleSizeScaled && Math.abs(y - bottom) < handleSizeScaled) return 'sw';
+    if (Math.abs(x - right) < handleSizeScaled && Math.abs(y - bottom) < handleSizeScaled) return 'se';
+
+    // Check edges
+    if (Math.abs(x - left) < handleSizeScaled && y >= top && y <= bottom) return 'w';
+    if (Math.abs(x - right) < handleSizeScaled && y >= top && y <= bottom) return 'e';
+    if (Math.abs(y - top) < handleSizeScaled && x >= left && x <= right) return 'n';
+    if (Math.abs(y - bottom) < handleSizeScaled && x >= left && x <= right) return 's';
+
+    // Check if inside crop box
+    if (x >= left && x <= right && y >= top && y <= bottom) return 'move';
+
+    return null;
+  };
+
+  const handlePointerDown = (e: React.PointerEvent) => {
+    if (!imageRef.current || !containerRef.current || !displaySize || !imageSize || !cropArea) return;
+    
+    e.preventDefault();
+    e.stopPropagation();
     
     const imgRect = imageRef.current.getBoundingClientRect();
-    const containerRect = containerRef.current.getBoundingClientRect();
-    
-    // Get click position relative to image (not container)
     const x = e.clientX - imgRect.left;
     const y = e.clientY - imgRect.top;
     
-    // Only allow crop if click is on the image
+    // Only allow interaction if click is on the image
     if (x < 0 || y < 0 || x > imgRect.width || y > imgRect.height) return;
     
     // Convert to original image coordinates
     const scaleX = imageSize.width / displaySize.width;
     const scaleY = imageSize.height / displaySize.height;
+    const imgX = x * scaleX;
+    const imgY = y * scaleY;
     
-    setIsDragging(true);
-    setStartPos({ x, y });
+    // Check if clicking on handle or inside crop box
+    const handle = getHandleAtPoint(imgX, imgY, cropArea);
     
-    // Start new crop area (in display coordinates for visual feedback)
-    setCropArea({
-      x: x * scaleX,
-      y: y * scaleY,
-      width: 0,
-      height: 0,
-    });
+    if (handle) {
+      setActiveHandle(handle);
+      setStartPos({ x: imgX, y: imgY });
+      setStartCrop({ ...cropArea });
+      
+      // Capture pointer for smooth dragging
+      if (e.currentTarget instanceof HTMLElement) {
+        e.currentTarget.setPointerCapture(e.pointerId);
+      }
+    }
   };
 
-  const handleMouseMove = (e: React.MouseEvent) => {
-    if (!isDragging || !startPos || !imageSize || !displaySize || !imageRef.current) return;
+  const handlePointerMove = (e: React.PointerEvent) => {
+    if (!activeHandle || !startPos || !startCrop || !imageSize || !displaySize || !imageRef.current) return;
+    
+    e.preventDefault();
     
     const imgRect = imageRef.current.getBoundingClientRect();
     const currentX = Math.max(0, Math.min(e.clientX - imgRect.left, imgRect.width));
@@ -101,34 +139,56 @@ export function ImageCrop({ imageFile, imageUrl, onCropComplete, onCancel }: Ima
     // Convert to original image coordinates
     const scaleX = imageSize.width / displaySize.width;
     const scaleY = imageSize.height / displaySize.height;
+    const imgX = currentX * scaleX;
+    const imgY = currentY * scaleY;
     
-    const startX = startPos.x * scaleX;
-    const startY = startPos.y * scaleY;
-    const endX = currentX * scaleX;
-    const endY = currentY * scaleY;
+    const deltaX = imgX - startPos.x;
+    const deltaY = imgY - startPos.y;
     
-    const x = Math.min(startX, endX);
-    const y = Math.min(startY, endY);
-    const width = Math.abs(endX - startX);
-    const height = Math.abs(endY - startY);
+    let newCrop: CropArea = { ...startCrop };
     
-    // Constrain to image bounds
-    const constrainedX = Math.max(0, Math.min(x, imageSize.width - width));
-    const constrainedY = Math.max(0, Math.min(y, imageSize.height - height));
-    const constrainedWidth = Math.min(width, imageSize.width - constrainedX);
-    const constrainedHeight = Math.min(height, imageSize.height - constrainedY);
+    if (activeHandle === 'move') {
+      // Move the entire crop box
+      newCrop.x = Math.max(0, Math.min(startCrop.x + deltaX, imageSize.width - startCrop.width));
+      newCrop.y = Math.max(0, Math.min(startCrop.y + deltaY, imageSize.height - startCrop.height));
+    } else {
+      // Resize based on handle
+      if (activeHandle.includes('w')) {
+        const newX = Math.max(0, Math.min(startCrop.x + deltaX, startCrop.x + startCrop.width - 10));
+        const newWidth = startCrop.width - (newX - startCrop.x);
+        newCrop.x = newX;
+        newCrop.width = newWidth;
+      }
+      if (activeHandle.includes('e')) {
+        newCrop.width = Math.max(10, Math.min(startCrop.width + deltaX, imageSize.width - startCrop.x));
+      }
+      if (activeHandle.includes('n')) {
+        const newY = Math.max(0, Math.min(startCrop.y + deltaY, startCrop.y + startCrop.height - 10));
+        const newHeight = startCrop.height - (newY - startCrop.y);
+        newCrop.y = newY;
+        newCrop.height = newHeight;
+      }
+      if (activeHandle.includes('s')) {
+        newCrop.height = Math.max(10, Math.min(startCrop.height + deltaY, imageSize.height - startCrop.y));
+      }
+      
+      // Clamp to image bounds
+      newCrop.x = Math.max(0, Math.min(newCrop.x, imageSize.width - newCrop.width));
+      newCrop.y = Math.max(0, Math.min(newCrop.y, imageSize.height - newCrop.height));
+      newCrop.width = Math.min(newCrop.width, imageSize.width - newCrop.x);
+      newCrop.height = Math.min(newCrop.height, imageSize.height - newCrop.y);
+    }
     
-    setCropArea({
-      x: constrainedX,
-      y: constrainedY,
-      width: constrainedWidth,
-      height: constrainedHeight,
-    });
+    setCropArea(newCrop);
   };
 
-  const handleMouseUp = () => {
-    setIsDragging(false);
+  const handlePointerUp = (e: React.PointerEvent) => {
+    if (activeHandle && e.currentTarget instanceof HTMLElement) {
+      e.currentTarget.releasePointerCapture(e.pointerId);
+    }
+    setActiveHandle(null);
     setStartPos(null);
+    setStartCrop(null);
   };
 
   const handleCrop = async () => {
@@ -161,6 +221,22 @@ export function ImageCrop({ imageFile, imageUrl, onCropComplete, onCancel }: Ima
     );
   }
 
+  const getCursor = (): string => {
+    if (!activeHandle) return 'default';
+    switch (activeHandle) {
+      case 'move': return 'move';
+      case 'n':
+      case 's': return 'ns-resize';
+      case 'e':
+      case 'w': return 'ew-resize';
+      case 'ne':
+      case 'sw': return 'nesw-resize';
+      case 'nw':
+      case 'se': return 'nwse-resize';
+      default: return 'default';
+    }
+  };
+
   return (
     <div className="min-h-screen flex flex-col items-center justify-center px-6 py-24">
       <div className="w-full max-w-4xl space-y-6">
@@ -168,17 +244,19 @@ export function ImageCrop({ imageFile, imageUrl, onCropComplete, onCancel }: Ima
         <div className="text-center space-y-2">
           <h2 className="text-2xl font-bold tracking-tight">Select Area to Search</h2>
           <p className="text-sm opacity-60">
-            Drag to select the portion of the image you want to search
+            Drag to move or resize the selection box
           </p>
         </div>
 
         {/* Crop Container */}
         <div
           ref={containerRef}
-          className="relative border-2 border-foreground/20 rounded-lg overflow-hidden bg-background"
+          className="relative border-2 border-foreground/20 rounded-lg overflow-hidden bg-background crop-container"
           style={{ 
-            cursor: isDragging ? 'crosshair' : 'default',
+            cursor: getCursor(),
             maxHeight: '70vh',
+            touchAction: 'none',
+            userSelect: 'none',
           }}
         >
           <div className="relative inline-block">
@@ -188,10 +266,11 @@ export function ImageCrop({ imageFile, imageUrl, onCropComplete, onCancel }: Ima
               alt="Crop preview"
               className="max-w-full max-h-[70vh] object-contain"
               draggable={false}
-              onMouseDown={handleMouseDown}
-              onMouseMove={handleMouseMove}
-              onMouseUp={handleMouseUp}
-              onMouseLeave={handleMouseUp}
+              style={{ touchAction: 'none' }}
+              onPointerDown={handlePointerDown}
+              onPointerMove={handlePointerMove}
+              onPointerUp={handlePointerUp}
+              onPointerCancel={handlePointerUp}
             />
             
             {/* Crop Overlay */}
@@ -216,21 +295,52 @@ export function ImageCrop({ imageFile, imageUrl, onCropComplete, onCancel }: Ima
                   }}
                 />
                 
-                {/* Crop border */}
+                {/* Crop border with handles */}
                 <div
-                  className="absolute border-2 border-foreground pointer-events-none"
+                  className="absolute border-2 border-foreground"
                   style={{
                     left: `${(cropArea.x / imageSize.width) * 100}%`,
                     top: `${(cropArea.y / imageSize.height) * 100}%`,
                     width: `${(cropArea.width / imageSize.width) * 100}%`,
                     height: `${(cropArea.height / imageSize.height) * 100}%`,
+                    pointerEvents: 'none',
                   }}
                 >
                   {/* Corner handles */}
-                  <div className="absolute -top-1 -left-1 w-3 h-3 border-2 border-foreground bg-background" />
-                  <div className="absolute -top-1 -right-1 w-3 h-3 border-2 border-foreground bg-background" />
-                  <div className="absolute -bottom-1 -left-1 w-3 h-3 border-2 border-foreground bg-background" />
-                  <div className="absolute -bottom-1 -right-1 w-3 h-3 border-2 border-foreground bg-background" />
+                  <div 
+                    className="absolute -top-1 -left-1 w-4 h-4 border-2 border-foreground bg-background cursor-nwse-resize"
+                    style={{ pointerEvents: 'auto' }}
+                  />
+                  <div 
+                    className="absolute -top-1 -right-1 w-4 h-4 border-2 border-foreground bg-background cursor-nesw-resize"
+                    style={{ pointerEvents: 'auto' }}
+                  />
+                  <div 
+                    className="absolute -bottom-1 -left-1 w-4 h-4 border-2 border-foreground bg-background cursor-nesw-resize"
+                    style={{ pointerEvents: 'auto' }}
+                  />
+                  <div 
+                    className="absolute -bottom-1 -right-1 w-4 h-4 border-2 border-foreground bg-background cursor-nwse-resize"
+                    style={{ pointerEvents: 'auto' }}
+                  />
+                  
+                  {/* Edge handles */}
+                  <div 
+                    className="absolute -top-1 left-1/2 -translate-x-1/2 w-4 h-4 border-2 border-foreground bg-background cursor-ns-resize"
+                    style={{ pointerEvents: 'auto' }}
+                  />
+                  <div 
+                    className="absolute -bottom-1 left-1/2 -translate-x-1/2 w-4 h-4 border-2 border-foreground bg-background cursor-ns-resize"
+                    style={{ pointerEvents: 'auto' }}
+                  />
+                  <div 
+                    className="absolute -left-1 top-1/2 -translate-y-1/2 w-4 h-4 border-2 border-foreground bg-background cursor-ew-resize"
+                    style={{ pointerEvents: 'auto' }}
+                  />
+                  <div 
+                    className="absolute -right-1 top-1/2 -translate-y-1/2 w-4 h-4 border-2 border-foreground bg-background cursor-ew-resize"
+                    style={{ pointerEvents: 'auto' }}
+                  />
                 </div>
               </>
             )}
@@ -275,4 +385,3 @@ export function ImageCrop({ imageFile, imageUrl, onCropComplete, onCancel }: Ima
     </div>
   );
 }
-

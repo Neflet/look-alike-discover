@@ -13,6 +13,7 @@ import { ImageCrop } from './ImageCrop';
 import RefineSearch from '@/components/RefineSearch';
 import { UserMenu } from './UserMenu';
 import { SaveButton } from './SaveButton';
+import { ImagePreview } from './ImagePreview';
 
 // Extended SearchHit for UI (includes score for backward compatibility)
 type UISearchHit = SearchHit & {
@@ -423,11 +424,7 @@ export function ImageSearch() {
             <div className="absolute -inset-1 bg-foreground/10 blur-sm" />
             <div className="relative bg-background border-2 border-foreground p-1">
               <div className="w-28 h-28 overflow-hidden">
-                <img 
-                  src={uploadedImage} 
-                  alt="Search reference" 
-                  className="w-full h-full object-cover"
-                />
+                <ImagePreview src={uploadedImage} alt="Search reference" />
               </div>
               <button
                 onClick={() => setUploadedImage(null)}
