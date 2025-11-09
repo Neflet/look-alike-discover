@@ -104,12 +104,15 @@ export function ProductCarousel({ products, onProductClick }: ProductCarouselPro
             </div>
 
             {/* Product Info Overlay */}
-            <div className="absolute bottom-0 left-0 right-0 p-6 bg-background/95 backdrop-blur-sm">
+            <div 
+              className="absolute bottom-0 left-0 right-0 p-6 bg-background/95 backdrop-blur-sm"
+              style={{ pointerEvents: 'none', zIndex: 20 }}
+            >
               <h3 className="text-lg font-bold mb-2 line-clamp-2" title={currentProduct.title}>
                 {currentProduct.title}
               </h3>
               <div className="flex items-center justify-between">
-                <div>
+                <div style={{ pointerEvents: 'none' }}>
                   {currentProduct.brand && (
                     <p className="text-sm opacity-60 mb-1">{currentProduct.brand}</p>
                   )}
@@ -117,12 +120,32 @@ export function ProductCarousel({ products, onProductClick }: ProductCarouselPro
                     {currentProduct.price ? `$${currentProduct.price.toFixed(2)}` : 'Price N/A'}
                   </p>
                 </div>
-                <Button
-                  onClick={() => onProductClick(currentProduct)}
-                  className="px-6 py-2 text-sm"
-                >
-                  View Product
-                </Button>
+                {currentProduct.url ? (
+                  <a
+                    href={currentProduct.url}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    onClick={(e) => {
+                      e.stopPropagation(); // Don't trigger swipe
+                      onProductClick(currentProduct);
+                    }}
+                    className="px-6 py-2 text-sm bg-foreground text-background hover:bg-foreground/80 transition-colors rounded-md inline-flex items-center justify-center"
+                    style={{ pointerEvents: 'auto', zIndex: 30 }}
+                  >
+                    View Product
+                  </a>
+                ) : (
+                  <Button
+                    onClick={(e) => {
+                      e.stopPropagation();
+                      onProductClick(currentProduct);
+                    }}
+                    className="px-6 py-2 text-sm"
+                    style={{ pointerEvents: 'auto', zIndex: 30 }}
+                  >
+                    View Product
+                  </Button>
+                )}
               </div>
             </div>
           </div>

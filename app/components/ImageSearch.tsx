@@ -15,6 +15,7 @@ import { UserMenu } from './UserMenu';
 import { SaveButton } from './SaveButton';
 import { ImagePreview } from './ImagePreview';
 import { ProductCarousel } from './ProductCarousel';
+import { ProductCoverflow } from './ProductCoverflow';
 
 // Extended SearchHit for UI (includes score for backward compatibility)
 type UISearchHit = SearchHit & {
@@ -400,10 +401,10 @@ export function ImageSearch() {
                       </div>
                     </div>
                     
-                    {/* Products Display - Carousel or Grid */}
+                    {/* Products Display - Coverflow, Carousel, or Grid */}
                     {viewMode === 'carousel' ? (
                       <div className="max-w-2xl mx-auto">
-                        <ProductCarousel products={products} onProductClick={handleProductClick} />
+                        <ProductCoverflow products={products} onProductClick={handleProductClick} />
                       </div>
                     ) : (
                       <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-6">
