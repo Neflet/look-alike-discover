@@ -227,13 +227,17 @@ function RotatingCloset({
   setActive: (i: number) => void;
   getImageUrl: (item: ResultItem) => string;
 }) {
-  // wrap helper
   const wrap = (i: number, len: number) => (i + len) % len;
-  const visible = 7; // number of cards to layout in the wheel
-  const radius = 520; // px translateZ
+  const visible = Math.min(items.length, 7);
+
+  // layout params (tweak to taste)
+  const RADIUS = 520;       // how far cards sit from the camera
+  const STEP_X = 160;       // horizontal spacing between cards
+  const STEP_ROT = 16;      // degrees of Y rotation per step
+  const DEPTH_FALLOFF = 110;// how quickly side cards sink back
 
   return (
-    <div className="relative mx-auto w-full max-w-5xl">
+    <div className="relative mx-auto w-full max-w-6xl">
       {/* controls */}
       <div className="mb-3 flex items-center justify-between">
         <div className="text-sm text-neutral-500">
@@ -261,31 +265,33 @@ function RotatingCloset({
 
       {/* 3D stage */}
       <div 
-        className="relative h-[68vh] w-full select-none overflow-visible rounded-xl border bg-white" 
+        className="relative h-[68vh] max-h-[820px] w-full overflow-visible rounded-xl border bg-white" 
         style={{ perspective: 1800 }}
       >
-        <div className="absolute inset-0 [transform-style:preserve-3d]">
-          {Array.from({ length: Math.min(items.length, visible) }).map((_, idx) => {
+        <div className="absolute inset-0 grid place-items-center [transform-style:preserve-3d]">
+          {Array.from({ length: visible }).map((_, idx) => {
             const itemIndex = wrap(active + idx - Math.floor(visible/2), items.length);
-            const offset = idx - Math.floor(visible/2); // negative = left, positive = right
-            const rotateY = offset * 18; // degrees
-            const translateX = offset * 180; // px sideways
-            const z = radius - Math.abs(offset) * 120; // bring center forward
+            const offset = idx - Math.floor(visible/2);
+            const rotateY = offset * STEP_ROT; // degrees
+            const translateX = offset * STEP_X; // px
+            const z = RADIUS - Math.abs(offset) * DEPTH_FALLOFF; // px
             const scale = 1 - Math.min(Math.abs(offset) * 0.08, 0.32);
-            const opacity = 1 - Math.min(Math.abs(offset) * 0.12, 0.6);
+            const opacity = 1 - Math.min(Math.abs(offset) * 0.12, 0.55);
             const item = items[itemIndex];
 
             return (
-              <div 
-                key={`${item.id}-${idx}`} 
-                className="absolute left-1/2 top-1/2 h-[62%] w-[54%] -translate-x-1/2 -translate-y-1/2 overflow-visible [transform-style:preserve-3d]" 
-                style={{ 
-                  transform: `translateX(${translateX}px) translateZ(${z}px) rotateY(${rotateY}deg) scale(${scale})`, 
-                  opacity 
+              <div
+                key={`${item.id}-${idx}`}
+                className="relative overflow-visible [transform-style:preserve-3d] will-change-transform"
+                style={{
+                  width: "min(68vw, 380px)",
+                  height: "min(68vh, 520px)",
+                  transform: `translateX(${translateX}px) translateZ(${z}px) rotateY(${rotateY}deg) scale(${scale})`,
+                  opacity,
                 }}
               >
-                <Card className="overflow-hidden border-neutral-200 shadow-xl">
-                  <div className="relative aspect-[4/5] w-full bg-neutral-100">
+                <Card className="h-full overflow-hidden border-neutral-200 shadow-xl">
+                  <div className="relative h-[82%] w-full bg-neutral-100">
                     <Image 
                       src={getImageUrl(item)} 
                       alt={item.title} 
@@ -302,7 +308,7 @@ function RotatingCloset({
                     </div>
                   </div>
                   
-                  <CardContent className="flex items-center justify-between gap-3 p-3">
+                  <CardContent className="flex h-[18%] items-center justify-between gap-3 p-3">
                     <div className="min-w-0 flex-1">
                       {item.brand && (
                         <div className="truncate text-xs text-neutral-500">{item.brand}</div>
@@ -338,15 +344,18 @@ function RotatingCloset({
           })}
         </div>
 
-        {/* swipe overlay */}
-        <motion.div 
-          className="absolute inset-0" 
-          drag="x" 
-          dragMomentum={false} 
-          onDragEnd={(e, info) => { 
-            if (info.offset.x > 60) setActive(wrap(active - 1, items.length)); 
-            else if (info.offset.x < -60) setActive(wrap(active + 1, items.length)); 
-          }} 
+        {/* swipe overlay (above cards) */}
+        <motion.div
+          className="absolute inset-0 z-40 cursor-grab active:cursor-grabbing"
+          drag="x"
+          dragConstraints={{ left: 0, right: 0 }}
+          dragElastic={0.2}
+          onDragEnd={(e, info) => {
+            const dx = info.offset.x;
+            const vx = info.velocity.x;
+            if (dx > 80 || vx > 600) setActive(wrap(active - 1, items.length));
+            else if (dx < -80 || vx < -600) setActive(wrap(active + 1, items.length));
+          }}
         />
       </div>
 
