@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useMemo, useRef, useState } from "react";
+import React, { useMemo, useRef, useState, useEffect } from "react";
 import Image from "next/image";
 import { motion, useMotionValue, useTransform } from "framer-motion";
 import { 
@@ -227,70 +227,81 @@ function RotatingCloset({
   setActive: (i: number) => void;
   getImageUrl: (item: ResultItem) => string;
 }) {
-  const wrap = (i: number, len: number) => (i + len) % len;
-  const visible = Math.min(items.length, 7);
+  // === Tunables ===
+  const THETA = 24;          // degrees between cards on the wheel
+  const RADIUS = 560;        // distance from camera
+  const CARD_W = "clamp(240px, 36vw, 380px)";
+  const CARD_H = "clamp(360px, 56vh, 560px)";
+  const DEG_PER_PX = 0.15;   // drag sensitivity
 
-  // layout params (tweak to taste)
-  const RADIUS = 520;       // how far cards sit from the camera
-  const STEP_X = 160;       // horizontal spacing between cards
-  const STEP_ROT = 16;      // degrees of Y rotation per step
-  const DEPTH_FALLOFF = 110;// how quickly side cards sink back
+  // angle of the wheel; negative angles move to next item to the right
+  const angle = useMotionValue<number>(-active * THETA);
+
+  // when active changes from buttons/dots, animate the angle to the correct slot
+  useEffect(() => {
+    angle.stop();
+    angle.set(-active * THETA);
+  }, [active, angle, THETA]);
+
+  const wrap = (n: number, len: number) => (n % len + len) % len;
+
+  const handleDragEnd = (_: any, info: { offset: { x: number } }) => {
+    const deltaDeg = info.offset.x * DEG_PER_PX;
+    const current = angle.get() + deltaDeg; // where we ended
+    const snappedIndex = wrap(Math.round(-current / THETA), items.length);
+    setActive(snappedIndex);
+    // snap angle exactly to slot
+    angle.set(-snappedIndex * THETA);
+  };
 
   return (
-    <div className="relative mx-auto w-full max-w-6xl">
+    <div className="relative mx-auto w-full max-w-[1400px]">
       {/* controls */}
-      <div className="mb-3 flex items-center justify-between">
-        <div className="text-sm text-neutral-500">
+      <div className="mb-4 flex items-center justify-center gap-2">
+        <Button 
+          size="icon" 
+          variant="ghost" 
+          className="h-10 w-10 rounded-full border" 
+          onClick={() => setActive(wrap(active - 1, items.length))}
+        >
+          <ChevronLeft className="h-5 w-5"/>
+        </Button>
+        <div className="text-xs text-neutral-500 tabular-nums">
           {active + 1} / {items.length}
         </div>
-        <div className="flex gap-2">
-          <Button 
-            size="icon" 
-            variant="ghost" 
-            className="h-10 w-10 rounded-full border" 
-            onClick={() => setActive(wrap(active - 1, items.length))}
-          >
-            <ChevronLeft className="h-5 w-5"/>
-          </Button>
-          <Button 
-            size="icon" 
-            variant="ghost" 
-            className="h-10 w-10 rounded-full border" 
-            onClick={() => setActive(wrap(active + 1, items.length))}
-          >
-            <ChevronRight className="h-5 w-5"/>
-          </Button>
-        </div>
+        <Button 
+          size="icon" 
+          variant="ghost" 
+          className="h-10 w-10 rounded-full border" 
+          onClick={() => setActive(wrap(active + 1, items.length))}
+        >
+          <ChevronRight className="h-5 w-5"/>
+        </Button>
       </div>
 
-      {/* 3D stage */}
+      {/* 3D stage – perfectly centered */}
       <div 
-        className="relative h-[68vh] max-h-[820px] w-full overflow-visible rounded-xl border bg-white" 
-        style={{ perspective: 1800 }}
+        className="relative h-[74vh] min-h-[560px] w-full overflow-visible" 
+        style={{ perspective: 2000 }}
       >
-        <div className="absolute inset-0 grid place-items-center [transform-style:preserve-3d]">
-          {Array.from({ length: visible }).map((_, idx) => {
-            const itemIndex = wrap(active + idx - Math.floor(visible/2), items.length);
-            const offset = idx - Math.floor(visible/2);
-            const rotateY = offset * STEP_ROT; // degrees
-            const translateX = offset * STEP_X; // px
-            const z = RADIUS - Math.abs(offset) * DEPTH_FALLOFF; // px
-            const scale = 1 - Math.min(Math.abs(offset) * 0.08, 0.32);
-            const opacity = 1 - Math.min(Math.abs(offset) * 0.12, 0.55);
-            const item = items[itemIndex];
+        <motion.div
+          className="absolute left-1/2 top-1/2 h-full w-full -translate-x-1/2 -translate-y-1/2 [transform-style:preserve-3d]"
+          style={{ rotateY: angle }}
+        >
+          {items.map((item, i) => {
+            const rot = i * THETA; // each card's base angle around the wheel
 
             return (
               <div
-                key={`${item.id}-${idx}`}
-                className="relative overflow-visible [transform-style:preserve-3d] will-change-transform"
+                key={item.id}
+                className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 overflow-visible [transform-style:preserve-3d] will-change-transform"
                 style={{
-                  width: "min(68vw, 380px)",
-                  height: "min(68vh, 520px)",
-                  transform: `translateX(${translateX}px) translateZ(${z}px) rotateY(${rotateY}deg) scale(${scale})`,
-                  opacity,
+                  width: CARD_W,
+                  height: CARD_H,
+                  transform: `rotateY(${rot}deg) translateZ(${RADIUS}px)`,
                 }}
               >
-                <Card className="h-full overflow-hidden border-neutral-200 shadow-xl">
+                <Card className="h-full overflow-hidden border border-neutral-200 bg-white shadow-2xl">
                   <div className="relative h-[82%] w-full bg-neutral-100">
                     <Image 
                       src={getImageUrl(item)} 
@@ -342,20 +353,16 @@ function RotatingCloset({
               </div>
             );
           })}
-        </div>
+        </motion.div>
 
-        {/* swipe overlay (above cards) */}
+        {/* Continuous swipe layer */}
         <motion.div
-          className="absolute inset-0 z-40 cursor-grab active:cursor-grabbing"
+          className="absolute inset-0 z-40 cursor-grab touch-none active:cursor-grabbing"
           drag="x"
           dragConstraints={{ left: 0, right: 0 }}
-          dragElastic={0.2}
-          onDragEnd={(e, info) => {
-            const dx = info.offset.x;
-            const vx = info.velocity.x;
-            if (dx > 80 || vx > 600) setActive(wrap(active - 1, items.length));
-            else if (dx < -80 || vx < -600) setActive(wrap(active + 1, items.length));
-          }}
+          dragElastic={0.12}
+          onDrag={(_, info) => angle.set(-active * THETA + info.offset.x * DEG_PER_PX)}
+          onDragEnd={handleDragEnd}
         />
       </div>
 
@@ -366,7 +373,7 @@ function RotatingCloset({
             key={i} 
             onClick={() => setActive(i)} 
             className={cn(
-              "h-1.5 rounded-full bg-neutral-300 transition-all", 
+              "h-1.5 w-1.5 rounded-full bg-neutral-300 transition-all", 
               i === active ? "w-6 bg-neutral-900" : "w-1.5"
             )} 
             aria-label={`Go to ${i+1}`} 
