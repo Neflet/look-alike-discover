@@ -120,9 +120,14 @@ export function ImageCrop({ imageFile, imageUrl, onCropComplete, onCancel }: Ima
       setStartPos({ x: imgX, y: imgY });
       setStartCrop({ ...cropArea });
       
-      // Capture pointer for smooth dragging
+      // Capture pointer for smooth dragging (works on both desktop and mobile)
       if (e.currentTarget instanceof HTMLElement) {
-        e.currentTarget.setPointerCapture(e.pointerId);
+        try {
+          e.currentTarget.setPointerCapture(e.pointerId);
+        } catch (err) {
+          // Fallback if setPointerCapture fails
+          console.warn('setPointerCapture failed:', err);
+        }
       }
     }
   };
