@@ -16,6 +16,7 @@ import { SaveButton } from './SaveButton';
 import { ImagePreview } from './ImagePreview';
 import { ProductCarousel } from './ProductCarousel';
 import { ProductCoverflow } from './ProductCoverflow';
+import ResultsPage from './ResultsPage';
 
 // Extended SearchHit for UI (includes score for backward compatibility)
 type UISearchHit = SearchHit & {
@@ -32,7 +33,7 @@ export function ImageSearch() {
   const [lastEmbedding, setLastEmbedding] = useState<number[] | null>(null);
   const [lastModel, setLastModel] = useState<string | null>(null);
   const [refineOpen, setRefineOpen] = useState(false);
-  const [viewMode, setViewMode] = useState<'grid' | 'carousel'>('carousel'); // Default to carousel for mobile-first
+  const [viewMode, setViewMode] = useState<'grid' | 'carousel' | 'results'>('results'); // Default to results page
   const fileInputRef = useRef<HTMLInputElement>(null);
   const cameraInputRef = useRef<HTMLInputElement>(null);
   const { toast } = useToast();
@@ -361,6 +362,16 @@ export function ImageSearch() {
                           {/* View Mode Toggle */}
                           <div className="flex border rounded-md overflow-hidden">
                             <button
+                              onClick={() => setViewMode('results')}
+                              className={`px-3 py-2 text-xs tracking-wide uppercase transition-colors ${
+                                viewMode === 'results'
+                                  ? 'bg-foreground text-background'
+                                  : 'bg-background hover:bg-foreground/10'
+                              }`}
+                            >
+                              Results
+                            </button>
+                            <button
                               onClick={() => setViewMode('carousel')}
                               className={`px-3 py-2 text-xs tracking-wide uppercase transition-colors ${
                                 viewMode === 'carousel'
@@ -401,8 +412,18 @@ export function ImageSearch() {
                       </div>
                     </div>
                     
-                    {/* Products Display - Coverflow, Carousel, or Grid */}
-                    {viewMode === 'carousel' ? (
+                    {/* Products Display - Results, Coverflow, Carousel, or Grid */}
+                    {viewMode === 'results' ? (
+                      <ResultsPage
+                        initialItems={products}
+                        initialUserImage={uploadedImage}
+                        onNewSearch={() => {
+                          setSearchCompleted(false);
+                          setProducts([]);
+                          setUploadedImage(null);
+                        }}
+                      />
+                    ) : viewMode === 'carousel' ? (
                       <div className="max-w-2xl mx-auto">
                         <ProductCoverflow products={products} onProductClick={handleProductClick} />
                       </div>
