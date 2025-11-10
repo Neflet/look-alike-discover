@@ -301,8 +301,8 @@ function RotatingCloset({
                   transform: `rotateY(${rot}deg) translateZ(${RADIUS}px)`,
                 }}
               >
-                <Card className="h-full overflow-hidden border border-neutral-200 bg-white shadow-2xl">
-                  <div className="relative h-[82%] w-full bg-neutral-100">
+                <Card className="h-full overflow-hidden rounded-2xl border border-neutral-200 bg-white shadow-2xl">
+                  <div className="relative h-[82%] w-full overflow-hidden">
                     <Image 
                       src={getImageUrl(item)} 
                       alt={item.title} 
@@ -319,7 +319,25 @@ function RotatingCloset({
                     </div>
                   </div>
                   
-                  <CardContent className="flex h-[18%] items-center justify-between gap-3 p-3">
+                  {/* Reflection */}
+                  <div className="relative h-[10%] w-full -translate-y-1">
+                    <div className="relative h-full w-full" style={{ transform: "scaleY(-1)", opacity: 0.25 }}>
+                      <Image 
+                        src={getImageUrl(item)} 
+                        alt="reflection" 
+                        fill 
+                        className="object-cover" 
+                      />
+                    </div>
+                    <div 
+                      className="pointer-events-none absolute inset-0" 
+                      style={{
+                        background: "linear-gradient(to bottom, rgba(255,255,255,0.2), rgba(255,255,255,1))"
+                      }} 
+                    />
+                  </div>
+                  
+                  <CardContent className="flex h-[8%] items-center justify-between gap-3 p-3">
                     <div className="min-w-0 flex-1">
                       {item.brand && (
                         <div className="truncate text-xs text-neutral-500">{item.brand}</div>
