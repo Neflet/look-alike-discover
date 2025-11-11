@@ -14,9 +14,6 @@ import RefineSearch from '@/components/RefineSearch';
 import { UserMenu } from './UserMenu';
 import { SaveButton } from './SaveButton';
 import { ImagePreview } from './ImagePreview';
-import { ProductCarousel } from './ProductCarousel';
-import { ProductCoverflow } from './ProductCoverflow';
-import ResultsPage from './ResultsPage';
 
 // Extended SearchHit for UI (includes score for backward compatibility)
 type UISearchHit = SearchHit & {
@@ -33,7 +30,6 @@ export function ImageSearch() {
   const [lastEmbedding, setLastEmbedding] = useState<number[] | null>(null);
   const [lastModel, setLastModel] = useState<string | null>(null);
   const [refineOpen, setRefineOpen] = useState(false);
-  const [viewMode, setViewMode] = useState<'grid' | 'carousel' | 'results'>('results'); // Default to results page
   const fileInputRef = useRef<HTMLInputElement>(null);
   const cameraInputRef = useRef<HTMLInputElement>(null);
   const { toast } = useToast();
@@ -359,39 +355,6 @@ export function ImageSearch() {
                           <p className="text-xs opacity-60">{products.length} similar items found</p>
                         </div>
                         <div className="flex gap-2 flex-wrap">
-                          {/* View Mode Toggle */}
-                          <div className="flex border rounded-md overflow-hidden">
-                            <button
-                              onClick={() => setViewMode('results')}
-                              className={`px-3 py-2 text-xs tracking-wide uppercase transition-colors ${
-                                viewMode === 'results'
-                                  ? 'bg-foreground text-background'
-                                  : 'bg-background hover:bg-foreground/10'
-                              }`}
-                            >
-                              Results
-                            </button>
-                            <button
-                              onClick={() => setViewMode('carousel')}
-                              className={`px-3 py-2 text-xs tracking-wide uppercase transition-colors ${
-                                viewMode === 'carousel'
-                                  ? 'bg-foreground text-background'
-                                  : 'bg-background hover:bg-foreground/10'
-                              }`}
-                            >
-                              Carousel
-                            </button>
-                            <button
-                              onClick={() => setViewMode('grid')}
-                              className={`px-3 py-2 text-xs tracking-wide uppercase transition-colors ${
-                                viewMode === 'grid'
-                                  ? 'bg-foreground text-background'
-                                  : 'bg-background hover:bg-foreground/10'
-                              }`}
-                            >
-                              Grid
-                            </button>
-                          </div>
                           <button
                             onClick={() => setRefineOpen(true)}
                             className="px-4 py-2 border text-xs tracking-wide uppercase hover:bg-foreground hover:text-background transition-colors"
@@ -412,62 +375,45 @@ export function ImageSearch() {
                       </div>
                     </div>
                     
-                    {/* Products Display - Results, Coverflow, Carousel, or Grid */}
-                    {viewMode === 'results' ? (
-                      <ResultsPage
-                        initialItems={products}
-                        initialUserImage={uploadedImage}
-                        showHeader={false}
-                        onNewSearch={() => {
-                          setSearchCompleted(false);
-                          setProducts([]);
-                          setUploadedImage(null);
-                        }}
-                      />
-                    ) : viewMode === 'carousel' ? (
-                      <div className="max-w-2xl mx-auto">
-                        <ProductCoverflow products={products} onProductClick={handleProductClick} />
-                      </div>
-                    ) : (
-                      <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-6">
-                        {products.map((product, index) => (
-                          <div 
-                            key={product.id} 
-                            className="group cursor-pointer"
-                            onClick={() => handleProductClick(product)}
-                            onTouchEnd={(e) => {
-                              // Prevent double-tap zoom on mobile
-                              e.preventDefault();
-                              handleProductClick(product);
-                            }}
-                            style={{ animationDelay: `${index * 0.05}s` }}
-                          >
-                            <div className="aspect-[3/4] relative overflow-hidden bg-muted/20 mb-3 border border-transparent group-hover:border-foreground transition-all duration-300">
-                              <img
-                                src={product.main_image_url}
-                                alt={product.title}
-                                className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
-                                loading="lazy"
-                              />
-                              <div className="absolute inset-0 bg-foreground/0 group-hover:bg-foreground/5 transition-colors duration-300" />
-                              <div className="absolute top-2 right-2 z-10">
-                                <SaveButton productId={product.id} productTitle={product.title} />
-                              </div>
-                            </div>
-                            <div className="space-y-1">
-                              <h3 className="text-[11px] leading-tight line-clamp-2 font-medium" title={product.title}>
-                                {product.title}
-                              </h3>
-                              <div>
-                                <p className="text-xs font-bold">
-                                  {product.price ? `$${product.price.toFixed(2)}` : 'Price N/A'}
-                                </p>
-                              </div>
+                    {/* Products Grid */}
+                    <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-6">
+                      {products.map((product, index) => (
+                        <div 
+                          key={product.id} 
+                          className="group cursor-pointer"
+                          onClick={() => handleProductClick(product)}
+                          onTouchEnd={(e) => {
+                            // Prevent double-tap zoom on mobile
+                            e.preventDefault();
+                            handleProductClick(product);
+                          }}
+                          style={{ animationDelay: `${index * 0.05}s` }}
+                        >
+                          <div className="aspect-[3/4] relative overflow-hidden bg-muted/20 mb-3 border border-transparent group-hover:border-foreground transition-all duration-300">
+                            <img
+                              src={product.main_image_url}
+                              alt={product.title}
+                              className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+                              loading="lazy"
+                            />
+                            <div className="absolute inset-0 bg-foreground/0 group-hover:bg-foreground/5 transition-colors duration-300" />
+                            <div className="absolute top-2 right-2 z-10">
+                              <SaveButton productId={product.id} productTitle={product.title} />
                             </div>
                           </div>
-                        ))}
-                      </div>
-                    )}
+                          <div className="space-y-1">
+                            <h3 className="text-[11px] leading-tight line-clamp-2 font-medium" title={product.title}>
+                              {product.title}
+                            </h3>
+                            <div>
+                              <p className="text-xs font-bold">
+                                {product.price ? `$${product.price.toFixed(2)}` : 'Price N/A'}
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      ))}
+                    </div>
                   </>
                 )}
               </div>
