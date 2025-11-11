@@ -29,6 +29,7 @@ type Props = {
   initialIndex?: number;
   className?: string;
   onIndexChange?: (index: number) => void;
+  isCropping?: boolean; // Block drag when cropping
 };
 
 export default function RotatingCloset({
@@ -36,6 +37,7 @@ export default function RotatingCloset({
   initialIndex = 0,
   className,
   onIndexChange,
+  isCropping = false,
 }: Props) {
   const [activeIndex, setActiveIndex] = useState(initialIndex);
   const angle = useMotionValue<number>(-activeIndex * THETA);
@@ -252,18 +254,20 @@ export default function RotatingCloset({
           })}
         </motion.div>
 
-        {/* Continuous Drag Overlay */}
-        <motion.div
-          className="absolute inset-0 z-40 cursor-grab touch-none active:cursor-grabbing"
-          drag="x"
-          dragConstraints={{ left: 0, right: 0 }}
-          dragElastic={0.12}
-          onDrag={(_, info) => {
-            angle.set(-activeIndex * THETA + info.offset.x * DEG_PER_PX);
-          }}
-          onDragEnd={handleDragEnd}
-          style={{ touchAction: "none" }}
-        />
+        {/* Continuous Drag Overlay - Blocked when cropping */}
+        {!isCropping && (
+          <motion.div
+            className="absolute inset-0 z-40 cursor-grab touch-none active:cursor-grabbing"
+            drag="x"
+            dragConstraints={{ left: 0, right: 0 }}
+            dragElastic={0.12}
+            onDrag={(_, info) => {
+              angle.set(-activeIndex * THETA + info.offset.x * DEG_PER_PX);
+            }}
+            onDragEnd={handleDragEnd}
+            style={{ touchAction: "none" }}
+          />
+        )}
       </div>
 
       {/* Dots Indicator */}

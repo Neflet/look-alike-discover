@@ -57,6 +57,18 @@ export default function ResultsPage({
   const [active, setActive] = useState(0);
   const [userImage, setUserImage] = useState<string | null>(initialUserImage ?? null);
   const [refineOpen, setRefineOpen] = useState(false);
+  const [isCropping, setIsCropping] = useState(false);
+
+  // Global safety listener to ensure crop never gets stuck
+  useEffect(() => {
+    const end = () => setIsCropping(false);
+    window.addEventListener('mouseup', end);
+    window.addEventListener('pointerup', end);
+    return () => {
+      window.removeEventListener('mouseup', end);
+      window.removeEventListener('pointerup', end);
+    };
+  }, []);
 
   // ——— Refine state ———
   const [crop, setCrop] = useState({ x: 80, y: 80, w: 240, h: 240 });
@@ -145,7 +157,7 @@ export default function ResultsPage({
                     <Wand2 className="h-4 w-4"/> Refine search
                   </Button>
                 </SheetTrigger>
-                <SheetContent side="right" className="w-full sm:max-w-xl">
+                <SheetContent side="right" className="w-full sm:max-w-xl z-[60]">
                   <SheetHeader>
                     <SheetTitle>Refine search</SheetTitle>
                   </SheetHeader>
@@ -153,16 +165,31 @@ export default function ResultsPage({
                   <div className="mt-4 space-y-6">
                     <div className="space-y-2">
                       <Label className="text-sm">Crop focus</Label>
-                      <div className="relative aspect-[4/5] overflow-hidden rounded-xl border bg-neutral-50">
+                      <div 
+                        className="relative aspect-[4/5] overflow-hidden rounded-xl border bg-neutral-50 touch-none"
+                        onPointerDownCapture={(e) => { e.stopPropagation(); setIsCropping(true); }}
+                        onPointerUpCapture={(e) => { e.stopPropagation(); setIsCropping(false); }}
+                        onMouseDownCapture={(e) => { e.stopPropagation(); setIsCropping(true); }}
+                        onMouseUpCapture={(e) => { e.stopPropagation(); setIsCropping(false); }}
+                      >
                         {userImage && (
                           <div className="absolute inset-0">
                             <Image src={userImage} alt="crop" fill className="object-cover" />
                             {Rnd ? (
                               <Rnd
                                 bounds="parent"
+                                enableUserSelectHack={false}
                                 default={{ x: crop.x, y: crop.y, width: crop.w, height: crop.h }}
-                                onDragStop={(e: any, d: any) => setCrop((c) => ({ ...c, x: d.x, y: d.y }))}
-                                onResizeStop={(e: any, _dir: any, ref: any, _delta: any, pos: any) => setCrop({ x: pos.x, y: pos.y, w: ref.offsetWidth, h: ref.offsetHeight })}
+                                onDragStart={() => setIsCropping(true)}
+                                onDragStop={(e: any, d: any) => {
+                                  setIsCropping(false);
+                                  setCrop((c) => ({ ...c, x: d.x, y: d.y }));
+                                }}
+                                onResizeStart={() => setIsCropping(true)}
+                                onResizeStop={(e: any, _dir: any, ref: any, _delta: any, pos: any) => {
+                                  setIsCropping(false);
+                                  setCrop({ x: pos.x, y: pos.y, w: ref.offsetWidth, h: ref.offsetHeight });
+                                }}
                                 style={{ border: "2px solid white", boxShadow: "0 0 0 9999px rgba(0,0,0,.35) inset" }}
                                 className="rounded-lg"
                               />
@@ -208,6 +235,7 @@ export default function ResultsPage({
             active={active} 
             setActive={setActive}
             getImageUrl={getImageUrl}
+            isCropping={isCropping}
           />
         </section>
       </main>
@@ -220,12 +248,14 @@ function RotatingCloset({
   items, 
   active, 
   setActive, 
-  getImageUrl 
+  getImageUrl,
+  isCropping = false
 }: { 
   items: ResultItem[]; 
   active: number; 
   setActive: (i: number) => void;
   getImageUrl: (item: ResultItem) => string;
+  isCropping?: boolean;
 }) {
   // === Tunables ===
   const THETA = 24;          // degrees between cards on the wheel
@@ -373,15 +403,17 @@ function RotatingCloset({
           })}
         </motion.div>
 
-        {/* Continuous swipe layer */}
-        <motion.div
-          className="absolute inset-0 z-40 cursor-grab touch-none active:cursor-grabbing"
-          drag="x"
-          dragConstraints={{ left: 0, right: 0 }}
-          dragElastic={0.12}
-          onDrag={(_, info) => angle.set(-active * THETA + info.offset.x * DEG_PER_PX)}
-          onDragEnd={handleDragEnd}
-        />
+        {/* Continuous swipe layer - Blocked when cropping */}
+        {!isCropping && (
+          <motion.div
+            className="absolute inset-0 z-40 cursor-grab touch-none active:cursor-grabbing"
+            drag="x"
+            dragConstraints={{ left: 0, right: 0 }}
+            dragElastic={0.12}
+            onDrag={(_, info) => angle.set(-active * THETA + info.offset.x * DEG_PER_PX)}
+            onDragEnd={handleDragEnd}
+          />
+        )}
       </div>
 
       {/* dots */}

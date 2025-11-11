@@ -21,6 +21,7 @@ export function ImageCrop({ imageFile, imageUrl, onCropComplete, onCancel }: Ima
   const [startCrop, setStartCrop] = useState<CropArea | null>(null);
   const [imageSize, setImageSize] = useState<{ width: number; height: number } | null>(null);
   const [displaySize, setDisplaySize] = useState<{ width: number; height: number } | null>(null);
+  const [isCropping, setIsCropping] = useState(false);
   const imageRef = useRef<HTMLImageElement>(null);
   const containerRef = useRef<HTMLDivElement>(null);
 
@@ -44,6 +45,17 @@ export function ImageCrop({ imageFile, imageUrl, onCropComplete, onCancel }: Ima
     window.addEventListener('resize', updateDisplaySize);
     return () => window.removeEventListener('resize', updateDisplaySize);
   }, [imageSize]);
+
+  // Global safety listener to ensure crop never gets stuck
+  useEffect(() => {
+    const end = () => setIsCropping(false);
+    window.addEventListener('mouseup', end);
+    window.addEventListener('pointerup', end);
+    return () => {
+      window.removeEventListener('mouseup', end);
+      window.removeEventListener('pointerup', end);
+    };
+  }, []);
 
   useEffect(() => {
     if (displaySize && imageSize && !cropArea) {
@@ -99,6 +111,7 @@ export function ImageCrop({ imageFile, imageUrl, onCropComplete, onCancel }: Ima
     
     e.preventDefault();
     e.stopPropagation();
+    setIsCropping(true);
     
     const imgRect = imageRef.current.getBoundingClientRect();
     const x = e.clientX - imgRect.left;
@@ -195,6 +208,7 @@ export function ImageCrop({ imageFile, imageUrl, onCropComplete, onCancel }: Ima
     setActiveHandle(null);
     setStartPos(null);
     setStartCrop(null);
+    setIsCropping(false);
   };
 
   const handleCrop = async () => {
@@ -257,13 +271,17 @@ export function ImageCrop({ imageFile, imageUrl, onCropComplete, onCancel }: Ima
         {/* Crop Container */}
         <div
           ref={containerRef}
-          className="relative border-2 border-foreground/20 rounded-lg overflow-hidden bg-background crop-container"
+          className="relative border-2 border-foreground/20 rounded-lg overflow-hidden bg-background crop-container touch-none"
           style={{ 
             cursor: getCursor(),
             maxHeight: '70vh',
             touchAction: 'none',
             userSelect: 'none',
           }}
+          onPointerDownCapture={(e) => { e.stopPropagation(); setIsCropping(true); }}
+          onPointerUpCapture={(e) => { e.stopPropagation(); setIsCropping(false); }}
+          onMouseDownCapture={(e) => { e.stopPropagation(); setIsCropping(true); }}
+          onMouseUpCapture={(e) => { e.stopPropagation(); setIsCropping(false); }}
         >
           <div className="relative inline-block">
             <img
