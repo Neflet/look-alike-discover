@@ -14,6 +14,7 @@ import RefineSearch from '@/components/RefineSearch';
 import { UserMenu } from './UserMenu';
 import { SaveButton } from './SaveButton';
 import { ImagePreview } from './ImagePreview';
+import { ProductCarousel3D } from './ProductCarousel3D';
 
 // Extended SearchHit for UI (includes score for backward compatibility)
 type UISearchHit = SearchHit & {
@@ -323,11 +324,11 @@ export function ImageSearch() {
               </div>
             )}
 
-            {/* Results Grid */}
+            {/* Results with 3D Carousel */}
             {searchCompleted && !isLoading && (
-              <div className="min-h-screen px-6 md:px-16 lg:px-24 py-24">
+              <div className="min-h-screen flex flex-col">
                 {products.length === 0 ? (
-                  <div className="min-h-[60vh] flex flex-col items-center justify-center space-y-6">
+                  <div className="flex-1 flex flex-col items-center justify-center space-y-6 px-6">
                     <div className="w-16 h-16 border-2 border-border flex items-center justify-center">
                       <AlertCircle className="w-7 h-7" />
                     </div>
@@ -346,9 +347,9 @@ export function ImageSearch() {
                     </div>
                   </div>
                 ) : (
-                  <>
+                  <div className="flex-1 flex flex-col h-screen">
                     {/* Results header */}
-                    <div className="mb-12 pb-6 border-b border-border/50">
+                    <div className="px-6 md:px-16 lg:px-24 pt-24 pb-6 border-b border-border/50">
                       <div className="flex items-center justify-between flex-wrap gap-4">
                         <div>
                           <h2 className="text-2xl font-bold tracking-tight mb-1">Results</h2>
@@ -375,46 +376,17 @@ export function ImageSearch() {
                       </div>
                     </div>
                     
-                    {/* Products Grid */}
-                    <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-6">
-                      {products.map((product, index) => (
-                        <div 
-                          key={product.id} 
-                          className="group cursor-pointer"
-                          onClick={() => handleProductClick(product)}
-                          onTouchEnd={(e) => {
-                            // Prevent double-tap zoom on mobile
-                            e.preventDefault();
-                            handleProductClick(product);
-                          }}
-                          style={{ animationDelay: `${index * 0.05}s` }}
-                        >
-                          <div className="aspect-[3/4] relative overflow-hidden bg-muted/20 mb-3 border border-transparent group-hover:border-foreground transition-all duration-300">
-                            <img
-                              src={product.main_image_url}
-                              alt={product.title}
-                              className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
-                              loading="lazy"
-                            />
-                            <div className="absolute inset-0 bg-foreground/0 group-hover:bg-foreground/5 transition-colors duration-300" />
-                            <div className="absolute top-2 right-2 z-10">
-                              <SaveButton productId={product.id} productTitle={product.title} />
-                            </div>
-                          </div>
-                          <div className="space-y-1">
-                            <h3 className="text-[11px] leading-tight line-clamp-2 font-medium" title={product.title}>
-                              {product.title}
-                            </h3>
-                            <div>
-                              <p className="text-xs font-bold">
-                                {product.price ? `$${product.price.toFixed(2)}` : 'Price N/A'}
-                              </p>
-                            </div>
-                          </div>
-                        </div>
-                      ))}
+                    {/* 3D Product Carousel */}
+                    <div className="flex-1 relative overflow-visible bg-gradient-to-br from-background to-muted/20 py-8 flex items-center justify-center">
+                      <ProductCarousel3D 
+                        products={products.map(p => ({
+                          ...p,
+                          image: p.main_image_url
+                        }))}
+                        onProductClick={handleProductClick}
+                      />
                     </div>
-                  </>
+                  </div>
                 )}
               </div>
             )}

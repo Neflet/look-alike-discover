@@ -26,6 +26,7 @@ import { UserMenu } from './UserMenu';
 import { useAuth } from '@/hooks/useAuth';
 import { cn } from "@/lib/utils";
 import type { SearchHit } from '../../lib/search-image';
+import { ProductCarousel3D } from './ProductCarousel3D';
 
 // Optional crop overlay (install with: npm i react-rnd)
 let Rnd: any = null;
@@ -54,7 +55,6 @@ export default function ResultsPage({
   showHeader = true
 }: ResultsPageProps) {
   const [items] = useState<ResultItem[]>(initialItems);
-  const [active, setActive] = useState(0);
   const [userImage, setUserImage] = useState<string | null>(initialUserImage ?? null);
   const [refineOpen, setRefineOpen] = useState(false);
   const [isCropping, setIsCropping] = useState(false);
@@ -228,15 +228,21 @@ export default function ResultsPage({
           </Card>
         </aside>
 
-        {/* Center – ROTATING CLOSET */}
+        {/* Center – 3D PRODUCT CAROUSEL */}
         <section className="col-span-12 md:col-span-9 xl:col-span-10">
-          <RotatingCloset 
-            items={items} 
-            active={active} 
-            setActive={setActive}
-            getImageUrl={getImageUrl}
-            isCropping={isCropping}
-          />
+          <div className="h-[74vh] min-h-[560px] w-full overflow-visible py-8">
+            <ProductCarousel3D 
+              products={items.map(item => ({
+                ...item,
+                image: getImageUrl(item)
+              }))}
+              onProductClick={(product) => {
+                if (product.url) {
+                  window.open(product.url, '_blank', 'noopener,noreferrer');
+                }
+              }}
+            />
+          </div>
         </section>
       </main>
     </div>
