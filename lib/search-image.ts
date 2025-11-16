@@ -259,6 +259,14 @@ export async function searchSimilar(
   return rows;
 }
 
+/**
+ * Refine search: Filter database first, then compare filtered results to queried image
+ * 
+ * Flow:
+ * 1. Filter products by parameters (price_min, price_max, brand_eq)
+ * 2. Apply vector similarity search within the filtered set
+ * 3. Return top_k most similar results
+ */
 export async function searchSimilarFiltered(
   embedding: number[],
   model: string,

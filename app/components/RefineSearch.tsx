@@ -84,8 +84,12 @@ export default function RefineSearch({
       };
       track('search_triggered', { qtype: 'image', filters: activeFilters });
       
+      // Refine search flow:
+      // 1. Filter database by parameters (price, brand)
+      // 2. Compare filtered result set to queried image (vector similarity)
+      // 3. Return top 5 most similar results from filtered set
       const hits = await searchSimilarFiltered(lastEmbedding, lastModel, {
-        topK: 5,
+        topK: 5, // Return top 5 similar results
         minSimilarity: 0.55,
         priceMin: priceMinNum,
         priceMax: priceMaxNum,
