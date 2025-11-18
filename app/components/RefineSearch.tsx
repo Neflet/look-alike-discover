@@ -84,12 +84,8 @@ export default function RefineSearch({
       };
       track('search_triggered', { qtype: 'image', filters: activeFilters });
       
-      // Refine search flow:
-      // 1. Filter database by parameters (price, brand)
-      // 2. Compare filtered result set to queried image (vector similarity)
-      // 3. Return top 5 most similar results from filtered set
       const hits = await searchSimilarFiltered(lastEmbedding, lastModel, {
-        topK: 5, // Return top 5 similar results
+        topK: 5,
         minSimilarity: 0.55,
         priceMin: priceMinNum,
         priceMax: priceMaxNum,
@@ -113,7 +109,7 @@ export default function RefineSearch({
       <div className="w-full max-w-md bg-background p-4 rounded-t-2xl shadow-xl border">
         <div className="flex items-center justify-between mb-3">
           <h3 className="text-lg font-semibold">Refine search</h3>
-          <button onClick={onClose} className="text-sm">Close</button>
+          <button onClick={onClose} className="text-sm rounded-lg px-2 py-1 hover:bg-muted transition-colors">Close</button>
         </div>
 
         <div className="grid gap-3">
@@ -163,7 +159,7 @@ export default function RefineSearch({
           <button
             onClick={runRefine}
             disabled={loading}
-            className="bg-foreground text-background rounded px-4 py-2 border"
+            className="bg-foreground text-background rounded-lg px-4 py-2 border"
           >
             {loading ? 'Searching…' : 'Apply filters'}
           </button>

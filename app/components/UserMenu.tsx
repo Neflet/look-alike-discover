@@ -68,7 +68,7 @@ export function UserMenu() {
                       setShowCloset(true);
                       setMenuOpen(false);
                     }}
-                    className="w-full flex items-center gap-2 px-3 py-2 text-sm hover:bg-muted rounded"
+                    className="w-full flex items-center gap-2 px-3 py-2 text-sm hover:bg-muted rounded-lg"
                   >
                     <Heart className="w-4 h-4" />
                     My Closet
@@ -78,7 +78,7 @@ export function UserMenu() {
                       signOut();
                       setMenuOpen(false);
                     }}
-                    className="w-full flex items-center gap-2 px-3 py-2 text-sm hover:bg-muted rounded text-red-600"
+                    className="w-full flex items-center gap-2 px-3 py-2 text-sm hover:bg-muted rounded-lg text-red-600"
                   >
                     <LogOut className="w-4 h-4" />
                     Sign Out

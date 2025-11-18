@@ -2,6 +2,7 @@
 
 import React, { useMemo, useRef, useState, useEffect } from "react";
 import Image from "next/image";
+import { useRouter } from "next/navigation";
 import { motion, useMotionValue, useTransform } from "framer-motion";
 import { 
   Heart, 
@@ -12,7 +13,8 @@ import {
   ArrowLeftRight, 
   ChevronLeft, 
   ChevronRight, 
-  ExternalLink 
+  ExternalLink,
+  ArrowLeft
 } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
@@ -54,6 +56,7 @@ export default function ResultsPage({
   onNewSearch,
   showHeader = true
 }: ResultsPageProps) {
+  const router = useRouter();
   const [items] = useState<ResultItem[]>(initialItems);
   const [userImage, setUserImage] = useState<string | null>(initialUserImage ?? null);
   const [refineOpen, setRefineOpen] = useState(false);
@@ -103,15 +106,33 @@ export default function ResultsPage({
   };
 
   if (initialItems.length === 0) {
+    const handleGoBack = () => {
+      if (window.history.length > 1) {
+        window.history.back();
+      } else {
+        router.push('/');
+      }
+    };
+
     return (
       <div className="min-h-screen flex items-center justify-center bg-white">
         <div className="text-center space-y-4">
           <p className="text-lg text-neutral-500">No results found</p>
-          {onNewSearch && (
-            <Button onClick={onNewSearch} variant="outline">
-              Start New Search
+          <div className="flex items-center justify-center gap-3">
+            <Button 
+              onClick={handleGoBack} 
+              variant="outline"
+              className="flex items-center gap-2"
+            >
+              <ArrowLeft className="w-4 h-4" />
+              Go Back
             </Button>
-          )}
+            {onNewSearch && (
+              <Button onClick={onNewSearch} variant="outline">
+                Start New Search
+              </Button>
+            )}
+          </div>
         </div>
       </div>
     );
@@ -441,15 +462,20 @@ function RotatingCloset({
 }
 
 function Header() {
+  const router = useRouter();
+  
   return (
     <header className="sticky top-0 z-40 w-full border-b bg-white/80 backdrop-blur">
       <div className="mx-auto flex max-w-[120rem] items-center justify-between gap-3 px-4 py-3 lg:px-8">
-        <div className="flex items-center gap-3">
+        <button
+          onClick={() => router.push('/')}
+          className="flex items-center gap-3 cursor-pointer hover:opacity-80 transition-opacity"
+        >
           <div className="grid h-9 w-9 place-content-center rounded-xl border bg-neutral-50 text-sm font-bold">
             S
           </div>
           <span className="hidden text-lg font-semibold sm:inline">SwagAI</span>
-        </div>
+        </button>
         
         <div className="hidden flex-1 items-center gap-2 md:flex">
           <div className="relative w-full max-w-2xl">

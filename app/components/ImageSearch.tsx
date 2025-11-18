@@ -2,9 +2,10 @@
 
 import React, { useState, useRef, useEffect } from 'react';
 import Image from 'next/image';
+import { useRouter } from 'next/navigation';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent } from '@/components/ui/card';
-import { Camera, Upload, Loader2, AlertCircle, X } from 'lucide-react';
+import { Camera, Upload, Loader2, AlertCircle, X, ArrowLeft } from 'lucide-react';
 import { useToast } from '@/hooks/use-toast';
 import { embedImage, searchSimilar, type SearchHit } from '../../lib/search-image';
 import { trackEvent } from '@/api/analytics';
@@ -22,6 +23,7 @@ type UISearchHit = SearchHit & {
 };
 
 export function ImageSearch() {
+  const router = useRouter();
   const [isLoading, setIsLoading] = useState(false);
   const [products, setProducts] = useState<UISearchHit[]>([]);
   const [searchCompleted, setSearchCompleted] = useState(false);
@@ -186,7 +188,12 @@ export function ImageSearch() {
         <div className="flex items-center gap-3 bg-background/95 backdrop-blur-sm px-4 py-2 border border-border/30">
           <Image src="/icons/lens.svg" alt="" width={16} height={16} className="h-4 w-auto" />
           <div className="h-3 w-px bg-border" />
-          <Image src="/logo.svg" alt="Swagai" width={64} height={16} className="h-4 w-auto" />
+          <button
+            onClick={() => router.push('/')}
+            className="cursor-pointer hover:opacity-80 transition-opacity"
+          >
+            <Image src="/logo.svg" alt="Swagai" width={64} height={16} className="h-4 w-auto" />
+          </button>
         </div>
       </header>
 
@@ -334,16 +341,32 @@ export function ImageSearch() {
                     </div>
                     <div className="text-center space-y-3">
                       <h3 className="text-base tracking-wide uppercase font-medium">No Matches Found</h3>
-                      <button
-                        onClick={() => {
-                          setSearchCompleted(false);
-                          setProducts([]);
-                          setUploadedImage(null);
-                        }}
-                        className="text-xs tracking-wide underline underline-offset-4 hover:no-underline transition-all"
-                      >
-                        Try Different Image
-                      </button>
+                      <div className="flex items-center justify-center gap-3">
+                        <Button
+                          onClick={() => {
+                            if (window.history.length > 1) {
+                              window.history.back();
+                            } else {
+                              router.push('/');
+                            }
+                          }}
+                          variant="outline"
+                          className="flex items-center gap-2"
+                        >
+                          <ArrowLeft className="w-4 h-4" />
+                          Go Back
+                        </Button>
+                        <button
+                          onClick={() => {
+                            setSearchCompleted(false);
+                            setProducts([]);
+                            setUploadedImage(null);
+                          }}
+                          className="text-xs tracking-wide underline underline-offset-4 hover:no-underline transition-all rounded-lg px-2 py-1"
+                        >
+                          Try Different Image
+                        </button>
+                      </div>
                     </div>
                   </div>
                 ) : (
