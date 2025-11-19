@@ -1,5 +1,6 @@
 // lib/search-image.ts
 import { createClient } from '@supabase/supabase-js';
+import { filterBySimilarity } from './similarity-filter';
 
 type EmbedResponse = {
   embedding: number[];
@@ -233,17 +234,17 @@ export async function searchSimilar(
 ): Promise<SearchHit[]> {
   assertEmbedding(embedding, model);
 
-  const top_k = opts.topK ?? 5;
-  const minSimilarity = opts.minSimilarity ?? 0.55;
+  const finalLimit = opts.topK ?? 5;
+  const candidatePoolSize = 50; // Get larger candidate pool for filtering
 
   // Call the **vector overload** (qvec: vector(1152))
-  console.log('[RPC] calling search_products_siglip', { top_k, model });
+  console.log('[RPC] calling search_products_siglip', { candidatePoolSize, finalLimit, model });
 
   // Use the explicitly named function to avoid overload resolution issues
   const { data, error } = await supabase.rpc('search_products_siglip', {
     qvec: embedding, // supabase-js will serialize the array; DB function accepts vector(1152)
     p_model_id: model,
-    top_k,
+    top_k: candidatePoolSize, // Get larger candidate pool
   }) as { data: SearchHit[] | null; error: any };
 
   if (error) {
@@ -251,12 +252,14 @@ export async function searchSimilar(
     throw error;
   }
 
-  const rows = (data ?? [])
-    // keep if RPC returns similarity column; otherwise passthrough
-    .filter(r => (typeof r.similarity === 'number' ? r.similarity >= minSimilarity : true));
+  const rawResults = data ?? [];
+  console.log('[RPC] raw results', rawResults.length);
 
-  console.log('[RPC] results', rows.length);
-  return rows;
+  // Filter by similarity threshold and limit to final count
+  const filteredResults = filterBySimilarity(rawResults, finalLimit);
+  console.log('[RPC] filtered results', filteredResults.length);
+
+  return filteredResults;
 }
 
 export async function searchSimilarFiltered(
@@ -266,22 +269,23 @@ export async function searchSimilarFiltered(
 ): Promise<SearchHit[]> {
   assertEmbedding(embedding, model);
 
-  const top_k = opts.topK ?? 24;
-  const minSimilarity = opts.minSimilarity ?? 0.55;
+  const finalLimit = opts.topK ?? 5;
+  const candidatePoolSize = 50; // Get larger candidate pool for filtering
 
   // Build filter params - pass null for optional filters that aren't provided
   // For brand, use exact match since we're using dropdown now
   const rpcParams: any = {
     qvec: embedding as unknown as any,
     p_model_id: model,
-    top_k,
+    top_k: candidatePoolSize, // Get larger candidate pool
     price_min: typeof opts.priceMin === 'number' ? opts.priceMin : null,
     price_max: typeof opts.priceMax === 'number' ? opts.priceMax : null,
     brand_eq: opts.brand && opts.brand.trim() ? opts.brand.trim() : null,
   };
 
   console.log('[RPC] calling search_products_filtered with params:', {
-    top_k: rpcParams.top_k,
+    candidatePoolSize: rpcParams.top_k,
+    finalLimit,
     price_min: rpcParams.price_min ?? 'null',
     price_max: rpcParams.price_max ?? 'null',
     brand_eq: rpcParams.brand_eq ?? 'null',
@@ -298,10 +302,12 @@ export async function searchSimilarFiltered(
     throw error;
   }
 
-  const rows = (data ?? []).filter(r =>
-    typeof r.similarity === 'number' ? r.similarity >= minSimilarity : true
-  );
+  const rawResults = data ?? [];
+  console.log('[RPC] raw filtered results', rawResults.length);
 
-  console.log('[RPC] filtered results', rows.length);
-  return rows;
+  // Filter by similarity threshold and limit to final count
+  const filteredResults = filterBySimilarity(rawResults, finalLimit);
+  console.log('[RPC] filtered by similarity', filteredResults.length);
+
+  return filteredResults;
 }

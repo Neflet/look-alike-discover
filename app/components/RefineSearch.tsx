@@ -86,7 +86,6 @@ export default function RefineSearch({
       
       const hits = await searchSimilarFiltered(lastEmbedding, lastModel, {
         topK: 5,
-        minSimilarity: 0.55,
         priceMin: priceMinNum,
         priceMax: priceMaxNum,
         brand: brand.trim() || undefined,

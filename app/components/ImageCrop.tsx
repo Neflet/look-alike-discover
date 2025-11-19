@@ -266,8 +266,8 @@ export function ImageCrop({ imageFile, imageUrl, onCropComplete, onCancel }: Ima
 
   if (!imageSize) {
     return (
-      <div className="min-h-screen flex items-center justify-center">
-        <div className="text-center">Loading image...</div>
+      <div className="min-h-screen w-full overflow-x-hidden flex items-center justify-center">
+        <div className="text-center px-4">Loading image...</div>
       </div>
     );
   }
@@ -297,12 +297,12 @@ export function ImageCrop({ imageFile, imageUrl, onCropComplete, onCancel }: Ima
   const cropDisplayHeight = crop ? (crop.height / scaleY) : 0;
 
   return (
-    <div className="min-h-screen flex flex-col items-center justify-center px-6 py-24">
-      <div className="w-full max-w-4xl space-y-6">
+    <div className="min-h-screen w-full overflow-x-hidden">
+      <div className="w-full max-w-[420px] mx-auto px-4 py-4 md:max-w-3xl md:px-6 md:py-24">
         {/* Header */}
-        <div className="text-center space-y-2">
-          <h2 className="text-2xl font-bold tracking-tight">Select Area to Search</h2>
-          <p className="text-sm opacity-60">
+        <div className="text-center space-y-2 mb-6">
+          <h2 className="text-xl md:text-2xl font-bold tracking-tight">Select Area to Search</h2>
+          <p className="text-xs md:text-sm opacity-60">
             Drag to move or resize the selection box
           </p>
         </div>
@@ -310,19 +310,19 @@ export function ImageCrop({ imageFile, imageUrl, onCropComplete, onCancel }: Ima
         {/* Crop Container */}
         <div
           ref={containerRef}
-          className="relative border-2 border-foreground/20 rounded-lg overflow-hidden bg-background crop-container"
+          className="relative border-2 border-foreground/20 rounded-lg overflow-hidden bg-background crop-container w-full"
           style={{ 
             maxHeight: '70vh',
             touchAction: 'none',
             userSelect: 'none',
           }}
         >
-          <div className="relative inline-block">
+          <div className="relative w-full max-w-full">
             <img
               ref={imageRef}
               src={imageUrl}
               alt="Crop preview"
-              className="max-w-full max-h-[70vh] object-contain"
+              className="w-full h-auto object-contain max-h-[70vh]"
               draggable={false}
               style={{ touchAction: 'none', pointerEvents: 'auto' }}
             />
@@ -442,28 +442,30 @@ export function ImageCrop({ imageFile, imageUrl, onCropComplete, onCancel }: Ima
         </div>
 
         {/* Controls */}
-        <div className="flex items-center justify-center gap-4">
+        <div className="flex flex-col sm:flex-row items-stretch sm:items-center justify-center gap-3 mt-6">
           <Button
             onClick={handleCrop}
             disabled={!crop || crop.width < 10 || crop.height < 10}
-            className="h-12 px-8 text-xs tracking-[0.2em] uppercase"
+            className="h-12 px-6 sm:px-8 text-xs tracking-[0.2em] uppercase flex-1 sm:flex-initial"
           >
             <Crop className="w-4 h-4 mr-2" />
-            Search Selected Area
+            <span className="hidden sm:inline">Search Selected Area</span>
+            <span className="sm:hidden">Search Area</span>
           </Button>
           
           <Button
             onClick={handleSearchFull}
             variant="outline"
-            className="h-12 px-8 text-xs tracking-[0.2em] uppercase"
+            className="h-12 px-6 sm:px-8 text-xs tracking-[0.2em] uppercase flex-1 sm:flex-initial"
           >
-            Search Entire Image
+            <span className="hidden sm:inline">Search Entire Image</span>
+            <span className="sm:hidden">Full Image</span>
           </Button>
           
           <Button
             onClick={onCancel}
             variant="ghost"
-            className="h-12 px-8 text-xs tracking-[0.2em] uppercase"
+            className="h-12 px-6 sm:px-8 text-xs tracking-[0.2em] uppercase flex-1 sm:flex-initial"
           >
             <RotateCcw className="w-4 h-4 mr-2" />
             Cancel

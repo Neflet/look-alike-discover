@@ -56,10 +56,9 @@ export function ImageSearch() {
       setLastEmbedding(embedding);
       setLastModel(model);
 
-      // Step 2: Search similar products - limit to top 5 most similar
+      // Step 2: Search similar products - similarity filtering is now handled in searchSimilar
       const results = await searchSimilar(embedding, model, {
         topK: 5,
-        minSimilarity: 0.55, // tune between 0.50–0.65
       });
 
       // Transform results to match existing UI format
@@ -340,7 +339,10 @@ export function ImageSearch() {
                       <AlertCircle className="w-7 h-7" />
                     </div>
                     <div className="text-center space-y-3">
-                      <h3 className="text-base tracking-wide uppercase font-medium">No Matches Found</h3>
+                      <h3 className="text-base tracking-wide uppercase font-medium">No Good Visual Matches Found</h3>
+                      <p className="text-sm opacity-60 max-w-md">
+                        We couldn't find anything visually close to your image. Try a different photo or crop a different area.
+                      </p>
                       <div className="flex items-center justify-center gap-3">
                         <Button
                           onClick={() => {
