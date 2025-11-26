@@ -17,6 +17,7 @@ export function AuthModal({ isOpen, onClose, initialMode = 'signin' }: AuthModal
   const [password, setPassword] = useState('');
   const [displayName, setDisplayName] = useState('');
   const [error, setError] = useState<string | null>(null);
+  const [status, setStatus] = useState<string | null>(null);
   const [loading, setLoading] = useState(false);
   const { signIn, signUp } = useAuth();
 
@@ -25,6 +26,7 @@ export function AuthModal({ isOpen, onClose, initialMode = 'signin' }: AuthModal
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     setError(null);
+    setStatus(null);
     setLoading(true);
 
     try {
@@ -40,7 +42,12 @@ export function AuthModal({ isOpen, onClose, initialMode = 'signin' }: AuthModal
         if (error) {
           setError(error.message || 'Failed to sign up');
         } else {
-          setError('Check your email to confirm your account!');
+          // Success: show "check your email" message
+          setStatus(`We've sent you a confirmation link to ${email}. Please confirm your email to continue.`);
+          // Clear form
+          setEmail('');
+          setPassword('');
+          setDisplayName('');
         }
       }
     } catch (err: any) {
@@ -108,13 +115,21 @@ export function AuthModal({ isOpen, onClose, initialMode = 'signin' }: AuthModal
             <div className="text-red-600 text-sm">{error}</div>
           )}
 
-          <Button
-            type="submit"
-            disabled={loading}
-            className="w-full"
-          >
-            {loading ? 'Please wait...' : mode === 'signin' ? 'Sign In' : 'Sign Up'}
-          </Button>
+          {status && (
+            <div className="text-sm p-3 rounded-lg border border-success/20 bg-success/10 text-success-foreground">
+              {status}
+            </div>
+          )}
+
+          {!status && (
+            <Button
+              type="submit"
+              disabled={loading}
+              className="w-full"
+            >
+              {loading ? 'Please wait...' : mode === 'signin' ? 'Sign In' : 'Sign Up'}
+            </Button>
+          )}
         </form>
 
         <div className="mt-4 text-center text-sm">
@@ -125,6 +140,7 @@ export function AuthModal({ isOpen, onClose, initialMode = 'signin' }: AuthModal
                 onClick={() => {
                   setMode('signup');
                   setError(null);
+                  setStatus(null);
                 }}
                 className="underline hover:no-underline"
               >
@@ -138,6 +154,7 @@ export function AuthModal({ isOpen, onClose, initialMode = 'signin' }: AuthModal
                 onClick={() => {
                   setMode('signin');
                   setError(null);
+                  setStatus(null);
                 }}
                 className="underline hover:no-underline"
               >

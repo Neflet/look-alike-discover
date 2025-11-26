@@ -252,7 +252,27 @@ export function ImageCrop({ imageFile, imageUrl, onCropComplete, onCancel }: Ima
     }
     
     try {
+      // Crop the image using the user's selected bounding box
+      // crop coordinates are in image pixel space (absolute coordinates)
+      // cropImage will create a new File containing only the cropped region
+      console.log('[CROP] Creating cropped image from selection:', {
+        x: Math.round(crop.x),
+        y: Math.round(crop.y),
+        width: Math.round(crop.width),
+        height: Math.round(crop.height),
+        imageSize: imageSize,
+        cropPercent: Math.round((crop.width * crop.height) / (imageSize.width * imageSize.height) * 100)
+      });
+      
       const croppedFile = await cropImage(imageFile, crop);
+      console.log('[CROP] Cropped file created:', {
+        name: croppedFile.name,
+        size: croppedFile.size,
+        type: croppedFile.type
+      });
+      
+      // Pass the cropped file to the parent component
+      // This will be used for the visual search query instead of the full image
       onCropComplete(croppedFile);
     } catch (error) {
       console.error('Crop error:', error);

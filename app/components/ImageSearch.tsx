@@ -129,6 +129,12 @@ export function ImageSearch() {
 
   const handleCropComplete = (croppedFile: File) => {
     setShowCrop(false);
+    // Use the cropped file for search - this ensures the search query
+    // is based on the selected region, not the entire image
+    console.log('[SEARCH] Using cropped image for search:', {
+      name: croppedFile.name,
+      size: croppedFile.size
+    });
     handleImageSearch(croppedFile);
   };
 
