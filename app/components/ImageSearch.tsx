@@ -7,7 +7,7 @@ import { Button } from '@/components/ui/button';
 import { Card, CardContent } from '@/components/ui/card';
 import { Camera, Upload, Loader2, AlertCircle, X, ArrowLeft } from 'lucide-react';
 import { useToast } from '@/hooks/use-toast';
-import { embedImage, searchSimilar, type SearchHit } from '../../lib/search-image';
+import { embedImage, searchSimilar, searchSimilarWithCategory, type SearchHit, type SearchResponse, type MatchStatus, type ProductCategory } from '../../lib/search-image';
 import { trackEvent } from '@/api/analytics';
 import { track } from '@/lib/posthog';
 import { ImageCrop } from './ImageCrop';
@@ -16,6 +16,7 @@ import { UserMenu } from './UserMenu';
 import { SaveButton } from './SaveButton';
 import { ImagePreview } from './ImagePreview';
 import { ProductCarousel3D } from './ProductCarousel3D';
+import { CantFindItemModal } from './CantFindItemModal';
 
 // Extended SearchHit for UI (includes score for backward compatibility)
 type UISearchHit = SearchHit & {
@@ -26,6 +27,7 @@ export function ImageSearch() {
   const router = useRouter();
   const [isLoading, setIsLoading] = useState(false);
   const [products, setProducts] = useState<UISearchHit[]>([]);
+  const [originalProducts, setOriginalProducts] = useState<UISearchHit[]>([]); // Store original unfiltered results from first search
   const [searchCompleted, setSearchCompleted] = useState(false);
   const [uploadedImage, setUploadedImage] = useState<string | null>(null);
   const [showCrop, setShowCrop] = useState(false);
@@ -33,20 +35,30 @@ export function ImageSearch() {
   const [lastEmbedding, setLastEmbedding] = useState<number[] | null>(null);
   const [lastModel, setLastModel] = useState<string | null>(null);
   const [refineOpen, setRefineOpen] = useState(false);
+  const [matchStatus, setMatchStatus] = useState<MatchStatus>('none');
+  const [predictedCategory, setPredictedCategory] = useState<ProductCategory | undefined>(undefined);
+  const [activeBrandFilter, setActiveBrandFilter] = useState<string | null>(null);
+  const [showCantFindModal, setShowCantFindModal] = useState(false);
   const fileInputRef = useRef<HTMLInputElement>(null);
   const cameraInputRef = useRef<HTMLInputElement>(null);
   const { toast } = useToast();
 
-  const handleImageSearch = async (file: File) => {
+  const handleImageSearch = async (file: File, isNewSearch: boolean = false) => {
     setIsLoading(true);
     setSearchCompleted(false);
+    
+    // If this is a completely new search (not a refine), reset filters
+    if (isNewSearch) {
+      setActiveBrandFilter(null);
+      setOriginalProducts([]); // Clear previous original results
+    }
     
     // Create preview URL for the uploaded image
     const imageUrl = URL.createObjectURL(file);
     setUploadedImage(imageUrl);
     
     try {
-      console.log('Starting image search…');
+      console.log('Starting image search…', { isNewSearch, hasOriginalResults: originalProducts.length > 0, activeBrandFilter });
 
       // Track search triggered
       track('search_triggered', { qtype: 'image', filters: null });
@@ -56,19 +68,57 @@ export function ImageSearch() {
       setLastEmbedding(embedding);
       setLastModel(model);
 
-      // Step 2: Search similar products - similarity filtering is now handled in searchSimilar
-      const results = await searchSimilar(embedding, model, {
-        topK: 5,
-      });
+      // Step 2: Search similar products with category filtering and match status
+      // Only apply brand filter if this is NOT a new search (i.e., it's a refine)
+      let searchResponse: SearchResponse;
+      try {
+        searchResponse = await searchSimilarWithCategory(embedding, model, {
+          topK: 5,
+          brand: (!isNewSearch && activeBrandFilter) || undefined,
+        });
+      } catch (searchError: any) {
+        console.error('[SEARCH] searchSimilarWithCategory failed, falling back to basic search:', searchError);
+        // Fallback to basic search if new function fails
+        const fallbackResults = await searchSimilar(embedding, model, { topK: 5 });
+        const items: UISearchHit[] = fallbackResults.map(r => ({
+          ...r,
+          title: r.title || 'Untitled',
+          category: r.category || 'other',
+          score: r.similarity ?? (r.cos_distance !== undefined ? 1.0 - r.cos_distance : 0.5),
+        }));
+        setProducts(items);
+        setMatchStatus(items.length > 0 ? 'strong' : 'none');
+        setPredictedCategory(undefined);
+        setSearchCompleted(true);
+        return; // Exit early on fallback
+      }
 
       // Transform results to match existing UI format
-      const items: UISearchHit[] = results.map(r => ({
+      const items: UISearchHit[] = searchResponse.results.map(r => ({
         ...r,
         title: r.title || 'Untitled',
+        category: r.category || 'other', // Ensure category is always present
         score: r.similarity ?? (r.cos_distance !== undefined ? 1.0 - r.cos_distance : 0.5), // Fallback if similarity not provided
       }));
 
       setProducts(items);
+      // Store original results ONLY if:
+      // 1. This is a new search (isNewSearch = true), AND
+      // 2. We don't already have original results (meaning this is truly the first search), AND
+      // 3. No brand filter is active (ensures it's truly unfiltered)
+      // This ensures originalProducts represents the unfiltered results from the very first search
+      if (isNewSearch && originalProducts.length === 0 && !activeBrandFilter) {
+        console.log('[ImageSearch] Storing original results:', items.length, 'items');
+        setOriginalProducts([...items]); // Create a deep copy
+      } else {
+        console.log('[ImageSearch] NOT storing as original:', {
+          isNewSearch,
+          hasOriginal: originalProducts.length > 0,
+          hasBrandFilter: !!activeBrandFilter,
+        });
+      }
+      setMatchStatus(searchResponse.matchStatus);
+      setPredictedCategory(searchResponse.predictedCategory);
       setSearchCompleted(true);
 
       // Track search event
@@ -135,7 +185,7 @@ export function ImageSearch() {
       name: croppedFile.name,
       size: croppedFile.size
     });
-    handleImageSearch(croppedFile);
+    handleImageSearch(croppedFile, true); // New search with cropped image
   };
 
   const handleCropCancel = () => {
@@ -336,50 +386,165 @@ export function ImageSearch() {
               </div>
             )}
 
-            {/* Results with 3D Carousel */}
+            {/* Results with conditional display */}
             {searchCompleted && !isLoading && (
               <div className="min-h-screen flex flex-col">
                 {products.length === 0 ? (
+                  // Empty state: 0 results
                   <div className="flex-1 flex flex-col items-center justify-center space-y-6 px-6">
                     <div className="w-16 h-16 border-2 border-border flex items-center justify-center">
                       <AlertCircle className="w-7 h-7" />
                     </div>
                     <div className="text-center space-y-3">
-                      <h3 className="text-base tracking-wide uppercase font-medium">No Good Visual Matches Found</h3>
-                      <p className="text-sm opacity-60 max-w-md">
-                        We couldn't find anything visually close to your image. Try a different photo or crop a different area.
-                      </p>
-                      <div className="flex items-center justify-center gap-3">
-                        <Button
-                          onClick={() => {
-                            if (window.history.length > 1) {
-                              window.history.back();
-                            } else {
-                              router.push('/');
-                            }
-                          }}
-                          variant="outline"
-                          className="flex items-center gap-2"
-                        >
-                          <ArrowLeft className="w-4 h-4" />
-                          Go Back
-                        </Button>
-                        <button
-                          onClick={() => {
-                            setSearchCompleted(false);
-                            setProducts([]);
-                            setUploadedImage(null);
-                          }}
-                          className="text-xs tracking-wide underline underline-offset-4 hover:no-underline transition-all rounded-lg px-2 py-1"
-                        >
-                          Try Different Image
-                        </button>
-                      </div>
+                      {activeBrandFilter ? (
+                        // Brand filter active - show brand-specific message
+                        <>
+                          <h3 className="text-base tracking-wide uppercase font-medium">No Similar Items Found</h3>
+                          <p className="text-sm opacity-60 max-w-md">
+                            No similar items found from {activeBrandFilter}.
+                          </p>
+                          <div className="flex items-center justify-center gap-3">
+                            <Button
+                              onClick={() => {
+                                console.log('[ImageSearch] Clear brand filter clicked', {
+                                  originalProductsCount: originalProducts.length,
+                                });
+                                setActiveBrandFilter(null);
+                                // Restore original results (from before brand filter was applied)
+                                if (originalProducts.length > 0) {
+                                  console.log('[ImageSearch] Restoring original products after clearing brand filter');
+                                  setProducts([...originalProducts]); // Create a new array to trigger re-render
+                                  setMatchStatus(originalProducts.length > 0 ? 'strong' : 'none');
+                                } else {
+                                  // Fallback: re-run search without brand filter
+                                  console.log('[ImageSearch] No original products, re-running search after clearing brand filter');
+                                  if (lastEmbedding && lastModel && uploadedFile) {
+                                    handleImageSearch(uploadedFile, false);
+                                  }
+                                }
+                              }}
+                              variant="outline"
+                              className="flex items-center gap-2"
+                            >
+                              Clear brand filter
+                            </Button>
+                            <Button
+                              onClick={() => {
+                                console.log('[ImageSearch] Back to all results clicked', {
+                                  originalProductsCount: originalProducts.length,
+                                  currentProductsCount: products.length,
+                                  hasEmbedding: !!lastEmbedding,
+                                  hasFile: !!uploadedFile,
+                                });
+                                setActiveBrandFilter(null);
+                                // Restore original results (from before brand filter was applied)
+                                if (originalProducts.length > 0) {
+                                  console.log('[ImageSearch] Restoring original products:', originalProducts.length);
+                                  setProducts([...originalProducts]); // Create new array reference to trigger re-render
+                                  setMatchStatus(originalProducts.length > 0 ? 'strong' : 'none');
+                                } else {
+                                  // Fallback: re-run search without brand filter
+                                  console.log('[ImageSearch] No original products, re-running search');
+                                  if (lastEmbedding && lastModel && uploadedFile) {
+                                    handleImageSearch(uploadedFile, false); // Re-run search without brand filter (not a new search)
+                                  }
+                                }
+                              }}
+                              variant="outline"
+                              className="flex items-center gap-2"
+                            >
+                              <ArrowLeft className="w-4 h-4" />
+                              Back to all results
+                            </Button>
+                          </div>
+                        </>
+                      ) : (
+                        // No brand filter - show general message with "Can't find item?" button
+                        <>
+                          <h3 className="text-base tracking-wide uppercase font-medium">No Good Visual Matches Found</h3>
+                          <p className="text-sm opacity-60 max-w-md">
+                            We couldn't find any similar items based on your image.
+                          </p>
+                          <div className="flex items-center justify-center gap-3 flex-wrap">
+                            <Button
+                              variant="outline"
+                              onClick={() => setShowCantFindModal(true)}
+                            >
+                              Can't find the item?
+                            </Button>
+                            <Button
+                              onClick={() => {
+                                setSearchCompleted(false);
+                                setProducts([]);
+                                setUploadedImage(null);
+                              }}
+                              variant="ghost"
+                              className="flex items-center gap-2"
+                            >
+                              <ArrowLeft className="w-4 h-4" />
+                              Try Different Image
+                            </Button>
+                          </div>
+                        </>
+                      )}
                     </div>
                   </div>
-                ) : (
+                ) : products.length === 1 ? (
+                  // Single result
                   <div className="flex-1 flex flex-col h-screen">
-                    {/* Results header */}
+                    <div className="px-6 md:px-16 lg:px-24 pt-24 pb-6 border-b border-border/50">
+                      <div className="flex items-center justify-between flex-wrap gap-4">
+                        <div>
+                          <h2 className="text-2xl font-bold tracking-tight mb-1">Results</h2>
+                          <p className="text-xs opacity-60">We only found 1 similar item from our catalog.</p>
+                        </div>
+                        <div className="flex gap-2 flex-wrap">
+                          <button
+                            onClick={() => setRefineOpen(true)}
+                            className="px-4 py-2 border text-xs tracking-wide uppercase hover:bg-foreground hover:text-background transition-colors"
+                          >
+                            Refine search
+                          </button>
+                          <button
+                            onClick={() => {
+                              setSearchCompleted(false);
+                              setProducts([]);
+                              setUploadedImage(null);
+                            }}
+                            className="px-6 py-2 border border-foreground text-xs tracking-wide uppercase hover:bg-foreground hover:text-background transition-colors"
+                          >
+                            New Search
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                    
+                    {/* Single product display */}
+                    <div className="flex-1 relative overflow-visible bg-gradient-to-br from-background to-muted/20 py-8 flex items-center justify-center">
+                      <ProductCarousel3D 
+                        products={products.map(p => ({
+                          ...p,
+                          image: p.main_image_url
+                        }))}
+                        onProductClick={handleProductClick}
+                      />
+                    </div>
+                    
+                    {/* Show "Can't find item?" if match status is weak */}
+                    {matchStatus === 'weak' && !activeBrandFilter && (
+                      <div className="px-6 md:px-16 lg:px-24 pb-8 flex justify-center">
+                        <Button
+                          variant="outline"
+                          onClick={() => setShowCantFindModal(true)}
+                        >
+                          Can't find the item?
+                        </Button>
+                      </div>
+                    )}
+                  </div>
+                ) : (
+                  // Multiple results
+                  <div className="flex-1 flex flex-col h-screen">
                     <div className="px-6 md:px-16 lg:px-24 pt-24 pb-6 border-b border-border/50">
                       <div className="flex items-center justify-between flex-wrap gap-4">
                         <div>
@@ -417,6 +582,18 @@ export function ImageSearch() {
                         onProductClick={handleProductClick}
                       />
                     </div>
+                    
+                    {/* Show "Can't find item?" if match status is weak */}
+                    {matchStatus === 'weak' && !activeBrandFilter && (
+                      <div className="px-6 md:px-16 lg:px-24 pb-8 flex justify-center">
+                        <Button
+                          variant="outline"
+                          onClick={() => setShowCantFindModal(true)}
+                        >
+                          Can't find the item?
+                        </Button>
+                      </div>
+                    )}
                   </div>
                 )}
               </div>
@@ -455,14 +632,49 @@ export function ImageSearch() {
         onClose={() => setRefineOpen(false)}
         lastEmbedding={lastEmbedding}
         lastModel={lastModel}
+        onBrandFilterChange={(brand) => {
+          setActiveBrandFilter(brand);
+          // If clearing brand filter, restore original results
+          if (!brand && originalProducts.length > 0) {
+            setProducts(originalProducts);
+            setMatchStatus(originalProducts.length > 0 ? 'strong' : 'none');
+          }
+        }}
         onResults={(hits) => {
           const items: UISearchHit[] = (hits || []).map(r => ({
             ...r,
             title: r.title || 'Untitled',
+            category: r.category || 'other',
             score: r.similarity ?? (r.cos_distance !== undefined ? 1.0 - r.cos_distance : 0.5),
           }));
           setProducts(items as UISearchHit[]);
+          // NEVER update originalProducts from RefineSearch - it should only be set on initial search
+          // originalProducts represents the unfiltered results from the first search
           setSearchCompleted(true);
+        }}
+      />
+
+      {/* Can't Find Item Modal */}
+      <CantFindItemModal
+        isOpen={showCantFindModal}
+        onClose={() => setShowCantFindModal(false)}
+        onRefineCrop={() => {
+          // Navigate back to crop mode
+          if (uploadedFile) {
+            setShowCrop(true);
+            setSearchCompleted(false);
+          }
+        }}
+        onClearFilters={() => {
+          // Clear brand filter and restore original results
+          setActiveBrandFilter(null);
+          if (originalProducts.length > 0) {
+            setProducts(originalProducts);
+            setMatchStatus(originalProducts.length > 0 ? 'strong' : 'none');
+          } else if (lastEmbedding && lastModel && uploadedFile) {
+            // Fallback: re-run search without filters
+            handleImageSearch(uploadedFile, false);
+          }
         }}
       />
     </div>

@@ -1,7 +1,7 @@
 "use client";
 
 import { useState, useEffect } from 'react';
-import { searchSimilarFiltered, getBrands, type SearchHit } from '../../lib/search-image';
+import { searchSimilarFiltered, searchSimilarWithCategory, getBrands, type SearchHit, type SearchResponse } from '../../lib/search-image';
 import { track } from '@/lib/posthog';
 
 type Props = {
@@ -10,6 +10,7 @@ type Props = {
   lastEmbedding: number[] | null;   // from initial search
   lastModel: string | null;
   onResults: (hits: SearchHit[]) => void;
+  onBrandFilterChange?: (brand: string | null) => void; // Callback to track brand filter
 };
 
 export default function RefineSearch({
@@ -18,6 +19,7 @@ export default function RefineSearch({
   lastEmbedding,
   lastModel,
   onResults,
+  onBrandFilterChange,
 }: Props) {
   const [brand, setBrand] = useState('');
   const [brands, setBrands] = useState<string[]>([]);
@@ -84,14 +86,33 @@ export default function RefineSearch({
       };
       track('search_triggered', { qtype: 'image', filters: activeFilters });
       
-      const hits = await searchSimilarFiltered(lastEmbedding, lastModel, {
-        topK: 5,
-        priceMin: priceMinNum,
-        priceMax: priceMaxNum,
-        brand: brand.trim() || undefined,
-      });
+      const selectedBrand = brand.trim() || undefined;
       
-      console.log('[RefineSearch] Got results:', hits.length);
+      // Update brand filter state in parent
+      if (onBrandFilterChange) {
+        onBrandFilterChange(selectedBrand || null);
+      }
+      
+      // Use new search function with category support
+      const searchResponse: SearchResponse = await searchSimilarWithCategory(
+        lastEmbedding, 
+        lastModel, 
+        {
+          topK: 5,
+          priceMin: priceMinNum,
+          priceMax: priceMaxNum,
+          brand: selectedBrand,
+        }
+      );
+      
+      console.log('[RefineSearch] Got results:', searchResponse.results.length, 'matchStatus:', searchResponse.matchStatus);
+      
+      // Ensure all results have category
+      const hits = searchResponse.results.map(r => ({
+        ...r,
+        category: r.category || 'other',
+      }));
+      
       onResults(hits);
       onClose();
     } catch (e: any) {
