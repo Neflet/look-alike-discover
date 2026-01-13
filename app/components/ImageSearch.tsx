@@ -10,7 +10,8 @@ import { useToast } from '@/hooks/use-toast';
 import { embedImage, searchSimilar, searchSimilarWithCategory, type SearchHit, type SearchResponse, type MatchStatus, type ProductCategory } from '../../lib/search-image';
 import { trackEvent } from '@/api/analytics';
 import { track } from '@/lib/posthog';
-import { ImageCrop } from './ImageCrop';
+import { CropOverlay } from './CropOverlay';
+import { cropImage, type CropArea } from '../../lib/image-crop';
 import RefineSearch from '@/components/RefineSearch';
 import { UserMenu } from './UserMenu';
 import { SaveButton } from './SaveButton';
@@ -178,15 +179,37 @@ export function ImageSearch() {
     }
   };
 
-  const handleCropComplete = (croppedFile: File) => {
+  const handleCropComplete = async (croppedArea: CropArea) => {
+    if (!uploadedFile) return;
+    
     setShowCrop(false);
-    // Use the cropped file for search - this ensures the search query
-    // is based on the selected region, not the entire image
-    console.log('[SEARCH] Using cropped image for search:', {
-      name: croppedFile.name,
-      size: croppedFile.size
-    });
-    handleImageSearch(croppedFile, true); // New search with cropped image
+    
+    try {
+      // Convert cropped area to a cropped file
+      const croppedFile = await cropImage(uploadedFile, croppedArea);
+      console.log('[SEARCH] Using cropped image for search:', {
+        name: croppedFile.name,
+        size: croppedFile.size,
+        cropArea: croppedArea
+      });
+      handleImageSearch(croppedFile, true); // New search with cropped image
+    } catch (error) {
+      console.error('Failed to crop image:', error);
+      toast({
+        title: 'Crop failed',
+        description: 'Failed to crop image. Please try again.',
+        variant: 'destructive',
+      });
+    }
+  };
+
+  const handleSearchAll = () => {
+    setShowCrop(false);
+    // Search the entire image without cropping
+    if (uploadedFile) {
+      console.log('[SEARCH] Using full image for search');
+      handleImageSearch(uploadedFile, true);
+    }
   };
 
   const handleCropCancel = () => {
@@ -267,11 +290,11 @@ export function ImageSearch() {
       {/* Main Content */}
       <div className="relative z-10">
         {/* Crop Interface */}
-        {showCrop && uploadedFile && uploadedImage && (
-          <ImageCrop
-            imageFile={uploadedFile}
-            imageUrl={uploadedImage}
-            onCropComplete={handleCropComplete}
+        {showCrop && uploadedImage && (
+          <CropOverlay
+            imageSrc={uploadedImage}
+            onCrop={handleCropComplete}
+            onSearchAll={handleSearchAll}
             onCancel={handleCropCancel}
           />
         )}
