@@ -17,6 +17,7 @@ import { SaveButton } from './SaveButton';
 import { ImagePreview } from './ImagePreview';
 import { ProductCarousel3D } from './ProductCarousel3D';
 import { CantFindItemModal } from './CantFindItemModal';
+import { HomePage } from './HomePage';
 
 // Extended SearchHit for UI (includes score for backward compatibility)
 type UISearchHit = SearchHit & {
@@ -197,6 +198,14 @@ export function ImageSearch() {
     if (cameraInputRef.current) cameraInputRef.current.value = '';
   };
 
+  const handleCapture = () => {
+    cameraInputRef.current?.click();
+  };
+
+  const handleUpload = () => {
+    fileInputRef.current?.click();
+  };
+
   const handleProductClick = async (product: UISearchHit) => {
     // Track result clicked
     track('result_clicked', {
@@ -281,84 +290,35 @@ export function ImageSearch() {
               </div>
             )}
 
-            {/* Existing screens */}
-            {!searchCompleted && (
-              <div className="min-h-screen flex items-center px-6 md:px-16 lg:px-24">
-                <div className="w-full max-w-7xl mx-auto">
-                  <div className="grid lg:grid-cols-2 gap-20 items-center">
-                    {/* Left side - Hero text */}
-                    <div className="space-y-10 lg:pt-0 pt-20">
-                      <div className="space-y-6">
-                        <div className="inline-block px-3 py-1 border border-border/50">
-                          <span className="text-[9px] tracking-[0.25em] uppercase opacity-60">Beta v1.0</span>
-                        </div>
-                        <h1 className="text-[clamp(3rem,10vw,7rem)] font-bold leading-[0.85] tracking-tighter">
-                          MATCH<br />
-                          YOUR<br />
-                          <span className="italic font-light">Vision</span>
-                        </h1>
-                        <p className="text-sm leading-relaxed max-w-md opacity-70">
-                          Upload any fashion image and our AI will find visually similar products from curated collections
-                        </p>
-                      </div>
-
-                      <div className="space-y-4">
-                        {/* Accessible label triggers are more reliable across browsers */}
-                        <label
-                          htmlFor="file-input"
-                          className="inline-flex items-center justify-center gap-2 whitespace-nowrap font-medium ring-offset-background focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0 transition-colors py-2 h-14 px-10 text-xs tracking-[0.2em] uppercase bg-foreground text-background hover:bg-foreground/90 border-2 border-foreground cursor-pointer"
-                        >
-                          Browse Files
-                        </label>
-                        
-                        <div className="flex items-center gap-3">
-                          <div className="h-px w-12 bg-border/50" />
-                          <label
-                            htmlFor="camera-input"
-                            className="text-xs tracking-wide opacity-60 hover:opacity-100 transition-opacity cursor-pointer"
-                          >
-                            or capture photo
-                          </label>
-                        </div>
-                      </div>
-                    </div>
-
-                    {/* Right side - Visual element */}
-                    <div className="hidden lg:block relative">
-                      <div className="aspect-square relative">
-                        <div className="absolute inset-0 border-2 border-border/30 translate-x-4 translate-y-4" />
-                        <div className="absolute inset-0 border-2 border-foreground flex items-center justify-center bg-background">
-                          <Image src="/icons/lens.svg" alt="" width={128} height={128} className="w-32 h-32 opacity-40" />
-                        </div>
-                      </div>
-                      <div className="absolute -bottom-6 -right-6 px-4 py-2 bg-foreground text-background text-[10px] tracking-[0.2em]">
-                        AI POWERED
-                      </div>
-                    </div>
-                  </div>
-
-                  <input
-                    id="file-input"
-                    ref={fileInputRef}
-                    type="file"
-                    accept="image/*"
-                    onChange={handleFileUpload}
-                    className="hidden"
-                    aria-label="Upload image file"
-                  />
-                  
-                  <input
-                    id="camera-input"
-                    ref={cameraInputRef}
-                    type="file"
-                    accept="image/*"
-                    capture="environment"
-                    onChange={handleFileUpload}
-                    className="hidden"
-                    aria-label="Capture photo"
-                  />
-                </div>
-              </div>
+            {/* New HomePage UI */}
+            {!searchCompleted && !isLoading && (
+              <>
+                <HomePage 
+                  onCapture={handleCapture}
+                  onUpload={handleUpload}
+                />
+                
+                <input
+                  id="file-input"
+                  ref={fileInputRef}
+                  type="file"
+                  accept="image/*"
+                  onChange={handleFileUpload}
+                  className="hidden"
+                  aria-label="Upload image file"
+                />
+                
+                <input
+                  id="camera-input"
+                  ref={cameraInputRef}
+                  type="file"
+                  accept="image/*"
+                  capture="environment"
+                  onChange={handleFileUpload}
+                  className="hidden"
+                  aria-label="Capture photo"
+                />
+              </>
             )}
 
             {/* Loading State with Lens Blink Animation */}
