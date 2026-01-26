@@ -573,7 +573,7 @@ export function ImageSearch() {
                         console.log('[ImageSearch] Refine results:', {
                           filters,
                           resultCount: items.length,
-                          brands: [...new Set(items.map(i => i.brand))],
+                          brands: Array.from(new Set(items.map(i => i.brand))),
                           prices: items.map(i => i.price).filter(p => p != null),
                         });
                         
