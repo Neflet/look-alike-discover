@@ -1,508 +1,477 @@
 "use client";
 
-import React, { useMemo, useRef, useState, useEffect } from "react";
-import Image from "next/image";
-import { useRouter } from "next/navigation";
-import { motion, useMotionValue, useTransform } from "framer-motion";
-import { 
-  Heart, 
-  LogIn, 
-  Search, 
-  Upload, 
-  Wand2, 
-  ArrowLeftRight, 
-  ChevronLeft, 
-  ChevronRight, 
-  ExternalLink,
-  ArrowLeft
-} from "lucide-react";
-import { Button } from "@/components/ui/button";
-import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-import { Input } from "@/components/ui/input";
-import { Badge } from "@/components/ui/badge";
-import { Sheet, SheetContent, SheetHeader, SheetTitle, SheetTrigger } from "@/components/ui/sheet";
-import { Label } from "@/components/ui/label";
-import { Slider } from "@/components/ui/slider";
-import { SaveButton } from './SaveButton';
-import { UserMenu } from './UserMenu';
-import { useAuth } from '@/hooks/useAuth';
-import { cn } from "@/lib/utils";
+import { useState, useEffect } from 'react';
+import { motion, AnimatePresence } from 'framer-motion';
+import { ChevronLeft, ChevronRight, Heart, ExternalLink, X, Home, User, LogOut } from 'lucide-react';
+import { RefineSearchModal } from './RefineSearchModal';
+import { SignInModal } from './SignInModal';
+import { ClosetView } from './ClosetView';
 import type { SearchHit } from '../../lib/search-image';
-import { ProductCarousel3D } from './ProductCarousel3D';
-
-// Optional crop overlay (install with: npm i react-rnd)
-let Rnd: any = null;
-try { 
-  Rnd = require("react-rnd").Rnd;
-} catch {}
-
-export type ResultItem = SearchHit & {
-  score?: number;
-  image?: string; // fallback for main_image_url
-};
+import { useRouter } from 'next/navigation';
+import { useAuth } from '@/hooks/useAuth';
+import { supabase } from '@/integrations/supabase/client';
+import { useToast } from '@/hooks/use-toast';
 
 interface ResultsPageProps {
-  initialItems: ResultItem[];
-  initialUserImage?: string | null;
-  onRefineConfirm?: (params: { crop?: any; weights?: any; userImage?: string }) => void;
-  onNewSearch?: () => void;
-  showHeader?: boolean; // Optional header (default: true)
+  onHome: () => void;
+  searchImage?: string;
+  products: SearchHit[];
+  onRefine: (filters: any) => void;
 }
 
-export default function ResultsPage({ 
-  initialItems, 
-  initialUserImage,
-  onRefineConfirm,
-  onNewSearch,
-  showHeader = true
-}: ResultsPageProps) {
+export function ResultsPage({ onHome, searchImage, products, onRefine }: ResultsPageProps) {
   const router = useRouter();
-  const [items] = useState<ResultItem[]>(initialItems);
-  const [userImage, setUserImage] = useState<string | null>(initialUserImage ?? null);
-  const [refineOpen, setRefineOpen] = useState(false);
-  const [isCropping, setIsCropping] = useState(false);
+  const { user, signOut, loading } = useAuth();
+  const { toast } = useToast();
+  const [currentIndex, setCurrentIndex] = useState(0);
+  const [isRefineModalOpen, setIsRefineModalOpen] = useState(false);
+  const [isSignInModalOpen, setIsSignInModalOpen] = useState(false);
+  const [savedItems, setSavedItems] = useState<Set<string>>(new Set());
+  const [savingItems, setSavingItems] = useState<Set<string>>(new Set());
+  const [showSearchImage, setShowSearchImage] = useState(true);
+  const [direction, setDirection] = useState(0);
+  const [showCloset, setShowCloset] = useState(false);
+  const [menuOpen, setMenuOpen] = useState(false);
 
-  // Global safety listener to ensure crop never gets stuck
+  const totalResults = products.length;
+
+  // Load saved status for products when user is available
   useEffect(() => {
-    const end = () => setIsCropping(false);
-    window.addEventListener('mouseup', end);
-    window.addEventListener('pointerup', end);
-    return () => {
-      window.removeEventListener('mouseup', end);
-      window.removeEventListener('pointerup', end);
+    const checkSavedItems = async () => {
+      if (!user || products.length === 0) return;
+      
+      const savedSet = new Set<string>();
+      for (const product of products) {
+        try {
+          const { data, error } = await (supabase.rpc as any)('is_product_saved', {
+            p_user_id: user.id,
+            p_product_id: product.id,
+          }) as { data: boolean | null; error: any };
+          
+          if (!error && data === true) {
+            savedSet.add(product.id);
+          }
+        } catch (e) {
+          // Ignore errors for individual checks
+        }
+      }
+      setSavedItems(savedSet);
     };
-  }, []);
+    
+    checkSavedItems();
+  }, [user, products]);
 
-  // ——— Refine state ———
-  const [crop, setCrop] = useState({ x: 80, y: 80, w: 240, h: 240 });
-  const [colorWeight, setColorWeight] = useState(50);
-  const [textureWeight, setTextureWeight] = useState(50);
-  const [silhouetteWeight, setSilhouetteWeight] = useState(50);
+  if (totalResults === 0) {
+    return null;
+  }
 
-  const handleRefineConfirm = () => {
-    if (onRefineConfirm) {
-      onRefineConfirm({
-        crop,
-        weights: {
-          color: colorWeight,
-          texture: textureWeight,
-          silhouette: silhouetteWeight
-        },
-        userImage: userImage || undefined
+  const paginate = (newDirection: number) => {
+    setDirection(newDirection);
+    setCurrentIndex((prevIndex) => {
+      const newIndex = prevIndex + newDirection;
+      if (newIndex < 0) return totalResults - 1;
+      if (newIndex >= totalResults) return 0;
+      return newIndex;
+    });
+  };
+
+  const handlePrevious = () => {
+    paginate(-1);
+  };
+
+  const handleNext = () => {
+    paginate(1);
+  };
+
+  const toggleSave = async (productId: string) => {
+    if (!user) {
+      toast({
+        title: "Sign in required",
+        description: "Please sign in to save items to your closet",
+        variant: "destructive"
+      });
+      setIsSignInModalOpen(true);
+      return;
+    }
+
+    // Prevent double-clicks
+    if (savingItems.has(productId)) return;
+    
+    setSavingItems(prev => new Set(prev).add(productId));
+    
+    try {
+      const { data, error } = await (supabase.rpc as any)('toggle_closet_item', {
+        p_user_id: user.id,
+        p_product_id: productId,
+      }) as { data: { action: string; is_saved: boolean } | null; error: any };
+
+      if (error) {
+        console.error('[ResultsPage] Failed to toggle save:', error);
+        toast({
+          title: "Error",
+          description: error.message || "Failed to save item",
+          variant: "destructive"
+        });
+      } else {
+        // Update local state
+        setSavedItems(prev => {
+          const newSet = new Set(prev);
+          if (data?.is_saved) {
+            newSet.add(productId);
+          } else {
+            newSet.delete(productId);
+          }
+          return newSet;
+        });
+        
+        toast({
+          title: data?.action === 'added' ? "Saved to closet" : "Removed from closet",
+          description: data?.action === 'added' 
+            ? "Item added to your closet" 
+            : "Item removed from your closet",
+        });
+      }
+    } catch (error) {
+      console.error('[ResultsPage] Error toggling save:', error);
+      toast({
+        title: "Error",
+        description: "An error occurred",
+        variant: "destructive"
+      });
+    } finally {
+      setSavingItems(prev => {
+        const newSet = new Set(prev);
+        newSet.delete(productId);
+        return newSet;
       });
     }
-    setRefineOpen(false);
   };
 
-  const onUpload = (file: File) => {
-    const reader = new FileReader();
-    reader.onload = (e) => setUserImage(String(e.target?.result || null));
-    reader.readAsDataURL(file);
-  };
-
-  // Get image URL for an item
-  const getImageUrl = (item: ResultItem): string => {
-    return item.main_image_url || item.image || '/placeholder.jpg';
-  };
-
-  if (initialItems.length === 0) {
-    const handleGoBack = () => {
-      if (window.history.length > 1) {
-        window.history.back();
+  const handleProductClick = (product: SearchHit) => {
+    if (product.url) {
+      window.open(product.url, '_blank', 'noopener,noreferrer');
       } else {
-        router.push('/');
-      }
-    };
+      router.push(`/product/${product.id}?return=results`);
+    }
+  };
+
+  // Get 3 visible products (previous, current, next) with position index
+  const getVisibleProducts = () => {
+    const visible = [];
+    for (let i = -1; i <= 1; i++) {
+      let index = currentIndex + i;
+      if (index < 0) index = totalResults + index;
+      if (index >= totalResults) index = index - totalResults;
+      visible.push({ ...products[index], position: i });
+    }
+    return visible;
+  };
+
+  const visibleProducts = getVisibleProducts();
 
     return (
-      <div className="min-h-screen flex items-center justify-center bg-white">
-        <div className="text-center space-y-4">
-          <p className="text-lg text-neutral-500">No results found</p>
-          <div className="flex items-center justify-center gap-3">
-            <Button 
-              onClick={handleGoBack} 
-              variant="outline"
-              className="flex items-center gap-2"
+    <div className="min-h-screen bg-black text-white relative overflow-hidden">
+      {/* Background gradient matching home page */}
+      <div className="absolute inset-0 bg-gradient-to-br from-black via-zinc-900 to-black">
+        <div className="absolute inset-0 bg-[url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNjAiIGhlaWdodD0iNjAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PHBhdHRlcm4gaWQ9ImdyaWQiIHdpZHRoPSI2MCIgaGVpZ2h0PSI2MCIgcGF0dGVyblVuaXRzPSJ1c2VyU3BhY2VPblVzZSI+PHBhdGggZD0iTSAxMCAwIEwgMCAwIDAgMTAiIGZpbGw9Im5vbmUiIHN0cm9rZT0icmdiYSgyNTUsMjU1LDI1NSwwLjAzKSIgc3Ryb2tlLXdpZHRoPSIxIi8+PC9wYXR0ZXJuPjwvZGVmcz48cmVjdCB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSJ1cmwoI2dyaWQpIi8+PC9zdmc+')] opacity-30"></div>
+      </div>
+
+      {/* Header */}
+      <div className="sticky top-0 z-40 bg-black/80 backdrop-blur-sm border-b border-zinc-900 relative">
+        <div className="max-w-7xl mx-auto px-6 py-6 flex items-start justify-between">
+          <div>
+            <h1 className="text-4xl font-black tracking-tighter text-white mb-1">Results</h1>
+            <p className="text-zinc-500 text-sm">{totalResults} similar items found</p>
+          </div>
+          <div className="absolute left-1/2 -translate-x-1/2 top-1/2 -translate-y-1/2">
+            <button
+              onClick={onHome}
+              className="w-12 h-12 flex items-center justify-center text-white hover:text-zinc-400 transition-colors"
+              aria-label="Home"
             >
-              <ArrowLeft className="w-4 h-4" />
-              Go Back
-            </Button>
-            {onNewSearch && (
-              <Button onClick={onNewSearch} variant="outline">
-                Start New Search
-              </Button>
+              <Home className="w-6 h-6" />
+            </button>
+          </div>
+          <div className="flex items-center gap-4">
+            {loading ? (
+              <div className="h-12 px-6 bg-zinc-800 text-zinc-500 font-bold rounded-full flex items-center">
+                Loading...
+              </div>
+            ) : user ? (
+              <div className="relative">
+                <button
+                  onClick={() => setMenuOpen(!menuOpen)}
+                  className="h-12 px-6 bg-zinc-200 hover:bg-white text-black font-bold transition-colors rounded-full flex items-center gap-2"
+                >
+                  <User className="w-5 h-5" />
+                  <span className="text-sm truncate max-w-[150px]">
+                    {user.email?.split('@')[0] || 'User'}
+                  </span>
+                </button>
+                
+                {menuOpen && (
+                  <>
+                    <div 
+                      className="fixed inset-0 z-40" 
+                      onClick={() => setMenuOpen(false)}
+                    />
+                    <div className="absolute top-full right-0 mt-2 bg-zinc-900 border border-zinc-800 rounded-lg shadow-lg z-50 min-w-[200px]">
+                      <div className="p-1">
+                        <button
+                          onClick={() => {
+                            setShowCloset(true);
+                            setMenuOpen(false);
+                          }}
+                          className="w-full flex items-center gap-2 px-3 py-2 text-sm text-white hover:bg-zinc-800 rounded-lg transition-colors"
+                        >
+                          <Heart className="w-4 h-4" />
+                          My Closet
+                        </button>
+                        <button
+                          onClick={() => {
+                            signOut();
+                            setMenuOpen(false);
+                          }}
+                          className="w-full flex items-center gap-2 px-3 py-2 text-sm text-white hover:bg-zinc-800 rounded-lg transition-colors"
+                        >
+                          <LogOut className="w-4 h-4" />
+                          Sign Out
+                        </button>
+                      </div>
+                    </div>
+                  </>
+                )}
+              </div>
+            ) : (
+              <button
+                onClick={() => setIsSignInModalOpen(true)}
+                className="h-12 px-6 bg-zinc-200 hover:bg-white text-black font-bold transition-colors rounded-full"
+              >
+                SIGN IN
+              </button>
             )}
           </div>
         </div>
       </div>
-    );
-  }
 
-  return (
-    <div className="min-h-screen w-full bg-white text-neutral-900">
-      {showHeader && <Header />}
-
-      <main className="mx-auto grid max-w-[120rem] grid-cols-12 gap-6 px-4 pb-24 pt-6 lg:px-8">
-        {/* Left dock – user image */}
-        <aside className="col-span-12 md:col-span-3 xl:col-span-2">
-          <Card className="sticky top-4 border-neutral-200 shadow-sm">
-            <CardHeader className="pb-2">
-              <CardTitle className="text-base font-semibold">Your image</CardTitle>
-            </CardHeader>
-            <CardContent className="space-y-4">
-              <div className="relative aspect-square overflow-hidden rounded-xl border bg-neutral-50">
-                {userImage ? (
-                  <Image src={userImage} alt="Uploaded" fill className="object-cover" />
-                ) : (
-                  <div className="grid h-full place-content-center text-sm text-neutral-500">No image</div>
-                )}
-              </div>
-
-              <label className="inline-flex cursor-pointer items-center gap-2 rounded-xl border px-3 py-2 text-sm hover:bg-neutral-50">
-                <Upload className="h-4 w-4" />
-                <span>Upload new</span>
-                <input 
-                  type="file" 
-                  accept="image/*" 
-                  className="hidden" 
-                  onChange={(e) => { 
-                    const f = e.target.files?.[0]; 
-                    if (f) onUpload(f); 
-                  }} 
-                />
-              </label>
-
-              <Sheet open={refineOpen} onOpenChange={setRefineOpen}>
-                <SheetTrigger asChild>
-                  <Button className="w-full gap-2">
-                    <Wand2 className="h-4 w-4"/> Refine search
-                  </Button>
-                </SheetTrigger>
-                <SheetContent side="right" className="w-full sm:max-w-xl z-[60]">
-                  <SheetHeader>
-                    <SheetTitle>Refine search</SheetTitle>
-                  </SheetHeader>
-
-                  <div className="mt-4 space-y-6">
-                    <div className="space-y-2">
-                      <Label className="text-sm">Crop focus</Label>
-                      <div 
-                        className="relative aspect-[4/5] overflow-hidden rounded-xl border bg-neutral-50 touch-none"
-                        onPointerDownCapture={(e) => { e.stopPropagation(); setIsCropping(true); }}
-                        onPointerUpCapture={(e) => { e.stopPropagation(); setIsCropping(false); }}
-                        onMouseDownCapture={(e) => { e.stopPropagation(); setIsCropping(true); }}
-                        onMouseUpCapture={(e) => { e.stopPropagation(); setIsCropping(false); }}
-                      >
-                        {userImage && (
-                          <div className="absolute inset-0">
-                            <Image src={userImage} alt="crop" fill className="object-cover" />
-                            {Rnd ? (
-                              <Rnd
-                                bounds="parent"
-                                enableUserSelectHack={false}
-                                default={{ x: crop.x, y: crop.y, width: crop.w, height: crop.h }}
-                                onDragStart={() => setIsCropping(true)}
-                                onDragStop={(e: any, d: any) => {
-                                  setIsCropping(false);
-                                  setCrop((c) => ({ ...c, x: d.x, y: d.y }));
-                                }}
-                                onResizeStart={() => setIsCropping(true)}
-                                onResizeStop={(e: any, _dir: any, ref: any, _delta: any, pos: any) => {
-                                  setIsCropping(false);
-                                  setCrop({ x: pos.x, y: pos.y, w: ref.offsetWidth, h: ref.offsetHeight });
-                                }}
-                                style={{ border: "2px solid white", boxShadow: "0 0 0 9999px rgba(0,0,0,.35) inset" }}
-                                className="rounded-lg"
-                              />
-                            ) : (
-                              <div className="absolute inset-0 grid place-content-center text-xs text-white/80">
-                                Install <code>react-rnd</code> to enable drag/resize
-                              </div>
-                            )}
-                          </div>
-                        )}
-                      </div>
-                    </div>
-
-                    <FacetSlider label="Color weight" value={colorWeight} onChange={setColorWeight} />
-                    <FacetSlider label="Texture weight" value={textureWeight} onChange={setTextureWeight} />
-                    <FacetSlider label="Silhouette weight" value={silhouetteWeight} onChange={setSilhouetteWeight} />
-
-                    <div className="flex gap-3 pt-2">
-                      <Button className="flex-1" onClick={handleRefineConfirm}>Apply</Button>
-                      <Button variant="outline" className="flex-1" onClick={() => setRefineOpen(false)}>Cancel</Button>
-                    </div>
-                  </div>
-                </SheetContent>
-              </Sheet>
-
-              {onNewSearch && (
-                <Button 
-                  variant="outline" 
-                  className="w-full" 
-                  onClick={onNewSearch}
-                >
-                  New Search
-                </Button>
-              )}
-            </CardContent>
-          </Card>
-        </aside>
-
-        {/* Center – 3D PRODUCT CAROUSEL */}
-        <section className="col-span-12 md:col-span-9 xl:col-span-10">
-          <div className="h-[74vh] min-h-[560px] w-full overflow-visible py-8">
-            <ProductCarousel3D 
-              products={items.map(item => ({
-                ...item,
-                image: getImageUrl(item)
-              }))}
-              onProductClick={(product) => {
-                if (product.url) {
-                  window.open(product.url, '_blank', 'noopener,noreferrer');
-                }
-              }}
-            />
-          </div>
-        </section>
-      </main>
-    </div>
-  );
-}
-
-// 3D Rotating Closet component
-function RotatingCloset({ 
-  items, 
-  active, 
-  setActive, 
-  getImageUrl,
-  isCropping = false
-}: { 
-  items: ResultItem[]; 
-  active: number; 
-  setActive: (i: number) => void;
-  getImageUrl: (item: ResultItem) => string;
-  isCropping?: boolean;
-}) {
-  // === Tunables ===
-  const THETA = 24;          // degrees between cards on the wheel
-  const RADIUS = 560;        // distance from camera
-  const CARD_W = "clamp(240px, 36vw, 380px)";
-  const CARD_H = "clamp(360px, 56vh, 560px)";
-  const DEG_PER_PX = 0.15;   // drag sensitivity
-
-  // angle of the wheel; negative angles move to next item to the right
-  const angle = useMotionValue<number>(-active * THETA);
-
-  // when active changes from buttons/dots, animate the angle to the correct slot
-  useEffect(() => {
-    angle.stop();
-    angle.set(-active * THETA);
-  }, [active, angle, THETA]);
-
-  const wrap = (n: number, len: number) => (n % len + len) % len;
-
-  const handleDragEnd = (_: any, info: { offset: { x: number } }) => {
-    const deltaDeg = info.offset.x * DEG_PER_PX;
-    const current = angle.get() + deltaDeg; // where we ended
-    const snappedIndex = wrap(Math.round(-current / THETA), items.length);
-    setActive(snappedIndex);
-    // snap angle exactly to slot
-    angle.set(-snappedIndex * THETA);
-  };
-
-  return (
-    <div className="relative mx-auto w-full max-w-[1400px]">
-      {/* controls */}
-      <div className="mb-4 flex items-center justify-center gap-2">
-        <Button 
-          size="icon" 
-          variant="ghost" 
-          className="h-10 w-10 rounded-full border" 
-          onClick={() => setActive(wrap(active - 1, items.length))}
-        >
-          <ChevronLeft className="h-5 w-5"/>
-        </Button>
-        <div className="text-xs text-neutral-500 tabular-nums">
-          {active + 1} / {items.length}
-        </div>
-        <Button 
-          size="icon" 
-          variant="ghost" 
-          className="h-10 w-10 rounded-full border" 
-          onClick={() => setActive(wrap(active + 1, items.length))}
-        >
-          <ChevronRight className="h-5 w-5"/>
-        </Button>
-      </div>
-
-      {/* 3D stage – perfectly centered */}
-      <div 
-        className="relative h-[74vh] min-h-[560px] w-full overflow-visible" 
-        style={{ perspective: 2000 }}
-      >
-        <motion.div
-          className="absolute left-1/2 top-1/2 h-full w-full -translate-x-1/2 -translate-y-1/2 [transform-style:preserve-3d]"
-          style={{ rotateY: angle }}
-        >
-          {items.map((item, i) => {
-            const rot = i * THETA; // each card's base angle around the wheel
-
-            return (
-              <div
-                key={item.id}
-                className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 overflow-visible [transform-style:preserve-3d] will-change-transform"
-                style={{
-                  width: CARD_W,
-                  height: CARD_H,
-                  transform: `rotateY(${rot}deg) translateZ(${RADIUS}px)`,
-                }}
-              >
-                <Card className="h-full overflow-hidden rounded-2xl border border-neutral-200 bg-white shadow-2xl">
-                  <div className="relative h-[82%] w-full overflow-hidden">
-                    <Image 
-                      src={getImageUrl(item)} 
-                      alt={item.title} 
-                      fill 
-                      className="object-cover" 
-                    />
-                    
-                    {/* Save Button */}
-                    <div className="absolute right-3 top-3 z-10">
-                      <SaveButton 
-                        productId={item.id} 
-                        productTitle={item.title} 
-                      />
-                    </div>
-                  </div>
-                  
-                  {/* Reflection */}
-                  <div className="relative h-[10%] w-full -translate-y-1">
-                    <div className="relative h-full w-full" style={{ transform: "scaleY(-1)", opacity: 0.25 }}>
-                      <Image 
-                        src={getImageUrl(item)} 
-                        alt="reflection" 
-                        fill 
-                        className="object-cover" 
-                      />
-                    </div>
-                    <div 
-                      className="pointer-events-none absolute inset-0" 
-                      style={{
-                        background: "linear-gradient(to bottom, rgba(255,255,255,0.2), rgba(255,255,255,1))"
-                      }} 
-                    />
-                  </div>
-                  
-                  <CardContent className="flex h-[8%] items-center justify-between gap-3 p-3">
-                    <div className="min-w-0 flex-1">
-                      {item.brand && (
-                        <div className="truncate text-xs text-neutral-500">{item.brand}</div>
-                      )}
-                      <div className="truncate text-sm font-semibold">{item.title}</div>
-                      {item.price !== undefined && (
-                        <div className="text-xs font-semibold text-neutral-700 mt-1">
-                          ${item.price.toFixed(2)}
-                        </div>
-                      )}
-                    </div>
-                    
-                    {item.url ? (
-                      <a 
-                        href={item.url} 
-                        target="_blank" 
-                        rel="noopener noreferrer"
-                        onClick={(e) => e.stopPropagation()}
-                      >
-                        <Button size="sm" className="gap-1">
-                          View <ExternalLink className="h-3 w-3"/>
-                        </Button>
-                      </a>
-                    ) : (
-                      <Button size="sm" className="gap-1" disabled>
-                        View <ExternalLink className="h-3 w-3"/>
-                      </Button>
-                    )}
-                  </CardContent>
-                </Card>
-              </div>
-            );
-          })}
-        </motion.div>
-
-        {/* Continuous swipe layer - Blocked when cropping */}
-        {!isCropping && (
-          <motion.div
-            className="absolute inset-0 z-40 cursor-grab touch-none active:cursor-grabbing"
-            drag="x"
-            dragConstraints={{ left: 0, right: 0 }}
-            dragElastic={0.12}
-            onDrag={(_, info) => angle.set(-active * THETA + info.offset.x * DEG_PER_PX)}
-            onDragEnd={handleDragEnd}
-          />
-        )}
-      </div>
-
-      {/* dots */}
-      <div className="mt-4 flex items-center justify-center gap-2">
-        {items.map((_, i) => (
-          <button 
-            key={i} 
-            onClick={() => setActive(i)} 
-            className={cn(
-              "h-1.5 w-1.5 rounded-full bg-neutral-300 transition-all", 
-              i === active ? "w-6 bg-neutral-900" : "w-1.5"
-            )} 
-            aria-label={`Go to ${i+1}`} 
-          />
-        ))}
-      </div>
-    </div>
-  );
-}
-
-function Header() {
-  const router = useRouter();
-  
-  return (
-    <header className="sticky top-0 z-40 w-full border-b bg-white/80 backdrop-blur">
-      <div className="mx-auto flex max-w-[120rem] items-center justify-between gap-3 px-4 py-3 lg:px-8">
+      {/* Main Carousel Area */}
+      <div className="relative min-h-[calc(100vh-140px)] flex items-center justify-center py-12 relative z-10">
+        {/* Navigation Arrows */}
         <button
-          onClick={() => router.push('/')}
-          className="flex items-center gap-3 cursor-pointer hover:opacity-80 transition-opacity"
+          onClick={handlePrevious}
+          className="absolute left-12 top-1/2 -translate-y-1/2 w-16 h-16 rounded-full border-2 border-white hover:bg-white hover:text-black text-white transition-all flex items-center justify-center z-30"
         >
-          <div className="grid h-9 w-9 place-content-center rounded-xl border bg-neutral-50 text-sm font-bold">
-            S
-          </div>
-          <span className="hidden text-lg font-semibold sm:inline">SwagAI</span>
+          <ChevronLeft className="w-8 h-8" />
         </button>
         
-        <div className="hidden flex-1 items-center gap-2 md:flex">
-          <div className="relative w-full max-w-2xl">
-            <Search className="absolute left-3 top-1/2 h-4 w-4 -translate-y-1/2 text-neutral-400" />
-            <Input 
-              placeholder="Search brands, colors, items…" 
-              className="pl-9" 
-            />
-          </div>
-        </div>
-        
-        <div className="flex items-center gap-2">
-          <UserMenu />
-        </div>
-      </div>
-    </header>
-  );
-}
+        <button
+          onClick={handleNext}
+          className="absolute right-12 top-1/2 -translate-y-1/2 w-16 h-16 rounded-full border-2 border-white hover:bg-white hover:text-black text-white transition-all flex items-center justify-center z-30"
+        >
+          <ChevronRight className="w-8 h-8" />
+        </button>
 
-function FacetSlider({ label, value, onChange }: { label: string; value: number; onChange: (v: number) => void }) {
-  return (
-    <div className="space-y-2">
-      <div className="flex items-center justify-between">
-        <Label className="text-sm">{label}</Label>
-        <span className="text-xs tabular-nums text-neutral-500">{value}%</span>
+        {/* Cards Container */}
+        <div 
+          className="relative w-full max-w-7xl mx-auto px-6 flex items-center justify-center"
+          style={{ perspective: "2000px", minHeight: "600px" }}
+        >
+          <div className="relative w-full flex items-center justify-center overflow-visible">
+            <AnimatePresence initial={false} custom={direction}>
+              {visibleProducts.map((product) => {
+                const position = product.position;
+                const isCenter = position === 0;
+                const imageUrl = product.main_image_url || '/placeholder.svg';
+                const price = product.price !== undefined 
+                  ? `$${product.price.toFixed(2)}` 
+                  : 'Price N/A';
+                const brand = product.brand || product.category || 'OTHER';
+
+            return (
+                  <motion.div
+                    key={`${product.id}-${position}-${currentIndex}`}
+                    className="absolute"
+                    initial={{
+                      rotateY: direction > 0 ? 60 : -60,
+                      x: direction > 0 ? 300 : -300,
+                      z: -400,
+                      opacity: 0,
+                    }}
+                    animate={{
+                      rotateY: position * 45,
+                      x: position * 250,
+                      z: isCenter ? 0 : -300,
+                      opacity: isCenter ? 1 : 0.4,
+                      scale: isCenter ? 1 : 0.75,
+                    }}
+                    exit={{
+                      rotateY: direction > 0 ? -60 : 60,
+                      x: direction > 0 ? -300 : 300,
+                      z: -400,
+                      opacity: 0,
+                    }}
+                    transition={{
+                      type: "spring",
+                      stiffness: 300,
+                      damping: 30,
+                    }}
+                style={{
+                      transformStyle: "preserve-3d",
+                      zIndex: isCenter ? 20 : 10,
+                    }}
+                  >
+                    <div className={`${isCenter ? 'w-80' : 'w-64'}`}>
+                      <div className="bg-zinc-900 border border-zinc-800 overflow-hidden rounded-xl">
+                  {/* Product Image */}
+                  <div className="relative aspect-[3/4] bg-zinc-800 overflow-hidden">
+                    <img
+                      src={imageUrl}
+                      alt={product.title}
+                      className="w-full h-full object-cover"
+                    />
+                    {/* Save Button */}
+                    <button
+                      onClick={(e) => {
+                        e.stopPropagation();
+                        toggleSave(product.id);
+                      }}
+                      disabled={savingItems.has(product.id)}
+                      className={`absolute top-4 right-4 w-12 h-12 bg-black hover:bg-zinc-900 rounded-full transition-colors flex items-center justify-center z-10 ${
+                        savingItems.has(product.id) ? 'opacity-50' : ''
+                      }`}
+                    >
+                      <Heart
+                        className={`w-6 h-6 transition-all ${
+                          savedItems.has(product.id)
+                            ? 'fill-white text-white'
+                            : 'text-white'
+                        }`}
+                      />
+                    </button>
+                  </div>
+                  
+                  {/* Product Info */}
+                  <div className="p-6">
+                    <div className="text-zinc-500 text-xs mb-2 tracking-wider uppercase">
+                      {brand}
+                    </div>
+                    <h3 className="text-white font-medium mb-4 min-h-[3rem] text-sm leading-relaxed">
+                      {product.title}
+                    </h3>
+                    <div className="flex items-center justify-between">
+                      <span className="text-white text-2xl font-bold">
+                        {price}
+                      </span>
+                      <button 
+                        onClick={() => handleProductClick(product)}
+                        className="h-10 px-6 bg-zinc-200 hover:bg-white text-black font-bold transition-colors flex items-center gap-2 rounded"
+                      >
+                        <ExternalLink className="w-4 h-4" />
+                        View
+                      </button>
+                    </div>
+                  </div>
+                        </div>
+                    </div>
+                  </motion.div>
+            );
+          })}
+            </AnimatePresence>
+          </div>
       </div>
-      <Slider value={[value]} onValueChange={(v) => onChange(v[0])} min={0} max={100} step={1} />
+
+        {/* Your Image Preview - Bottom Left (Clickable) */}
+        {showSearchImage && searchImage && (
+          <div className="fixed bottom-8 left-8 z-30">
+            <div className="bg-zinc-900 border border-zinc-800 p-2 rounded-xl w-48 overflow-hidden">
+              <div className="relative">
+                <button
+                  onClick={(e) => {
+                    e.stopPropagation();
+                    setShowSearchImage(false);
+                  }}
+                  className="absolute top-0 right-0 w-6 h-6 bg-white hover:bg-zinc-200 flex items-center justify-center transition-colors z-10"
+                >
+                  <X className="w-4 h-4 text-black" />
+                </button>
+                <button 
+                  onClick={() => {
+                    // Open image in modal
+                    const img = document.createElement('img');
+                    img.src = searchImage;
+                    img.style.maxWidth = '90vw';
+                    img.style.maxHeight = '90vh';
+                    img.style.objectFit = 'contain';
+                    
+                    const modal = document.createElement('div');
+                    modal.className = 'fixed inset-0 bg-black/80 backdrop-blur-sm z-50 flex items-center justify-center p-4 cursor-pointer';
+                    modal.onclick = () => modal.remove();
+                    modal.appendChild(img);
+                    document.body.appendChild(modal);
+                  }}
+                  className="w-full"
+                >
+                  <img
+                    src={searchImage}
+                    alt="Your search"
+                    className="w-full aspect-square object-cover rounded-lg cursor-pointer hover:opacity-90 transition-opacity"
+                  />
+                </button>
+                <p className="text-zinc-500 text-xs mt-2 text-center uppercase tracking-wide">
+                  Your Image
+                </p>
+              </div>
+            </div>
+          </div>
+        )}
+
+        {/* Refine Search Button - Bottom Right (Only one) */}
+        <button
+          onClick={() => setIsRefineModalOpen(true)}
+          className="fixed bottom-8 right-8 h-14 px-8 bg-white hover:bg-zinc-200 text-black font-bold transition-colors rounded-full z-30"
+        >
+          Refine search
+        </button>
+        
+        {/* Pagination Dots */}
+        <div className="absolute bottom-8 left-1/2 -translate-x-1/2 flex items-center gap-2 z-30">
+          {products.map((_, i) => {
+            const isActive = i === currentIndex;
+            return (
+              <button
+                key={i}
+                onClick={() => setCurrentIndex(i)}
+                className={`h-2 transition-all rounded-full ${
+                  isActive ? 'w-8 bg-white' : 'w-2 bg-zinc-600 hover:bg-zinc-500'
+                }`}
+              />
+            );
+          })}
+        </div>
+      </div>
+
+      {/* Refine Search Modal */}
+      <RefineSearchModal
+        isOpen={isRefineModalOpen}
+        onClose={() => setIsRefineModalOpen(false)}
+        onApply={(filters) => {
+          onRefine(filters);
+          setIsRefineModalOpen(false);
+        }}
+      />
+
+      {/* Sign In Modal */}
+      <SignInModal
+        isOpen={isSignInModalOpen}
+        onClose={() => setIsSignInModalOpen(false)}
+      />
+
+      {/* Closet View */}
+      {showCloset && (
+        <div className="fixed inset-0 z-50">
+          <ClosetView onHome={() => setShowCloset(false)} onClose={() => setShowCloset(false)} />
+        </div>
+      )}
     </div>
   );
 }

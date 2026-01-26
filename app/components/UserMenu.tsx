@@ -25,13 +25,12 @@ export function UserMenu() {
     return (
       <>
         <div className="fixed top-4 right-4 z-50">
-          <Button
+          <button
             onClick={() => setShowAuthModal(true)}
-            className="text-xs tracking-wide uppercase"
-            size="sm"
+            className="h-12 px-6 bg-zinc-200 hover:bg-white text-black font-bold transition-colors rounded-full"
           >
-            Sign In
-          </Button>
+            SIGN IN
+          </button>
         </div>
         <AuthModal
           isOpen={showAuthModal}
@@ -47,10 +46,10 @@ export function UserMenu() {
         <div className="relative">
           <button
             onClick={() => setMenuOpen(!menuOpen)}
-            className="bg-background border rounded-lg px-4 py-2 flex items-center gap-2 hover:bg-muted transition-colors"
+            className="h-12 px-6 bg-zinc-200 hover:bg-white text-black font-bold transition-colors rounded-full flex items-center gap-2"
           >
-            <User className="w-4 h-4" />
-            <span className="text-sm font-medium truncate max-w-[150px]">
+            <User className="w-5 h-5" />
+            <span className="text-sm truncate max-w-[150px]">
               {user.email?.split('@')[0] || 'User'}
             </span>
           </button>
@@ -61,14 +60,14 @@ export function UserMenu() {
                 className="fixed inset-0 z-40" 
                 onClick={() => setMenuOpen(false)}
               />
-              <div className="absolute top-full right-0 mt-2 bg-background border rounded-lg shadow-lg z-50 min-w-[200px]">
+              <div className="absolute top-full right-0 mt-2 bg-zinc-900 border border-zinc-800 rounded-lg shadow-lg z-50 min-w-[200px]">
                 <div className="p-1">
                   <button
                     onClick={() => {
                       setShowCloset(true);
                       setMenuOpen(false);
                     }}
-                    className="w-full flex items-center gap-2 px-3 py-2 text-sm hover:bg-muted rounded-lg"
+                    className="w-full flex items-center gap-2 px-3 py-2 text-sm text-white hover:bg-zinc-800 rounded-lg transition-colors"
                   >
                     <Heart className="w-4 h-4" />
                     My Closet
@@ -78,7 +77,7 @@ export function UserMenu() {
                       signOut();
                       setMenuOpen(false);
                     }}
-                    className="w-full flex items-center gap-2 px-3 py-2 text-sm hover:bg-muted rounded-lg text-red-600"
+                    className="w-full flex items-center gap-2 px-3 py-2 text-sm text-white hover:bg-zinc-800 rounded-lg transition-colors"
                   >
                     <LogOut className="w-4 h-4" />
                     Sign Out
@@ -91,17 +90,8 @@ export function UserMenu() {
       </div>
 
       {showCloset && (
-        <div className="fixed inset-0 z-50 bg-black/50 grid place-items-center p-4">
-          <div className="w-full max-w-4xl bg-background border rounded-lg p-6 relative max-h-[90vh] overflow-auto">
-            <button
-              onClick={() => setShowCloset(false)}
-              className="absolute top-4 right-4 p-1 hover:bg-muted rounded"
-              aria-label="Close"
-            >
-              <X className="w-5 h-5" />
-            </button>
-            <ClosetView />
-          </div>
+        <div className="fixed inset-0 z-50">
+          <ClosetView onHome={() => setShowCloset(false)} onClose={() => setShowCloset(false)} />
         </div>
       )}
     </>
